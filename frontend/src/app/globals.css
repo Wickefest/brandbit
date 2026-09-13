@@ -1,0 +1,276 @@
+/*
+  Global CSS for Brandbit.
+  Theme tokens layout helpers and custom scrollbars.
+*/
+
+@import "tailwindcss";
+
+@theme {
+  --font-serif: var(--font-inria-serif), "Inria Serif", serif;
+  --font-sans: var(--font-inria-serif), "Inria Serif", serif;
+  --color-cream: #FBF8F0;
+  --color-maroon: #3B1010;
+  --color-maroon-light: #5C1A1A;
+  --color-ink: #400202;
+  --color-ink-overlay: #250303;
+  --color-nav: #FEFFE5;
+  --color-gold: #C5A059;
+  --color-gold-soft: #CAA466;
+  --color-lemon: #FDFFC9;
+  --color-music: #FFC555;
+  --color-panel: #0E0E0E;
+  --color-blush: #FFF8F8;
+  --color-ready: #0EA00E;
+}
+
+html,
+body,
+button,
+input,
+textarea,
+select {
+  font-family: var(--font-inria-serif), "Inria Serif", Georgia, serif;
+}
+
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  z-index: 100;
+  padding: 0.65rem 1rem;
+  border-radius: 999px;
+  background: #c5a059;
+  color: #250303;
+  font-weight: 700;
+  text-decoration: none;
+  transform: translateY(-160%);
+  transition: transform 160ms ease;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+  outline: 2px solid #feffe5;
+  outline-offset: 3px;
+}
+
+:focus-visible {
+  outline: 2px solid #c5a059;
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@keyframes waveBar {
+  0%, 100% { transform: scaleY(0.2); }
+  50%       { transform: scaleY(1); }
+}
+
+.nav-gloss {
+  position: relative;
+  overflow: visible;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.78) 0%,
+    rgba(254, 255, 229, 0.9) 46%,
+    rgba(232, 226, 186, 0.82) 100%
+  );
+  backdrop-filter: blur(18px) saturate(1.15);
+  -webkit-backdrop-filter: blur(18px) saturate(1.15);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.95),
+    inset 0 -1px 0 rgba(160, 140, 70, 0.22),
+    0 10px 28px rgba(0, 0, 0, 0.28);
+}
+
+.nav-gloss::before {
+  content: "";
+  position: absolute;
+  left: 22px;
+  right: 22px;
+  top: 5px;
+  height: 44%;
+  border-radius: 999px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.82) 0%,
+    rgba(255, 255, 255, 0.12) 100%
+  );
+  pointer-events: none;
+}
+
+.nav-gloss > * {
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes spinSlow {
+  to { transform: rotate(360deg); }
+}
+
+.loading-spinner {
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  border: 2px solid rgba(255, 255, 255, 0.22);
+  border-top-color: #FEFFE5;
+  border-right-color: rgba(254, 255, 229, 0.55);
+  animation: spinSlow 0.85s linear infinite;
+}
+
+.loading-spinner-sm {
+  width: 16px;
+  height: 16px;
+  border-radius: 999px;
+  border: 2px solid rgba(255, 255, 255, 0.28);
+  border-top-color: #FFFFFF;
+  border-right-color: rgba(255, 255, 255, 0.55);
+  animation: spinSlow 0.75s linear infinite;
+}
+
+.loading-check {
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  border: 2px solid rgba(254, 255, 229, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Mode select */
+.mode-select-trigger {
+  transition: transform 180ms ease, filter 180ms ease, box-shadow 180ms ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+}
+
+.mode-select-trigger:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.06);
+}
+
+.mode-select-trigger:active {
+  transform: translateY(0);
+}
+
+.mode-select-popup {
+  transform-origin: var(--transform-origin, top center);
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.35);
+  transition: opacity 180ms ease, transform 200ms ease;
+}
+
+.mode-select-popup[data-starting-style],
+.mode-select-popup[data-ending-style] {
+  opacity: 0;
+  transform: translateY(-6px);
+}
+
+.mode-select-item {
+  transition: background-color 150ms ease;
+}
+
+.mode-select-item[data-highlighted] {
+  background: rgba(197, 160, 89, 0.14);
+}
+
+.mode-select-item[data-selected] {
+  background: rgba(197, 160, 89, 0.16);
+}
+
+.mode-select-item[data-selected]::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 8px;
+  bottom: 8px;
+  width: 3px;
+  border-radius: 999px;
+  background: #c5a059;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mode-select-trigger,
+  .mode-select-popup,
+  .mode-select-item {
+    transition: none !important;
+  }
+
+  .mode-select-popup[data-starting-style],
+  .mode-select-popup[data-ending-style] {
+    transform: none;
+  }
+}
+
+/*
+  Brandbit scrollbars — thin gold rectangle.
+  Do NOT set scrollbar-width/scrollbar-color on Chromium: those force the
+  native Windows scrollbar (with arrows) and override ::-webkit-scrollbar.
+*/
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar-button {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  background: transparent;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 999px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #c5a059;
+  border-radius: 999px;
+  border: none;
+  min-height: 32px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #d4b06a;
+}
+
+*::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* Firefox only — limited to colors/thickness, no arrow chrome there */
+@supports not selector(::-webkit-scrollbar) {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #c5a059 transparent;
+  }
+
+  .bb-scroll {
+    scrollbar-color: #c5a059 rgba(64, 2, 2, 0.45);
+  }
+}
+
+.bb-scroll::-webkit-scrollbar-track {
+  background: rgba(64, 2, 2, 0.28);
+  border-radius: 999px;
+}
+
+.bb-scroll::-webkit-scrollbar-thumb {
+  background: #c5a059;
+  border-radius: 999px;
+}
+
+.bb-scroll::-webkit-scrollbar-thumb:hover {
+  background: #d4b06a;
+}
