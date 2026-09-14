@@ -104,7 +104,7 @@ function ProfileControl() {
                 setMenuOpen(false);
                 router.push("/export");
               }}
-              className="w-full whitespace-nowrap px-4 py-2.5 text-left text-sm font-bold cursor-pointer transition-colors duration-150 hover:bg-black/5"
+              className="mx-1.5 w-[calc(100%-0.75rem)] whitespace-nowrap rounded-xl px-4 py-2.5 text-left text-sm font-bold cursor-pointer transition-colors duration-150 hover:bg-black/5"
             >
               Export study data
             </button>
@@ -116,7 +116,7 @@ function ProfileControl() {
               setMenuOpen(false);
               void signOut();
             }}
-            className="w-full whitespace-nowrap px-4 py-2.5 text-left text-sm font-bold cursor-pointer transition-colors duration-150 hover:bg-red-50 hover:text-red-600"
+            className="mx-1.5 w-[calc(100%-0.75rem)] whitespace-nowrap rounded-xl px-4 py-2.5 text-left text-sm font-bold cursor-pointer transition-colors duration-150 hover:bg-red-50 hover:text-red-600"
           >
             Log out
           </button>

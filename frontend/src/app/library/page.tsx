@@ -36,8 +36,8 @@ const SORTS: { id: SortMode; label: string }[] = [
   { id: "recent", label: "Recently Viewed" },
   { id: "most", label: "Most Rated" },
   { id: "least", label: "Least Rated" },
-  { id: "asc", label: "Ascending" },
-  { id: "desc", label: "Descending" },
+  { id: "asc", label: "Name A–Z" },
+  { id: "desc", label: "Name Z–A" },
 ];
 
 const FILTERS: { id: ArchiveFilter; label: string }[] = [
@@ -148,7 +148,7 @@ export default function LibraryPage() {
 
   const visible = filterEntries(entries, filter);
   const sorted = sortEntries(visible, mode);
-  const sharedVisible = filterEntries(shared, filter);
+  const sharedVisible = sortEntries(filterEntries(shared, filter), mode);
   const recentlyViewed = [...visible]
     .sort((a, b) => b.viewedAt.localeCompare(a.viewedAt))
     .slice(0, 3);

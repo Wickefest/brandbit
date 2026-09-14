@@ -173,7 +173,7 @@ export default function ModeSelect({
               className="mode-select-popup min-w-[260px] rounded-2xl border border-gold/35 bg-nav text-black outline-none"
             >
               <p className="px-3 pt-2.5 pb-1 text-[10px] font-light tracking-wide text-black/45">
-                Hover option to preview · click to apply
+                Click to apply
               </p>
               <Select.List className="p-2 pt-1 flex flex-col gap-1">
                 {OPTIONS.map((option) => {
