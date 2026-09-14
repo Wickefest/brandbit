@@ -10,7 +10,7 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 // Reference: https://nextjs.org/docs/app/api-reference/functions/use-pathname
 import { usePathname, useRouter } from "next/navigation";
-import { User } from "lucide-react";
+import { Menu, User, X } from "lucide-react";
 import { useAuth } from "@/components/AuthProvider";
 import { avatarUrlFromUser } from "@/lib/auth";
 
@@ -94,7 +94,7 @@ function ProfileControl() {
       {menuOpen ? (
         <div
           role="menu"
-          className="absolute left-0 top-[calc(100%+8px)] z-50 w-max min-w-[9.5rem] rounded-2xl border border-black/10 bg-nav py-1.5 text-black shadow-[0_14px_32px_rgba(0,0,0,0.28)]"
+          className="absolute right-0 top-[calc(100%+8px)] z-50 w-max min-w-[9.5rem] rounded-2xl border border-black/10 bg-nav py-1.5 text-black shadow-[0_14px_32px_rgba(0,0,0,0.28)]"
         >
           {isAdmin ? (
             <button
@@ -130,12 +130,27 @@ export default function Navbar() {
   const pathname = usePathname();
   const router = useRouter();
   const { user } = useAuth();
+  const [mobileOpen, setMobileOpen] = useState(false);
   const links = user
     ? AUTH_LINKS
     : AUTH_LINKS.filter((link) => link.href === "/");
 
+  useEffect(() => {
+    setMobileOpen(false);
+  }, [pathname]);
+
+  useEffect(() => {
+    if (!mobileOpen) return;
+    const onKey = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setMobileOpen(false);
+    };
+    document.addEventListener("keydown", onKey);
+    return () => document.removeEventListener("keydown", onKey);
+  }, [mobileOpen]);
+
   const handleNewSubmission = () => {
     sessionStorage.clear();
+    setMobileOpen(false);
     router.push("/submit");
   };
 
@@ -153,13 +168,22 @@ export default function Navbar() {
         : "font-light opacity-75 hover:opacity-100 after:w-0 hover:after:w-full"
     }`;
 
+  const mobileLinkClass = (active: boolean) =>
+    `w-full rounded-xl px-4 py-3 text-left text-base transition-colors duration-150 ${
+      active
+        ? "bg-black/5 font-bold text-black"
+        : "font-light text-black/80 hover:bg-black/5 hover:text-black"
+    }`;
+
   return (
-    <nav className="relative z-40 px-10 pt-8 pb-4" aria-label="Primary">
-      <div className="nav-gloss mx-auto max-w-[1466px] w-full h-20 rounded-full flex items-center justify-between px-[50px]">
-        <span className="text-black text-[32px] font-bold leading-none transition-transform duration-200 hover:scale-[1.02] select-none">
+    <nav className="relative z-40 px-4 sm:px-6 md:px-10 pt-6 md:pt-8 pb-4" aria-label="Primary">
+      <div className="nav-gloss mx-auto max-w-[1466px] w-full min-h-16 md:h-20 rounded-full flex items-center justify-between px-5 sm:px-8 md:px-[50px] py-2">
+        <span className="text-black text-[26px] md:text-[32px] font-bold leading-none transition-transform duration-200 hover:scale-[1.02] select-none">
           Brandbit
         </span>
-        <div className="relative z-10 flex items-center gap-10 text-base text-black">
+
+        {/* Desktop links */}
+        <div className="relative z-10 hidden md:flex items-center gap-10 text-base text-black">
           {links.map((link) =>
             link.href === "/submit" ? (
               <button
@@ -184,7 +208,59 @@ export default function Navbar() {
           )}
           <ProfileControl />
         </div>
+
+        {/* Mobile: hamburger + profile */}
+        <div className="relative z-10 flex md:hidden items-center gap-2">
+          <ProfileControl />
+          <button
+            type="button"
+            onClick={() => setMobileOpen((open) => !open)}
+            className="flex h-10 w-10 items-center justify-center rounded-full border border-black/20 text-black cursor-pointer transition-transform duration-200 hover:scale-[1.04] hover:border-black/40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-black"
+            aria-label={mobileOpen ? "Close menu" : "Open menu"}
+            aria-expanded={mobileOpen}
+            aria-controls="mobile-nav-menu"
+          >
+            {mobileOpen ? (
+              <X size={22} strokeWidth={1.8} aria-hidden="true" />
+            ) : (
+              <Menu size={22} strokeWidth={1.8} aria-hidden="true" />
+            )}
+          </button>
+        </div>
       </div>
+
+      {mobileOpen ? (
+        <div
+          id="mobile-nav-menu"
+          className="md:hidden mx-auto mt-3 max-w-[1466px] rounded-[28px] border border-black/10 bg-nav px-3 py-3 text-black shadow-[0_14px_32px_rgba(0,0,0,0.22)]"
+        >
+          <div className="flex flex-col gap-1">
+            {links.map((link) =>
+              link.href === "/submit" ? (
+                <button
+                  key={link.href}
+                  type="button"
+                  onClick={handleNewSubmission}
+                  className={mobileLinkClass(isActive(link.href))}
+                  aria-current={isActive(link.href) ? "page" : undefined}
+                >
+                  {link.label}
+                </button>
+              ) : (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  onClick={() => setMobileOpen(false)}
+                  className={mobileLinkClass(isActive(link.href))}
+                  aria-current={isActive(link.href) ? "page" : undefined}
+                >
+                  {link.label}
+                </Link>
+              )
+            )}
+          </div>
+        </div>
+      ) : null}
     </nav>
   );
 }

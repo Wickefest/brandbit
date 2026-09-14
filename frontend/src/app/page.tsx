@@ -18,13 +18,25 @@ export default function Home() {
   const { user, loading, requestLogin } = useAuth();
   const videoRef = useRef<HTMLVideoElement>(null);
 
-  // Autoplay muted hero video once the element is ready
+  // Autoplay muted hero video; retry after load for mobile browsers
   useEffect(() => {
     const video = videoRef.current;
     if (!video) return;
-    video.muted = true;
-    video.volume = 0;
-    video.play().catch(() => {});
+
+    const tryPlay = () => {
+      video.defaultMuted = true;
+      video.muted = true;
+      video.volume = 0;
+      void video.play().catch(() => {});
+    };
+
+    tryPlay();
+    video.addEventListener("loadeddata", tryPlay);
+    video.addEventListener("canplay", tryPlay);
+    return () => {
+      video.removeEventListener("loadeddata", tryPlay);
+      video.removeEventListener("canplay", tryPlay);
+    };
   }, []);
 
   return (
@@ -33,13 +45,16 @@ export default function Home() {
       <div className="absolute inset-0">
         <video
           ref={videoRef}
-          className="absolute inset-0 h-full w-full object-cover"
+          className="hero-video absolute inset-0 h-full w-full object-cover pointer-events-none"
           src="/assets/images/hero-water.mp4"
           autoPlay
           loop
           muted
           playsInline
           preload="auto"
+          controls={false}
+          disablePictureInPicture
+          disableRemotePlayback
           aria-hidden="true"
         />
         <div className="absolute inset-0 bg-ink-overlay/60" />

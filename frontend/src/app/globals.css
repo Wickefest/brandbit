@@ -47,6 +47,19 @@ select {
   transition: transform 160ms ease;
 }
 
+/* Hide native media chrome so phones do not show a play overlay on the hero */
+.hero-video::-webkit-media-controls {
+  display: none !important;
+  -webkit-appearance: none;
+}
+.hero-video::-webkit-media-controls-start-playback-button {
+  display: none !important;
+  -webkit-appearance: none;
+}
+.hero-video::-webkit-media-controls-enclosure {
+  display: none !important;
+}
+
 .skip-link:focus {
   transform: translateY(0);
   outline: 2px solid #feffe5;
