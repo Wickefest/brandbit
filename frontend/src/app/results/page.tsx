@@ -40,6 +40,16 @@ const STACK_REST = [
   { rotate: 4, x: 28, y: 12 },
 ];
 
+const STACK_REST_MOBILE = [
+  { rotate: -10, x: -36, y: 12 },
+  { rotate: -7, x: -24, y: 8 },
+  { rotate: -4, x: -12, y: 5 },
+  { rotate: -1, x: 0, y: 2 },
+  { rotate: 2, x: 10, y: 4 },
+  { rotate: 5, x: 20, y: 7 },
+  { rotate: 8, x: 30, y: 10 },
+];
+
 const STACK_HOVER = [
   { rotate: -32, x: -190, y: 40 },
   { rotate: -24, x: -145, y: 30 },
@@ -50,8 +60,20 @@ const STACK_HOVER = [
   { rotate: 10, x: 48, y: 16 },
 ];
 
+const STACK_HOVER_MOBILE = [
+  { rotate: -14, x: -52, y: 16 },
+  { rotate: -10, x: -36, y: 12 },
+  { rotate: -6, x: -20, y: 8 },
+  { rotate: -2, x: -4, y: 4 },
+  { rotate: 2, x: 12, y: 4 },
+  { rotate: 6, x: 26, y: 8 },
+  { rotate: 10, x: 40, y: 12 },
+];
+
 const PILE_REST_X = [-72, -48, -24, 0, 24, 48, 72];
+const PILE_REST_X_MOBILE = [-28, -18, -8, 0, 8, 18, 28];
 const PILE_HOVER_X = [-120, -80, -40, 0, 40, 80, 120];
+const PILE_HOVER_X_MOBILE = [-40, -26, -12, 0, 12, 26, 40];
 
 const DEALT_PARK = [
   { rotate: -26, x: -150, y: 28 },
@@ -61,6 +83,16 @@ const DEALT_PARK = [
   { rotate: -10, x: -102, y: 12 },
   { rotate: -6, x: -90, y: 8 },
   { rotate: -2, x: -78, y: 4 },
+];
+
+const DEALT_PARK_MOBILE = [
+  { rotate: -12, x: -42, y: 12 },
+  { rotate: -10, x: -36, y: 10 },
+  { rotate: -8, x: -30, y: 8 },
+  { rotate: -6, x: -24, y: 6 },
+  { rotate: -4, x: -18, y: 4 },
+  { rotate: -2, x: -12, y: 2 },
+  { rotate: 0, x: -6, y: 0 },
 ];
 
 type CardKind =
@@ -83,7 +115,7 @@ const CARD_FACES: Array<{ kind: CardKind; title: string; blurb: string }> = [
 ];
 
 const FRAG_CARD_SIZE =
-  "size-[280px] sm:size-[300px] lg:size-[320px] rounded-[28px]";
+  "size-[220px] sm:size-[280px] lg:size-[320px] rounded-[28px]";
 const FRAG_CARD = `${FRAG_CARD_SIZE} bg-lemon`;
 
 function joinList(items?: string[]) {
@@ -196,6 +228,7 @@ export default function ResultsPage() {
   const [dealtPile, setDealtPile] = useState<number[]>([]);
   const [slotFlipped, setSlotFlipped] = useState(false);
   const [colorTip, setColorTip] = useState<string | null>(null);
+  const [compactCards, setCompactCards] = useState(false);
 
   // Shared study rating mode
   const [ratingStimulus, setRatingStimulus] = useState(false);
@@ -207,6 +240,13 @@ export default function ResultsPage() {
 
   // Participants cannot refine admin-curated rating stimuli; admins still can.
   const refineLocked = !isAdmin && (isRatingSession() || ratingStimulus);
+
+  useEffect(() => {
+    const sync = () => setCompactCards(window.innerWidth < 640);
+    sync();
+    window.addEventListener("resize", sync);
+    return () => window.removeEventListener("resize", sync);
+  }, []);
 
   // Keep results in sync with sessionStorage
   const persistResult = (next: ApiResult) => {
@@ -391,9 +431,19 @@ export default function ResultsPage() {
 
   const pileX = (pilePos: number, total: number) => {
     if (total <= 1) return 0;
-    const xs = pileHover ? PILE_HOVER_X : PILE_REST_X;
+    const xs = compactCards
+      ? pileHover
+        ? PILE_HOVER_X_MOBILE
+        : PILE_REST_X_MOBILE
+      : pileHover
+        ? PILE_HOVER_X
+        : PILE_REST_X;
     return xs[Math.round((pilePos / (total - 1)) * (xs.length - 1))];
   };
+
+  const stackRest = compactCards ? STACK_REST_MOBILE : STACK_REST;
+  const stackHoverPos = compactCards ? STACK_HOVER_MOBILE : STACK_HOVER;
+  const dealtPark = compactCards ? DEALT_PARK_MOBILE : DEALT_PARK;
 
   const downloadReport = async () => {
     if (!result || downloading) return;
@@ -451,14 +501,14 @@ export default function ResultsPage() {
 
   return (
     <RequireAuth>
-    <main id="main-content" className="min-h-screen bg-ink flex flex-col">
+    <main id="main-content" className="min-h-screen bg-ink flex flex-col overflow-x-hidden">
       <Navbar />
 
       <PipelineShell title="Orchestration Result" className="pb-16">
         {/* Main content */}
-        <div className="grid grid-cols-1 lg:grid-cols-[minmax(400px,0.92fr)_1.2fr] gap-8 items-stretch">
+        <div className="grid grid-cols-1 lg:grid-cols-[minmax(280px,0.92fr)_1.2fr] gap-8 items-stretch">
           {/* Brand photo and colour strip */}
-          <PhotoFrame className="h-full min-h-[560px]" innerClassName="flex flex-col h-full">
+          <PhotoFrame className="h-full min-h-[360px] sm:min-h-[560px]" innerClassName="flex flex-col h-full">
             <div className="flex-1 min-h-0">
               {imagePreview ? (
                 <img
@@ -495,12 +545,12 @@ export default function ResultsPage() {
 
           <div className="flex flex-col gap-5 min-h-[560px]">
             {/* Visual analysis panel */}
-            <section className="bg-lemon rounded-[30px] px-8 py-7 flex-[1.05] flex flex-col">
+            <section className="bg-lemon rounded-[30px] px-5 sm:px-8 py-6 sm:py-7 flex-[1.05] flex flex-col overflow-hidden">
               <p className="text-black text-xl font-bold mb-4">
                 Visual Analysis
               </p>
-              <div className="flex gap-7 text-[15px] text-black flex-1 min-h-0">
-                <div className="flex flex-col gap-2.5 shrink-0 w-[300px]">
+              <div className="flex flex-col md:flex-row gap-5 md:gap-7 text-[15px] text-black flex-1 min-h-0">
+                <div className="flex flex-col gap-2.5 shrink-0 w-full md:w-[300px] min-w-0">
                   {[
                     { label: "Mood", value: joinList(desc.mood) },
                     { label: "Energy", value: desc.energy || "—" },
@@ -516,7 +566,7 @@ export default function ResultsPage() {
                   ].map((row, i) => (
                     <div
                       key={row.label}
-                      className="grid grid-cols-[140px_1fr] gap-3 items-baseline"
+                      className="grid grid-cols-[110px_1fr] sm:grid-cols-[140px_1fr] gap-2 sm:gap-3 items-baseline min-w-0"
                     >
                       <motion.span
                         className="font-normal text-black/70"
@@ -535,7 +585,7 @@ export default function ResultsPage() {
                   ))}
                 </div>
                 <motion.p
-                  className="font-light leading-[25px] flex-1 text-black/85"
+                  className="font-light leading-[25px] flex-1 text-black/85 min-w-0"
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ delay: 0.4, duration: 0.4 }}
@@ -580,33 +630,33 @@ export default function ResultsPage() {
         </div>
 
         {/* Fragrance card stack */}
-        <section className="mt-20">
-          <div className="text-center mb-10 px-4">
-            <h2 className="text-white text-3xl lg:text-4xl font-normal tracking-wide">
+        <section className="mt-14 sm:mt-20 overflow-x-hidden">
+          <div className="text-center mb-8 sm:mb-10 px-2 sm:px-4">
+            <h2 className="text-white text-2xl sm:text-3xl lg:text-4xl font-normal tracking-wide">
               Fragrance Concept
             </h2>
-            <p className="text-white/55 text-[15px] font-light mt-3 max-w-xl mx-auto leading-relaxed">
+            <p className="text-white/55 text-[14px] sm:text-[15px] font-light mt-3 max-w-xl mx-auto leading-relaxed">
               Deal cards from the left deck into the reading pile to explore
               notes, accords, intensity, emotion, and the smell signature.
             </p>
           </div>
 
-          <div className="flex flex-col lg:flex-row items-center justify-center gap-16 lg:gap-40 xl:gap-52 px-6 lg:px-16">
-          <div className="relative flex flex-col items-center w-[min(100%,380px)]">
+          <div className="flex flex-col lg:flex-row items-center justify-center gap-10 sm:gap-16 lg:gap-40 xl:gap-52 px-2 sm:px-6 lg:px-16 overflow-x-hidden">
+          <div className="relative flex flex-col items-center w-[min(100%,280px)] sm:w-[min(100%,380px)] mx-auto">
             <p className="text-gold text-[13px] font-normal mb-4">
               Concept deck
             </p>
             <motion.div
-              className={`relative ${FRAG_CARD_SIZE} shrink-0 overflow-visible`}
+              className={`relative ${FRAG_CARD_SIZE} shrink-0 overflow-visible mx-auto`}
               onHoverStart={() => setStackHover(true)}
               onHoverEnd={() => {
                 setStackHover(false);
                 setHoverCard(null);
               }}
             >
-              {STACK_REST.map((rest, i) => {
-                const hover = STACK_HOVER[i];
-                const park = DEALT_PARK[i];
+              {stackRest.map((rest, i) => {
+                const hover = stackHoverPos[i];
+                const park = dealtPark[i];
                 const isDealt = dealtPile.includes(i);
                 const pose = isDealt ? park : stackHover ? hover : rest;
                 const face = CARD_FACES[i];
@@ -679,7 +729,7 @@ export default function ResultsPage() {
             </div>
           </div>
 
-          <div className="relative shrink-0 w-[min(100%,420px)] flex flex-col items-center">
+          <div className="relative shrink-0 w-[min(100%,280px)] sm:w-[min(100%,420px)] flex flex-col items-center mx-auto">
             <p className="text-gold text-[13px] font-normal mb-4 relative z-[1]">
               Reading pile
             </p>
@@ -875,7 +925,7 @@ export default function ResultsPage() {
 
           {/* Refine chat panel */}
           <section
-            className={`relative bg-panel rounded-[30px] px-8 py-7 min-h-[426px] flex flex-col overflow-hidden ${
+            className={`relative bg-panel rounded-[30px] px-5 sm:px-8 py-6 sm:py-7 min-h-[426px] flex flex-col overflow-hidden mx-auto w-full ${
               refineLocked ? "select-none" : ""
             }`}
             aria-disabled={refineLocked}
@@ -951,13 +1001,13 @@ export default function ResultsPage() {
           </section>
         </div>
 
-        <div className="flex flex-wrap gap-6 mt-10 items-start">
-          <div className="flex flex-col items-center gap-2">
+        <div className="flex flex-col sm:flex-row flex-wrap gap-6 mt-10 items-center justify-center">
+          <div className="flex flex-col items-center gap-2 w-full sm:w-auto">
             <GoldButton onClick={onSave} disabled={saving || refineLocked}>
               {saving ? "Saving…" : saved ? "Saved to Library" : "Save this Archive"}
             </GoldButton>
             <p className="text-white/45 text-[12px] font-light m-0 max-w-[279px] text-center">
-              Generated result will be sent to the Library archive.
+              Generated result will be saved to library.
             </p>
             {saveError ? (
               <p className="text-red-300 text-sm m-0 max-w-[279px] text-center">{saveError}</p>
@@ -976,9 +1026,9 @@ export default function ResultsPage() {
             </GoldButton>
           ) : null}
           {shareError ? (
-            <p className="text-red-300 text-sm self-center max-w-md">{shareError}</p>
+            <p className="text-red-300 text-sm self-center max-w-md text-center">{shareError}</p>
           ) : null}
-          <div className="flex flex-col items-center gap-2">
+          <div className="flex flex-col items-center gap-2 w-full sm:w-auto">
             <GoldButton
               onClick={() => void downloadReport()}
               disabled={downloading}

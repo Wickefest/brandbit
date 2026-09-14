@@ -61,9 +61,19 @@ function writePos(pos: CardPos) {
   sessionStorage.setItem(POS_KEY, JSON.stringify(pos));
 }
 
+function isNarrowViewport() {
+  return typeof window !== "undefined" && window.innerWidth < 768;
+}
+
 function defaultPos(): CardPos {
   if (typeof window === "undefined") return { x: 16, y: 96 };
   const width = Math.min(window.innerWidth - 32, 380);
+  if (isNarrowViewport()) {
+    return {
+      x: Math.max(8, (window.innerWidth - width) / 2),
+      y: 72,
+    };
+  }
   return {
     x: Math.max(16, window.innerWidth - width - 16),
     y: 96,
@@ -167,12 +177,16 @@ export default function EvaluationCard({
     };
   }, [executionId, user?.id]);
 
-  // Keep the card on screen when the window resizes
+  // Keep the card on screen when the window resizes; re-center on narrow screens
   useEffect(() => {
     const onResize = () => {
-      setPos((prev) => clampPos(prev, cardRef.current));
+      setPos((prev) => {
+        if (isNarrowViewport()) return clampPos(defaultPos(), cardRef.current);
+        return clampPos(prev, cardRef.current);
+      });
     };
     window.addEventListener("resize", onResize);
+    onResize();
     return () => window.removeEventListener("resize", onResize);
   }, []);
 
@@ -298,16 +312,22 @@ export default function EvaluationCard({
     return (
       <button
         type="button"
-        onClick={() => setOpen(true)}
-        className="fixed right-0 top-1/3 z-40 rounded-l-[18px] bg-nav px-3 py-5 text-black shadow-[0_12px_28px_rgba(0,0,0,0.35)] cursor-pointer hover:bg-lemon"
+        onClick={() => {
+          setPos(defaultPos());
+          setOpen(true);
+        }}
+        className="fixed z-40 bg-nav text-black shadow-[0_12px_28px_rgba(0,0,0,0.35)] cursor-pointer hover:bg-lemon left-1/2 -translate-x-1/2 bottom-5 rounded-full px-5 py-3 md:left-auto md:translate-x-0 md:bottom-auto md:right-0 md:top-1/3 md:rounded-l-[18px] md:rounded-r-none md:px-3 md:py-5"
         aria-expanded="false"
       >
-        <span className="flex flex-col items-center gap-2">
+        <span className="flex items-center gap-2 md:flex-col md:gap-2">
           <span className="text-[10px] font-bold tracking-[0.18em] uppercase text-maroon/70">
             Rate
           </span>
+          <span className="text-sm font-bold md:hidden">
+            {done ? "Thank you" : "Rate this result"}
+          </span>
           <span
-            className="text-sm font-bold"
+            className="hidden md:inline text-sm font-bold"
             style={{ writingMode: "vertical-rl", transform: "rotate(180deg)" }}
           >
             {done ? "Thank you" : "Rate this result"}
@@ -336,7 +356,7 @@ export default function EvaluationCard({
       <aside
         ref={cardRef}
         style={shellStyle}
-        className="fixed z-40 w-[min(100%-2rem,380px)] flex flex-col rounded-[28px] bg-nav text-black shadow-[0_24px_60px_rgba(0,0,0,0.4)] px-6 py-7"
+        className="fixed z-40 w-[min(100%-1.5rem,380px)] flex flex-col rounded-[28px] bg-nav text-black shadow-[0_24px_60px_rgba(0,0,0,0.4)] px-6 py-7"
         aria-labelledby="evaluation-thanks-title"
       >
         <DragHeader
@@ -378,7 +398,7 @@ export default function EvaluationCard({
     <aside
       ref={cardRef}
       style={shellStyle}
-      className="fixed z-40 w-[min(100%-2rem,380px)] max-h-[calc(100vh-2rem)] flex flex-col rounded-[28px] bg-nav text-black shadow-[0_24px_60px_rgba(0,0,0,0.4)]"
+      className="fixed z-40 w-[min(100%-1.5rem,380px)] max-h-[calc(100vh-2rem)] flex flex-col rounded-[28px] bg-nav text-black shadow-[0_24px_60px_rgba(0,0,0,0.4)]"
       aria-labelledby="evaluation-card-title"
     >
       <div className="px-6 pt-6 pb-3 shrink-0">

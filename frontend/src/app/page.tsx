@@ -5,7 +5,7 @@
  * Brand hero and entry into the submission flow.
  */
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 // Reference: https://nextjs.org/docs/app/api-reference/functions/use-router
 import { useRouter } from "next/navigation";
 import Navbar from "@/components/Navbar";
@@ -17,47 +17,65 @@ export default function Home() {
   const router = useRouter();
   const { user, loading, requestLogin } = useAuth();
   const videoRef = useRef<HTMLVideoElement>(null);
+  const [videoReady, setVideoReady] = useState(false);
 
-  // Autoplay muted hero video; retry after load for mobile browsers
+  // Autoplay muted hero video; hide until playing so iOS cannot show a play glyph
   useEffect(() => {
     const video = videoRef.current;
     if (!video) return;
+
+    video.setAttribute("playsinline", "true");
+    video.setAttribute("webkit-playsinline", "true");
+    video.defaultMuted = true;
+    video.muted = true;
+    video.volume = 0;
 
     const tryPlay = () => {
       video.defaultMuted = true;
       video.muted = true;
       video.volume = 0;
-      void video.play().catch(() => {});
+      const play = video.play();
+      if (play && typeof play.then === "function") {
+        play
+          .then(() => setVideoReady(true))
+          .catch(() => setVideoReady(false));
+      }
     };
+
+    const onPlaying = () => setVideoReady(true);
 
     tryPlay();
     video.addEventListener("loadeddata", tryPlay);
     video.addEventListener("canplay", tryPlay);
+    video.addEventListener("playing", onPlaying);
     return () => {
       video.removeEventListener("loadeddata", tryPlay);
       video.removeEventListener("canplay", tryPlay);
+      video.removeEventListener("playing", onPlaying);
     };
   }, []);
 
   return (
     <main id="main-content" className="relative min-h-screen overflow-hidden flex flex-col">
-      {/* Hero video background */}
-      <div className="absolute inset-0">
+      {/* Ink fallback hides native play chrome if autoplay fails */}
+      <div className="absolute inset-0 bg-ink">
         <video
           ref={videoRef}
-          className="hero-video absolute inset-0 h-full w-full object-cover pointer-events-none"
+          className={`hero-video absolute inset-0 h-full w-full object-cover pointer-events-none transition-opacity duration-500 ${
+            videoReady ? "opacity-100" : "opacity-0"
+          }`}
           src="/assets/images/hero-water.mp4"
           autoPlay
           loop
           muted
           playsInline
-          preload="auto"
+          preload="metadata"
           controls={false}
           disablePictureInPicture
           disableRemotePlayback
           aria-hidden="true"
         />
-        <div className="absolute inset-0 bg-ink-overlay/60" />
+        <div className="absolute inset-0 bg-ink-overlay/60 pointer-events-none" />
       </div>
 
       <div className="relative z-10 flex flex-col min-h-screen">
@@ -65,7 +83,7 @@ export default function Home() {
 
         {/* Main content */}
         <div className="flex-1 flex flex-col items-center justify-center px-8 pb-16 text-center">
-          <h1 className="text-[#FFECEC] text-[clamp(3rem,8vw,6rem)] font-bold leading-[1.05] max-w-[720px]">
+          <h1 className="text-[#FFECEC] text-[clamp(2.4rem,8vw,6rem)] font-bold leading-[1.05] max-w-[720px]">
             Speed-up Brand Ideation
             <br />
             bit-by-bit.
