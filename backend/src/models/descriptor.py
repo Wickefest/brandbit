@@ -18,8 +18,6 @@ class ColorTemperature(str, Enum):
     WARM = "warm"
 
 class BrandAestheticDescriptor(BaseModel):
-           
-
     brand_item: str = Field(
         ...,
         min_length=1,
