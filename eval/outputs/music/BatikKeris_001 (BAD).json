@@ -1,0 +1,22 @@
+{
+  "tempo": "moderate",
+  "bpm": 88,
+  "timbre": [
+    "warm bronze metallophones",
+    "resonant wooden slit drums",
+    "breathy bamboo overtones",
+    "silk-smooth pads",
+    "subtle metallic shimmer"
+  ],
+  "instrumentation": [
+    "gamelan metallophones",
+    "kendang drum",
+    "suling bamboo flute",
+    "warm synth pad",
+    "subtle gong"
+  ],
+  "mood": "cultured-confidence",
+  "style": "contemporary-gamelan",
+  "music_signature": "This is the sound of a Javanese batik workshop at golden dusk, where interlocking bronze metallophones create a refined cyclic pulse at 88 BPM, layered with the deep resonant voice of kendang drums and breathy suling flute melodies that trace the same flowing lines as wax-resist patterns on indigo cloth. The rhythm should feel ceremonial yet wearable—not temple-festival dense, but spacious and deliberate, with metallic timbres that echo the gold metallic thread in the fabric against deep navy harmonic foundations. Warm synth pads provide the smooth fabric backdrop, while occasional gong accents mark transitions like the turning of a batik canting tool. The arrangement progresses from sparse metallophone patterns into fuller interlocking textures, maintaining elegant restraint throughout. Production should feel polished and contemporary, with clear separation between metallic attack and wooden resonance, controlled low end from the kendang, and an overall sense of structured weave in the rhythmic layering—never chaotic, always intentional, like the craft itself.",
+  "audio_sample_ref": "/api/audio/BatikKeris_001%20%28BAD%29"
+}

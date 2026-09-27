@@ -1,0 +1,82 @@
+{
+  "top_notes": [
+    "citronitrile",
+    "3,7-dimethylnona-2,6-dienenitrile"
+  ],
+  "heart_notes": [
+    "1-methyl-4-phenoxybenzene",
+    "rosyrane",
+    "dihydrofarnesol"
+  ],
+  "base_notes": [
+    "benzyl eugenol",
+    "1,1-bis(phenethyloxy)ethane"
+  ],
+  "dominant_accords": [
+    "warm metallic floral",
+    "polished rose",
+    "timeless elegance",
+    "soft spice",
+    "pearlescent skin"
+  ],
+  "intensity_profile": "moderate",
+  "emotional_descriptors": [
+    "refined",
+    "intimate",
+    "graceful",
+    "understated",
+    "enduring"
+  ],
+  "smell_signature": "Combined together, these ingredients will smell like a luminous, warm floral with a brushed-metal brightness that feels both antique and impeccably crafted. The opening carries a soft citrus glow like morning light on gilded mirrors, then settles into velvety roses and creamy white petals with a whisper of heirloom spice. Think of a jeweler's atelier where polished gold tools rest beside fresh flowers, the air holding a quiet, expensive warmth that lingers on a silk scarf.",
+  "note_guide": [
+    {
+      "smells_like": "metallic, aldehydic",
+      "chemical_name": "citronitrile",
+      "ingredient": "citronitrile"
+    },
+    {
+      "smells_like": "lemon, metallic",
+      "chemical_name": "3,7-dimethylnona-2,6-dienenitrile",
+      "ingredient": "3,7-dimethylnona-2,6-dienenitrile"
+    },
+    {
+      "smells_like": "narcissus, rose",
+      "chemical_name": "1-methyl-4-phenoxybenzene",
+      "ingredient": "1-methyl-4-phenoxybenzene"
+    },
+    {
+      "smells_like": "metallic, rose",
+      "chemical_name": "rosyrane",
+      "ingredient": "rosyrane"
+    },
+    {
+      "smells_like": "metallic, cyclamen",
+      "chemical_name": "dihydrofarnesol",
+      "ingredient": "dihydrofarnesol"
+    },
+    {
+      "smells_like": "hay, mild",
+      "chemical_name": "benzyl eugenol",
+      "ingredient": "benzyl eugenol"
+    },
+    {
+      "smells_like": "rose, leafy",
+      "chemical_name": "1,1-bis(phenethyloxy)ethane",
+      "ingredient": "1,1-bis(phenethyloxy)ethane"
+    }
+  ],
+  "grounded_notes": [
+    "citronitrile",
+    "3,7-dimethylnona-2,6-dienenitrile",
+    "1-methyl-4-phenoxybenzene",
+    "rosyrane",
+    "dihydrofarnesol",
+    "benzyl eugenol",
+    "1,1-bis(phenethyloxy)ethane"
+  ],
+  "pyrfume_sources": [
+    "goodscents",
+    "ifra_2019",
+    "leffingwell"
+  ]
+}

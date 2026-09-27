@@ -1,0 +1,35 @@
+{
+  "provider": "gpt-4o",
+  "source_visual": "eval\\comparison\\vlm\\qwen\\11.json",
+  "image": "11.png",
+  "raw_text": "{\n  \"brand_item\": \"wooden wristwatch\",\n  \"mood\": [\"rustic warmth\", \"artisanal elegance\"],\n  \"energy\": \"low\",\n  \"color_temperature\": \"warm\",\n  \"texture\": [\"wood grain\", \"smooth leather\"],\n  \"visual_style\": [\"minimalist\", \"natural\"],\n  \"sensory_metaphors\": [\"earthy embrace\", \"timeless simplicity\"],\n  \"narrative\": \"The wooden wristwatch embodies a rustic warmth and artisanal elegance, capturing the essence of nature with its wood grain and smooth leather textures. Its minimalist design and natural aesthetic evoke a sense of timeless simplicity, inviting a connection to the earth's organic beauty.\"\n}",
+  "error": null,
+  "brand_aesthetic_descriptor": {
+    "brand_item": "wooden wristwatch",
+    "mood": [
+      "rustic warmth",
+      "artisanal elegance"
+    ],
+    "energy": "low",
+    "color_temperature": "warm",
+    "texture": [
+      "wood grain",
+      "smooth leather"
+    ],
+    "visual_style": [
+      "minimalist",
+      "natural"
+    ],
+    "sensory_metaphors": [
+      "earthy embrace",
+      "timeless simplicity"
+    ],
+    "narrative": "The wooden wristwatch embodies a rustic warmth and artisanal elegance, capturing the essence of nature with its wood grain and smooth leather textures. Its minimalist design and natural aesthetic evoke a sense of timeless simplicity, inviting a connection to the earth's organic beauty."
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null
+  }
+}

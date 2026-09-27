@@ -1,0 +1,96 @@
+{
+  "top_notes": [
+    "1,1-diethoxynonane",
+    "3,5,5-trimethylhexanal",
+    "isoneral"
+  ],
+  "heart_notes": [
+    "rosyrane",
+    "1-methyl-4-phenoxybenzene",
+    "dihydrobovolide"
+  ],
+  "base_notes": [
+    "diphenyl ether",
+    "biphenyl",
+    "octyl 2-furoate"
+  ],
+  "dominant_accords": [
+    "metallic elegance",
+    "forest twilight",
+    "refined florals",
+    "sleek greenery",
+    "warm mineral depth"
+  ],
+  "intensity_profile": "moderate",
+  "emotional_descriptors": [
+    "sophisticated",
+    "timeless",
+    "adventurous",
+    "luminous",
+    "grounded"
+  ],
+  "smell_signature": "Combined together, these ingredients will smell like stepping into a forest at dusk where silver moonlight catches on wet leaves and polished metal. The opening is bright and crisp like a fresh-pressed linen shirt in a luxury hotel, then softens into a refined floral warmth with hints of green tea and rose. As it settles, the scent becomes smooth and skin-close, like the worn leather interior of a vintage sports car parked under pine trees. Think of an exclusive Swiss boutique where nature and engineering meet in quiet confidence.",
+  "note_guide": [
+    {
+      "smells_like": "aldehydic, rose",
+      "chemical_name": "1,1-diethoxynonane",
+      "ingredient": "1,1-diethoxynonane"
+    },
+    {
+      "smells_like": "aldehydic, natural",
+      "chemical_name": "3,5,5-trimethylhexanal",
+      "ingredient": "3,5,5-trimethylhexanal"
+    },
+    {
+      "smells_like": "green",
+      "chemical_name": "isoneral",
+      "ingredient": "isoneral"
+    },
+    {
+      "smells_like": "metallic, rose",
+      "chemical_name": "rosyrane",
+      "ingredient": "rosyrane"
+    },
+    {
+      "smells_like": "narcissus, rose",
+      "chemical_name": "1-methyl-4-phenoxybenzene",
+      "ingredient": "1-methyl-4-phenoxybenzene"
+    },
+    {
+      "smells_like": "tea, celery-like",
+      "chemical_name": "dihydrobovolide",
+      "ingredient": "dihydrobovolide"
+    },
+    {
+      "smells_like": "geranium, phenolic",
+      "chemical_name": "diphenyl ether",
+      "ingredient": "diphenyl ether"
+    },
+    {
+      "smells_like": "rose, geranium",
+      "chemical_name": "biphenyl",
+      "ingredient": "biphenyl"
+    },
+    {
+      "smells_like": "mushroom, oily",
+      "chemical_name": "octyl 2-furoate",
+      "ingredient": "octyl 2-furoate"
+    }
+  ],
+  "grounded_notes": [
+    "1,1-diethoxynonane",
+    "3,5,5-trimethylhexanal",
+    "isoneral",
+    "rosyrane",
+    "1-methyl-4-phenoxybenzene",
+    "dihydrobovolide",
+    "diphenyl ether",
+    "biphenyl",
+    "octyl 2-furoate"
+  ],
+  "pyrfume_sources": [
+    "goodscents",
+    "ifra_2019",
+    "leffingwell"
+  ]
+}

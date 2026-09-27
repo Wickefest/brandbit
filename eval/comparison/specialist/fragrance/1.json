@@ -1,0 +1,167 @@
+{
+  "provider": "kimi",
+  "modality": "fragrance",
+  "source_descriptor": "eval\\comparison\\descriptor\\gpt-4o\\1.json",
+  "image": "1.png",
+  "brand_item": "laptop",
+  "pyrfume_retrieval_names": [
+    "(+)-menthone",
+    "limonene oxide, (-)-",
+    "1,3-dihydroxyacetone",
+    "eucalyptol",
+    "l-menthyl acetoacetate",
+    "n,n-dimethyl menthyl succinamide",
+    "isopulegol",
+    "bornylcyclohexanol",
+    "(-)-citronellal",
+    "tetradecanenitrile",
+    "kohinool",
+    "cashmeran",
+    "undec-9-enal",
+    "ethyl laurate",
+    "methyl propyl trisulfide",
+    "4-(4,8-dimethyl-3,7-nonadienyl)pyridine",
+    "unii-1q8kvb0r3j",
+    "cedrol",
+    "3-(4-methylcyclohex-3-en-1-yl)butan-1-ol",
+    "1-methoxydecane",
+    "alpha-bisabolol",
+    "2-octanone, oxime",
+    "9-decen-1-ol",
+    "erythorbic acid",
+    "hydroxycitronellol",
+    "diisodecyl adipate",
+    "celestolide",
+    "1-decanol",
+    "citric acid",
+    "glyceryl tribenzoate"
+  ],
+  "pyrfume_sources": [
+    "goodscents",
+    "ifra_2019",
+    "leffingwell"
+  ],
+  "raw_text": "{\n  \"top_notes\": [\n    \"(+)-menthone\",\n    \"l-menthyl acetoacetate\",\n    \"(-)-citronellal\",\n    \"tetradecanenitrile\"\n  ],\n  \"heart_notes\": [\n    \"undec-9-enal\",\n    \"3-(4-methylcyclohex-3-en-1-yl)butan-1-ol\",\n    \"hydroxycitronellol\",\n    \"alpha-bisabolol\"\n  ],\n  \"base_notes\": [\n    \"bornylcyclohexanol\",\n    \"kohinool\",\n    \"cashmeran\",\n    \"cedrol\"\n  ],\n  \"dominant_accords\": [\n    \"clean\",\n    \"professional\",\n    \"modern\",\n    \"fresh\",\n    \"woody\"\n  ],\n  \"intensity_profile\": \"moderate\",\n  \"emotional_descriptors\": [\n    \"efficient\",\n    \"sleek\",\n    \"calm\",\n    \"focused\"\n  ],\n  \"smell_signature\": \"This fragrance opens with a crisp, cool mint and citrus blend, transitioning into a heart of fresh florals and greenery. As it dries down, it settles into a warm, woody base with a hint of musk. Reminiscent of a modern office space with a hint of luxury, it's like the scent of a high-end laptop fresh out of the box.\",\n  \"note_guide\": [\n    {\n      \"smells_like\": \"cool mint\",\n      \"chemical_name\": \"(+)-menthone\"\n    },\n    {\n      \"smells_like\": \"minty floral\",\n      \"chemical_name\": \"l-menthyl acetoacetate\"\n    },\n    {\n      \"smells_like\": \"herbal citrus\",\n      \"chemical_name\": \"(-)-citronellal\"\n    },\n    {\n      \"smells_like\": \"fresh green\",\n      \"chemical_name\": \"tetradecanenitrile\"\n    },\n    {\n      \"smells_like\": \"metallic rose\",\n      \"chemical_name\": \"undec-9-enal\"\n    },\n    {\n      \"smells_like\": \"warm floral\",\n      \"chemical_name\": \"3-(4-methylcyclohex-3-en-1-yl)butan-1-ol\"\n    },\n    {\n      \"smells_like\": \"floral green\",\n      \"chemical_name\": \"hydroxycitronellol\"\n    },\n    {\n      \"smells_like\": \"floral balsamic\",\n      \"chemical_name\": \"alpha-bisabolol\"\n    },\n    {\n      \"smells_like\": \"woody sandalwood\",\n      \"chemical_name\": \"bornylcyclohexanol\"\n    },\n    {\n      \"smells_like\": \"dry vetiver\",\n      \"chemical_name\": \"kohinool\"\n    },\n    {\n      \"smells_like\": \"spicy musk\",\n      \"chemical_name\": \"cashmeran\"\n    },\n    {\n      \"smells_like\": \"clean cedar\",\n      \"chemical_name\": \"cedrol\"\n    }\n  ],\n  \"grounded_notes\": [\n    \"(+)-menthone\",\n    \"l-menthyl acetoacetate\",\n    \"(-)-citronellal\",\n    \"tetradecanenitrile\",\n    \"undec-9-enal\",\n    \"3-(4-methylcyclohex-3-en-1-yl)butan-1-ol\",\n    \"hydroxycitronellol\",\n    \"alpha-bisabolol\",\n    \"bornylcyclohexanol\",\n    \"kohinool\",\n    \"cashmeran\",\n    \"cedrol\"\n  ]\n}",
+  "error": null,
+  "fragrance_concept": {
+    "top_notes": [
+      "(+)-menthone",
+      "l-menthyl acetoacetate",
+      "(-)-citronellal",
+      "tetradecanenitrile"
+    ],
+    "heart_notes": [
+      "undec-9-enal",
+      "3-(4-methylcyclohex-3-en-1-yl)butan-1-ol",
+      "hydroxycitronellol",
+      "alpha-bisabolol"
+    ],
+    "base_notes": [
+      "bornylcyclohexanol",
+      "kohinool",
+      "cashmeran",
+      "cedrol"
+    ],
+    "dominant_accords": [
+      "clean",
+      "professional",
+      "modern",
+      "fresh",
+      "woody"
+    ],
+    "intensity_profile": "moderate",
+    "emotional_descriptors": [
+      "efficient",
+      "sleek",
+      "calm",
+      "focused"
+    ],
+    "smell_signature": "This fragrance opens with a crisp, cool mint and citrus blend, transitioning into a heart of fresh florals and greenery. As it dries down, it settles into a warm, woody base with a hint of musk. Reminiscent of a modern office space with a hint of luxury, it's like the scent of a high-end laptop fresh out of the box.",
+    "note_guide": [
+      {
+        "smells_like": "mentholic, minty",
+        "chemical_name": "(+)-menthone",
+        "ingredient": "(+)-menthone"
+      },
+      {
+        "smells_like": "mint, cool",
+        "chemical_name": "l-menthyl acetoacetate",
+        "ingredient": "l-menthyl acetoacetate"
+      },
+      {
+        "smells_like": "herbal, citrus",
+        "chemical_name": "(-)-citronellal",
+        "ingredient": "(-)-citronellal"
+      },
+      {
+        "smells_like": "wet, orangeflower",
+        "chemical_name": "tetradecanenitrile",
+        "ingredient": "tetradecanenitrile"
+      },
+      {
+        "smells_like": "rose, aldehydic",
+        "chemical_name": "undec-9-enal",
+        "ingredient": "undec-9-enal"
+      },
+      {
+        "smells_like": "rose, herbal",
+        "chemical_name": "3-(4-methylcyclohex-3-en-1-yl)butan-1-ol",
+        "ingredient": "3-(4-methylcyclohex-3-en-1-yl)butan-1-ol"
+      },
+      {
+        "smells_like": "rose, peony",
+        "chemical_name": "hydroxycitronellol",
+        "ingredient": "hydroxycitronellol"
+      },
+      {
+        "smells_like": "peppery",
+        "chemical_name": "alpha-bisabolol",
+        "ingredient": "alpha-bisabolol"
+      },
+      {
+        "smells_like": "sandalwood",
+        "chemical_name": "bornylcyclohexanol",
+        "ingredient": "bornylcyclohexanol"
+      },
+      {
+        "smells_like": "vetiver, amber",
+        "chemical_name": "kohinool",
+        "ingredient": "kohinool"
+      },
+      {
+        "smells_like": "rich, musk",
+        "chemical_name": "cashmeran",
+        "ingredient": "cashmeran"
+      },
+      {
+        "smells_like": "cedarwood, clean cedar note",
+        "chemical_name": "cedrol",
+        "ingredient": "cedrol"
+      }
+    ],
+    "grounded_notes": [
+      "(+)-menthone",
+      "l-menthyl acetoacetate",
+      "(-)-citronellal",
+      "tetradecanenitrile",
+      "undec-9-enal",
+      "3-(4-methylcyclohex-3-en-1-yl)butan-1-ol",
+      "hydroxycitronellol",
+      "alpha-bisabolol",
+      "bornylcyclohexanol",
+      "kohinool",
+      "cashmeran",
+      "cedrol"
+    ],
+    "pyrfume_sources": []
+  },
+  "ungrounded_notes": [],
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "grounded_ok": true,
+    "error": null
+  },
+  "latency_seconds": 28.657
+}

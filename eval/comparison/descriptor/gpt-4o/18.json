@@ -1,0 +1,38 @@
+{
+  "provider": "gpt-4o",
+  "source_visual": "eval\\comparison\\vlm\\qwen\\18.json",
+  "image": "18.jpg",
+  "raw_text": "{\n  \"brand_item\": \"Herbal Peppermint Candy\",\n  \"mood\": [\"refreshing\", \"natural\", \"energetic\"],\n  \"energy\": \"high\",\n  \"color_temperature\": \"warm\",\n  \"texture\": [\"smooth\", \"crisp\", \"organic\", \"sugar-like\"],\n  \"visual_style\": [\"centered composition\", \"decorative elements\"],\n  \"sensory_metaphors\": [\"minty breeze\", \"honeyed freshness\"],\n  \"narrative\": \"The Herbal Peppermint Candy exudes a refreshing and natural vibe, combining the invigorating essence of mint with the warmth of honey and chocolate. Its high energy and organic textures create an inviting and lively experience, perfect for those seeking a burst of vitality.\"\n}",
+  "error": null,
+  "brand_aesthetic_descriptor": {
+    "brand_item": "Herbal Peppermint Candy",
+    "mood": [
+      "refreshing",
+      "natural",
+      "energetic"
+    ],
+    "energy": "high",
+    "color_temperature": "warm",
+    "texture": [
+      "smooth",
+      "crisp",
+      "organic",
+      "sugar-like"
+    ],
+    "visual_style": [
+      "centered composition",
+      "decorative elements"
+    ],
+    "sensory_metaphors": [
+      "minty breeze",
+      "honeyed freshness"
+    ],
+    "narrative": "The Herbal Peppermint Candy exudes a refreshing and natural vibe, combining the invigorating essence of mint with the warmth of honey and chocolate. Its high energy and organic textures create an inviting and lively experience, perfect for those seeking a burst of vitality."
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null
+  }
+}

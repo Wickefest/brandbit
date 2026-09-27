@@ -1,0 +1,110 @@
+{
+  "top_notes": [
+    "cis-3-hexenal",
+    "6-methylheptanal",
+    "myrac aldehyde 1",
+    "athylglykolsaurementhylester"
+  ],
+  "heart_notes": [
+    "2,5-dimethylthiophene",
+    "3,3-dimethoxyprop-1-enylbenzene",
+    "4-(1-methylethyl)cyclohexanemethanol",
+    "6-octenal, (6z)-"
+  ],
+  "base_notes": [
+    "2-cyclohexylpropanal",
+    "1,1-dimethoxydodecane",
+    "curcumenol"
+  ],
+  "dominant_accords": [
+    "fresh greens",
+    "warm spice",
+    "juicy citrus",
+    "savory comfort",
+    "clean brightness"
+  ],
+  "intensity_profile": "bold",
+  "emotional_descriptors": [
+    "invigorating",
+    "playful",
+    "nourishing",
+    "bright",
+    "satisfying"
+  ],
+  "smell_signature": "Combined together, these ingredients will smell like tearing open a vibrant instant noodle packet on a hungry afternoon—an explosive rush of fresh-cut greens and juicy orange brightness that fizzes with cooling energy, then settles into a warm, spiced comfort with hints of savory depth and smooth, satisfying richness. Think of a modern Asian street-food inspired body spray that captures the anticipation before the first bite: electric freshness melting into cozy, well-seasoned warmth.",
+  "note_guide": [
+    {
+      "smells_like": "fatty, weedy",
+      "chemical_name": "cis-3-hexenal",
+      "ingredient": "cis-3-hexenal"
+    },
+    {
+      "smells_like": "juicy, orange",
+      "chemical_name": "6-methylheptanal",
+      "ingredient": "6-methylheptanal"
+    },
+    {
+      "smells_like": "aldehydic, ozone",
+      "chemical_name": "myrac aldehyde 1",
+      "ingredient": "myrac aldehyde 1"
+    },
+    {
+      "smells_like": "cooling agent, refreshing",
+      "chemical_name": "athylglykolsaurementhylester",
+      "ingredient": "athylglykolsaurementhylester"
+    },
+    {
+      "smells_like": "nutty, sulfurous",
+      "chemical_name": "2,5-dimethylthiophene",
+      "ingredient": "2,5-dimethylthiophene"
+    },
+    {
+      "smells_like": "cinnamon, herbal",
+      "chemical_name": "3,3-dimethoxyprop-1-enylbenzene",
+      "ingredient": "3,3-dimethoxyprop-1-enylbenzene"
+    },
+    {
+      "smells_like": "magnolia, grassy",
+      "chemical_name": "4-(1-methylethyl)cyclohexanemethanol",
+      "ingredient": "4-(1-methylethyl)cyclohexanemethanol"
+    },
+    {
+      "smells_like": "melon, cucumber",
+      "chemical_name": "6-octenal, (6z)-",
+      "ingredient": "6-octenal, (6z)-"
+    },
+    {
+      "smells_like": "natural, dusty",
+      "chemical_name": "2-cyclohexylpropanal",
+      "ingredient": "2-cyclohexylpropanal"
+    },
+    {
+      "smells_like": "herbal, orchid",
+      "chemical_name": "1,1-dimethoxydodecane",
+      "ingredient": "1,1-dimethoxydodecane"
+    },
+    {
+      "smells_like": "fatty",
+      "chemical_name": "curcumenol",
+      "ingredient": "curcumenol"
+    }
+  ],
+  "grounded_notes": [
+    "cis-3-hexenal",
+    "6-methylheptanal",
+    "myrac aldehyde 1",
+    "athylglykolsaurementhylester",
+    "2,5-dimethylthiophene",
+    "3,3-dimethoxyprop-1-enylbenzene",
+    "4-(1-methylethyl)cyclohexanemethanol",
+    "6-octenal, (6z)-",
+    "2-cyclohexylpropanal",
+    "1,1-dimethoxydodecane",
+    "curcumenol"
+  ],
+  "pyrfume_sources": [
+    "goodscents",
+    "ifra_2019",
+    "leffingwell"
+  ]
+}

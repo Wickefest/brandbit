@@ -1,0 +1,180 @@
+{
+  "execution_id": "Tulola_Jewellery_001 (BAD)",
+  "timestamp": "2026-09-13T14:34:28.477878Z",
+  "input_image_ref": "D:\\ibrand_superprototype\\eval\\outputs\\images\\Tulola_Jewellery_001 (BAD).jpg",
+  "brand_aesthetic_descriptor": {
+    "brand_item": "gold floral brooch",
+    "mood": [
+      "elegant",
+      "artisanal",
+      "timeless luxury"
+    ],
+    "energy": "low",
+    "color_temperature": "warm",
+    "colours": [
+      "Brushed Gold",
+      "Pearl White",
+      "Warm Metallic Sheen"
+    ],
+    "texture": [
+      "gilded metal",
+      "smooth pearl",
+      "rough stone",
+      "wood grain"
+    ],
+    "visual_style": [
+      "close-up still life",
+      "shallow depth of field"
+    ],
+    "sensory_metaphors": [
+      "sunlit opulence",
+      "whispered elegance"
+    ],
+    "narrative": "The gold floral brooch exudes an air of timeless luxury with its brushed gold and pearl white hues. Its elegant design and artisanal craftsmanship create a sense of whispered elegance, capturing the essence of sunlit opulence."
+  },
+  "fragrance_concept": {
+    "top_notes": [
+      "2-ethoxynaphthalene",
+      "(2-methoxyethyl)benzene"
+    ],
+    "heart_notes": [
+      "dihydrofarnesol",
+      "methyl dihydrojasmonate",
+      "2-benzylideneheptanal"
+    ],
+    "base_notes": [
+      "1,1-bis(phenethyloxy)ethane",
+      "acetylisoeugenol",
+      "benzyl eugenol"
+    ],
+    "dominant_accords": [
+      "warm golden floral",
+      "soft metallic radiance",
+      "antique pearl elegance",
+      "sunlit jasmine",
+      "gilded wood spice"
+    ],
+    "intensity_profile": "moderate",
+    "emotional_descriptors": [
+      "timeless",
+      "intimate",
+      "refined",
+      "sun-warmed",
+      "whispered"
+    ],
+    "smell_signature": "Combined together, these ingredients will smell like a warm, golden floral radiance with a soft metallic shimmer and antique spice depth. Think of a vintage jewelry box lined with silk, where sunlit jasmine and powdered pearl petals mingle with the faint warmth of gilded metal and aged wood. It opens with a bright, airy blossom and dries down into a quiet, intimate elegance that lingers close to the skin like a treasured heirloom.",
+    "note_guide": [
+      {
+        "smells_like": "naphtha, blossom",
+        "chemical_name": "2-ethoxynaphthalene",
+        "ingredient": "2-ethoxynaphthalene"
+      },
+      {
+        "smells_like": "metallic, chrysanthemum",
+        "chemical_name": "(2-methoxyethyl)benzene",
+        "ingredient": "(2-methoxyethyl)benzene"
+      },
+      {
+        "smells_like": "metallic, cyclamen",
+        "chemical_name": "dihydrofarnesol",
+        "ingredient": "dihydrofarnesol"
+      },
+      {
+        "smells_like": "natural, oily",
+        "chemical_name": "methyl dihydrojasmonate",
+        "ingredient": "methyl dihydrojasmonate"
+      },
+      {
+        "smells_like": "jasmine, reminiscent of gardenia",
+        "chemical_name": "2-benzylideneheptanal",
+        "ingredient": "2-benzylideneheptanal"
+      },
+      {
+        "smells_like": "rose, leafy",
+        "chemical_name": "1,1-bis(phenethyloxy)ethane",
+        "ingredient": "1,1-bis(phenethyloxy)ethane"
+      },
+      {
+        "smells_like": "clove, fruity-floral",
+        "chemical_name": "acetylisoeugenol",
+        "ingredient": "acetylisoeugenol"
+      },
+      {
+        "smells_like": "hay, mild",
+        "chemical_name": "benzyl eugenol",
+        "ingredient": "benzyl eugenol"
+      }
+    ],
+    "grounded_notes": [
+      "2-ethoxynaphthalene",
+      "(2-methoxyethyl)benzene",
+      "dihydrofarnesol",
+      "methyl dihydrojasmonate",
+      "2-benzylideneheptanal",
+      "1,1-bis(phenethyloxy)ethane",
+      "acetylisoeugenol",
+      "benzyl eugenol"
+    ],
+    "pyrfume_sources": [
+      "goodscents",
+      "ifra_2019",
+      "leffingwell"
+    ]
+  },
+  "music_direction": {
+    "tempo": "slow",
+    "bpm": 66,
+    "timbre": [
+      "warm brushed metal resonance",
+      "smooth pearl-like sustain",
+      "dry aged wood decay",
+      "soft stone harmonics",
+      "sunlit harmonic sheen"
+    ],
+    "instrumentation": [
+      "hammered dulcimer",
+      "glass armonica",
+      "solo viola da gamba",
+      "tuned bronze singing bowls",
+      "prepared piano with felt"
+    ],
+    "mood": "contemplative",
+    "style": "artisanal-minimal",
+    "music_signature": "This is the sound of a jeweler's atelier in late afternoon sun: the gold floral brooch rendered as slow, deliberate resonance at 66 BPM. The hammered dulcimer provides the core voice—each strike evoking the tool-work of metal, with brushed attacks and long, warm decays that suggest molten gold cooling into form. Glass armonica sustains float above like pearl surfaces catching light, smooth and edgeless. A solo viola da gamba, played without vibrato, offers intimate melodic lines that feel hand-carved rather than performed. Tuned bronze singing bowls enter sparingly, their harmonic overtones creating the 'warm metallic sheen' of the visual palette. A prepared piano with heavy felt between hammers and strings provides muted low-end punctuation, the wood and stone textures of the descriptor felt in its deadened, earthy thuds. Rhythm is nearly absent—only the natural decay patterns of struck metal and bowed gut create temporal movement. The arrangement breathes in long phrases, building from single dulcimer notes to layered harmonics, then dissolving back to silence. Production should feel close-mic'd and intimate, as if the listener is leaning over the workbench: shallow depth of field made sonic, with no reverb tails longer than the natural room, no electronic sheen, no pulse or groove. The emotional arc is one of held attention, of witnessing craft rather than consuming product—whispered elegance made audible.",
+    "audio_sample_ref": "/api/audio/Tulola_Jewellery_001%20%28BAD%29"
+  },
+  "audio_sample_ref": "/api/audio/Tulola_Jewellery_001%20%28BAD%29",
+  "rationale": "## Visual to Descriptor\n\nThe close-up still life photography with shallow depth of field directly shaped the energy field value of low, as the soft focus and intimate framing create a contemplative rather than dynamic visual experience. The brushed gold and pearl white colours established the warm color_temperature, while the combination of gilded metal, smooth pearl, rough stone, and wood grain textures informed the artisanal quality within the mood array. These visual choices collectively support the sensory_metaphors of sunlit opulence and whispered elegance by suggesting precious materials held in quiet reverence rather than displayed with theatrical flair.\n\n## Descriptor to Fragrance\n\nThe warm color_temperature guided the selection of dominant_accords including warm golden floral and gilded wood spice, ensuring the fragrance would emit heat rather than coolness. The mood values of elegant and timeless luxury directed the base notes toward acetylisoeugenol and benzyl eugenol, whose clove and hay qualities evoke vintage sophistication rather than contemporary freshness. The texture array's inclusion of gilded metal and wood grain directly inspired the soft metallic radiance accord and the antique pearl elegance character, translating physical surface qualities into olfactory impression through ingredients like dihydrofarnesol with its metallic, cyclamen character.\n\n## Descriptor to Music\n\nThe energy field value of low established the tempo at slow with a precise bpm of 66, ensuring the music would never rush or agitate. The warm color_temperature translated into timbre choices such as warm brushed metal resonance and sunlit harmonic sheen, while the visual_style of shallow depth of field became a production principle of close-mic'd intimacy with no reverb tails longer than the natural room. The artisanal value within mood directly inspired the style designation of artisanal-minimal and the selection of hand-played instruments including hammered dulcimer and solo viola da gamba, rejecting electronic or mass-produced sound sources in favor of craft-aligned acoustic sources.",
+  "congruence_report": {
+    "automated_proxies": {
+      "clip_score_image_fragrance_text": 0.5605,
+      "clip_score_image_music_text": 0.3811,
+      "imagebind_score_image_audio": null
+    },
+    "descriptor_consistency": {
+      "fragrance_aligns_descriptor": true,
+      "music_aligns_descriptor": true,
+      "details": "The fragrance concept excellently matches the BAD with its warm golden floral accords, soft metallic radiance, and antique pearl elegance, aligning perfectly with the brand_item's mood of timeless luxury and whispered elegance. The music direction also fits impeccably, with its slow tempo, warm brushed metal resonance, and artisanal-minimal style, capturing the essence of the gold floral brooch's craftsmanship and sunlit opulence.",
+      "fragrance_score": 5,
+      "music_score": 5,
+      "fragrance_issues": [],
+      "music_issues": []
+    },
+    "human_ratings": null,
+    "summary": "Both the fragrance and music directions are excellent, independent translations of the brand identity, with no major mismatches.",
+    "attempts": [
+      {
+        "attempt": 1,
+        "fragrance_aligns_descriptor": true,
+        "music_aligns_descriptor": true,
+        "details": "The fragrance concept excellently matches the BAD with its warm golden floral accords, soft metallic radiance, and antique pearl elegance, aligning perfectly with the brand_item's mood of timeless luxury and whispered elegance. The music direction also fits impeccably, with its slow tempo, warm brushed metal resonance, and artisanal-minimal style, capturing the essence of the gold floral brooch's craftsmanship and sunlit opulence.",
+        "summary": "Both the fragrance and music directions are excellent, independent translations of the brand identity, with no major mismatches.",
+        "regenerated": []
+      }
+    ],
+    "regen_count": 0,
+    "accepted": true
+  },
+  "mode": "sensory_profile",
+  "refinement_history": []
+}

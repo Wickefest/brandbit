@@ -1,0 +1,22 @@
+{
+  "tempo": "moderate",
+  "bpm": 96,
+  "timbre": [
+    "brushed aluminum resonance",
+    "crystalline digital artifacts",
+    "compressed glass harmonics",
+    "subtle fan-whir texture",
+    "matte low-mid warmth"
+  ],
+  "instrumentation": [
+    "modular synth sequences",
+    "prepared piano with felt dampers",
+    "vibraphone",
+    "subtle granular percussion",
+    "sine-wave sub bass"
+  ],
+  "mood": "focused-clarity",
+  "style": "minimal-tech",
+  "music_signature": "This is the sound of a precision-milled aluminum chassis coming alive: modular synth sequences pulse at 96 BPM with the regularity of a cooling fan, their waveforms shaped to suggest brushed metal rather than club synthesis. A prepared piano with felt dampers provides melodic clarity—notes struck clean, decaying fast like keystrokes, never lingering into sentimentality. Vibraphone enters sparingly, its metallic resonance mapping directly to the silver body, played with soft mallets to maintain matte rather than glossy brilliance. Granular percussion derived from sampled fan whirs and hard-drive spin-up sounds create rhythmic texture without drum-kit cliché, while a pure sine-wave sub bass anchors the low end with the same controlled warmth as the laptop's thermal design. The arrangement progresses from isolated rhythmic elements to fuller interlocking patterns, never breaking into four-on-the-floor predictability; harmonic movement is limited, privileging intervallic clarity over progression. Production should feel extraordinarily clean—every frequency slot intentional, restraints on reverb tail length suggesting enclosed precision engineering, spatial imaging tight and forward. This is not aspirational lifestyle scoring; it is the sound of the object itself, designed for a user who values reduction and functional beauty.",
+  "audio_sample_ref": "/api/audio/1_001%20%28BAD%29"
+}

@@ -1,0 +1,79 @@
+{
+  "case_id": "R01",
+  "bad_id": "11",
+  "feedback": "make it more energetic",
+  "expected_behavior": "energy_up",
+  "notes": "Low-energy rustic BAD should increase energy.",
+  "interpret_run_ok": true,
+  "interpret_parse_ok": true,
+  "interpret_schema_ok": true,
+  "success": true,
+  "clarification_request": "",
+  "changed_fields": [
+    "energy"
+  ],
+  "n_fields_changed": 1,
+  "target_modality": "descriptor",
+  "change_reason": "User requested to increase energy level",
+  "previous_energy": "low",
+  "updated_energy": "moderate",
+  "previous_color_temperature": "warm",
+  "updated_color_temperature": "warm",
+  "previous_mood": [
+    "rustic warmth",
+    "artisanal elegance"
+  ],
+  "updated_mood": [
+    "rustic warmth",
+    "artisanal elegance"
+  ],
+  "no_leak": true,
+  "correct_decision": 1,
+  "check_reason": "energy low → moderate",
+  "interpret_latency_ms": 5089,
+  "error": "",
+  "previous_bad": {
+    "brand_item": "wooden wristwatch",
+    "mood": [
+      "rustic warmth",
+      "artisanal elegance"
+    ],
+    "energy": "low",
+    "color_temperature": "warm",
+    "texture": [
+      "wood grain",
+      "smooth leather"
+    ],
+    "visual_style": [
+      "minimalist",
+      "natural"
+    ],
+    "sensory_metaphors": [
+      "earthy embrace",
+      "timeless simplicity"
+    ],
+    "narrative": "The wooden wristwatch embodies a rustic warmth and artisanal elegance, capturing the essence of nature with its wood grain and smooth leather textures. Its minimalist design and natural aesthetic evoke a sense of timeless simplicity, inviting a connection to the earth's organic beauty."
+  },
+  "updated_bad": {
+    "brand_item": "wooden wristwatch",
+    "mood": [
+      "rustic warmth",
+      "artisanal elegance"
+    ],
+    "energy": "moderate",
+    "color_temperature": "warm",
+    "texture": [
+      "wood grain",
+      "smooth leather"
+    ],
+    "visual_style": [
+      "minimalist",
+      "natural"
+    ],
+    "sensory_metaphors": [
+      "earthy embrace",
+      "timeless simplicity"
+    ],
+    "narrative": "The wooden wristwatch embodies a rustic warmth and artisanal elegance, capturing the essence of nature with its wood grain and smooth leather textures. Its minimalist design and natural aesthetic evoke a sense of timeless simplicity, inviting a connection to the earth's organic beauty."
+  }
+}

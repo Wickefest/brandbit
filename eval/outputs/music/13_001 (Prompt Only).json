@@ -1,0 +1,22 @@
+{
+  "tempo": "moderate",
+  "bpm": 88,
+  "timbre": [
+    "brushed silver harmonics",
+    "warm gold resonance",
+    "smooth metallic sustain",
+    "luminous high-end sheen",
+    "polished low-mid warmth"
+  ],
+  "instrumentation": [
+    "vibraphone with motor off",
+    "upright bass",
+    "muted trumpet",
+    "rhodes electric piano",
+    " brushed cymbal and wire brush snare"
+  ],
+  "mood": "sophisticated",
+  "style": "modern-jazz-lounge",
+  "music_signature": "This is the sound of a precision timepiece at golden hour in a quiet atelier: the vibraphone's silver-bright bars struck with soft mallets create luminous, decaying tones that evoke brushed metal catching light, each note ringing clean and measured like seconds on a well-crafted movement. At 88 BPM, a upright bass walks with warm, rounded gold-toned notes—never hurried, always purposeful—while muted trumpet enters with restrained melodic phrases, breathy and human against the mechanical perfection. Rhodes electric piano fills the midrange with smooth, polished warmth, its tines softened through tube amplification. Percussion stays minimal: wire brushes on snare for sustained whisper, occasional brushed cymbal swells for luminous accents. The arrangement progresses like examining a watch face—opening with solo vibraphone motif, bass entering to establish steady pulse, trumpet and Rhodes layering in for fuller sophistication, then stripping back to essentials. Harmonic character is cool jazz voicings with unexpected major seventh colorations, never busy, always spacious. Production should feel intimate and analog: close-miked, subtle room ambience, controlled dynamics with peaks at the attack of each vibraphone bar, warm tape saturation on bass and Rhodes, high-end air on trumpet and vibraphone overtones. No electronic beats, no synthetic pads, no corporate uplift—just the patient, durable elegance of mechanical craft translated into acoustic sound.",
+  "audio_sample_ref": "/api/audio/13_001%20%28Prompt%20Only%29"
+}

@@ -1,0 +1,43 @@
+{
+  "provider": "deepseek",
+  "source_visual": "eval\\comparison\\vlm\\qwen\\18.json",
+  "image": "18.jpg",
+  "raw_text": "{\n  \"brand_item\": \"Herbal Peppermint Candy\",\n  \"mood\": [\"refreshing\", \"natural\", \"energetic\", \"sunlit vitality\", \"crisp delight\"],\n  \"energy\": \"high\",\n  \"color_temperature\": \"warm\",\n  \"texture\": [\"smooth\", \"crisp\", \"organic\", \"sugar-like\"],\n  \"visual_style\": [\"centered composition\", \"decorative elements\", \"vibrant contrast\", \"botanical motifs\"],\n  \"sensory_metaphors\": [\"sunlit honeycomb\", \"morning dew on leaves\", \"crushed sugar crystals\"],\n  \"narrative\": \"This herbal peppermint candy exudes a lively, sunlit energy, blending crisp freshness with organic warmth. Its vibrant colors and botanical details evoke a natural, refreshing delight, like a burst of vitality captured in a single bite.\"\n}",
+  "error": null,
+  "brand_aesthetic_descriptor": {
+    "brand_item": "Herbal Peppermint Candy",
+    "mood": [
+      "refreshing",
+      "natural",
+      "energetic",
+      "sunlit vitality",
+      "crisp delight"
+    ],
+    "energy": "high",
+    "color_temperature": "warm",
+    "texture": [
+      "smooth",
+      "crisp",
+      "organic",
+      "sugar-like"
+    ],
+    "visual_style": [
+      "centered composition",
+      "decorative elements",
+      "vibrant contrast",
+      "botanical motifs"
+    ],
+    "sensory_metaphors": [
+      "sunlit honeycomb",
+      "morning dew on leaves",
+      "crushed sugar crystals"
+    ],
+    "narrative": "This herbal peppermint candy exudes a lively, sunlit energy, blending crisp freshness with organic warmth. Its vibrant colors and botanical details evoke a natural, refreshing delight, like a burst of vitality captured in a single bite."
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null
+  }
+}

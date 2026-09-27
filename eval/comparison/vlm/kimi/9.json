@@ -1,0 +1,38 @@
+{
+  "provider": "kimi",
+  "image": "9.jpg",
+  "visual_analysis": {
+    "primary_subject": "fried noodles package",
+    "dominant_colours": [
+      "red",
+      "yellow",
+      "green",
+      "white"
+    ],
+    "objects": [
+      "noodles",
+      "egg",
+      "vegetables",
+      "fork",
+      "sauce packets"
+    ],
+    "mood_indicators": [
+      "appetizing",
+      "convenient"
+    ],
+    "composition_style": "product-centric with descriptive text",
+    "textures": [
+      "crispy",
+      "smooth",
+      "glossy"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 2.448
+}

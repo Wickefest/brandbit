@@ -1,0 +1,37 @@
+{
+  "provider": "kimi",
+  "source_visual": "eval\\comparison\\vlm\\qwen\\6.json",
+  "image": "6.jpg",
+  "raw_text": "{\n  \"brand_item\": \"black chain shoulder bag\",\n  \"mood\": [\"elegant\", \"minimalist\", \"urban chic\"],\n  \"energy\": \"moderate\",\n  \"color_temperature\": \"cool\",\n  \"texture\": [\"pebbled leather\", \"metallic chain\", \"knitted fabric\"],\n  \"visual_style\": [\"close-up product shot\", \"partial body context\"],\n  \"sensory_metaphors\": [\"sophisticated allure\", \"urban sleekness\"],\n  \"narrative\": \"The black chain shoulder bag exudes an air of urban sophistication, blending minimalist elegance with a touch of luxury. Its pebbled leather and metallic chain strap offer a tactile balance between softness and strength, making it a chic accessory for the modern city dweller.\"\n}",
+  "error": null,
+  "brand_aesthetic_descriptor": {
+    "brand_item": "black chain shoulder bag",
+    "mood": [
+      "elegant",
+      "minimalist",
+      "urban chic"
+    ],
+    "energy": "moderate",
+    "color_temperature": "cool",
+    "texture": [
+      "pebbled leather",
+      "metallic chain",
+      "knitted fabric"
+    ],
+    "visual_style": [
+      "close-up product shot",
+      "partial body context"
+    ],
+    "sensory_metaphors": [
+      "sophisticated allure",
+      "urban sleekness"
+    ],
+    "narrative": "The black chain shoulder bag exudes an air of urban sophistication, blending minimalist elegance with a touch of luxury. Its pebbled leather and metallic chain strap offer a tactile balance between softness and strength, making it a chic accessory for the modern city dweller."
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null
+  }
+}

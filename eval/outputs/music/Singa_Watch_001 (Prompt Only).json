@@ -1,0 +1,22 @@
+{
+  "tempo": "moderate",
+  "bpm": 96,
+  "timbre": [
+    "brushed metallic resonance",
+    "warm gold-toned sustain",
+    "deep forest low-end",
+    "luminous high-frequency sheen",
+    "textured mechanical rhythm"
+  ],
+  "instrumentation": [
+    "hammered dulcimer",
+    "upright bass",
+    "brush kit drums",
+    "Wurlitzer electric piano",
+    "vibraphone"
+  ],
+  "mood": "adventurous-refinement",
+  "style": "mechanical-jazz-lounge",
+  "music_signature": "This is the sound of a precision timepiece workshop where mechanical craft meets wilderness exploration: a brushed metallic pulse at 96 BPM, the interlocking rhythm of hammered dulcimer suggesting gear trains and mint-green luminescence, upright bass providing deep forest warmth beneath warm gold chord voicings on Wurlitzer. Brush kit drums move with the smooth sweep of watch hands, never four-on-the-floor, always circling forward with jazz-influenced unpredictability that speaks to adventure. Vibraphone adds luminous high accents like light catching a bezel at changing angles. The arrangement should unfold like examining a watch face in detail—opening with isolated mechanical rhythm, gradually revealing harmonic layers, building to a confident full ensemble that never loses its sleek restraint. Production should emphasize metallic clarity without harshness, controlled sub-bass warmth, and spatial depth that suggests both the intimacy of craft and the expansiveness of open terrain. No generic corporate piano, no spa ambience, no European salon strings—this is American mid-century precision reimagined for contemporary exploration.",
+  "audio_sample_ref": "/api/audio/Singa_Watch_001%20%28Prompt%20Only%29"
+}

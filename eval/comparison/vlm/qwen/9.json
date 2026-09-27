@@ -1,0 +1,48 @@
+{
+  "provider": "qwen",
+  "image": "9.jpg",
+  "visual_analysis": {
+    "primary_subject": "Indomie Mi Goreng instant noodles package",
+    "dominant_colours": [
+      "red",
+      "yellow",
+      "green",
+      "white",
+      "orange",
+      "brown"
+    ],
+    "objects": [
+      "fork",
+      "fried egg",
+      "shrimp",
+      "lettuce",
+      "tomato",
+      "parsley",
+      "noodles",
+      "seasoning sachets"
+    ],
+    "mood_indicators": [
+      "appetizing",
+      "energetic",
+      "tasty",
+      "authentic",
+      "casual"
+    ],
+    "composition_style": "centered product shot with appetizing food image and branding elements",
+    "textures": [
+      "smooth",
+      "glossy",
+      "crispy",
+      "soft",
+      "shiny"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 8.617
+}

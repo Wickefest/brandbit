@@ -1,0 +1,39 @@
+{
+  "provider": "deepseek",
+  "source_visual": "eval\\comparison\\vlm\\qwen\\15.json",
+  "image": "15.jpg",
+  "raw_text": "{\n  \"brand_item\": \"iced tea bottle\",\n  \"mood\": [\"refreshing\", \"invigorating\", \"tropical crispness\"],\n  \"energy\": \"high\",\n  \"color_temperature\": \"warm\",\n  \"texture\": [\"glassy\", \"condensed\", \"smooth\"],\n  \"visual_style\": [\"centered product shot\", \"minimalist contrast\", \"vibrant illustration\"],\n  \"sensory_metaphors\": [\"sunlit citrus peel\", \"morning dew on petals\", \"crackling ice\"],\n  \"narrative\": \"This iced tea bottle radiates vibrant warmth with its amber hues and crisp condensation, evoking a sun-drenched escape. The jasmine flower illustration and glassy surface suggest a balance between lush botanicals and pure refreshment. Every detail speaks of liquid vitality, as if capturing the moment ice meets golden tea.\"\n}",
+  "error": null,
+  "brand_aesthetic_descriptor": {
+    "brand_item": "iced tea bottle",
+    "mood": [
+      "refreshing",
+      "invigorating",
+      "tropical crispness"
+    ],
+    "energy": "high",
+    "color_temperature": "warm",
+    "texture": [
+      "glassy",
+      "condensed",
+      "smooth"
+    ],
+    "visual_style": [
+      "centered product shot",
+      "minimalist contrast",
+      "vibrant illustration"
+    ],
+    "sensory_metaphors": [
+      "sunlit citrus peel",
+      "morning dew on petals",
+      "crackling ice"
+    ],
+    "narrative": "This iced tea bottle radiates vibrant warmth with its amber hues and crisp condensation, evoking a sun-drenched escape. The jasmine flower illustration and glassy surface suggest a balance between lush botanicals and pure refreshment. Every detail speaks of liquid vitality, as if capturing the moment ice meets golden tea."
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null
+  }
+}

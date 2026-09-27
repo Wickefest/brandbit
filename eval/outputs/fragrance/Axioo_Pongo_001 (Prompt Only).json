@@ -1,0 +1,96 @@
+{
+  "top_notes": [
+    "1-sulfanyl-2-hexanol #",
+    "menthone-8-thioacetate",
+    "diosphenol"
+  ],
+  "heart_notes": [
+    "delta-damascone",
+    "labienoxime",
+    "4-methyl-3-sulfanylpentan-2-one"
+  ],
+  "base_notes": [
+    "4-methoxy-2-methyl-2-butanethiol",
+    "p-mentha-8-thiol-3-one",
+    "2,4,6-trimethyl-1,3,5-trithiane"
+  ],
+  "dominant_accords": [
+    "dark berry voltage",
+    "sulfurous metal heat",
+    "frozen mint exhaust",
+    "electric currant surge",
+    "matte black musk"
+  ],
+  "intensity_profile": "bold",
+  "emotional_descriptors": [
+    "relentless",
+    "piercing",
+    "hyper-focused",
+    "uncompromising",
+    "future-forged"
+  ],
+  "smell_signature": "This opens like cracking open a sealed chamber of liquid nitrogen and crushed blackcurrants—an icy, sulfurous snap that hits like a cooling fan spooling to maximum RPM. The heart pulses with dark rose-berry voltage, as if floral data streams through overheated copper. The dry-down settles into something almost animal: tropical skunk heat, burnt rubber sweetness, and the metallic hum of a machine that never sleeps. Think of a limited-edition energy drink left in a server room, or the scent cloud from a high-end gaming rig pushed to thermal limits.",
+  "note_guide": [
+    {
+      "smells_like": "sulfurous, grapefruit",
+      "chemical_name": "1-sulfanyl-2-hexanol #",
+      "ingredient": "1-sulfanyl-2-hexanol #"
+    },
+    {
+      "smells_like": "currant bud black currant bud, herbal",
+      "chemical_name": "menthone-8-thioacetate",
+      "ingredient": "menthone-8-thioacetate"
+    },
+    {
+      "smells_like": "currant bud black currant bud, cornmint",
+      "chemical_name": "diosphenol",
+      "ingredient": "diosphenol"
+    },
+    {
+      "smells_like": "currant bud black currant bud, natural",
+      "chemical_name": "delta-damascone",
+      "ingredient": "delta-damascone"
+    },
+    {
+      "smells_like": "currant bud black currant bud, herbal",
+      "chemical_name": "labienoxime",
+      "ingredient": "labienoxime"
+    },
+    {
+      "smells_like": "currant black currant, berry",
+      "chemical_name": "4-methyl-3-sulfanylpentan-2-one",
+      "ingredient": "4-methyl-3-sulfanylpentan-2-one"
+    },
+    {
+      "smells_like": "sulfurous, mango",
+      "chemical_name": "4-methoxy-2-methyl-2-butanethiol",
+      "ingredient": "4-methoxy-2-methyl-2-butanethiol"
+    },
+    {
+      "smells_like": "sulfurous, berry",
+      "chemical_name": "p-mentha-8-thiol-3-one",
+      "ingredient": "p-mentha-8-thiol-3-one"
+    },
+    {
+      "smells_like": "onion, sulfurous",
+      "chemical_name": "2,4,6-trimethyl-1,3,5-trithiane",
+      "ingredient": "2,4,6-trimethyl-1,3,5-trithiane"
+    }
+  ],
+  "grounded_notes": [
+    "1-sulfanyl-2-hexanol #",
+    "menthone-8-thioacetate",
+    "diosphenol",
+    "delta-damascone",
+    "labienoxime",
+    "4-methyl-3-sulfanylpentan-2-one",
+    "4-methoxy-2-methyl-2-butanethiol",
+    "p-mentha-8-thiol-3-one",
+    "2,4,6-trimethyl-1,3,5-trithiane"
+  ],
+  "pyrfume_sources": [
+    "goodscents",
+    "ifra_2019",
+    "leffingwell"
+  ]
+}

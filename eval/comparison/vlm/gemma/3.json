@@ -1,0 +1,44 @@
+{
+  "provider": "gemma",
+  "image": "3.jpg",
+  "visual_analysis": {
+    "primary_subject": "gaming laptop",
+    "dominant_colours": [
+      "glossy black",
+      "crimson red",
+      "dark grey",
+      "silver",
+      "charcoal"
+    ],
+    "objects": [
+      "keyboard",
+      "screen",
+      "logo",
+      "cooling vents",
+      "touchpad",
+      "power button",
+      "speaker grille"
+    ],
+    "mood_indicators": [
+      "powerful",
+      "modern",
+      "aggressive",
+      "high-tech"
+    ],
+    "composition_style": "symmetrical product shot",
+    "textures": [
+      "glossy",
+      "smooth",
+      "metallic",
+      "plastic"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 9.19
+}

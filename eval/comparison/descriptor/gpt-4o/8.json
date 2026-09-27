@@ -1,0 +1,35 @@
+{
+  "provider": "gpt-4o",
+  "source_visual": "eval\\comparison\\vlm\\qwen\\8.json",
+  "image": "8.jpg",
+  "raw_text": "{\n  \"brand_item\": \"t-shirt\",\n  \"mood\": [\"elegant serenity\", \"vibrant tradition\"],\n  \"energy\": \"moderate\",\n  \"color_temperature\": \"cool\",\n  \"texture\": [\"smooth\", \"soft fabric\"],\n  \"visual_style\": [\"graphic print\", \"centered composition\"],\n  \"sensory_metaphors\": [\"cherry blossom breeze\", \"sunlit calm\"],\n  \"narrative\": \"This t-shirt embodies a harmonious blend of elegance and tradition, with a serene yet vibrant presence. The graphic print featuring cherry blossoms and birds against a navy blue backdrop evokes a sense of tranquil beauty and timeless style.\"\n}",
+  "error": null,
+  "brand_aesthetic_descriptor": {
+    "brand_item": "t-shirt",
+    "mood": [
+      "elegant serenity",
+      "vibrant tradition"
+    ],
+    "energy": "moderate",
+    "color_temperature": "cool",
+    "texture": [
+      "smooth",
+      "soft fabric"
+    ],
+    "visual_style": [
+      "graphic print",
+      "centered composition"
+    ],
+    "sensory_metaphors": [
+      "cherry blossom breeze",
+      "sunlit calm"
+    ],
+    "narrative": "This t-shirt embodies a harmonious blend of elegance and tradition, with a serene yet vibrant presence. The graphic print featuring cherry blossoms and birds against a navy blue backdrop evokes a sense of tranquil beauty and timeless style."
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null
+  }
+}

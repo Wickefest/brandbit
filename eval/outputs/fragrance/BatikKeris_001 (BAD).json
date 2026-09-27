@@ -1,0 +1,103 @@
+{
+  "top_notes": [
+    "citronitrile",
+    "3,7-dimethyloctanenitrile",
+    "3,7-dimethylnona-2,6-dienenitrile"
+  ],
+  "heart_notes": [
+    "dihydrofarnesol",
+    "diphenylmethane",
+    "rosyrane",
+    "1-methyl-4-phenoxybenzene"
+  ],
+  "base_notes": [
+    "benzophenone",
+    "diphenyl ether",
+    "2,2'-(1,2-ethylenediyl)bis(furan)"
+  ],
+  "dominant_accords": [
+    "golden citrus sparkle",
+    "refined floral elegance",
+    "warm metallic sophistication",
+    "structured woody warmth",
+    "timeless cultured depth"
+  ],
+  "intensity_profile": "moderate",
+  "emotional_descriptors": [
+    "poised",
+    "distinguished",
+    "composed",
+    "luminous",
+    "enduring"
+  ],
+  "smell_signature": "Combined together, these ingredients will smell like a bright, polished citrus opening that feels like sunlight catching on gold thread, slowly revealing a heart of velvety, understated florals with a cool metallic sheen. The dry-down settles into a warm, quietly smoldering resin-wood warmth that lingers close to the skin like the soft weight of fine batik against your shoulders. Think of an evening reception in a colonial courtyard, where torches flicker and the air carries the polished elegance of someone who needs no introduction.",
+  "note_guide": [
+    {
+      "smells_like": "metallic, aldehydic",
+      "chemical_name": "citronitrile",
+      "ingredient": "citronitrile"
+    },
+    {
+      "smells_like": "metallic, aldehydic",
+      "chemical_name": "3,7-dimethyloctanenitrile",
+      "ingredient": "3,7-dimethyloctanenitrile"
+    },
+    {
+      "smells_like": "lemon, metallic",
+      "chemical_name": "3,7-dimethylnona-2,6-dienenitrile",
+      "ingredient": "3,7-dimethylnona-2,6-dienenitrile"
+    },
+    {
+      "smells_like": "metallic, cyclamen",
+      "chemical_name": "dihydrofarnesol",
+      "ingredient": "dihydrofarnesol"
+    },
+    {
+      "smells_like": "plastic, wet",
+      "chemical_name": "diphenylmethane",
+      "ingredient": "diphenylmethane"
+    },
+    {
+      "smells_like": "metallic, rose",
+      "chemical_name": "rosyrane",
+      "ingredient": "rosyrane"
+    },
+    {
+      "smells_like": "narcissus, rose",
+      "chemical_name": "1-methyl-4-phenoxybenzene",
+      "ingredient": "1-methyl-4-phenoxybenzene"
+    },
+    {
+      "smells_like": "metallic, rose",
+      "chemical_name": "benzophenone",
+      "ingredient": "benzophenone"
+    },
+    {
+      "smells_like": "geranium, phenolic",
+      "chemical_name": "diphenyl ether",
+      "ingredient": "diphenyl ether"
+    },
+    {
+      "smells_like": "burnt, roasted",
+      "chemical_name": "2,2'-(1,2-ethylenediyl)bis(furan)",
+      "ingredient": "2,2'-(1,2-ethylenediyl)bis(furan)"
+    }
+  ],
+  "grounded_notes": [
+    "citronitrile",
+    "3,7-dimethyloctanenitrile",
+    "3,7-dimethylnona-2,6-dienenitrile",
+    "dihydrofarnesol",
+    "diphenylmethane",
+    "rosyrane",
+    "1-methyl-4-phenoxybenzene",
+    "benzophenone",
+    "diphenyl ether",
+    "2,2'-(1,2-ethylenediyl)bis(furan)"
+  ],
+  "pyrfume_sources": [
+    "goodscents",
+    "ifra_2019",
+    "leffingwell"
+  ]
+}

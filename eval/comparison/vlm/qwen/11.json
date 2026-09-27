@@ -1,0 +1,40 @@
+{
+  "provider": "qwen",
+  "image": "11.png",
+  "visual_analysis": {
+    "primary_subject": "wooden wristwatch",
+    "dominant_colours": [
+      "light wood",
+      "brown leather",
+      "off-white",
+      "black"
+    ],
+    "objects": [
+      "wooden pedestal",
+      "dried grass",
+      "watch strap",
+      "watch face"
+    ],
+    "mood_indicators": [
+      "rustic",
+      "artisanal",
+      "warm",
+      "minimalist"
+    ],
+    "composition_style": "centered product shot with shallow depth of field",
+    "textures": [
+      "wood grain",
+      "leather",
+      "smooth",
+      "etched"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 6.493
+}

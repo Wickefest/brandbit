@@ -1,0 +1,59 @@
+{
+  "case_id": "R07",
+  "bad_id": "4",
+  "feedback": "make it better",
+  "expected_behavior": "clarify",
+  "notes": "Vague quality request should ask for clarification.",
+  "interpret_run_ok": true,
+  "interpret_parse_ok": true,
+  "interpret_schema_ok": true,
+  "success": false,
+  "clarification_request": "Could you please specify which aspects of the brand aesthetic you would like to improve or what changes you have in mind?",
+  "changed_fields": [],
+  "n_fields_changed": 0,
+  "target_modality": null,
+  "change_reason": "",
+  "previous_energy": "moderate",
+  "updated_energy": "",
+  "previous_color_temperature": "warm",
+  "updated_color_temperature": "",
+  "previous_mood": [
+    "elegant",
+    "confident",
+    "traditional",
+    "refined"
+  ],
+  "updated_mood": [],
+  "no_leak": true,
+  "correct_decision": 1,
+  "check_reason": "Clarified without mutation.",
+  "interpret_latency_ms": 1741,
+  "error": "",
+  "previous_bad": {
+    "brand_item": "batik shirt",
+    "mood": [
+      "elegant",
+      "confident",
+      "traditional",
+      "refined"
+    ],
+    "energy": "moderate",
+    "color_temperature": "warm",
+    "texture": [
+      "woven",
+      "embroidered",
+      "smooth fabric",
+      "structured weave"
+    ],
+    "visual_style": [
+      "three-quarter portrait",
+      "angled pose"
+    ],
+    "sensory_metaphors": [
+      "woven elegance",
+      "golden tradition"
+    ],
+    "narrative": "The batik shirt exudes an aura of elegance and confidence, blending traditional motifs with refined craftsmanship. Its warm color palette and intricate textures create a sense of timeless sophistication, inviting admiration and respect."
+  },
+  "updated_bad": null
+}

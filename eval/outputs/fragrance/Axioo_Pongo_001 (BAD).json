@@ -1,0 +1,96 @@
+{
+  "top_notes": [
+    "1-hexen-3-one",
+    "p-mentha-8-thiol-3-one",
+    "diosphenol"
+  ],
+  "heart_notes": [
+    "biphenyl",
+    "rosyrane",
+    "dihydrofarnesol"
+  ],
+  "base_notes": [
+    "diphenylmethane",
+    "nerylacetone",
+    "delta-damascone"
+  ],
+  "dominant_accords": [
+    "metallic green",
+    "sulfurous fruit",
+    "electric rose",
+    "dark plastic",
+    "cool steel"
+  ],
+  "intensity_profile": "bold",
+  "emotional_descriptors": [
+    "aggressive",
+    "charged",
+    "futuristic",
+    "uncompromising",
+    "adrenaline-fueled"
+  ],
+  "smell_signature": "Combined together, these ingredients will smell like a metallic green, sulfurous fruit, electric rose blend that opens with vegetable, cooked with sulfurous, berry and dries down into currant bud black currant bud, cornmint. Think of a bold-intensity scent concept a creative team could brief to a perfumer — evocative, wearable, and brand-led.",
+  "note_guide": [
+    {
+      "smells_like": "vegetable, cooked",
+      "chemical_name": "1-hexen-3-one",
+      "ingredient": "1-hexen-3-one"
+    },
+    {
+      "smells_like": "sulfurous, berry",
+      "chemical_name": "p-mentha-8-thiol-3-one",
+      "ingredient": "p-mentha-8-thiol-3-one"
+    },
+    {
+      "smells_like": "currant bud black currant bud, cornmint",
+      "chemical_name": "diosphenol",
+      "ingredient": "diosphenol"
+    },
+    {
+      "smells_like": "rose, geranium",
+      "chemical_name": "biphenyl",
+      "ingredient": "biphenyl"
+    },
+    {
+      "smells_like": "metallic, rose",
+      "chemical_name": "rosyrane",
+      "ingredient": "rosyrane"
+    },
+    {
+      "smells_like": "metallic, cyclamen",
+      "chemical_name": "dihydrofarnesol",
+      "ingredient": "dihydrofarnesol"
+    },
+    {
+      "smells_like": "plastic, wet",
+      "chemical_name": "diphenylmethane",
+      "ingredient": "diphenylmethane"
+    },
+    {
+      "smells_like": "metallic, fatty",
+      "chemical_name": "nerylacetone",
+      "ingredient": "nerylacetone"
+    },
+    {
+      "smells_like": "currant bud black currant bud, natural",
+      "chemical_name": "delta-damascone",
+      "ingredient": "delta-damascone"
+    }
+  ],
+  "grounded_notes": [
+    "1-hexen-3-one",
+    "p-mentha-8-thiol-3-one",
+    "diosphenol",
+    "biphenyl",
+    "rosyrane",
+    "dihydrofarnesol",
+    "diphenylmethane",
+    "nerylacetone",
+    "delta-damascone"
+  ],
+  "pyrfume_sources": [
+    "goodscents",
+    "ifra_2019",
+    "leffingwell"
+  ]
+}

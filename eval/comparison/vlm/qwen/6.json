@@ -1,0 +1,36 @@
+{
+  "provider": "qwen",
+  "image": "6.jpg",
+  "visual_analysis": {
+    "primary_subject": "black chain shoulder bag",
+    "dominant_colours": [
+      "black",
+      "gold"
+    ],
+    "objects": [
+      "chain strap",
+      "white knit sweater",
+      "dark trousers",
+      "brand logo plaque"
+    ],
+    "mood_indicators": [
+      "elegant",
+      "minimalist",
+      "urban chic"
+    ],
+    "composition_style": "close-up product shot with partial body context",
+    "textures": [
+      "pebbled leather",
+      "metallic chain",
+      "knitted fabric"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 6.842
+}

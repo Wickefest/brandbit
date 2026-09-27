@@ -1,0 +1,36 @@
+{
+  "provider": "qwen",
+  "image": "16.jpg",
+  "visual_analysis": {
+    "primary_subject": "gold floral brooch",
+    "dominant_colours": [
+      "gold",
+      "pearl white"
+    ],
+    "objects": [
+      "pearl",
+      "metal mold",
+      "wooden surface"
+    ],
+    "mood_indicators": [
+      "elegant",
+      "artisanal",
+      "timeless"
+    ],
+    "composition_style": "close-up with shallow depth of field",
+    "textures": [
+      "metallic",
+      "smooth",
+      "rough",
+      "organic"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 5.582
+}

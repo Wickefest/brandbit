@@ -1,0 +1,12 @@
+{
+  "n_cases": 8,
+  "overall_correct_decision_rate": 1.0,
+  "directional_update_rate": 1.0,
+  "clarification_rate": 1.0,
+  "no_leak_rate": 1.0,
+  "interpret_run_success_rate": 1.0,
+  "interpret_parse_success_rate": 1.0,
+  "interpret_schema_success_rate": 1.0,
+  "median_interpret_latency_ms": 2029,
+  "scope": "interpret_and_refine only — frozen BADs, no specialist regen, no overwrite of eval/result execution records"
+}

@@ -1,0 +1,206 @@
+{
+  "execution_id": "Indomie_003",
+  "timestamp": "2026-09-11T14:08:06.969542Z",
+  "input_image_ref": "Indomie.jpg",
+  "brand_aesthetic_descriptor": {
+    "brand_item": "instant noodle package",
+    "mood": [
+      "appetizing",
+      "energetic",
+      "tasty",
+      "quick",
+      "comforting"
+    ],
+    "energy": "high",
+    "color_temperature": "warm",
+    "colours": [
+      "vibrant red",
+      "bright yellow",
+      "fresh green",
+      "crisp white",
+      "rich brown"
+    ],
+    "texture": [
+      "glossy",
+      "crispy",
+      "smooth",
+      "saturated",
+      "textured"
+    ],
+    "visual_style": [
+      "centered product shot with appetizing food arrangement",
+      "fork",
+      "fried egg",
+      "shrimp",
+      "tomato"
+    ],
+    "sensory_metaphors": [],
+    "narrative": "Direct image parse of instant noodle package. Colours: vibrant red, bright yellow, fresh green, crisp white, rich brown. Composition: centered product shot with appetizing food arrangement. Atmosphere: appetizing, energetic, tasty, quick, comforting. Surface cues: glossy, crispy, smooth, saturated, textured."
+  },
+  "fragrance_concept": {
+    "top_notes": [
+      "cis-3-hexenal",
+      "6-methylheptanal",
+      "myrac aldehyde 1",
+      "athylglykolsaurementhylester"
+    ],
+    "heart_notes": [
+      "2,5-dimethylthiophene",
+      "3,3-dimethoxyprop-1-enylbenzene",
+      "4-(1-methylethyl)cyclohexanemethanol",
+      "6-octenal, (6z)-"
+    ],
+    "base_notes": [
+      "2-cyclohexylpropanal",
+      "1,1-dimethoxydodecane",
+      "curcumenol"
+    ],
+    "dominant_accords": [
+      "fresh greens",
+      "warm spice",
+      "juicy citrus",
+      "savory comfort",
+      "clean brightness"
+    ],
+    "intensity_profile": "bold",
+    "emotional_descriptors": [
+      "invigorating",
+      "playful",
+      "nourishing",
+      "bright",
+      "satisfying"
+    ],
+    "smell_signature": "Combined together, these ingredients will smell like tearing open a vibrant instant noodle packet on a hungry afternoon—an explosive rush of fresh-cut greens and juicy orange brightness that fizzes with cooling energy, then settles into a warm, spiced comfort with hints of savory depth and smooth, satisfying richness. Think of a modern Asian street-food inspired body spray that captures the anticipation before the first bite: electric freshness melting into cozy, well-seasoned warmth.",
+    "note_guide": [
+      {
+        "smells_like": "fatty, weedy",
+        "chemical_name": "cis-3-hexenal",
+        "ingredient": "cis-3-hexenal"
+      },
+      {
+        "smells_like": "juicy, orange",
+        "chemical_name": "6-methylheptanal",
+        "ingredient": "6-methylheptanal"
+      },
+      {
+        "smells_like": "aldehydic, ozone",
+        "chemical_name": "myrac aldehyde 1",
+        "ingredient": "myrac aldehyde 1"
+      },
+      {
+        "smells_like": "cooling agent, refreshing",
+        "chemical_name": "athylglykolsaurementhylester",
+        "ingredient": "athylglykolsaurementhylester"
+      },
+      {
+        "smells_like": "nutty, sulfurous",
+        "chemical_name": "2,5-dimethylthiophene",
+        "ingredient": "2,5-dimethylthiophene"
+      },
+      {
+        "smells_like": "cinnamon, herbal",
+        "chemical_name": "3,3-dimethoxyprop-1-enylbenzene",
+        "ingredient": "3,3-dimethoxyprop-1-enylbenzene"
+      },
+      {
+        "smells_like": "magnolia, grassy",
+        "chemical_name": "4-(1-methylethyl)cyclohexanemethanol",
+        "ingredient": "4-(1-methylethyl)cyclohexanemethanol"
+      },
+      {
+        "smells_like": "melon, cucumber",
+        "chemical_name": "6-octenal, (6z)-",
+        "ingredient": "6-octenal, (6z)-"
+      },
+      {
+        "smells_like": "natural, dusty",
+        "chemical_name": "2-cyclohexylpropanal",
+        "ingredient": "2-cyclohexylpropanal"
+      },
+      {
+        "smells_like": "herbal, orchid",
+        "chemical_name": "1,1-dimethoxydodecane",
+        "ingredient": "1,1-dimethoxydodecane"
+      },
+      {
+        "smells_like": "fatty",
+        "chemical_name": "curcumenol",
+        "ingredient": "curcumenol"
+      }
+    ],
+    "grounded_notes": [
+      "cis-3-hexenal",
+      "6-methylheptanal",
+      "myrac aldehyde 1",
+      "athylglykolsaurementhylester",
+      "2,5-dimethylthiophene",
+      "3,3-dimethoxyprop-1-enylbenzene",
+      "4-(1-methylethyl)cyclohexanemethanol",
+      "6-octenal, (6z)-",
+      "2-cyclohexylpropanal",
+      "1,1-dimethoxydodecane",
+      "curcumenol"
+    ],
+    "pyrfume_sources": [
+      "goodscents",
+      "ifra_2019",
+      "leffingwell"
+    ]
+  },
+  "music_direction": {
+    "tempo": "uptempo",
+    "bpm": 126,
+    "timbre": [
+      "crisp nylon-string attack",
+      "bright brass stabs",
+      "sizzling high-frequency percussion",
+      "warm saturated midrange",
+      "bouncy rubber bass"
+    ],
+    "instrumentation": [
+      "taiko",
+      "shamisen",
+      "synthesized brass stabs",
+      "wooden clappers",
+      "sub-bass"
+    ],
+    "mood": "satisfying",
+    "style": "japanese-street-bounce",
+    "music_signature": "This is the sound of a bustling Tokyo yatai at golden hour: the sizzle of a hot grill, the percussive chop of noodles, the satisfying thud of a bowl set before you. At 126 BPM, a driving taiko pulse locks into wooden clapper triplets, while shamisen plucks mimic the snap of fresh noodles pulled from boiling water. Synthesized brass stabs punctuate the downbeats like the bright red and yellow packaging catching streetlight, and a rubbery sub-bass bounces underneath with the comfort of a full stomach. The arrangement builds from a single clapper rhythm into layered taiko rolls and shamisen melodies, never dropping the pulse—quick as tearing open a packet, satisfying as the first slurp. Production stays glossy and saturated, with crisp transients on every hit and a compressed, forward midrange that feels immediate and appetizing, never distant or ambient.",
+    "audio_sample_ref": "/api/audio/Indomie_003"
+  },
+  "audio_sample_ref": "/api/audio/Indomie_003",
+  "rationale": "## Visual to Descriptor\n\nThe instant noodle package presents a centered product shot with appetizing food arrangement that immediately establishes its purpose as quick, satisfying nourishment. The colour_temperature of warm is directly produced by the dominant presence of vibrant red and bright yellow, which trigger appetite and urgency in equal measure. The energy reads as high because of the saturated, glossy surface cues and the dynamic composition featuring elements like fork, fried egg, shrimp, and tomato that suggest movement and imminent consumption. These visual choices map directly to the mood array, where appetizing, energetic, tasty, quick, and comforting are all reinforced by the crisp white background that keeps the focus tight and the rich brown tones that ground the image in savory expectation.\n\n## Descriptor to Fragrance\n\nThe mood values of appetizing and energetic guided the selection of top_notes that burst forth with immediate impact, particularly the cis-3-hexenal with its fatty, weedy character that mirrors the fresh green colour on the package. The energy value of high translated into an intensity_profile of bold, ensuring the fragrance announces itself with the same immediacy as the glossy, saturated visual surface. The comforting element from the mood array steered the base toward warm spice and savory comfort accords, with 3,3-dimethoxyprop-1-enylbenzene delivering cinnamon, herbal depth that echoes the rich brown tones and the nourishing satisfaction of the product itself. The colour_temperature of warm further validated the heart_notes transition from cooling freshness into spiced, well-seasoned warmth.\n\n## Descriptor to Music\n\nThe tempo of uptempo at 126 BPM directly translates the energy value of high into physical momentum, creating a pulse that matches the quick preparation promise of the product. The mood array value of energetic shaped the timbre choices toward crisp nylon-string attack and sizzling high-frequency percussion, sounds that cut through with the same immediacy as the vibrant red and bright yellow packaging. The comforting and appetizing qualities from the mood array guided the inclusion of warm saturated midrange and bouncy rubber bass, which provide the sonic equivalent of a satisfying meal without sacrificing drive. The style of japanese-street-bounce emerged from the intersection of energy and the visual_style cues, translating the bustling, saturated world of the package into a soundscape where taiko and shamisen ground the track in authentic texture while synthesized brass stabs punctuate like the product shot catching consumer attention.",
+  "congruence_report": {
+    "automated_proxies": {
+      "clip_score_image_fragrance_text": 0.3771,
+      "clip_score_image_music_text": 0.386,
+      "imagebind_score_image_audio": null
+    },
+    "descriptor_consistency": {
+      "fragrance_aligns_descriptor": true,
+      "music_aligns_descriptor": true,
+      "details": "The fragrance concept excellently matches the BAD with its bold intensity profile, warm spice and fresh greens accords aligning with the high energy and warm color temperature. Emotional descriptors like 'invigorating' and 'playful' fit the 'energetic' and 'appetizing' mood. The music direction also aligns perfectly with the BAD, featuring an uptempo rhythm matching the high energy, and instrumentation like taiko and shamisen that fit the brand_item's context. The mood 'satisfying' and style 'japanese-street-bounce' complement the narrative and visual style.",
+      "fragrance_score": 5,
+      "music_score": 5,
+      "fragrance_issues": [],
+      "music_issues": []
+    },
+    "human_ratings": null,
+    "summary": "Both fragrance and music directions are excellent, independent translations of the brand identity, with no major violations and strong alignment across all rubric categories.",
+    "attempts": [
+      {
+        "attempt": 1,
+        "fragrance_aligns_descriptor": true,
+        "music_aligns_descriptor": true,
+        "details": "The fragrance concept excellently matches the BAD with its bold intensity profile, warm spice and fresh greens accords aligning with the high energy and warm color temperature. Emotional descriptors like 'invigorating' and 'playful' fit the 'energetic' and 'appetizing' mood. The music direction also aligns perfectly with the BAD, featuring an uptempo rhythm matching the high energy, and instrumentation like taiko and shamisen that fit the brand_item's context. The mood 'satisfying' and style 'japanese-street-bounce' complement the narrative and visual style.",
+        "summary": "Both fragrance and music directions are excellent, independent translations of the brand identity, with no major violations and strong alignment across all rubric categories.",
+        "regenerated": []
+      }
+    ],
+    "regen_count": 0,
+    "accepted": true
+  },
+  "mode": "prompt_only",
+  "refinement_history": []
+}

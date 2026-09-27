@@ -1,0 +1,34 @@
+{
+  "provider": "kimi",
+  "image": "7.jpg",
+  "visual_analysis": {
+    "primary_subject": "black windbreaker jacket",
+    "dominant_colours": [
+      "black",
+      "white"
+    ],
+    "objects": [
+      "logo",
+      "zipper",
+      "pocket",
+      "collar"
+    ],
+    "mood_indicators": [
+      "neutral",
+      "practical"
+    ],
+    "composition_style": "centered product display",
+    "textures": [
+      "smooth",
+      "synthetic"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 2.136
+}

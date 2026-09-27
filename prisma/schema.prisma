@@ -1,0 +1,148 @@
+// Brandbit evaluation schema prisma
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum ProfileRole {
+  admin
+  participant
+}
+
+enum EvaluationStatus {
+  draft
+  active
+  closed
+}
+
+/// App profile. Auth identity is auth.users (Supabase Auth).
+model Profile {
+  id                   String      @id @db.Uuid
+  role                 ProfileRole @default(participant)
+  experiencePerfumery  Boolean?    @map("experience_perfumery")
+  experienceMusic      Boolean?    @map("experience_music")
+  experienceDesign     Boolean?    @map("experience_design")
+  consentedAt          DateTime?   @map("consented_at") @db.Timestamptz(6)
+  consentVersion       String?     @map("consent_version") @db.Text
+  generationCount      Int         @default(0) @map("generation_count")
+  createdAt            DateTime    @default(now()) @map("created_at") @db.Timestamptz(6)
+
+  createdEvaluations Evaluation[]         @relation("EvaluationCreatedBy")
+  responses          EvaluationResponse[]
+  libraryEntries     LibraryEntry[]
+  libraryRatings     LibraryRating[]
+
+  @@map("profiles")
+}
+
+/// Legacy study tables (kept for old data). Friend rating now uses library_ratings.
+model Evaluation {
+  id        String           @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  name      String           @db.Text
+  status    EvaluationStatus @default(draft)
+  createdBy String           @map("created_by") @db.Uuid
+  createdAt DateTime         @default(now()) @map("created_at") @db.Timestamptz(6)
+
+  creator Profile          @relation("EvaluationCreatedBy", fields: [createdBy], references: [id], onDelete: Restrict)
+  items   EvaluationItem[]
+
+  @@index([createdBy])
+  @@index([status])
+  @@map("evaluations")
+}
+
+model EvaluationItem {
+  id                 String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  evaluationId       String    @map("evaluation_id") @db.Uuid
+  displayOrder       Int       @map("display_order")
+  imageUrl           String    @map("image_url") @db.Text
+  executionId        String    @map("execution_id") @db.Text
+  executionTimestamp DateTime? @map("execution_timestamp") @db.Timestamptz(6)
+  generatedOutput    Json      @map("generated_output")
+  createdAt          DateTime  @default(now()) @map("created_at") @db.Timestamptz(6)
+
+  evaluation Evaluation           @relation(fields: [evaluationId], references: [id], onDelete: Cascade)
+  responses  EvaluationResponse[]
+
+  @@unique([evaluationId, displayOrder])
+  @@unique([evaluationId, executionId])
+  @@index([evaluationId])
+  @@map("evaluation_items")
+}
+
+model EvaluationResponse {
+  id                   String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  evaluationItemId     String   @map("evaluation_item_id") @db.Uuid
+  participantId        String   @map("participant_id") @db.Uuid
+  descriptorAccuracy   Int      @map("descriptor_accuracy") @db.SmallInt
+  brandCoherence       Int      @map("brand_coherence") @db.SmallInt
+  fragranceAlignment   Int      @map("fragrance_alignment") @db.SmallInt
+  musicAlignment       Int      @map("music_alignment") @db.SmallInt
+  crossModalCongruence Int      @map("cross_modal_congruence") @db.SmallInt
+  creativity           Int      @db.SmallInt
+  ideationUsefulness   Int      @map("ideation_usefulness") @db.SmallInt
+  overallQuality       Int      @map("overall_quality") @db.SmallInt
+  comments             String?  @db.Text
+  submittedAt          DateTime @default(now()) @map("submitted_at") @db.Timestamptz(6)
+
+  item        EvaluationItem @relation(fields: [evaluationItemId], references: [id], onDelete: Cascade)
+  participant Profile        @relation(fields: [participantId], references: [id], onDelete: Cascade)
+
+  @@unique([participantId, evaluationItemId])
+  @@index([evaluationItemId])
+  @@index([participantId])
+  @@map("evaluation_responses")
+}
+
+/// Personal archive (max 5) or admin shared study stimulus (max 10 shared).
+model LibraryEntry {
+  id              String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  userId          String   @map("user_id") @db.Uuid
+  executionId     String   @map("execution_id") @db.Text
+  title           String   @db.Text
+  summary         String   @db.Text
+  mode            String?  @db.Text
+  imageUrl        String?  @map("image_url") @db.Text
+  generatedOutput Json     @map("generated_output")
+  isShared        Boolean  @default(false) @map("is_shared")
+  savedAt         DateTime @default(now()) @map("saved_at") @db.Timestamptz(6)
+  viewedAt        DateTime @default(now()) @map("viewed_at") @db.Timestamptz(6)
+
+  user    Profile         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  ratings LibraryRating[]
+
+  @@unique([userId, executionId])
+  @@index([userId, viewedAt(sort: Desc)])
+  @@index([userId, savedAt(sort: Desc)])
+  @@map("library_entries")
+}
+
+/// One participant rating of one shared library stimulus. Likert 1–5.
+model LibraryRating {
+  id                   String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  libraryEntryId       String   @map("library_entry_id") @db.Uuid
+  participantId        String   @map("participant_id") @db.Uuid
+  descriptorAccuracy   Int      @map("descriptor_accuracy") @db.SmallInt
+  brandCoherence       Int      @map("brand_coherence") @db.SmallInt
+  fragranceAlignment   Int      @map("fragrance_alignment") @db.SmallInt
+  musicAlignment       Int      @map("music_alignment") @db.SmallInt
+  crossModalCongruence Int      @map("cross_modal_congruence") @db.SmallInt
+  creativity           Int      @db.SmallInt
+  ideationUsefulness   Int      @map("ideation_usefulness") @db.SmallInt
+  overallQuality       Int      @map("overall_quality") @db.SmallInt
+  comments             String?  @db.Text
+  submittedAt          DateTime @default(now()) @map("submitted_at") @db.Timestamptz(6)
+
+  entry       LibraryEntry @relation(fields: [libraryEntryId], references: [id], onDelete: Cascade)
+  participant Profile      @relation(fields: [participantId], references: [id], onDelete: Cascade)
+
+  @@unique([participantId, libraryEntryId])
+  @@index([libraryEntryId])
+  @@index([participantId])
+  @@map("library_ratings")
+}

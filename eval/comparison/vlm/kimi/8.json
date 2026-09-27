@@ -1,0 +1,35 @@
+{
+  "provider": "kimi",
+  "image": "8.jpg",
+  "visual_analysis": {
+    "primary_subject": "navy blue t-shirt",
+    "dominant_colours": [
+      "navy blue",
+      "white",
+      "red",
+      "green"
+    ],
+    "objects": [
+      "cherry blossoms",
+      "red circle",
+      "Japanese text"
+    ],
+    "mood_indicators": [
+      "casual",
+      "cultural"
+    ],
+    "composition_style": "central graphic with text",
+    "textures": [
+      "smooth",
+      "flat"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 2.046
+}

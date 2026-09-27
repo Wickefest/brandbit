@@ -1,0 +1,85 @@
+{
+  "top_notes": [
+    "carvyl propionate",
+    "ethyl 2-ethoxybenzoate"
+  ],
+  "heart_notes": [
+    "lavandulol",
+    "vanillyl butyl ether",
+    "benzyl eugenol"
+  ],
+  "base_notes": [
+    "7,9-cyclohexadecadien-1-one",
+    "myristicin",
+    "2-methoxy-4-(4-methyl-1,3-dioxolan-2-yl)phenol"
+  ],
+  "dominant_accords": [
+    "warm floral",
+    "spicy",
+    "vanilla"
+  ],
+  "intensity_profile": "moderate",
+  "emotional_descriptors": [
+    "elegant",
+    "confident",
+    "refined"
+  ],
+  "smell_signature": "This fragrance opens with a fresh, warm minty and floral scent, transitioning into a heart of spicy rose and sweet vanilla. The dry-down is a comforting blend of musk and warm spices, reminiscent of a luxurious, traditional spa product with a modern twist.",
+  "note_guide": [
+    {
+      "smells_like": "mint, warm minty",
+      "chemical_name": "carvyl propionate",
+      "ingredient": "carvyl propionate"
+    },
+    {
+      "smells_like": "warm-floral",
+      "chemical_name": "ethyl 2-ethoxybenzoate",
+      "ingredient": "ethyl 2-ethoxybenzoate"
+    },
+    {
+      "smells_like": "rose, citrus",
+      "chemical_name": "lavandulol",
+      "ingredient": "lavandulol"
+    },
+    {
+      "smells_like": "vanilla, pungent",
+      "chemical_name": "vanillyl butyl ether",
+      "ingredient": "vanillyl butyl ether"
+    },
+    {
+      "smells_like": "hay, mild",
+      "chemical_name": "benzyl eugenol",
+      "ingredient": "benzyl eugenol"
+    },
+    {
+      "smells_like": "powdery, musk",
+      "chemical_name": "7,9-cyclohexadecadien-1-one",
+      "ingredient": "7,9-cyclohexadecadien-1-one"
+    },
+    {
+      "smells_like": "nutmeg",
+      "chemical_name": "myristicin",
+      "ingredient": "myristicin"
+    },
+    {
+      "smells_like": "vanilla, cocoa",
+      "chemical_name": "2-methoxy-4-(4-methyl-1,3-dioxolan-2-yl)phenol",
+      "ingredient": "2-methoxy-4-(4-methyl-1,3-dioxolan-2-yl)phenol"
+    }
+  ],
+  "grounded_notes": [
+    "carvyl propionate",
+    "ethyl 2-ethoxybenzoate",
+    "lavandulol",
+    "vanillyl butyl ether",
+    "benzyl eugenol",
+    "7,9-cyclohexadecadien-1-one",
+    "myristicin",
+    "2-methoxy-4-(4-methyl-1,3-dioxolan-2-yl)phenol"
+  ],
+  "pyrfume_sources": [
+    "goodscents",
+    "ifra_2019",
+    "leffingwell"
+  ]
+}

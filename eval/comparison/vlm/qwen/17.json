@@ -1,0 +1,36 @@
+{
+  "provider": "qwen",
+  "image": "17.png",
+  "visual_analysis": {
+    "primary_subject": "compact cushion foundation",
+    "dominant_colours": [
+      "mint green",
+      "beige",
+      "light brown"
+    ],
+    "objects": [
+      "cushion applicator",
+      "product lid",
+      "brand name text"
+    ],
+    "mood_indicators": [
+      "clean",
+      "fresh",
+      "minimalist"
+    ],
+    "composition_style": "isolated product shot with negative space",
+    "textures": [
+      "matte",
+      "soft",
+      "powdery"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 5.394
+}

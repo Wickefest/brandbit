@@ -1,0 +1,41 @@
+{
+  "provider": "kimi",
+  "source_visual": "eval\\comparison\\vlm\\qwen\\4.json",
+  "image": "4.jpg",
+  "raw_text": "{\n  \"brand_item\": \"batik shirt\",\n  \"mood\": [\"elegant\", \"confident\", \"traditional\", \"refined\"],\n  \"energy\": \"moderate\",\n  \"color_temperature\": \"warm\",\n  \"texture\": [\"woven\", \"embroidered\", \"smooth fabric\", \"structured weave\"],\n  \"visual_style\": [\"three-quarter portrait\", \"angled pose\", \"luxurious\"],\n  \"sensory_metaphors\": [\"golden sunset\", \"velvet dusk\", \"rich tapestry\"],\n  \"narrative\": \"The batik shirt exudes an air of elegance and confidence, embodying traditional craftsmanship with a refined touch. Its warm color palette and intricate patterns create a luxurious visual experience, reminiscent of a golden sunset or a rich tapestry, as it drapes effortlessly over the wearer.\"\n}",
+  "error": null,
+  "brand_aesthetic_descriptor": {
+    "brand_item": "batik shirt",
+    "mood": [
+      "elegant",
+      "confident",
+      "traditional",
+      "refined"
+    ],
+    "energy": "moderate",
+    "color_temperature": "warm",
+    "texture": [
+      "woven",
+      "embroidered",
+      "smooth fabric",
+      "structured weave"
+    ],
+    "visual_style": [
+      "three-quarter portrait",
+      "angled pose",
+      "luxurious"
+    ],
+    "sensory_metaphors": [
+      "golden sunset",
+      "velvet dusk",
+      "rich tapestry"
+    ],
+    "narrative": "The batik shirt exudes an air of elegance and confidence, embodying traditional craftsmanship with a refined touch. Its warm color palette and intricate patterns create a luxurious visual experience, reminiscent of a golden sunset or a rich tapestry, as it drapes effortlessly over the wearer."
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null
+  }
+}

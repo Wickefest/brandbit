@@ -1,0 +1,37 @@
+{
+  "provider": "gpt-4o",
+  "source_visual": "eval\\comparison\\vlm\\qwen\\10.json",
+  "image": "10.jpg",
+  "raw_text": "{\n  \"brand_item\": \"iced coffee drink\",\n  \"mood\": [\"cozy\", \"nostalgic\", \"inviting\", \"warm\"],\n  \"energy\": \"moderate\",\n  \"color_temperature\": \"warm\",\n  \"texture\": [\"smooth\", \"grainy\"],\n  \"visual_style\": [\"centered composition\", \"shallow depth of field\"],\n  \"sensory_metaphors\": [\"amber glow\", \"creamy comfort\"],\n  \"narrative\": \"The iced coffee drink exudes a cozy and inviting warmth, reminiscent of nostalgic moments. Its smooth and grainy textures, combined with a warm color palette, create an inviting atmosphere that feels both comforting and refreshing.\"\n}",
+  "error": null,
+  "brand_aesthetic_descriptor": {
+    "brand_item": "iced coffee drink",
+    "mood": [
+      "cozy",
+      "nostalgic",
+      "inviting",
+      "warm"
+    ],
+    "energy": "moderate",
+    "color_temperature": "warm",
+    "texture": [
+      "smooth",
+      "grainy"
+    ],
+    "visual_style": [
+      "centered composition",
+      "shallow depth of field"
+    ],
+    "sensory_metaphors": [
+      "amber glow",
+      "creamy comfort"
+    ],
+    "narrative": "The iced coffee drink exudes a cozy and inviting warmth, reminiscent of nostalgic moments. Its smooth and grainy textures, combined with a warm color palette, create an inviting atmosphere that feels both comforting and refreshing."
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null
+  }
+}

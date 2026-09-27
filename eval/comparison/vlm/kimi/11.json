@@ -1,0 +1,39 @@
+{
+  "provider": "kimi",
+  "image": "11.png",
+  "visual_analysis": {
+    "primary_subject": "wristwatch",
+    "dominant_colours": [
+      "white",
+      "tan",
+      "brown",
+      "red",
+      "blue"
+    ],
+    "objects": [
+      "leather strap",
+      "wooden block",
+      "feather"
+    ],
+    "mood_indicators": [
+      "sophisticated",
+      "elegant",
+      "minimalist"
+    ],
+    "composition_style": "asymmetrical, balanced",
+    "textures": [
+      "smooth",
+      "matte",
+      "leathery",
+      "wooden grain"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 2.294
+}

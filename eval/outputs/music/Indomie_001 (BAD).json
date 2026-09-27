@@ -1,0 +1,22 @@
+{
+  "tempo": "uptempo",
+  "bpm": 126,
+  "timbre": [
+    "crackling wok heat",
+    "bright metallic frying",
+    "sizzling oil resonance",
+    "warm noodle steam",
+    "crispy shallot crunch"
+  ],
+  "instrumentation": [
+    "kendang",
+    "suling",
+    "gamelan metallophones",
+    "electric bass",
+    "wok percussion"
+  ],
+  "mood": "appetizing-energetic",
+  "style": "indo-street-kitchen",
+  "music_signature": "This is the sound of a bustling Jakarta street cart at golden hour: kendang drums driving a propulsive 126 BPM groove that mimics the rhythmic clatter of wok-tossing, with interlocking gamelan metallophones providing the bright, metallic ping of hot oil and sizzling noodles. A breathy suling flute carries the melody in quick, appetizing phrases that rise and fall like steam from a fresh plate. The electric bass locks in with a warm, rounded thump that grounds the high-frequency energy without heaviness. Wok percussion—actual metal and wood hits processed with controlled sizzle—creates textural moments that evoke the crispy shallots and fried shallot oil central to Mi Goreng's identity. The arrangement builds from a single kendang pulse into layered polyrhythms, drops to reveal the suling melody over bass and metallophones, then returns to full intensity. Production should feel hot, immediate, and street-level: close-miked percussion with natural room, saturated midrange warmth, and a glossy sheen on the upper frequencies that catches light like the packaging's bold red and yellow. No chill spa pads, no European salon elegance—this is the kinetic energy of quick, authentic, deeply satisfying food made for busy hands and hungry moments.",
+  "audio_sample_ref": "/api/audio/Indomie_001%20%28BAD%29"
+}

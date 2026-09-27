@@ -1,0 +1,44 @@
+{
+  "provider": "gemma",
+  "image": "10.jpg",
+  "visual_analysis": {
+    "primary_subject": "iced coffee drink",
+    "dominant_colours": [
+      "caramel brown",
+      "creamy beige",
+      "frosted white",
+      "dark brown",
+      "amber"
+    ],
+    "objects": [
+      "plastic cup",
+      "wooden coaster",
+      "coffee beans",
+      "milk pitcher",
+      "ice cubes",
+      "condensed milk"
+    ],
+    "mood_indicators": [
+      "refreshing",
+      "indulgent",
+      "warm",
+      "inviting"
+    ],
+    "composition_style": "central focus with surrounding elements",
+    "textures": [
+      "smooth",
+      "frosted",
+      "granular",
+      "rough",
+      "wet"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 9.363
+}

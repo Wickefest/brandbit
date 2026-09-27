@@ -1,0 +1,45 @@
+{
+  "provider": "qwen",
+  "image": "5.jpg",
+  "visual_analysis": {
+    "primary_subject": "grilled chicken leg",
+    "dominant_colours": [
+      "golden brown",
+      "white",
+      "crispy orange",
+      "dark brown",
+      "red"
+    ],
+    "objects": [
+      "rice",
+      "chili sauce",
+      "fried dough",
+      "fork",
+      "green garnish",
+      "black plate"
+    ],
+    "mood_indicators": [
+      "appetizing",
+      "authentic",
+      "warm",
+      "savory",
+      "inviting"
+    ],
+    "composition_style": "close-up with shallow depth of field",
+    "textures": [
+      "crispy",
+      "soft",
+      "grainy",
+      "smooth",
+      "crumbly"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 6.85
+}

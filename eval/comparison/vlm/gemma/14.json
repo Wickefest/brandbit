@@ -1,0 +1,41 @@
+{
+  "provider": "gemma",
+  "image": "14.jpg",
+  "visual_analysis": {
+    "primary_subject": "skincare serum bottle",
+    "dominant_colours": [
+      "pale peach",
+      "bright yellow",
+      "soft white",
+      "light grey",
+      "muted orange"
+    ],
+    "objects": [
+      "pump dispenser",
+      "label",
+      "text",
+      "logo",
+      "plastic bottle"
+    ],
+    "mood_indicators": [
+      "clean",
+      "modern",
+      "minimalist",
+      "bright"
+    ],
+    "composition_style": "central focus, product-centric",
+    "textures": [
+      "smooth",
+      "glossy",
+      "matte"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 8.287
+}

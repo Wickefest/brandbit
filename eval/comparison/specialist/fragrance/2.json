@@ -1,0 +1,147 @@
+{
+  "provider": "kimi",
+  "modality": "fragrance",
+  "source_descriptor": "eval\\comparison\\descriptor\\gpt-4o\\2.json",
+  "image": "2.jpg",
+  "brand_item": "water bottle",
+  "pyrfume_retrieval_names": [
+    "(+)-menthone",
+    "athylglykolsaurementhylester",
+    "limonene oxide, (-)-",
+    "1,3-dihydroxyacetone",
+    "dodecyl acetate",
+    "eucalyptol",
+    "l-menthyl acetoacetate",
+    "n,n-dimethyl menthyl succinamide",
+    "isopulegol",
+    "cuminyl acetate",
+    "menthyl formate",
+    "3-(4-ethylphenyl)-2,2-dimethylpropanal",
+    "1-menthyl methyl ether",
+    "lauric acid",
+    "gamma-terpinene",
+    "alpha-terpinene",
+    "1,5-dimethylbicyclo[3.2.1]octan-8-one oxime",
+    "2-methylpentyl 2-methylpentanoate",
+    "bornylcyclohexanol",
+    "(-)-citronellal",
+    "tetradecanenitrile",
+    "kohinool",
+    "cashmeran",
+    "trans-2-hexenyl hexanoate",
+    "1,6,10-dodecatrien-3-ol, 3,7,11-trimethyl-, acetate, (3s,6z)-",
+    "ethyl laurate",
+    "3,5-diisobutyl-1,2,4-trithiolane",
+    "myrac aldehyde",
+    "propyl gallate",
+    "unii-1q8kvb0r3j"
+  ],
+  "pyrfume_sources": [
+    "goodscents",
+    "ifra_2019",
+    "leffingwell"
+  ],
+  "raw_text": "{\n  \"top_notes\": [\n    \"(+)-menthone\",\n    \"athylglykolsaurementhylester\",\n    \"3-(4-ethylphenyl)-2,2-dimethylpropanal\"\n  ],\n  \"heart_notes\": [\n    \"1,3-dihydroxyacetone\",\n    \"l-menthyl acetoacetate\",\n    \"gamma-terpinene\"\n  ],\n  \"base_notes\": [\n    \"bornylcyclohexanol\",\n    \"trans-2-hexenyl hexanoate\",\n    \"cashmeran\"\n  ],\n  \"dominant_accords\": [\n    \"refreshing\",\n    \"clean\",\n    \"natural\",\n    \"cool\",\n    \"invigorating\"\n  ],\n  \"intensity_profile\": \"moderate\",\n  \"emotional_descriptors\": [\n    \"pure\",\n    \"smooth\",\n    \"transparent\",\n    \"minimalist\",\n    \"natural\"\n  ],\n  \"smell_signature\": \"This fragrance opens with a crisp, cool mint and ozone blend, reminiscent of a mountain breeze. As it settles, it evolves into a clean, fresh floral with a hint of fruity sweetness, ending with a warm, woody base that brings to mind a cozy spa experience.\",\n  \"note_guide\": [\n    {\n      \"smells_like\": \"cool mint\",\n      \"chemical_name\": \"(+)-menthone\"\n    },\n    {\n      \"smells_like\": \"refreshing\",\n      \"chemical_name\": \"athylglykolsaumenthylester\"\n    },\n    {\n      \"smells_like\": \"marine ozone\",\n      \"chemical_name\": \"3-(4-ethylphenyl)-2,2-dimethylpropanal\"\n    },\n    {\n      \"smells_like\": \"sweet & cool\",\n      \"chemical_name\": \"1,3-dihydroxyacetone\"\n    },\n    {\n      \"smells_like\": \"minty & slightly fruity floral\",\n      \"chemical_name\": \"l-menthyl acetoacetate\"\n    },\n    {\n      \"smells_like\": \"sweet lime\",\n      \"chemical_name\": \"gamma-terpinene\"\n    },\n    {\n      \"smells_like\": \"woody sandalwood\",\n      \"chemical_name\": \"bornylcyclohexanol\"\n    },\n    {\n      \"smells_like\": \"clean herbal\",\n      \"chemical_name\": \"trans-2-hexenyl hexanoate\"\n    },\n    {\n      \"smells_like\": \"spicy woody musk\",\n      \"chemical_name\": \"cashmeran\"\n    }\n  ],\n  \"grounded_notes\": [\n    \"(+)-menthone\",\n    \"athylglykolsaumenthylester\",\n    \"3-(4-ethylphenyl)-2,2-dimethylpropanal\",\n    \"1,3-dihydroxyacetone\",\n    \"l-menthyl acetoacetate\",\n    \"gamma-terpinene\",\n    \"bornylcyclohexanol\",\n    \"trans-2-hexenyl hexanoate\",\n    \"cashmeran\"\n  ]\n}",
+  "error": null,
+  "fragrance_concept": {
+    "top_notes": [
+      "(+)-menthone",
+      "athylglykolsaurementhylester",
+      "3-(4-ethylphenyl)-2,2-dimethylpropanal"
+    ],
+    "heart_notes": [
+      "1,3-dihydroxyacetone",
+      "l-menthyl acetoacetate",
+      "gamma-terpinene"
+    ],
+    "base_notes": [
+      "bornylcyclohexanol",
+      "trans-2-hexenyl hexanoate",
+      "cashmeran"
+    ],
+    "dominant_accords": [
+      "refreshing",
+      "clean",
+      "natural",
+      "cool",
+      "invigorating"
+    ],
+    "intensity_profile": "moderate",
+    "emotional_descriptors": [
+      "pure",
+      "smooth",
+      "transparent",
+      "minimalist",
+      "natural"
+    ],
+    "smell_signature": "This fragrance opens with a crisp, cool mint and ozone blend, reminiscent of a mountain breeze. As it settles, it evolves into a clean, fresh floral with a hint of fruity sweetness, ending with a warm, woody base that brings to mind a cozy spa experience.",
+    "note_guide": [
+      {
+        "smells_like": "mentholic, minty",
+        "chemical_name": "(+)-menthone",
+        "ingredient": "(+)-menthone"
+      },
+      {
+        "smells_like": "cooling agent, refreshing",
+        "chemical_name": "athylglykolsaurementhylester",
+        "ingredient": "athylglykolsaurementhylester"
+      },
+      {
+        "smells_like": "marine, ozone",
+        "chemical_name": "3-(4-ethylphenyl)-2,2-dimethylpropanal",
+        "ingredient": "3-(4-ethylphenyl)-2,2-dimethylpropanal"
+      },
+      {
+        "smells_like": "minty, mild",
+        "chemical_name": "1,3-dihydroxyacetone",
+        "ingredient": "1,3-dihydroxyacetone"
+      },
+      {
+        "smells_like": "mint, cool",
+        "chemical_name": "l-menthyl acetoacetate",
+        "ingredient": "l-menthyl acetoacetate"
+      },
+      {
+        "smells_like": "lime, herbal",
+        "chemical_name": "gamma-terpinene",
+        "ingredient": "gamma-terpinene"
+      },
+      {
+        "smells_like": "sandalwood",
+        "chemical_name": "bornylcyclohexanol",
+        "ingredient": "bornylcyclohexanol"
+      },
+      {
+        "smells_like": "natural, herbal",
+        "chemical_name": "trans-2-hexenyl hexanoate",
+        "ingredient": "trans-2-hexenyl hexanoate"
+      },
+      {
+        "smells_like": "rich, musk",
+        "chemical_name": "cashmeran",
+        "ingredient": "cashmeran"
+      }
+    ],
+    "grounded_notes": [
+      "(+)-menthone",
+      "athylglykolsaurementhylester",
+      "3-(4-ethylphenyl)-2,2-dimethylpropanal",
+      "1,3-dihydroxyacetone",
+      "l-menthyl acetoacetate",
+      "gamma-terpinene",
+      "bornylcyclohexanol",
+      "trans-2-hexenyl hexanoate",
+      "cashmeran"
+    ],
+    "pyrfume_sources": []
+  },
+  "ungrounded_notes": [],
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "grounded_ok": true,
+    "error": null
+  },
+  "latency_seconds": 18.345
+}

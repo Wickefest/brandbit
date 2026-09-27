@@ -1,0 +1,39 @@
+{
+  "provider": "kimi",
+  "image": "13.jpg",
+  "visual_analysis": {
+    "primary_subject": "wristwatch",
+    "dominant_colours": [
+      "silver",
+      "gold",
+      "dark green",
+      "white"
+    ],
+    "objects": [
+      "watch face",
+      "watch hands",
+      "watch bezel",
+      "watch band",
+      "numeral markers",
+      "date window"
+    ],
+    "mood_indicators": [
+      "elegant",
+      "sophisticated"
+    ],
+    "composition_style": "central focus on watch with a white background",
+    "textures": [
+      "metallic",
+      "smooth",
+      "glossy"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 2.62
+}

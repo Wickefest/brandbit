@@ -1,0 +1,39 @@
+{
+  "provider": "deepseek",
+  "source_visual": "eval\\comparison\\vlm\\qwen\\6.json",
+  "image": "6.jpg",
+  "raw_text": "{\n  \"brand_item\": \"black chain shoulder bag\",\n  \"mood\": [\"elegant restraint\", \"urban sophistication\", \"quiet luxury\"],\n  \"energy\": \"low\",\n  \"color_temperature\": \"cool\",\n  \"texture\": [\"pebbled leather\", \"metallic chain\", \"knitted fabric\"],\n  \"visual_style\": [\"minimalist\", \"high-contrast\", \"refined\"],\n  \"sensory_metaphors\": [\"midnight satin\", \"gilded shadow\", \"architectural silence\"],\n  \"narrative\": \"This black chain shoulder bag embodies a sleek, urban elegance, where every detail—from the pebbled leather to the metallic chain—speaks of deliberate restraint. It carries the quiet confidence of a night out in the city, blending minimalist design with tactile contrasts. The gold accents against dark surfaces suggest a luxury that whispers rather than shouts.\"\n}",
+  "error": null,
+  "brand_aesthetic_descriptor": {
+    "brand_item": "black chain shoulder bag",
+    "mood": [
+      "elegant restraint",
+      "urban sophistication",
+      "quiet luxury"
+    ],
+    "energy": "low",
+    "color_temperature": "cool",
+    "texture": [
+      "pebbled leather",
+      "metallic chain",
+      "knitted fabric"
+    ],
+    "visual_style": [
+      "minimalist",
+      "high-contrast",
+      "refined"
+    ],
+    "sensory_metaphors": [
+      "midnight satin",
+      "gilded shadow",
+      "architectural silence"
+    ],
+    "narrative": "This black chain shoulder bag embodies a sleek, urban elegance, where every detail—from the pebbled leather to the metallic chain—speaks of deliberate restraint. It carries the quiet confidence of a night out in the city, blending minimalist design with tactile contrasts. The gold accents against dark surfaces suggest a luxury that whispers rather than shouts."
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null
+  }
+}

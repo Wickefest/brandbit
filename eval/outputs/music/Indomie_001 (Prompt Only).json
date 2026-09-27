@@ -1,0 +1,22 @@
+{
+  "tempo": "uptempo",
+  "bpm": 126,
+  "timbre": [
+    "bright metallic percussion",
+    "crisp digital claps",
+    "warm saturated synths",
+    "rubbery sub-bass",
+    "sizzling white noise"
+  ],
+  "instrumentation": [
+    "kendang",
+    "suling",
+    "synth bass",
+    "electronic claps",
+    "processed wok percussion"
+  ],
+  "mood": "hungry-excited",
+  "style": "jakarta-street-electronic",
+  "music_signature": "This is the sound of a bustling Jakarta night market at 126 BPM: the sizzle of a wok translated into crisp electronic claps and metallic percussion hits, kendang drums driving a propulsive street rhythm, suling flute cutting through with bright melodic hooks that feel like the first bite of something delicious. The bass should be rubbery and forward, not deep and ambient—more motorcycle exhaust than spa drone. Arrangement builds fast: 8-bar intro of percussion and bass drop, full energy by 0:30, no slow burn. Production should feel glossy and immediate like the noodle packet itself—saturated, slightly compressed, with that 'shiny' digital sheen. The suling melody should be catchy and repetitive, almost like an earworm jingle, harmonically simple with pentatonic flourishes. This is not contemplative background music; it demands attention the way bold packaging demands shelf presence. Energy stays high throughout, no breakdowns, just relentless tasty momentum.",
+  "audio_sample_ref": "/api/audio/Indomie_001%20%28Prompt%20Only%29"
+}

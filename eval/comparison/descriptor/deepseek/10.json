@@ -1,0 +1,39 @@
+{
+  "provider": "deepseek",
+  "source_visual": "eval\\comparison\\vlm\\qwen\\10.json",
+  "image": "10.jpg",
+  "raw_text": "{\n  \"brand_item\": \"iced coffee drink\",\n  \"mood\": [\"cozy nostalgia\", \"warm invitation\", \"hushed comfort\"],\n  \"energy\": \"moderate\",\n  \"color_temperature\": \"warm\",\n  \"texture\": [\"grainy\", \"glossy\", \"crisp\"],\n  \"visual_style\": [\"centered composition\", \"shallow depth of field\", \"organic minimalism\"],\n  \"sensory_metaphors\": [\"amber glow\", \"morning stillness\", \"crackling hearth\"],\n  \"narrative\": \"This iced coffee drink embodies a quiet moment of warmth, where the grainy texture of coffee beans meets the crisp clarity of ice. The centered composition suggests deliberate care, evoking a nostalgic yet inviting ritual. It speaks of organic simplicity with a touch of understated luxury.\"\n}",
+  "error": null,
+  "brand_aesthetic_descriptor": {
+    "brand_item": "iced coffee drink",
+    "mood": [
+      "cozy nostalgia",
+      "warm invitation",
+      "hushed comfort"
+    ],
+    "energy": "moderate",
+    "color_temperature": "warm",
+    "texture": [
+      "grainy",
+      "glossy",
+      "crisp"
+    ],
+    "visual_style": [
+      "centered composition",
+      "shallow depth of field",
+      "organic minimalism"
+    ],
+    "sensory_metaphors": [
+      "amber glow",
+      "morning stillness",
+      "crackling hearth"
+    ],
+    "narrative": "This iced coffee drink embodies a quiet moment of warmth, where the grainy texture of coffee beans meets the crisp clarity of ice. The centered composition suggests deliberate care, evoking a nostalgic yet inviting ritual. It speaks of organic simplicity with a touch of understated luxury."
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null
+  }
+}

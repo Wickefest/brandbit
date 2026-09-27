@@ -1,0 +1,40 @@
+{
+  "provider": "kimi",
+  "image": "5.jpg",
+  "visual_analysis": {
+    "primary_subject": "grilled chicken with crumb topping",
+    "dominant_colours": [
+      "golden brown",
+      "white",
+      "red",
+      "green"
+    ],
+    "objects": [
+      "rice",
+      "sauce",
+      "herbs",
+      "utensils",
+      "plate"
+    ],
+    "mood_indicators": [
+      "savory",
+      "appetizing",
+      "gourmet"
+    ],
+    "composition_style": "centered presentation with side dishes",
+    "textures": [
+      "crunchy",
+      "grilled",
+      "smooth",
+      "creamy"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 2.72
+}

@@ -1,0 +1,15 @@
+{
+  "n_cases": 12,
+  "n_completed": 12,
+  "n_failed": 0,
+  "matched_acceptance_rate": 0.3333333333333333,
+  "mismatch_rejection_rate": 1.0,
+  "overall_correct_decision_rate": 0.6666666666666666,
+  "music_mismatch_rejection_rate": 1.0,
+  "fragrance_mismatch_rejection_rate": 1.0,
+  "judge_run_success_rate": 1.0,
+  "judge_parse_success_rate": 1.0,
+  "judge_schema_success_rate": 1.0,
+  "median_judge_latency_ms": 2651.5,
+  "deterministic_override_count": 0
+}

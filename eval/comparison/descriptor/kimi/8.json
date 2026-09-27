@@ -1,0 +1,39 @@
+{
+  "provider": "kimi",
+  "source_visual": "eval\\comparison\\vlm\\qwen\\8.json",
+  "image": "8.jpg",
+  "raw_text": "{\n  \"brand_item\": \"t-shirt\",\n  \"mood\": [\"elegant\", \"serene\", \"vibrant\"],\n  \"energy\": \"moderate\",\n  \"color_temperature\": \"cool\",\n  \"texture\": [\"smooth\", \"printed\", \"soft fabric\"],\n  \"visual_style\": [\"back view centered composition\", \"graphic print\", \"traditional\"],\n  \"sensory_metaphors\": [\"cherry blossom tranquility\", \"sunlit warmth\", \"bird's flight grace\"],\n  \"narrative\": \"The t-shirt exudes an elegant and serene vibe with a touch of vibrancy. Centered on the back, a graphic print featuring cherry blossoms, sun, and birds creates a traditional yet dynamic aesthetic. The soft fabric and smooth texture promise comfort while the colors convey a cool and refreshing energy.\"\n}",
+  "error": null,
+  "brand_aesthetic_descriptor": {
+    "brand_item": "t-shirt",
+    "mood": [
+      "elegant",
+      "serene",
+      "vibrant"
+    ],
+    "energy": "moderate",
+    "color_temperature": "cool",
+    "texture": [
+      "smooth",
+      "printed",
+      "soft fabric"
+    ],
+    "visual_style": [
+      "back view centered composition",
+      "graphic print",
+      "traditional"
+    ],
+    "sensory_metaphors": [
+      "cherry blossom tranquility",
+      "sunlit warmth",
+      "bird's flight grace"
+    ],
+    "narrative": "The t-shirt exudes an elegant and serene vibe with a touch of vibrancy. Centered on the back, a graphic print featuring cherry blossoms, sun, and birds creates a traditional yet dynamic aesthetic. The soft fabric and smooth texture promise comfort while the colors convey a cool and refreshing energy."
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null
+  }
+}

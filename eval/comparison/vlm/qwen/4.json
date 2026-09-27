@@ -1,0 +1,39 @@
+{
+  "provider": "qwen",
+  "image": "4.jpg",
+  "visual_analysis": {
+    "primary_subject": "batik shirt",
+    "dominant_colours": [
+      "navy blue",
+      "gold",
+      "cream",
+      "dark brown"
+    ],
+    "objects": [
+      "man",
+      "chair",
+      "beige trousers"
+    ],
+    "mood_indicators": [
+      "elegant",
+      "confident",
+      "traditional",
+      "refined"
+    ],
+    "composition_style": "three-quarter portrait with angled pose",
+    "textures": [
+      "woven",
+      "embroidered",
+      "smooth fabric",
+      "structured weave"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 5.243
+}

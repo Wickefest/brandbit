@@ -1,0 +1,89 @@
+{
+  "top_notes": [
+    "2-ethoxynaphthalene",
+    "(2-methoxyethyl)benzene"
+  ],
+  "heart_notes": [
+    "dihydrofarnesol",
+    "methyl dihydrojasmonate",
+    "2-benzylideneheptanal"
+  ],
+  "base_notes": [
+    "1,1-bis(phenethyloxy)ethane",
+    "acetylisoeugenol",
+    "benzyl eugenol"
+  ],
+  "dominant_accords": [
+    "warm golden floral",
+    "soft metallic radiance",
+    "antique pearl elegance",
+    "sunlit jasmine",
+    "gilded wood spice"
+  ],
+  "intensity_profile": "moderate",
+  "emotional_descriptors": [
+    "timeless",
+    "intimate",
+    "refined",
+    "sun-warmed",
+    "whispered"
+  ],
+  "smell_signature": "Combined together, these ingredients will smell like a warm, golden floral radiance with a soft metallic shimmer and antique spice depth. Think of a vintage jewelry box lined with silk, where sunlit jasmine and powdered pearl petals mingle with the faint warmth of gilded metal and aged wood. It opens with a bright, airy blossom and dries down into a quiet, intimate elegance that lingers close to the skin like a treasured heirloom.",
+  "note_guide": [
+    {
+      "smells_like": "naphtha, blossom",
+      "chemical_name": "2-ethoxynaphthalene",
+      "ingredient": "2-ethoxynaphthalene"
+    },
+    {
+      "smells_like": "metallic, chrysanthemum",
+      "chemical_name": "(2-methoxyethyl)benzene",
+      "ingredient": "(2-methoxyethyl)benzene"
+    },
+    {
+      "smells_like": "metallic, cyclamen",
+      "chemical_name": "dihydrofarnesol",
+      "ingredient": "dihydrofarnesol"
+    },
+    {
+      "smells_like": "natural, oily",
+      "chemical_name": "methyl dihydrojasmonate",
+      "ingredient": "methyl dihydrojasmonate"
+    },
+    {
+      "smells_like": "jasmine, reminiscent of gardenia",
+      "chemical_name": "2-benzylideneheptanal",
+      "ingredient": "2-benzylideneheptanal"
+    },
+    {
+      "smells_like": "rose, leafy",
+      "chemical_name": "1,1-bis(phenethyloxy)ethane",
+      "ingredient": "1,1-bis(phenethyloxy)ethane"
+    },
+    {
+      "smells_like": "clove, fruity-floral",
+      "chemical_name": "acetylisoeugenol",
+      "ingredient": "acetylisoeugenol"
+    },
+    {
+      "smells_like": "hay, mild",
+      "chemical_name": "benzyl eugenol",
+      "ingredient": "benzyl eugenol"
+    }
+  ],
+  "grounded_notes": [
+    "2-ethoxynaphthalene",
+    "(2-methoxyethyl)benzene",
+    "dihydrofarnesol",
+    "methyl dihydrojasmonate",
+    "2-benzylideneheptanal",
+    "1,1-bis(phenethyloxy)ethane",
+    "acetylisoeugenol",
+    "benzyl eugenol"
+  ],
+  "pyrfume_sources": [
+    "goodscents",
+    "ifra_2019",
+    "leffingwell"
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "execution_id": "BatikKeris_001 (Prompt Only)",
+  "timestamp": "2026-09-13T14:51:39.873379Z",
+  "input_image_ref": "D:\\ibrand_superprototype\\eval\\outputs\\images\\BatikKeris_001 (Prompt Only).jpg",
+  "brand_aesthetic_descriptor": {
+    "brand_item": "batik shirt",
+    "mood": [
+      "elegant",
+      "confident",
+      "cultured",
+      "refined"
+    ],
+    "energy": "moderate",
+    "color_temperature": "neutral",
+    "colours": [
+      "deep navy blue",
+      "golden beige",
+      "cream white",
+      "rich bronze"
+    ],
+    "texture": [
+      "embroidered pattern",
+      "smooth fabric",
+      "structured weave"
+    ],
+    "visual_style": [
+      "three-quarter portrait with angled pose against minimalist backdrop",
+      "wooden chair",
+      "man",
+      "buttoned collar",
+      "sleeve cuff"
+    ],
+    "sensory_metaphors": [],
+    "narrative": "Direct image parse of batik shirt. Colours: deep navy blue, golden beige, cream white, rich bronze. Composition: three-quarter portrait with angled pose against minimalist backdrop. Atmosphere: elegant, confident, cultured, refined. Surface cues: embroidered pattern, smooth fabric, structured weave."
+  },
+  "fragrance_concept": {
+    "top_notes": [
+      "3-methylhexanal",
+      "(+)-isodihydrocarvone"
+    ],
+    "heart_notes": [
+      "jasmolactone",
+      "delta-nonalactone"
+    ],
+    "base_notes": [
+      "isoambrettolide",
+      "methylcyclopentadecenone"
+    ],
+    "dominant_accords": [
+      "smooth cream",
+      "refined warmth",
+      "subtle spice",
+      "polished wood",
+      "clean musk"
+    ],
+    "intensity_profile": "moderate",
+    "emotional_descriptors": [
+      "dignified",
+      "assured",
+      "timeless",
+      "composed",
+      "understated luxury"
+    ],
+    "smell_signature": "Combined together, these ingredients will smell like a smooth, creamy blend that opens with a whisper of fresh green leaves and soft herbal warmth, then unfolds into a refined, milky floral heart reminiscent of jasmine-infused cream. The dry-down settles into a clean, skin-like warmth with a subtle musky depth that lingers close to the body. Think of a bespoke tailoring studio in Jakarta where starched linen meets polished teak, or the quiet luxury of a hand-blocked batik shirt worn to an evening gallery opening.",
+    "note_guide": [
+      {
+        "smells_like": "fatty, aldehydic",
+        "chemical_name": "3-methylhexanal",
+        "ingredient": "3-methylhexanal"
+      },
+      {
+        "smells_like": "herbal",
+        "chemical_name": "(+)-isodihydrocarvone",
+        "ingredient": "(+)-isodihydrocarvone"
+      },
+      {
+        "smells_like": "buttery, plum",
+        "chemical_name": "jasmolactone",
+        "ingredient": "jasmolactone"
+      },
+      {
+        "smells_like": "fatty, coconut",
+        "chemical_name": "delta-nonalactone",
+        "ingredient": "delta-nonalactone"
+      },
+      {
+        "smells_like": "fatty, ambrette",
+        "chemical_name": "isoambrettolide",
+        "ingredient": "isoambrettolide"
+      },
+      {
+        "smells_like": "powdery, musk like",
+        "chemical_name": "methylcyclopentadecenone",
+        "ingredient": "methylcyclopentadecenone"
+      }
+    ],
+    "grounded_notes": [
+      "3-methylhexanal",
+      "(+)-isodihydrocarvone",
+      "jasmolactone",
+      "delta-nonalactone",
+      "isoambrettolide",
+      "methylcyclopentadecenone"
+    ],
+    "pyrfume_sources": [
+      "goodscents",
+      "ifra_2019",
+      "leffingwell"
+    ]
+  },
+  "music_direction": {
+    "tempo": "moderate",
+    "bpm": 88,
+    "timbre": [
+      "warm bronze metallophones",
+      "dry gamelan wood",
+      "breathy bamboo flute",
+      "muted kendang skin",
+      "soft cotton-warm pads"
+    ],
+    "instrumentation": [
+      "gender wayang",
+      "suling",
+      "kendang",
+      "soft synth pad",
+      "subtle electric bass"
+    ],
+    "mood": "cultured-confidence",
+    "style": "contemporary-gamelan-lounge",
+    "music_signature": "This is the sound of a Javanese batik atelier reimagined for a modern man in a structured navy shirt: interlocking bronze gender wayang metallophones at 88 BPM create a cyclic, breathing pulse that mirrors the repeated wax-resist patterns of the fabric itself, neither rushed nor static. A dry kendang speaks in restrained, conversational rhythms rather than driving dance beats, while a suling bamboo flute traces melodic lines that feel hand-drawn, like the golden motifs emerging from deep indigo dye. Warm synth pads soften the edges, suggesting the smooth drape of cotton against skin, with a subtle electric bass anchoring the low end in contemporary proportion. The arrangement unfolds like a shirt being examined: opening with sparse metallophone patterns, the flute entering at the second cycle, building to a confident but never loud fullness. Production should feel intimate and crafted, with clear separation between dry acoustic instruments and the soft electronic bed, controlled dynamics that suit a minimalist retail space, and timbres that honor the object's cultural craft without museum-piece stiffness. It should feel like the man in the portrait has just stood from his wooden chair, the fabric moving with quiet authority.",
+    "audio_sample_ref": "/api/audio/BatikKeris_001%20%28Prompt%20Only%29"
+  },
+  "audio_sample_ref": "/api/audio/BatikKeris_001%20%28Prompt%20Only%29",
+  "rationale": "## Visual to Descriptor\n\nThe deep navy blue and rich bronze hues in the colour palette directly shaped the color_temperature field, establishing a neutral warmth that avoids both cool sterility and hot aggression. The three-quarter portrait with angled pose against minimalist backdrop contributed to the mood field values of elegant and confident, as this composition creates a sense of poised self-assurance without theatricality. The embroidered pattern and structured weave textures reinforced the refined value within the mood field, signaling craftsmanship that rewards close inspection rather than demanding attention from a distance.\n\n## Descriptor to Music\n\nThe moderate value in the energy field established the tempo at 88 BPM, creating a breathing pulse that mirrors the unhurried confidence of the angled portrait pose. The cultured value from the mood field guided the selection of gender wayang and suling as core instruments, grounding the sound in Javanese craft tradition without treating it as static heritage. The refined value in the mood field shaped the production approach of clear separation between dry acoustic instruments and soft electronic beds, ensuring the music feels crafted rather than cluttered, much like the structured weave of the fabric itself.\n\n## Descriptor to Fragrance\n\nThe elegant value within the mood field directed the heart notes toward jasmolactone, whose buttery plum character creates a milky floral sophistication rather than overt bloom. The confident value from the mood field supported the moderate intensity_profile, ensuring the fragrance stays close to the skin rather than projecting aggressively into a room. The neutral color_temperature translated into the balanced warmth of the dominant accords, where polished wood and clean musk avoid both the coolness of aquatic notes and the heat of resinous excess, achieving the understated luxury described in the emotional_descriptors.",
+  "congruence_report": {
+    "automated_proxies": {
+      "clip_score_image_fragrance_text": 0.3692,
+      "clip_score_image_music_text": 0.499,
+      "imagebind_score_image_audio": null
+    },
+    "descriptor_consistency": {
+      "fragrance_aligns_descriptor": true,
+      "music_aligns_descriptor": true,
+      "details": "The fragrance concept aligns perfectly with the BAD, matching the mood (elegant, confident, cultured, refined), energy (moderate), and texture (smooth fabric, structured weave) with its smooth cream, refined warmth, and subtle spice accords. The music direction also fits well, with its moderate tempo, warm bronze metallophones, and dry gamelan wood matching the BAD's energy, color_temperature, and texture. Both outputs credibly translate the brand identity of the batik shirt.",
+      "fragrance_score": 5,
+      "music_score": 5,
+      "fragrance_issues": [],
+      "music_issues": []
+    },
+    "human_ratings": null,
+    "summary": "Both fragrance and music outputs are excellent, independent translations of the batik shirt brand identity.",
+    "attempts": [
+      {
+        "attempt": 1,
+        "fragrance_aligns_descriptor": true,
+        "music_aligns_descriptor": true,
+        "details": "The fragrance concept aligns perfectly with the BAD, matching the mood (elegant, confident, cultured, refined), energy (moderate), and texture (smooth fabric, structured weave) with its smooth cream, refined warmth, and subtle spice accords. The music direction also fits well, with its moderate tempo, warm bronze metallophones, and dry gamelan wood matching the BAD's energy, color_temperature, and texture. Both outputs credibly translate the brand identity of the batik shirt.",
+        "summary": "Both fragrance and music outputs are excellent, independent translations of the batik shirt brand identity.",
+        "regenerated": []
+      }
+    ],
+    "regen_count": 0,
+    "accepted": true
+  },
+  "mode": "prompt_only",
+  "refinement_history": []
+}

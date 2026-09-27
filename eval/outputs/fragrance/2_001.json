@@ -1,0 +1,96 @@
+{
+  "top_notes": [
+    "(+)-menthone",
+    "l-menthyl acetoacetate",
+    "gamma-terpinene"
+  ],
+  "heart_notes": [
+    "(-)-linalool",
+    "tetradecanenitrile",
+    "nerone"
+  ],
+  "base_notes": [
+    "bornylcyclohexanol",
+    "4-hydroxy-3-isopropoxybenzaldehyde",
+    "cashmeran"
+  ],
+  "dominant_accords": [
+    "fresh",
+    "clean",
+    "cool",
+    "natural",
+    "refreshing"
+  ],
+  "intensity_profile": "moderate",
+  "emotional_descriptors": [
+    "invigorating",
+    "purity",
+    "refreshing",
+    "smooth",
+    "clean"
+  ],
+  "smell_signature": "This fragrance opens with a cool, minty freshness akin to a mountain breeze, followed by a clean, herbal heart, and dries down into a warm, woody base. It's reminiscent of a crisp, clean linen scent with a hint of citrus freshness, perfect for a minimalist, natural lifestyle.",
+  "note_guide": [
+    {
+      "smells_like": "mentholic, minty",
+      "chemical_name": "(+)-menthone",
+      "ingredient": "(+)-menthone"
+    },
+    {
+      "smells_like": "mint, cool",
+      "chemical_name": "l-menthyl acetoacetate",
+      "ingredient": "l-menthyl acetoacetate"
+    },
+    {
+      "smells_like": "lime, herbal",
+      "chemical_name": "gamma-terpinene",
+      "ingredient": "gamma-terpinene"
+    },
+    {
+      "smells_like": "natural, deep",
+      "chemical_name": "(-)-linalool",
+      "ingredient": "(-)-linalool"
+    },
+    {
+      "smells_like": "wet, orangeflower",
+      "chemical_name": "tetradecanenitrile",
+      "ingredient": "tetradecanenitrile"
+    },
+    {
+      "smells_like": "leafy, cortex",
+      "chemical_name": "nerone",
+      "ingredient": "nerone"
+    },
+    {
+      "smells_like": "sandalwood",
+      "chemical_name": "bornylcyclohexanol",
+      "ingredient": "bornylcyclohexanol"
+    },
+    {
+      "smells_like": "vanilla, natural",
+      "chemical_name": "4-hydroxy-3-isopropoxybenzaldehyde",
+      "ingredient": "4-hydroxy-3-isopropoxybenzaldehyde"
+    },
+    {
+      "smells_like": "rich, musk",
+      "chemical_name": "cashmeran",
+      "ingredient": "cashmeran"
+    }
+  ],
+  "grounded_notes": [
+    "(+)-menthone",
+    "l-menthyl acetoacetate",
+    "gamma-terpinene",
+    "(-)-linalool",
+    "tetradecanenitrile",
+    "nerone",
+    "bornylcyclohexanol",
+    "4-hydroxy-3-isopropoxybenzaldehyde",
+    "cashmeran"
+  ],
+  "pyrfume_sources": [
+    "goodscents",
+    "ifra_2019",
+    "leffingwell"
+  ]
+}

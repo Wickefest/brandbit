@@ -1,0 +1,22 @@
+{
+  "tempo": "uptempo",
+  "bpm": 128,
+  "timbre": [
+    "glitch-distorted saw waves",
+    "metallic impact transients",
+    "subharmonic bass pressure",
+    "crystalline digital highs",
+    "granular texture noise"
+  ],
+  "instrumentation": [
+    "modular synth bass",
+    "distorted kick drum",
+    "industrial snare",
+    "glitch percussion",
+    "PWM lead synth"
+  ],
+  "mood": "relentless",
+  "style": "industrial-techno",
+  "music_signature": "This is the sound of a gaming laptop under maximum load: fans screaming, silicon pushing thermal limits, every component precision-engineered for speed. The tempo locks at 128 BPM, a driving four-on-the-floor kick distorted with harmonic saturation to feel like chassis vibration through a desk surface. The bass is not musical warmth but subharmonic pressure, a modular synth tone that throbs rather than grooves, tuned to frequencies that physically resonate. Industrial snares crack like plastic under stress, sharp and dry with metallic overtones, while glitch percussion stutters and fragments across the grid—audio artifacts as aesthetic, not error. A PWM lead synth cuts through with angular, sawtooth aggression, its pulse-width modulation creating a breathing, almost alive quality that mirrors the machine's own thermal cycling. No pads, no softness, no breathing room: the arrangement maintains forward pressure throughout, building through filter sweeps and rhythmic density rather than melodic development. Production should feel clinically precise yet dangerously hot, with transient shaping so sharp the transients seem to spark, and a stereo field that throws elements wide then snaps them center for impact. This is not background music; it is the sound of the machine asserting itself, designed for environments where performance is the only value and compromise is failure.",
+  "audio_sample_ref": "/api/audio/Axioo_Pongo_001%20%28Prompt%20Only%29"
+}

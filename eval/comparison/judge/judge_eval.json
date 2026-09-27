@@ -1,0 +1,1687 @@
+{
+  "created_at_utc": "2026-09-27T05:35:00.518233+00:00",
+  "model": "deepseek-flash",
+  "provider": "DeepSeek official API",
+  "thinking": "disabled",
+  "case_set": "12 synthetic matched/mismatched cases in backend/scripts/evaluate_judge.py",
+  "rows": [
+    {
+      "case_id": "M01",
+      "bad_id": "M01",
+      "fragrance_id": "M01",
+      "music_id": "M01",
+      "condition": "matched",
+      "mismatch_type": "none",
+      "expected_result": "pass",
+      "judge_run_ok": 1,
+      "judge_parse_ok": 1,
+      "judge_schema_ok": 1,
+      "deepseek_fragrance_score": 3,
+      "deepseek_music_score": 4,
+      "deepseek_fragrance_aligns": 0,
+      "deepseek_music_aligns": 1,
+      "deepseek_only_pass": 0,
+      "judge_pass_before_rules": 0,
+      "critical_rule_violation": 0,
+      "critical_rule_names": "",
+      "final_fragrance_score": 3,
+      "final_music_score": 4,
+      "final_system_pass": 0,
+      "correct_decision": 0,
+      "judge_latency_ms": 4745,
+      "deepseek_reason": "Fragrance: The elegant emotional descriptor aligns with BAD.mood, and citrus/floral/musk notes are neutral in temperature, matching BAD.color_temperature=neutral. However, the bold intensity_profile conflicts with BAD.energy=moderate, and the fresh/clean accords contradict BAD.texture=smooth, which calls for a softer, more seamless scent. The generic smell_signature fails to capture the minimalist watch narrative. Music: The slow tempo (70 bpm) is a minor deviation from moderate energy, but the elegant mood, clear timbre, and piano/strings instrumentation fit the minimalist, smooth, neutral aesthetic of a watch. The ambient style and clear timbre support the brand's refined simplicity, making it a credible translation.",
+      "error": ""
+    },
+    {
+      "case_id": "M02",
+      "bad_id": "M02",
+      "fragrance_id": "M02",
+      "music_id": "M02",
+      "condition": "matched",
+      "mismatch_type": "none",
+      "expected_result": "pass",
+      "judge_run_ok": 1,
+      "judge_parse_ok": 1,
+      "judge_schema_ok": 1,
+      "deepseek_fragrance_score": 4,
+      "deepseek_music_score": 3,
+      "deepseek_fragrance_aligns": 1,
+      "deepseek_music_aligns": 0,
+      "deepseek_only_pass": 0,
+      "judge_pass_before_rules": 0,
+      "critical_rule_violation": 0,
+      "critical_rule_names": "",
+      "final_fragrance_score": 4,
+      "final_music_score": 3,
+      "final_system_pass": 0,
+      "correct_decision": 0,
+      "judge_latency_ms": 2828,
+      "deepseek_reason": "Fragrance: The fresh, clean, citrus-floral-musk profile with joyful emotional descriptors aligns well with BAD.mood=joyful, BAD.color_temperature=warm (citrus and floral are warm), and BAD.texture=smooth (musk). The bold intensity matches BAD.energy=high. The minimalist perfume bottle is well-served by a clean, fresh scent. Minor concern: 'bold' intensity might be slightly overpowering for a minimalist aesthetic, but not a major violation. Music: The ambient style and piano/strings instrumentation are too generic and low-energy for BAD.energy=high and BAD.mood=joyful. Ambient music often conveys calmness, which clashes with the joyful, high-energy brand identity. The tempo of 120 bpm is moderate, not distinctly high-energy. The music signature does not specifically tie to a perfume bottle beyond a generic luxury cue.",
+      "error": ""
+    },
+    {
+      "case_id": "M03",
+      "bad_id": "M03",
+      "fragrance_id": "M03",
+      "music_id": "M03",
+      "condition": "matched",
+      "mismatch_type": "none",
+      "expected_result": "pass",
+      "judge_run_ok": 1,
+      "judge_parse_ok": 1,
+      "judge_schema_ok": 1,
+      "deepseek_fragrance_score": 5,
+      "deepseek_music_score": 4,
+      "deepseek_fragrance_aligns": 1,
+      "deepseek_music_aligns": 1,
+      "deepseek_only_pass": 1,
+      "judge_pass_before_rules": 1,
+      "critical_rule_violation": 0,
+      "critical_rule_names": "",
+      "final_fragrance_score": 5,
+      "final_music_score": 4,
+      "final_system_pass": 1,
+      "correct_decision": 1,
+      "judge_latency_ms": 1850,
+      "deepseek_reason": "Fragrance: The fresh, clean accords with citrus, floral, and musk align perfectly with BAD.mood=calm, BAD.energy=low, BAD.color_temperature=cool, and BAD.texture=smooth. The light intensity matches low energy, and the scent direction is highly plausible for a minimalist luxury bag. Music: Tempo=slow (70 bpm) fits BAD.energy=low; mood=calm matches BAD.mood; clear timbre and ambient style suit cool, smooth, minimalist aesthetics. However, the piano and strings instrumentation is somewhat generic and not distinctly tied to the luxury bag object, though it remains plausible.",
+      "error": ""
+    },
+    {
+      "case_id": "M04",
+      "bad_id": "M04",
+      "fragrance_id": "M04",
+      "music_id": "M04",
+      "condition": "matched",
+      "mismatch_type": "none",
+      "expected_result": "pass",
+      "judge_run_ok": 1,
+      "judge_parse_ok": 1,
+      "judge_schema_ok": 1,
+      "deepseek_fragrance_score": 4,
+      "deepseek_music_score": 3,
+      "deepseek_fragrance_aligns": 1,
+      "deepseek_music_aligns": 0,
+      "deepseek_only_pass": 0,
+      "judge_pass_before_rules": 0,
+      "critical_rule_violation": 0,
+      "critical_rule_names": "",
+      "final_fragrance_score": 4,
+      "final_music_score": 3,
+      "final_system_pass": 0,
+      "correct_decision": 0,
+      "judge_latency_ms": 2676,
+      "deepseek_reason": "Fragrance: The fresh, clean, bold scent with citrus, floral, and musk notes aligns well with the dynamic, high-energy, minimalist sunglasses. The neutral temperature and smooth texture are reasonably matched, though the fresh accords lean slightly cool. Overall, a credible translation. Music: The ambient style and brisk tempo (120 bpm) conflict with the high-energy, dynamic mood of the BAD. The instrumentation (piano, strings) is generic and does not specifically evoke sunglasses or the minimalist, smooth, white/silver aesthetic. The music_signature is too vague to justify the chosen instruments for this brand_item.",
+      "error": ""
+    },
+    {
+      "case_id": "M05",
+      "bad_id": "M05",
+      "fragrance_id": "M05",
+      "music_id": "M05",
+      "condition": "matched",
+      "mismatch_type": "none",
+      "expected_result": "pass",
+      "judge_run_ok": 1,
+      "judge_parse_ok": 1,
+      "judge_schema_ok": 1,
+      "deepseek_fragrance_score": 3,
+      "deepseek_music_score": 4,
+      "deepseek_fragrance_aligns": 0,
+      "deepseek_music_aligns": 0,
+      "deepseek_only_pass": 0,
+      "judge_pass_before_rules": 0,
+      "critical_rule_violation": 0,
+      "critical_rule_names": "",
+      "final_fragrance_score": 3,
+      "final_music_score": 4,
+      "final_system_pass": 0,
+      "correct_decision": 0,
+      "judge_latency_ms": 2565,
+      "deepseek_reason": "Fragrance: emotional_descriptors=['romantic'] aligns with BAD.mood=['romantic'], and musk/floral base suits a warm romantic necklace. However, intensity_profile='bold' conflicts with BAD.energy='moderate', and the fresh/clean accord set conflicts with BAD.texture=['smooth'] and BAD.color_temperature='warm', reading cooler and crisper than the descriptor. Music: mood='romantic' and clear timbre fit BAD.mood and BAD.texture=smooth, and piano/strings ambient is plausible for a minimalist necklace. But tempo='slow' (70 bpm) undercuts BAD.energy='moderate', and the string-heavy ambient palette risks a lushness beyond the minimalist visual_style. Both outputs are credible but each has one clear energy/temperature mismatch, so neither reaches the aligns threshold.",
+      "error": ""
+    },
+    {
+      "case_id": "M06",
+      "bad_id": "M06",
+      "fragrance_id": "M06",
+      "music_id": "M06",
+      "condition": "matched",
+      "mismatch_type": "none",
+      "expected_result": "pass",
+      "judge_run_ok": 1,
+      "judge_parse_ok": 1,
+      "judge_schema_ok": 1,
+      "deepseek_fragrance_score": 4,
+      "deepseek_music_score": 4,
+      "deepseek_fragrance_aligns": 1,
+      "deepseek_music_aligns": 1,
+      "deepseek_only_pass": 1,
+      "judge_pass_before_rules": 1,
+      "critical_rule_violation": 0,
+      "critical_rule_names": "",
+      "final_fragrance_score": 4,
+      "final_music_score": 4,
+      "final_system_pass": 1,
+      "correct_decision": 1,
+      "judge_latency_ms": 1502,
+      "deepseek_reason": "Fragrance: light intensity matches BAD.energy=low; fresh/clean accords and citrus/floral/musk notes fit cool, smooth, minimalist white/silver camera; emotional descriptor 'focused' aligns with BAD.mood. Music: slow tempo (70 bpm) matches low energy; ambient style and clear timbre fit cool, smooth, minimalist aesthetic; piano/strings are plausible for a focused camera brand, though slightly generic. Both outputs credibly translate the same brand identity without major violations.",
+      "error": ""
+    },
+    {
+      "case_id": "X01",
+      "bad_id": "X01",
+      "fragrance_id": "X01",
+      "music_id": "X01",
+      "condition": "mismatched",
+      "mismatch_type": "music",
+      "expected_result": "fail",
+      "judge_run_ok": 1,
+      "judge_parse_ok": 1,
+      "judge_schema_ok": 1,
+      "deepseek_fragrance_score": 4,
+      "deepseek_music_score": 1,
+      "deepseek_fragrance_aligns": 1,
+      "deepseek_music_aligns": 0,
+      "deepseek_only_pass": 0,
+      "judge_pass_before_rules": 0,
+      "critical_rule_violation": 1,
+      "critical_rule_names": "BAD energy is low but music tempo is 'very fast' (too fast).",
+      "final_fragrance_score": 4,
+      "final_music_score": 1,
+      "final_system_pass": 0,
+      "correct_decision": 1,
+      "judge_latency_ms": 2111,
+      "deepseek_reason": "Fragrance: light intensity matches BAD.energy=low; fresh/clean accords and citrus/floral/musk notes fit BAD.color_temperature=cool and texture=smooth; emotional descriptor 'peaceful' matches BAD.mood; plausible for a minimalist tea set. Music: tempo 180 bpm 'very fast' directly contradicts BAD.energy=low; mood 'aggressive' contradicts BAD.mood=['peaceful']; harsh/distorted timbre contradicts cool/smooth texture; industrial heavy synth/distorted bass sound-world is unrelated to a tea set object or ritual.",
+      "error": ""
+    },
+    {
+      "case_id": "X02",
+      "bad_id": "X02",
+      "fragrance_id": "X02",
+      "music_id": "X02",
+      "condition": "mismatched",
+      "mismatch_type": "music",
+      "expected_result": "fail",
+      "judge_run_ok": 1,
+      "judge_parse_ok": 1,
+      "judge_schema_ok": 1,
+      "deepseek_fragrance_score": 3,
+      "deepseek_music_score": 1,
+      "deepseek_fragrance_aligns": 0,
+      "deepseek_music_aligns": 0,
+      "deepseek_only_pass": 0,
+      "judge_pass_before_rules": 0,
+      "critical_rule_violation": 0,
+      "critical_rule_names": "",
+      "final_fragrance_score": 3,
+      "final_music_score": 1,
+      "final_system_pass": 0,
+      "correct_decision": 1,
+      "judge_latency_ms": 2876,
+      "deepseek_reason": "Fragrance: The fresh/clean citrus-floral-musk direction is broadly plausible for a classic minimalist pen, but the 'bold' intensity_profile conflicts with BAD.energy=moderate, and the fresh/clean accords do not match BAD.texture=smooth or BAD.color_temperature=neutral. It is a partial fit, not a strong independent translation. Music: The industrial direction is a clear mismatch on every rubric axis — tempo (180 bpm vs moderate energy), mood (aggressive vs classic), timbre (harsh/distorted vs smooth), style (industrial vs minimalist), and sound-world (heavy synth/distorted bass does not belong to a fountain pen). The music_signature 'aggressive industrial track' is not justified by the brand_item or narrative.",
+      "error": ""
+    },
+    {
+      "case_id": "X03",
+      "bad_id": "X03",
+      "fragrance_id": "X03",
+      "music_id": "X03",
+      "condition": "mismatched",
+      "mismatch_type": "music",
+      "expected_result": "fail",
+      "judge_run_ok": 1,
+      "judge_parse_ok": 1,
+      "judge_schema_ok": 1,
+      "deepseek_fragrance_score": 3,
+      "deepseek_music_score": 2,
+      "deepseek_fragrance_aligns": 0,
+      "deepseek_music_aligns": 0,
+      "deepseek_only_pass": 0,
+      "judge_pass_before_rules": 0,
+      "critical_rule_violation": 0,
+      "critical_rule_names": "",
+      "final_fragrance_score": 3,
+      "final_music_score": 2,
+      "final_system_pass": 0,
+      "correct_decision": 1,
+      "judge_latency_ms": 3189,
+      "deepseek_reason": "Fragrance: The fresh/clean citrus-floral-musk profile partially matches the minimalist lamp's clean aesthetic and energetic mood, but the fresh/clean accords read cool rather than warm (BAD.color_temperature=warm), and the bold intensity is only a moderate fit for BAD.energy=high. The scent lacks warmth and smoothness to fully align with the warm, smooth minimalist lamp. Music: The very fast 180 BPM, harsh/distorted timbre, aggressive industrial style, and heavy synth/distorted bass strongly clash with BAD.energy=high (overshoots to frantic), BAD.mood=energetic (aggressive is not energetic), BAD.color_temperature=warm (harsh/distorted is cold), BAD.texture=smooth (harsh/distorted is rough), and BAD.visual_style=minimalist (industrial is not minimalist). The music direction does not credibly translate the minimalist lamp identity.",
+      "error": ""
+    },
+    {
+      "case_id": "X04",
+      "bad_id": "X04",
+      "fragrance_id": "X04",
+      "music_id": "X04",
+      "condition": "mismatched",
+      "mismatch_type": "fragrance",
+      "expected_result": "fail",
+      "judge_run_ok": 1,
+      "judge_parse_ok": 1,
+      "judge_schema_ok": 1,
+      "deepseek_fragrance_score": 1,
+      "deepseek_music_score": 4,
+      "deepseek_fragrance_aligns": 0,
+      "deepseek_music_aligns": 0,
+      "deepseek_only_pass": 0,
+      "judge_pass_before_rules": 0,
+      "critical_rule_violation": 0,
+      "critical_rule_names": "",
+      "final_fragrance_score": 1,
+      "final_music_score": 4,
+      "final_system_pass": 0,
+      "correct_decision": 1,
+      "judge_latency_ms": 2627,
+      "deepseek_reason": "Fragrance: The concept is a dark, heavy, bold oud/leather/smoke scent, which directly contradicts BAD.mood=subtle, BAD.energy=moderate, BAD.color_temperature=neutral, BAD.texture=smooth, and the minimalist white/silver bracelet narrative. This is a clear mismatch. Music: The ambient style, clear timbre, and piano/strings fit the minimalist, subtle, smooth aesthetic reasonably well, but the slow tempo (70 bpm) is a bit low for BAD.energy=moderate, and the music_signature is generic rather than specifically tied to the bracelet object. Score 4 with a minor tempo/signature caveat; aligns_descriptor set false because the tempo mismatch is a rubric violation.",
+      "error": ""
+    },
+    {
+      "case_id": "X05",
+      "bad_id": "X05",
+      "fragrance_id": "X05",
+      "music_id": "X05",
+      "condition": "mismatched",
+      "mismatch_type": "fragrance",
+      "expected_result": "fail",
+      "judge_run_ok": 1,
+      "judge_parse_ok": 1,
+      "judge_schema_ok": 1,
+      "deepseek_fragrance_score": 2,
+      "deepseek_music_score": 4,
+      "deepseek_fragrance_aligns": 0,
+      "deepseek_music_aligns": 1,
+      "deepseek_only_pass": 0,
+      "judge_pass_before_rules": 0,
+      "critical_rule_violation": 1,
+      "critical_rule_names": "BAD energy is low but fragrance intensity is bold.",
+      "final_fragrance_score": 2,
+      "final_music_score": 4,
+      "final_system_pass": 0,
+      "correct_decision": 1,
+      "judge_latency_ms": 2104,
+      "deepseek_reason": "Fragrance: The concept is a dark, heavy, bold scent (smoke, leather, oud) that clashes with the BAD's low energy, grounded mood, warm/white/silver palette, and smooth minimalist texture. The pre-screening flag is correct. Music: Slow tempo (70 bpm) and ambient style fit BAD.energy=low; mood 'grounded' matches BAD.mood; clear timbre and piano/strings suit the smooth, minimalist, warm character; the sound-world is plausible for a minimalist wallet.",
+      "error": ""
+    },
+    {
+      "case_id": "X06",
+      "bad_id": "X06",
+      "fragrance_id": "X06",
+      "music_id": "X06",
+      "condition": "mismatched",
+      "mismatch_type": "fragrance",
+      "expected_result": "fail",
+      "judge_run_ok": 1,
+      "judge_parse_ok": 1,
+      "judge_schema_ok": 1,
+      "deepseek_fragrance_score": 2,
+      "deepseek_music_score": 3,
+      "deepseek_fragrance_aligns": 0,
+      "deepseek_music_aligns": 0,
+      "deepseek_only_pass": 0,
+      "judge_pass_before_rules": 0,
+      "critical_rule_violation": 0,
+      "critical_rule_names": "",
+      "final_fragrance_score": 2,
+      "final_music_score": 3,
+      "final_system_pass": 0,
+      "correct_decision": 1,
+      "judge_latency_ms": 3530,
+      "deepseek_reason": "Fragrance: The BAD describes a minimalist, vibrant, high-energy, cool-toned (white/silver), smooth earring. The fragrance concept is dark, heavy, smoky, leathery, oud-based, mysterious and intense. This directly contradicts the vibrant mood, cool temperature, and smooth texture. While bold intensity matches high energy, the overall character is a major mismatch. Music: The BAD's high energy and vibrant mood are only partially met. Brisk tempo (120 bpm) is moderate, not high-energy; ambient style is typically calm and atmospheric, conflicting with vibrant. Clear timbre and piano/strings can fit smooth/cool, but the sound-world is generic and not specifically tied to minimalist earrings. Both outputs fail to fully capture the brand identity.",
+      "error": ""
+    }
+  ],
+  "case_details": {
+    "M01": {
+      "bad": {
+        "brand_item": "watch",
+        "mood": [
+          "elegant"
+        ],
+        "energy": "moderate",
+        "color_temperature": "neutral",
+        "colours": [
+          "white",
+          "silver"
+        ],
+        "texture": [
+          "smooth"
+        ],
+        "visual_style": [
+          "minimalist"
+        ],
+        "sensory_metaphors": [],
+        "narrative": "A minimalist watch."
+      },
+      "fragrance": {
+        "top_notes": [
+          "citrus"
+        ],
+        "heart_notes": [
+          "floral"
+        ],
+        "base_notes": [
+          "musk"
+        ],
+        "dominant_accords": [
+          "fresh",
+          "clean"
+        ],
+        "intensity_profile": "bold",
+        "emotional_descriptors": [
+          "elegant"
+        ],
+        "smell_signature": "A fresh scent for a watch.",
+        "note_guide": [],
+        "grounded_notes": [],
+        "pyrfume_sources": []
+      },
+      "music": {
+        "tempo": "slow",
+        "bpm": 70,
+        "timbre": [
+          "clear"
+        ],
+        "instrumentation": [
+          "piano",
+          "strings"
+        ],
+        "mood": "elegant",
+        "style": "ambient",
+        "music_signature": "A clear ambient tune for a watch.",
+        "audio_sample_ref": null
+      },
+      "rule_flags": {
+        "fragrance_issues": [],
+        "music_issues": [],
+        "critical_fragrance_fail": false,
+        "critical_music_fail": false
+      },
+      "raw_response": "{\n  \"fragrance_score\": 3,\n  \"music_score\": 4,\n  \"fragrance_aligns_descriptor\": false,\n  \"music_aligns_descriptor\": true,\n  \"fragrance_issues\": [\n    \"BAD.energy=moderate vs intensity_profile=bold — bold intensity overshoots the moderate energy of a minimalist watch\",\n    \"BAD.texture=smooth vs dominant_accords=fresh/clean — clean/fresh reads crisp and sharp rather than smooth\",\n    \"smell_signature 'A fresh scent for a watch' is generic and does not reflect the elegant, minimalist narrative\"\n  ],\n  \"music_issues\": [\n    \"tempo=slow (70 bpm) is slightly below BAD.energy=moderate, but ambient style and clear timbre keep it within acceptable range\"\n  ],\n  \"details\": \"Fragrance: The elegant emotional descriptor aligns with BAD.mood, and citrus/floral/musk notes are neutral in temperature, matching BAD.color_temperature=neutral. However, the bold intensity_profile conflicts with BAD.energy=moderate, and the fresh/clean accords contradict BAD.texture=smooth, which calls for a softer, more seamless scent. The generic smell_signature fails to capture the minimalist watch narrative. Music: The slow tempo (70 bpm) is a minor deviation from moderate energy, but the elegant mood, clear timbre, and piano/strings instrumentation fit the minimalist, smooth, neutral aesthetic of a watch. The ambient style and clear timbre support the brand's refined simplicity, making it a credible translation.\",\n  \"summary\": \"Fragrance partially aligns but overshoots energy and texture with bold, fresh/clean accords; music aligns well with elegant, minimalist watch identity despite slightly slow tempo.\"\n}",
+      "parsed_payload": {
+        "fragrance_score": 3,
+        "music_score": 4,
+        "fragrance_aligns_descriptor": false,
+        "music_aligns_descriptor": true,
+        "fragrance_issues": [
+          "BAD.energy=moderate vs intensity_profile=bold — bold intensity overshoots the moderate energy of a minimalist watch",
+          "BAD.texture=smooth vs dominant_accords=fresh/clean — clean/fresh reads crisp and sharp rather than smooth",
+          "smell_signature 'A fresh scent for a watch' is generic and does not reflect the elegant, minimalist narrative"
+        ],
+        "music_issues": [
+          "tempo=slow (70 bpm) is slightly below BAD.energy=moderate, but ambient style and clear timbre keep it within acceptable range"
+        ],
+        "details": "Fragrance: The elegant emotional descriptor aligns with BAD.mood, and citrus/floral/musk notes are neutral in temperature, matching BAD.color_temperature=neutral. However, the bold intensity_profile conflicts with BAD.energy=moderate, and the fresh/clean accords contradict BAD.texture=smooth, which calls for a softer, more seamless scent. The generic smell_signature fails to capture the minimalist watch narrative. Music: The slow tempo (70 bpm) is a minor deviation from moderate energy, but the elegant mood, clear timbre, and piano/strings instrumentation fit the minimalist, smooth, neutral aesthetic of a watch. The ambient style and clear timbre support the brand's refined simplicity, making it a credible translation.",
+        "summary": "Fragrance partially aligns but overshoots energy and texture with bold, fresh/clean accords; music aligns well with elegant, minimalist watch identity despite slightly slow tempo."
+      },
+      "result": {
+        "case_id": "M01",
+        "bad_id": "M01",
+        "fragrance_id": "M01",
+        "music_id": "M01",
+        "condition": "matched",
+        "mismatch_type": "none",
+        "expected_result": "pass",
+        "judge_run_ok": 1,
+        "judge_parse_ok": 1,
+        "judge_schema_ok": 1,
+        "deepseek_fragrance_score": 3,
+        "deepseek_music_score": 4,
+        "deepseek_fragrance_aligns": 0,
+        "deepseek_music_aligns": 1,
+        "deepseek_only_pass": 0,
+        "judge_pass_before_rules": 0,
+        "critical_rule_violation": 0,
+        "critical_rule_names": "",
+        "final_fragrance_score": 3,
+        "final_music_score": 4,
+        "final_system_pass": 0,
+        "correct_decision": 0,
+        "judge_latency_ms": 4745,
+        "deepseek_reason": "Fragrance: The elegant emotional descriptor aligns with BAD.mood, and citrus/floral/musk notes are neutral in temperature, matching BAD.color_temperature=neutral. However, the bold intensity_profile conflicts with BAD.energy=moderate, and the fresh/clean accords contradict BAD.texture=smooth, which calls for a softer, more seamless scent. The generic smell_signature fails to capture the minimalist watch narrative. Music: The slow tempo (70 bpm) is a minor deviation from moderate energy, but the elegant mood, clear timbre, and piano/strings instrumentation fit the minimalist, smooth, neutral aesthetic of a watch. The ambient style and clear timbre support the brand's refined simplicity, making it a credible translation.",
+        "error": ""
+      }
+    },
+    "M02": {
+      "bad": {
+        "brand_item": "perfume bottle",
+        "mood": [
+          "joyful"
+        ],
+        "energy": "high",
+        "color_temperature": "warm",
+        "colours": [
+          "white",
+          "silver"
+        ],
+        "texture": [
+          "smooth"
+        ],
+        "visual_style": [
+          "minimalist"
+        ],
+        "sensory_metaphors": [],
+        "narrative": "A minimalist perfume bottle."
+      },
+      "fragrance": {
+        "top_notes": [
+          "citrus"
+        ],
+        "heart_notes": [
+          "floral"
+        ],
+        "base_notes": [
+          "musk"
+        ],
+        "dominant_accords": [
+          "fresh",
+          "clean"
+        ],
+        "intensity_profile": "bold",
+        "emotional_descriptors": [
+          "joyful"
+        ],
+        "smell_signature": "A fresh scent for a perfume bottle.",
+        "note_guide": [],
+        "grounded_notes": [],
+        "pyrfume_sources": []
+      },
+      "music": {
+        "tempo": "brisk",
+        "bpm": 120,
+        "timbre": [
+          "clear"
+        ],
+        "instrumentation": [
+          "piano",
+          "strings"
+        ],
+        "mood": "joyful",
+        "style": "ambient",
+        "music_signature": "A clear ambient tune for a perfume bottle.",
+        "audio_sample_ref": null
+      },
+      "rule_flags": {
+        "fragrance_issues": [],
+        "music_issues": [],
+        "critical_fragrance_fail": false,
+        "critical_music_fail": false
+      },
+      "raw_response": "{\n  \"fragrance_score\": 4,\n  \"music_score\": 3,\n  \"fragrance_aligns_descriptor\": true,\n  \"music_aligns_descriptor\": false,\n  \"fragrance_issues\": [\n    \"intensity_profile 'bold' is slightly stronger than BAD.energy=high might imply, but still plausible for a high-energy joyful scent\"\n  ],\n  \"music_issues\": [\n    \"style 'ambient' conflicts with BAD.energy=high and BAD.mood=joyful; ambient is typically calm and low-energy\",\n    \"instrumentation 'piano, strings' is generic and does not specifically evoke a minimalist perfume bottle; could suit any luxury context\",\n    \"tempo 'brisk' (120 bpm) is moderate, not clearly high-energy as BAD.energy=high suggests\"\n  ],\n  \"details\": \"Fragrance: The fresh, clean, citrus-floral-musk profile with joyful emotional descriptors aligns well with BAD.mood=joyful, BAD.color_temperature=warm (citrus and floral are warm), and BAD.texture=smooth (musk). The bold intensity matches BAD.energy=high. The minimalist perfume bottle is well-served by a clean, fresh scent. Minor concern: 'bold' intensity might be slightly overpowering for a minimalist aesthetic, but not a major violation. Music: The ambient style and piano/strings instrumentation are too generic and low-energy for BAD.energy=high and BAD.mood=joyful. Ambient music often conveys calmness, which clashes with the joyful, high-energy brand identity. The tempo of 120 bpm is moderate, not distinctly high-energy. The music signature does not specifically tie to a perfume bottle beyond a generic luxury cue.\",\n  \"summary\": \"Fragrance aligns well with the brand's joyful, high-energy, warm, smooth minimalist identity. Music falls short due to a low-energy ambient style and generic instrumentation that do not match the high energy and joyful mood.\"\n}",
+      "parsed_payload": {
+        "fragrance_score": 4,
+        "music_score": 3,
+        "fragrance_aligns_descriptor": true,
+        "music_aligns_descriptor": false,
+        "fragrance_issues": [
+          "intensity_profile 'bold' is slightly stronger than BAD.energy=high might imply, but still plausible for a high-energy joyful scent"
+        ],
+        "music_issues": [
+          "style 'ambient' conflicts with BAD.energy=high and BAD.mood=joyful; ambient is typically calm and low-energy",
+          "instrumentation 'piano, strings' is generic and does not specifically evoke a minimalist perfume bottle; could suit any luxury context",
+          "tempo 'brisk' (120 bpm) is moderate, not clearly high-energy as BAD.energy=high suggests"
+        ],
+        "details": "Fragrance: The fresh, clean, citrus-floral-musk profile with joyful emotional descriptors aligns well with BAD.mood=joyful, BAD.color_temperature=warm (citrus and floral are warm), and BAD.texture=smooth (musk). The bold intensity matches BAD.energy=high. The minimalist perfume bottle is well-served by a clean, fresh scent. Minor concern: 'bold' intensity might be slightly overpowering for a minimalist aesthetic, but not a major violation. Music: The ambient style and piano/strings instrumentation are too generic and low-energy for BAD.energy=high and BAD.mood=joyful. Ambient music often conveys calmness, which clashes with the joyful, high-energy brand identity. The tempo of 120 bpm is moderate, not distinctly high-energy. The music signature does not specifically tie to a perfume bottle beyond a generic luxury cue.",
+        "summary": "Fragrance aligns well with the brand's joyful, high-energy, warm, smooth minimalist identity. Music falls short due to a low-energy ambient style and generic instrumentation that do not match the high energy and joyful mood."
+      },
+      "result": {
+        "case_id": "M02",
+        "bad_id": "M02",
+        "fragrance_id": "M02",
+        "music_id": "M02",
+        "condition": "matched",
+        "mismatch_type": "none",
+        "expected_result": "pass",
+        "judge_run_ok": 1,
+        "judge_parse_ok": 1,
+        "judge_schema_ok": 1,
+        "deepseek_fragrance_score": 4,
+        "deepseek_music_score": 3,
+        "deepseek_fragrance_aligns": 1,
+        "deepseek_music_aligns": 0,
+        "deepseek_only_pass": 0,
+        "judge_pass_before_rules": 0,
+        "critical_rule_violation": 0,
+        "critical_rule_names": "",
+        "final_fragrance_score": 4,
+        "final_music_score": 3,
+        "final_system_pass": 0,
+        "correct_decision": 0,
+        "judge_latency_ms": 2828,
+        "deepseek_reason": "Fragrance: The fresh, clean, citrus-floral-musk profile with joyful emotional descriptors aligns well with BAD.mood=joyful, BAD.color_temperature=warm (citrus and floral are warm), and BAD.texture=smooth (musk). The bold intensity matches BAD.energy=high. The minimalist perfume bottle is well-served by a clean, fresh scent. Minor concern: 'bold' intensity might be slightly overpowering for a minimalist aesthetic, but not a major violation. Music: The ambient style and piano/strings instrumentation are too generic and low-energy for BAD.energy=high and BAD.mood=joyful. Ambient music often conveys calmness, which clashes with the joyful, high-energy brand identity. The tempo of 120 bpm is moderate, not distinctly high-energy. The music signature does not specifically tie to a perfume bottle beyond a generic luxury cue.",
+        "error": ""
+      }
+    },
+    "M03": {
+      "bad": {
+        "brand_item": "luxury bag",
+        "mood": [
+          "calm"
+        ],
+        "energy": "low",
+        "color_temperature": "cool",
+        "colours": [
+          "white",
+          "silver"
+        ],
+        "texture": [
+          "smooth"
+        ],
+        "visual_style": [
+          "minimalist"
+        ],
+        "sensory_metaphors": [],
+        "narrative": "A minimalist luxury bag."
+      },
+      "fragrance": {
+        "top_notes": [
+          "citrus"
+        ],
+        "heart_notes": [
+          "floral"
+        ],
+        "base_notes": [
+          "musk"
+        ],
+        "dominant_accords": [
+          "fresh",
+          "clean"
+        ],
+        "intensity_profile": "light",
+        "emotional_descriptors": [
+          "calm"
+        ],
+        "smell_signature": "A fresh scent for a luxury bag.",
+        "note_guide": [],
+        "grounded_notes": [],
+        "pyrfume_sources": []
+      },
+      "music": {
+        "tempo": "slow",
+        "bpm": 70,
+        "timbre": [
+          "clear"
+        ],
+        "instrumentation": [
+          "piano",
+          "strings"
+        ],
+        "mood": "calm",
+        "style": "ambient",
+        "music_signature": "A clear ambient tune for a luxury bag.",
+        "audio_sample_ref": null
+      },
+      "rule_flags": {
+        "fragrance_issues": [],
+        "music_issues": [],
+        "critical_fragrance_fail": false,
+        "critical_music_fail": false
+      },
+      "raw_response": "{\n  \"fragrance_score\": 5,\n  \"music_score\": 4,\n  \"fragrance_aligns_descriptor\": true,\n  \"music_aligns_descriptor\": true,\n  \"fragrance_issues\": [],\n  \"music_issues\": [\n    \"Instrumentation (piano, strings) is generic and not specifically tied to the luxury bag object or its minimalist craft; could suit many luxury contexts.\"\n  ],\n  \"details\": \"Fragrance: The fresh, clean accords with citrus, floral, and musk align perfectly with BAD.mood=calm, BAD.energy=low, BAD.color_temperature=cool, and BAD.texture=smooth. The light intensity matches low energy, and the scent direction is highly plausible for a minimalist luxury bag. Music: Tempo=slow (70 bpm) fits BAD.energy=low; mood=calm matches BAD.mood; clear timbre and ambient style suit cool, smooth, minimalist aesthetics. However, the piano and strings instrumentation is somewhat generic and not distinctly tied to the luxury bag object, though it remains plausible.\",\n  \"summary\": \"Both fragrance and music are strong, independent translations of the minimalist luxury bag identity. The fragrance is an excellent fit; the music is very good but slightly generic in instrumentation.\"\n}",
+      "parsed_payload": {
+        "fragrance_score": 5,
+        "music_score": 4,
+        "fragrance_aligns_descriptor": true,
+        "music_aligns_descriptor": true,
+        "fragrance_issues": [],
+        "music_issues": [
+          "Instrumentation (piano, strings) is generic and not specifically tied to the luxury bag object or its minimalist craft; could suit many luxury contexts."
+        ],
+        "details": "Fragrance: The fresh, clean accords with citrus, floral, and musk align perfectly with BAD.mood=calm, BAD.energy=low, BAD.color_temperature=cool, and BAD.texture=smooth. The light intensity matches low energy, and the scent direction is highly plausible for a minimalist luxury bag. Music: Tempo=slow (70 bpm) fits BAD.energy=low; mood=calm matches BAD.mood; clear timbre and ambient style suit cool, smooth, minimalist aesthetics. However, the piano and strings instrumentation is somewhat generic and not distinctly tied to the luxury bag object, though it remains plausible.",
+        "summary": "Both fragrance and music are strong, independent translations of the minimalist luxury bag identity. The fragrance is an excellent fit; the music is very good but slightly generic in instrumentation."
+      },
+      "result": {
+        "case_id": "M03",
+        "bad_id": "M03",
+        "fragrance_id": "M03",
+        "music_id": "M03",
+        "condition": "matched",
+        "mismatch_type": "none",
+        "expected_result": "pass",
+        "judge_run_ok": 1,
+        "judge_parse_ok": 1,
+        "judge_schema_ok": 1,
+        "deepseek_fragrance_score": 5,
+        "deepseek_music_score": 4,
+        "deepseek_fragrance_aligns": 1,
+        "deepseek_music_aligns": 1,
+        "deepseek_only_pass": 1,
+        "judge_pass_before_rules": 1,
+        "critical_rule_violation": 0,
+        "critical_rule_names": "",
+        "final_fragrance_score": 5,
+        "final_music_score": 4,
+        "final_system_pass": 1,
+        "correct_decision": 1,
+        "judge_latency_ms": 1850,
+        "deepseek_reason": "Fragrance: The fresh, clean accords with citrus, floral, and musk align perfectly with BAD.mood=calm, BAD.energy=low, BAD.color_temperature=cool, and BAD.texture=smooth. The light intensity matches low energy, and the scent direction is highly plausible for a minimalist luxury bag. Music: Tempo=slow (70 bpm) fits BAD.energy=low; mood=calm matches BAD.mood; clear timbre and ambient style suit cool, smooth, minimalist aesthetics. However, the piano and strings instrumentation is somewhat generic and not distinctly tied to the luxury bag object, though it remains plausible.",
+        "error": ""
+      }
+    },
+    "M04": {
+      "bad": {
+        "brand_item": "sunglasses",
+        "mood": [
+          "dynamic"
+        ],
+        "energy": "high",
+        "color_temperature": "neutral",
+        "colours": [
+          "white",
+          "silver"
+        ],
+        "texture": [
+          "smooth"
+        ],
+        "visual_style": [
+          "minimalist"
+        ],
+        "sensory_metaphors": [],
+        "narrative": "A minimalist sunglasses."
+      },
+      "fragrance": {
+        "top_notes": [
+          "citrus"
+        ],
+        "heart_notes": [
+          "floral"
+        ],
+        "base_notes": [
+          "musk"
+        ],
+        "dominant_accords": [
+          "fresh",
+          "clean"
+        ],
+        "intensity_profile": "bold",
+        "emotional_descriptors": [
+          "dynamic"
+        ],
+        "smell_signature": "A fresh scent for a sunglasses.",
+        "note_guide": [],
+        "grounded_notes": [],
+        "pyrfume_sources": []
+      },
+      "music": {
+        "tempo": "brisk",
+        "bpm": 120,
+        "timbre": [
+          "clear"
+        ],
+        "instrumentation": [
+          "piano",
+          "strings"
+        ],
+        "mood": "dynamic",
+        "style": "ambient",
+        "music_signature": "A clear ambient tune for a sunglasses.",
+        "audio_sample_ref": null
+      },
+      "rule_flags": {
+        "fragrance_issues": [],
+        "music_issues": [],
+        "critical_fragrance_fail": false,
+        "critical_music_fail": false
+      },
+      "raw_response": "{\n  \"fragrance_score\": 4,\n  \"music_score\": 3,\n  \"fragrance_aligns_descriptor\": true,\n  \"music_aligns_descriptor\": false,\n  \"fragrance_issues\": [\n    \"Minor: 'fresh' and 'clean' accords lean slightly cool, while BAD.color_temperature is neutral; still acceptable given white/silver palette.\"\n  ],\n  \"music_issues\": [\n    \"BAD.energy=high vs tempo=brisk (120 bpm) and style=ambient — ambient is typically low-energy, creating a mismatch with the dynamic, high-energy sunglasses.\",\n    \"Instrumentation (piano, strings) is generic and does not evoke sunglasses, minimalism, or the white/silver smooth texture; lacks a clear connection to the brand_item.\",\n    \"Timbre 'clear' is vague and does not strongly reflect the smooth, minimalist aesthetic.\"\n  ],\n  \"details\": \"Fragrance: The fresh, clean, bold scent with citrus, floral, and musk notes aligns well with the dynamic, high-energy, minimalist sunglasses. The neutral temperature and smooth texture are reasonably matched, though the fresh accords lean slightly cool. Overall, a credible translation. Music: The ambient style and brisk tempo (120 bpm) conflict with the high-energy, dynamic mood of the BAD. The instrumentation (piano, strings) is generic and does not specifically evoke sunglasses or the minimalist, smooth, white/silver aesthetic. The music_signature is too vague to justify the chosen instruments for this brand_item.\",\n  \"summary\": \"Fragrance aligns well with the brand's dynamic, high-energy, minimalist identity, while music falls short due to an energy mismatch and generic sound-world that lacks a clear connection to sunglasses.\"\n}",
+      "parsed_payload": {
+        "fragrance_score": 4,
+        "music_score": 3,
+        "fragrance_aligns_descriptor": true,
+        "music_aligns_descriptor": false,
+        "fragrance_issues": [
+          "Minor: 'fresh' and 'clean' accords lean slightly cool, while BAD.color_temperature is neutral; still acceptable given white/silver palette."
+        ],
+        "music_issues": [
+          "BAD.energy=high vs tempo=brisk (120 bpm) and style=ambient — ambient is typically low-energy, creating a mismatch with the dynamic, high-energy sunglasses.",
+          "Instrumentation (piano, strings) is generic and does not evoke sunglasses, minimalism, or the white/silver smooth texture; lacks a clear connection to the brand_item.",
+          "Timbre 'clear' is vague and does not strongly reflect the smooth, minimalist aesthetic."
+        ],
+        "details": "Fragrance: The fresh, clean, bold scent with citrus, floral, and musk notes aligns well with the dynamic, high-energy, minimalist sunglasses. The neutral temperature and smooth texture are reasonably matched, though the fresh accords lean slightly cool. Overall, a credible translation. Music: The ambient style and brisk tempo (120 bpm) conflict with the high-energy, dynamic mood of the BAD. The instrumentation (piano, strings) is generic and does not specifically evoke sunglasses or the minimalist, smooth, white/silver aesthetic. The music_signature is too vague to justify the chosen instruments for this brand_item.",
+        "summary": "Fragrance aligns well with the brand's dynamic, high-energy, minimalist identity, while music falls short due to an energy mismatch and generic sound-world that lacks a clear connection to sunglasses."
+      },
+      "result": {
+        "case_id": "M04",
+        "bad_id": "M04",
+        "fragrance_id": "M04",
+        "music_id": "M04",
+        "condition": "matched",
+        "mismatch_type": "none",
+        "expected_result": "pass",
+        "judge_run_ok": 1,
+        "judge_parse_ok": 1,
+        "judge_schema_ok": 1,
+        "deepseek_fragrance_score": 4,
+        "deepseek_music_score": 3,
+        "deepseek_fragrance_aligns": 1,
+        "deepseek_music_aligns": 0,
+        "deepseek_only_pass": 0,
+        "judge_pass_before_rules": 0,
+        "critical_rule_violation": 0,
+        "critical_rule_names": "",
+        "final_fragrance_score": 4,
+        "final_music_score": 3,
+        "final_system_pass": 0,
+        "correct_decision": 0,
+        "judge_latency_ms": 2676,
+        "deepseek_reason": "Fragrance: The fresh, clean, bold scent with citrus, floral, and musk notes aligns well with the dynamic, high-energy, minimalist sunglasses. The neutral temperature and smooth texture are reasonably matched, though the fresh accords lean slightly cool. Overall, a credible translation. Music: The ambient style and brisk tempo (120 bpm) conflict with the high-energy, dynamic mood of the BAD. The instrumentation (piano, strings) is generic and does not specifically evoke sunglasses or the minimalist, smooth, white/silver aesthetic. The music_signature is too vague to justify the chosen instruments for this brand_item.",
+        "error": ""
+      }
+    },
+    "M05": {
+      "bad": {
+        "brand_item": "necklace",
+        "mood": [
+          "romantic"
+        ],
+        "energy": "moderate",
+        "color_temperature": "warm",
+        "colours": [
+          "white",
+          "silver"
+        ],
+        "texture": [
+          "smooth"
+        ],
+        "visual_style": [
+          "minimalist"
+        ],
+        "sensory_metaphors": [],
+        "narrative": "A minimalist necklace."
+      },
+      "fragrance": {
+        "top_notes": [
+          "citrus"
+        ],
+        "heart_notes": [
+          "floral"
+        ],
+        "base_notes": [
+          "musk"
+        ],
+        "dominant_accords": [
+          "fresh",
+          "clean"
+        ],
+        "intensity_profile": "bold",
+        "emotional_descriptors": [
+          "romantic"
+        ],
+        "smell_signature": "A fresh scent for a necklace.",
+        "note_guide": [],
+        "grounded_notes": [],
+        "pyrfume_sources": []
+      },
+      "music": {
+        "tempo": "slow",
+        "bpm": 70,
+        "timbre": [
+          "clear"
+        ],
+        "instrumentation": [
+          "piano",
+          "strings"
+        ],
+        "mood": "romantic",
+        "style": "ambient",
+        "music_signature": "A clear ambient tune for a necklace.",
+        "audio_sample_ref": null
+      },
+      "rule_flags": {
+        "fragrance_issues": [],
+        "music_issues": [],
+        "critical_fragrance_fail": false,
+        "critical_music_fail": false
+      },
+      "raw_response": "{\n  \"fragrance_score\": 3,\n  \"music_score\": 4,\n  \"fragrance_aligns_descriptor\": false,\n  \"music_aligns_descriptor\": false,\n  \"fragrance_issues\": [\n    \"BAD.energy=moderate vs intensity_profile=bold — bold overstates a moderate-energy minimalist necklace\",\n    \"BAD.texture=smooth and minimalist visual_style vs dominant_accords=fresh/clean — clean/fresh reads more crisp and airy than smooth, warm, romantic minimalism\",\n    \"BAD.color_temperature=warm vs fresh citrus/floral/musk profile — leans cool/clean rather than warm\"\n  ],\n  \"music_issues\": [\n    \"BAD.energy=moderate vs tempo=slow (70 bpm) — slow tempo undersells moderate energy\",\n    \"BAD.texture=smooth and minimalist visual_style vs instrumentation=piano/strings ambient — strings can read lush/romantic rather than smooth minimalist; ambient is a reasonable but not perfect match\"\n  ],\n  \"details\": \"Fragrance: emotional_descriptors=['romantic'] aligns with BAD.mood=['romantic'], and musk/floral base suits a warm romantic necklace. However, intensity_profile='bold' conflicts with BAD.energy='moderate', and the fresh/clean accord set conflicts with BAD.texture=['smooth'] and BAD.color_temperature='warm', reading cooler and crisper than the descriptor. Music: mood='romantic' and clear timbre fit BAD.mood and BAD.texture=smooth, and piano/strings ambient is plausible for a minimalist necklace. But tempo='slow' (70 bpm) undercuts BAD.energy='moderate', and the string-heavy ambient palette risks a lushness beyond the minimalist visual_style. Both outputs are credible but each has one clear energy/temperature mismatch, so neither reaches the aligns threshold.\",\n  \"summary\": \"Both specialists captured the romantic mood, but the fragrance overstates intensity as bold and skews cool/clean against a warm, smooth, moderate-energy descriptor, while the music's slow tempo undersells moderate energy. Neither fully aligns.\"\n}",
+      "parsed_payload": {
+        "fragrance_score": 3,
+        "music_score": 4,
+        "fragrance_aligns_descriptor": false,
+        "music_aligns_descriptor": false,
+        "fragrance_issues": [
+          "BAD.energy=moderate vs intensity_profile=bold — bold overstates a moderate-energy minimalist necklace",
+          "BAD.texture=smooth and minimalist visual_style vs dominant_accords=fresh/clean — clean/fresh reads more crisp and airy than smooth, warm, romantic minimalism",
+          "BAD.color_temperature=warm vs fresh citrus/floral/musk profile — leans cool/clean rather than warm"
+        ],
+        "music_issues": [
+          "BAD.energy=moderate vs tempo=slow (70 bpm) — slow tempo undersells moderate energy",
+          "BAD.texture=smooth and minimalist visual_style vs instrumentation=piano/strings ambient — strings can read lush/romantic rather than smooth minimalist; ambient is a reasonable but not perfect match"
+        ],
+        "details": "Fragrance: emotional_descriptors=['romantic'] aligns with BAD.mood=['romantic'], and musk/floral base suits a warm romantic necklace. However, intensity_profile='bold' conflicts with BAD.energy='moderate', and the fresh/clean accord set conflicts with BAD.texture=['smooth'] and BAD.color_temperature='warm', reading cooler and crisper than the descriptor. Music: mood='romantic' and clear timbre fit BAD.mood and BAD.texture=smooth, and piano/strings ambient is plausible for a minimalist necklace. But tempo='slow' (70 bpm) undercuts BAD.energy='moderate', and the string-heavy ambient palette risks a lushness beyond the minimalist visual_style. Both outputs are credible but each has one clear energy/temperature mismatch, so neither reaches the aligns threshold.",
+        "summary": "Both specialists captured the romantic mood, but the fragrance overstates intensity as bold and skews cool/clean against a warm, smooth, moderate-energy descriptor, while the music's slow tempo undersells moderate energy. Neither fully aligns."
+      },
+      "result": {
+        "case_id": "M05",
+        "bad_id": "M05",
+        "fragrance_id": "M05",
+        "music_id": "M05",
+        "condition": "matched",
+        "mismatch_type": "none",
+        "expected_result": "pass",
+        "judge_run_ok": 1,
+        "judge_parse_ok": 1,
+        "judge_schema_ok": 1,
+        "deepseek_fragrance_score": 3,
+        "deepseek_music_score": 4,
+        "deepseek_fragrance_aligns": 0,
+        "deepseek_music_aligns": 0,
+        "deepseek_only_pass": 0,
+        "judge_pass_before_rules": 0,
+        "critical_rule_violation": 0,
+        "critical_rule_names": "",
+        "final_fragrance_score": 3,
+        "final_music_score": 4,
+        "final_system_pass": 0,
+        "correct_decision": 0,
+        "judge_latency_ms": 2565,
+        "deepseek_reason": "Fragrance: emotional_descriptors=['romantic'] aligns with BAD.mood=['romantic'], and musk/floral base suits a warm romantic necklace. However, intensity_profile='bold' conflicts with BAD.energy='moderate', and the fresh/clean accord set conflicts with BAD.texture=['smooth'] and BAD.color_temperature='warm', reading cooler and crisper than the descriptor. Music: mood='romantic' and clear timbre fit BAD.mood and BAD.texture=smooth, and piano/strings ambient is plausible for a minimalist necklace. But tempo='slow' (70 bpm) undercuts BAD.energy='moderate', and the string-heavy ambient palette risks a lushness beyond the minimalist visual_style. Both outputs are credible but each has one clear energy/temperature mismatch, so neither reaches the aligns threshold.",
+        "error": ""
+      }
+    },
+    "M06": {
+      "bad": {
+        "brand_item": "camera",
+        "mood": [
+          "focused"
+        ],
+        "energy": "low",
+        "color_temperature": "cool",
+        "colours": [
+          "white",
+          "silver"
+        ],
+        "texture": [
+          "smooth"
+        ],
+        "visual_style": [
+          "minimalist"
+        ],
+        "sensory_metaphors": [],
+        "narrative": "A minimalist camera."
+      },
+      "fragrance": {
+        "top_notes": [
+          "citrus"
+        ],
+        "heart_notes": [
+          "floral"
+        ],
+        "base_notes": [
+          "musk"
+        ],
+        "dominant_accords": [
+          "fresh",
+          "clean"
+        ],
+        "intensity_profile": "light",
+        "emotional_descriptors": [
+          "focused"
+        ],
+        "smell_signature": "A fresh scent for a camera.",
+        "note_guide": [],
+        "grounded_notes": [],
+        "pyrfume_sources": []
+      },
+      "music": {
+        "tempo": "slow",
+        "bpm": 70,
+        "timbre": [
+          "clear"
+        ],
+        "instrumentation": [
+          "piano",
+          "strings"
+        ],
+        "mood": "focused",
+        "style": "ambient",
+        "music_signature": "A clear ambient tune for a camera.",
+        "audio_sample_ref": null
+      },
+      "rule_flags": {
+        "fragrance_issues": [],
+        "music_issues": [],
+        "critical_fragrance_fail": false,
+        "critical_music_fail": false
+      },
+      "raw_response": "{\n  \"fragrance_score\": 4,\n  \"music_score\": 4,\n  \"fragrance_aligns_descriptor\": true,\n  \"music_aligns_descriptor\": true,\n  \"fragrance_issues\": [],\n  \"music_issues\": [],\n  \"details\": \"Fragrance: light intensity matches BAD.energy=low; fresh/clean accords and citrus/floral/musk notes fit cool, smooth, minimalist white/silver camera; emotional descriptor 'focused' aligns with BAD.mood. Music: slow tempo (70 bpm) matches low energy; ambient style and clear timbre fit cool, smooth, minimalist aesthetic; piano/strings are plausible for a focused camera brand, though slightly generic. Both outputs credibly translate the same brand identity without major violations.\",\n  \"summary\": \"Both fragrance and music are credible, independent translations of the minimalist, focused camera brand, with strong mood and energy alignment.\"\n}",
+      "parsed_payload": {
+        "fragrance_score": 4,
+        "music_score": 4,
+        "fragrance_aligns_descriptor": true,
+        "music_aligns_descriptor": true,
+        "fragrance_issues": [],
+        "music_issues": [],
+        "details": "Fragrance: light intensity matches BAD.energy=low; fresh/clean accords and citrus/floral/musk notes fit cool, smooth, minimalist white/silver camera; emotional descriptor 'focused' aligns with BAD.mood. Music: slow tempo (70 bpm) matches low energy; ambient style and clear timbre fit cool, smooth, minimalist aesthetic; piano/strings are plausible for a focused camera brand, though slightly generic. Both outputs credibly translate the same brand identity without major violations.",
+        "summary": "Both fragrance and music are credible, independent translations of the minimalist, focused camera brand, with strong mood and energy alignment."
+      },
+      "result": {
+        "case_id": "M06",
+        "bad_id": "M06",
+        "fragrance_id": "M06",
+        "music_id": "M06",
+        "condition": "matched",
+        "mismatch_type": "none",
+        "expected_result": "pass",
+        "judge_run_ok": 1,
+        "judge_parse_ok": 1,
+        "judge_schema_ok": 1,
+        "deepseek_fragrance_score": 4,
+        "deepseek_music_score": 4,
+        "deepseek_fragrance_aligns": 1,
+        "deepseek_music_aligns": 1,
+        "deepseek_only_pass": 1,
+        "judge_pass_before_rules": 1,
+        "critical_rule_violation": 0,
+        "critical_rule_names": "",
+        "final_fragrance_score": 4,
+        "final_music_score": 4,
+        "final_system_pass": 1,
+        "correct_decision": 1,
+        "judge_latency_ms": 1502,
+        "deepseek_reason": "Fragrance: light intensity matches BAD.energy=low; fresh/clean accords and citrus/floral/musk notes fit cool, smooth, minimalist white/silver camera; emotional descriptor 'focused' aligns with BAD.mood. Music: slow tempo (70 bpm) matches low energy; ambient style and clear timbre fit cool, smooth, minimalist aesthetic; piano/strings are plausible for a focused camera brand, though slightly generic. Both outputs credibly translate the same brand identity without major violations.",
+        "error": ""
+      }
+    },
+    "X01": {
+      "bad": {
+        "brand_item": "tea set",
+        "mood": [
+          "peaceful"
+        ],
+        "energy": "low",
+        "color_temperature": "cool",
+        "colours": [
+          "white",
+          "silver"
+        ],
+        "texture": [
+          "smooth"
+        ],
+        "visual_style": [
+          "minimalist"
+        ],
+        "sensory_metaphors": [],
+        "narrative": "A minimalist tea set."
+      },
+      "fragrance": {
+        "top_notes": [
+          "citrus"
+        ],
+        "heart_notes": [
+          "floral"
+        ],
+        "base_notes": [
+          "musk"
+        ],
+        "dominant_accords": [
+          "fresh",
+          "clean"
+        ],
+        "intensity_profile": "light",
+        "emotional_descriptors": [
+          "peaceful"
+        ],
+        "smell_signature": "A fresh scent for a tea set.",
+        "note_guide": [],
+        "grounded_notes": [],
+        "pyrfume_sources": []
+      },
+      "music": {
+        "tempo": "very fast",
+        "bpm": 180,
+        "timbre": [
+          "harsh",
+          "distorted"
+        ],
+        "instrumentation": [
+          "heavy synth",
+          "distorted bass"
+        ],
+        "mood": "aggressive",
+        "style": "industrial",
+        "music_signature": "An aggressive industrial track.",
+        "audio_sample_ref": null
+      },
+      "rule_flags": {
+        "fragrance_issues": [],
+        "music_issues": [
+          "BAD energy is low but music tempo is 'very fast' (too fast)."
+        ],
+        "critical_fragrance_fail": false,
+        "critical_music_fail": true
+      },
+      "raw_response": "{\n  \"fragrance_score\": 4,\n  \"music_score\": 1,\n  \"fragrance_aligns_descriptor\": true,\n  \"music_aligns_descriptor\": false,\n  \"fragrance_issues\": [],\n  \"music_issues\": [\n    \"BAD.energy=low vs tempo='very fast' (180 bpm) — extreme mismatch\",\n    \"BAD.mood=['peaceful'] vs mood='aggressive' — direct contradiction\",\n    \"BAD.color_temperature='cool' and texture='smooth' vs timbre=['harsh','distorted'] — harshness contradicts smooth cool aesthetic\",\n    \"BAD.brand_item='tea set' vs instrumentation=['heavy synth','distorted bass'] and style='industrial' — sound-world does not belong to a tea set object or ritual\",\n    \"music_signature 'An aggressive industrial track' does not justify instruments for a minimalist tea set\"\n  ],\n  \"details\": \"Fragrance: light intensity matches BAD.energy=low; fresh/clean accords and citrus/floral/musk notes fit BAD.color_temperature=cool and texture=smooth; emotional descriptor 'peaceful' matches BAD.mood; plausible for a minimalist tea set. Music: tempo 180 bpm 'very fast' directly contradicts BAD.energy=low; mood 'aggressive' contradicts BAD.mood=['peaceful']; harsh/distorted timbre contradicts cool/smooth texture; industrial heavy synth/distorted bass sound-world is unrelated to a tea set object or ritual.\",\n  \"summary\": \"Fragrance is a credible, independent translation of the peaceful minimalist tea set identity, while the music direction is a clear mismatch across energy, mood, timbre, and sound-world.\"\n}",
+      "parsed_payload": {
+        "fragrance_score": 4,
+        "music_score": 1,
+        "fragrance_aligns_descriptor": true,
+        "music_aligns_descriptor": false,
+        "fragrance_issues": [],
+        "music_issues": [
+          "BAD.energy=low vs tempo='very fast' (180 bpm) — extreme mismatch",
+          "BAD.mood=['peaceful'] vs mood='aggressive' — direct contradiction",
+          "BAD.color_temperature='cool' and texture='smooth' vs timbre=['harsh','distorted'] — harshness contradicts smooth cool aesthetic",
+          "BAD.brand_item='tea set' vs instrumentation=['heavy synth','distorted bass'] and style='industrial' — sound-world does not belong to a tea set object or ritual",
+          "music_signature 'An aggressive industrial track' does not justify instruments for a minimalist tea set"
+        ],
+        "details": "Fragrance: light intensity matches BAD.energy=low; fresh/clean accords and citrus/floral/musk notes fit BAD.color_temperature=cool and texture=smooth; emotional descriptor 'peaceful' matches BAD.mood; plausible for a minimalist tea set. Music: tempo 180 bpm 'very fast' directly contradicts BAD.energy=low; mood 'aggressive' contradicts BAD.mood=['peaceful']; harsh/distorted timbre contradicts cool/smooth texture; industrial heavy synth/distorted bass sound-world is unrelated to a tea set object or ritual.",
+        "summary": "Fragrance is a credible, independent translation of the peaceful minimalist tea set identity, while the music direction is a clear mismatch across energy, mood, timbre, and sound-world."
+      },
+      "result": {
+        "case_id": "X01",
+        "bad_id": "X01",
+        "fragrance_id": "X01",
+        "music_id": "X01",
+        "condition": "mismatched",
+        "mismatch_type": "music",
+        "expected_result": "fail",
+        "judge_run_ok": 1,
+        "judge_parse_ok": 1,
+        "judge_schema_ok": 1,
+        "deepseek_fragrance_score": 4,
+        "deepseek_music_score": 1,
+        "deepseek_fragrance_aligns": 1,
+        "deepseek_music_aligns": 0,
+        "deepseek_only_pass": 0,
+        "judge_pass_before_rules": 0,
+        "critical_rule_violation": 1,
+        "critical_rule_names": "BAD energy is low but music tempo is 'very fast' (too fast).",
+        "final_fragrance_score": 4,
+        "final_music_score": 1,
+        "final_system_pass": 0,
+        "correct_decision": 1,
+        "judge_latency_ms": 2111,
+        "deepseek_reason": "Fragrance: light intensity matches BAD.energy=low; fresh/clean accords and citrus/floral/musk notes fit BAD.color_temperature=cool and texture=smooth; emotional descriptor 'peaceful' matches BAD.mood; plausible for a minimalist tea set. Music: tempo 180 bpm 'very fast' directly contradicts BAD.energy=low; mood 'aggressive' contradicts BAD.mood=['peaceful']; harsh/distorted timbre contradicts cool/smooth texture; industrial heavy synth/distorted bass sound-world is unrelated to a tea set object or ritual.",
+        "error": ""
+      }
+    },
+    "X02": {
+      "bad": {
+        "brand_item": "fountain pen",
+        "mood": [
+          "classic"
+        ],
+        "energy": "moderate",
+        "color_temperature": "neutral",
+        "colours": [
+          "white",
+          "silver"
+        ],
+        "texture": [
+          "smooth"
+        ],
+        "visual_style": [
+          "minimalist"
+        ],
+        "sensory_metaphors": [],
+        "narrative": "A minimalist fountain pen."
+      },
+      "fragrance": {
+        "top_notes": [
+          "citrus"
+        ],
+        "heart_notes": [
+          "floral"
+        ],
+        "base_notes": [
+          "musk"
+        ],
+        "dominant_accords": [
+          "fresh",
+          "clean"
+        ],
+        "intensity_profile": "bold",
+        "emotional_descriptors": [
+          "classic"
+        ],
+        "smell_signature": "A fresh scent for a fountain pen.",
+        "note_guide": [],
+        "grounded_notes": [],
+        "pyrfume_sources": []
+      },
+      "music": {
+        "tempo": "very fast",
+        "bpm": 180,
+        "timbre": [
+          "harsh",
+          "distorted"
+        ],
+        "instrumentation": [
+          "heavy synth",
+          "distorted bass"
+        ],
+        "mood": "aggressive",
+        "style": "industrial",
+        "music_signature": "An aggressive industrial track.",
+        "audio_sample_ref": null
+      },
+      "rule_flags": {
+        "fragrance_issues": [],
+        "music_issues": [],
+        "critical_fragrance_fail": false,
+        "critical_music_fail": false
+      },
+      "raw_response": "{\n  \"fragrance_score\": 3,\n  \"music_score\": 1,\n  \"fragrance_aligns_descriptor\": false,\n  \"music_aligns_descriptor\": false,\n  \"fragrance_issues\": [\n    \"BAD.energy=moderate vs intensity_profile=bold — bold is too intense for a moderate-energy minimalist pen\",\n    \"BAD.texture=smooth vs dominant_accords=fresh/clean — clean/fresh reads crisp and airy rather than smooth and refined\",\n    \"BAD.color_temperature=neutral vs citrus/floral/musk — leans bright and slightly warm, not neutral\"\n  ],\n  \"music_issues\": [\n    \"BAD.energy=moderate vs tempo=very fast (180 bpm) — extreme mismatch\",\n    \"BAD.mood=classic vs mood=aggressive — direct contradiction\",\n    \"BAD.texture=smooth vs timbre=harsh/distorted — direct contradiction\",\n    \"BAD.visual_style=minimalist vs style=industrial — industrial is maximalist and abrasive, not minimalist\",\n    \"BAD.brand_item=fountain pen vs instrumentation=heavy synth/distorted bass — sound-world does not belong to a writing instrument or its craft\"\n  ],\n  \"details\": \"Fragrance: The fresh/clean citrus-floral-musk direction is broadly plausible for a classic minimalist pen, but the 'bold' intensity_profile conflicts with BAD.energy=moderate, and the fresh/clean accords do not match BAD.texture=smooth or BAD.color_temperature=neutral. It is a partial fit, not a strong independent translation. Music: The industrial direction is a clear mismatch on every rubric axis — tempo (180 bpm vs moderate energy), mood (aggressive vs classic), timbre (harsh/distorted vs smooth), style (industrial vs minimalist), and sound-world (heavy synth/distorted bass does not belong to a fountain pen). The music_signature 'aggressive industrial track' is not justified by the brand_item or narrative.\",\n  \"summary\": \"The fragrance is a weak-to-moderate fit with an intensity mismatch, while the music direction is a clear mismatch across energy, mood, timbre, style, and sound-world. Neither output credibly translates the minimalist classic fountain pen identity.\"\n}",
+      "parsed_payload": {
+        "fragrance_score": 3,
+        "music_score": 1,
+        "fragrance_aligns_descriptor": false,
+        "music_aligns_descriptor": false,
+        "fragrance_issues": [
+          "BAD.energy=moderate vs intensity_profile=bold — bold is too intense for a moderate-energy minimalist pen",
+          "BAD.texture=smooth vs dominant_accords=fresh/clean — clean/fresh reads crisp and airy rather than smooth and refined",
+          "BAD.color_temperature=neutral vs citrus/floral/musk — leans bright and slightly warm, not neutral"
+        ],
+        "music_issues": [
+          "BAD.energy=moderate vs tempo=very fast (180 bpm) — extreme mismatch",
+          "BAD.mood=classic vs mood=aggressive — direct contradiction",
+          "BAD.texture=smooth vs timbre=harsh/distorted — direct contradiction",
+          "BAD.visual_style=minimalist vs style=industrial — industrial is maximalist and abrasive, not minimalist",
+          "BAD.brand_item=fountain pen vs instrumentation=heavy synth/distorted bass — sound-world does not belong to a writing instrument or its craft"
+        ],
+        "details": "Fragrance: The fresh/clean citrus-floral-musk direction is broadly plausible for a classic minimalist pen, but the 'bold' intensity_profile conflicts with BAD.energy=moderate, and the fresh/clean accords do not match BAD.texture=smooth or BAD.color_temperature=neutral. It is a partial fit, not a strong independent translation. Music: The industrial direction is a clear mismatch on every rubric axis — tempo (180 bpm vs moderate energy), mood (aggressive vs classic), timbre (harsh/distorted vs smooth), style (industrial vs minimalist), and sound-world (heavy synth/distorted bass does not belong to a fountain pen). The music_signature 'aggressive industrial track' is not justified by the brand_item or narrative.",
+        "summary": "The fragrance is a weak-to-moderate fit with an intensity mismatch, while the music direction is a clear mismatch across energy, mood, timbre, style, and sound-world. Neither output credibly translates the minimalist classic fountain pen identity."
+      },
+      "result": {
+        "case_id": "X02",
+        "bad_id": "X02",
+        "fragrance_id": "X02",
+        "music_id": "X02",
+        "condition": "mismatched",
+        "mismatch_type": "music",
+        "expected_result": "fail",
+        "judge_run_ok": 1,
+        "judge_parse_ok": 1,
+        "judge_schema_ok": 1,
+        "deepseek_fragrance_score": 3,
+        "deepseek_music_score": 1,
+        "deepseek_fragrance_aligns": 0,
+        "deepseek_music_aligns": 0,
+        "deepseek_only_pass": 0,
+        "judge_pass_before_rules": 0,
+        "critical_rule_violation": 0,
+        "critical_rule_names": "",
+        "final_fragrance_score": 3,
+        "final_music_score": 1,
+        "final_system_pass": 0,
+        "correct_decision": 1,
+        "judge_latency_ms": 2876,
+        "deepseek_reason": "Fragrance: The fresh/clean citrus-floral-musk direction is broadly plausible for a classic minimalist pen, but the 'bold' intensity_profile conflicts with BAD.energy=moderate, and the fresh/clean accords do not match BAD.texture=smooth or BAD.color_temperature=neutral. It is a partial fit, not a strong independent translation. Music: The industrial direction is a clear mismatch on every rubric axis — tempo (180 bpm vs moderate energy), mood (aggressive vs classic), timbre (harsh/distorted vs smooth), style (industrial vs minimalist), and sound-world (heavy synth/distorted bass does not belong to a fountain pen). The music_signature 'aggressive industrial track' is not justified by the brand_item or narrative.",
+        "error": ""
+      }
+    },
+    "X03": {
+      "bad": {
+        "brand_item": "lamp",
+        "mood": [
+          "energetic"
+        ],
+        "energy": "high",
+        "color_temperature": "warm",
+        "colours": [
+          "white",
+          "silver"
+        ],
+        "texture": [
+          "smooth"
+        ],
+        "visual_style": [
+          "minimalist"
+        ],
+        "sensory_metaphors": [],
+        "narrative": "A minimalist lamp."
+      },
+      "fragrance": {
+        "top_notes": [
+          "citrus"
+        ],
+        "heart_notes": [
+          "floral"
+        ],
+        "base_notes": [
+          "musk"
+        ],
+        "dominant_accords": [
+          "fresh",
+          "clean"
+        ],
+        "intensity_profile": "bold",
+        "emotional_descriptors": [
+          "energetic"
+        ],
+        "smell_signature": "A fresh scent for a lamp.",
+        "note_guide": [],
+        "grounded_notes": [],
+        "pyrfume_sources": []
+      },
+      "music": {
+        "tempo": "very fast",
+        "bpm": 180,
+        "timbre": [
+          "harsh",
+          "distorted"
+        ],
+        "instrumentation": [
+          "heavy synth",
+          "distorted bass"
+        ],
+        "mood": "aggressive",
+        "style": "industrial",
+        "music_signature": "An aggressive industrial track.",
+        "audio_sample_ref": null
+      },
+      "rule_flags": {
+        "fragrance_issues": [],
+        "music_issues": [],
+        "critical_fragrance_fail": false,
+        "critical_music_fail": false
+      },
+      "raw_response": "{\n  \"fragrance_score\": 3,\n  \"music_score\": 2,\n  \"fragrance_aligns_descriptor\": false,\n  \"music_aligns_descriptor\": false,\n  \"fragrance_issues\": [\n    \"BAD.energy=high vs intensity_profile=bold: bold is acceptable but not clearly high-energy; fresh/clean accords read more moderate than high-energy\",\n    \"BAD.color_temperature=warm vs dominant_accords=fresh/clean: fresh/clean typically reads cool, not warm\",\n    \"BAD.texture=smooth vs fresh/clean: smooth is plausible but the scent lacks a warm smooth base to match the warm minimalist lamp\",\n    \"BAD.mood=energetic vs emotional_descriptors=energetic: matches, but the overall fresh/clean profile is more serene than energetic\"\n  ],\n  \"music_issues\": [\n    \"BAD.energy=high vs tempo=very fast/bpm=180: tempo is excessively fast, overshooting high energy into frantic\",\n    \"BAD.mood=energetic vs mood=aggressive: aggressive is a different emotional register than energetic; BAD narrative is a minimalist lamp, not aggressive\",\n    \"BAD.color_temperature=warm vs timbre=harsh/distorted: harsh/distorted is cold and abrasive, clashing with warm\",\n    \"BAD.texture=smooth vs timbre=harsh/distorted: smooth texture is contradicted by harsh, distorted timbre\",\n    \"BAD.visual_style=minimalist vs style=industrial: industrial is not minimalist; it is dense and abrasive\",\n    \"music_signature='An aggressive industrial track' does not belong to a minimalist lamp object; no justification for heavy synth/distorted bass\"\n  ],\n  \"details\": \"Fragrance: The fresh/clean citrus-floral-musk profile partially matches the minimalist lamp's clean aesthetic and energetic mood, but the fresh/clean accords read cool rather than warm (BAD.color_temperature=warm), and the bold intensity is only a moderate fit for BAD.energy=high. The scent lacks warmth and smoothness to fully align with the warm, smooth minimalist lamp. Music: The very fast 180 BPM, harsh/distorted timbre, aggressive industrial style, and heavy synth/distorted bass strongly clash with BAD.energy=high (overshoots to frantic), BAD.mood=energetic (aggressive is not energetic), BAD.color_temperature=warm (harsh/distorted is cold), BAD.texture=smooth (harsh/distorted is rough), and BAD.visual_style=minimalist (industrial is not minimalist). The music direction does not credibly translate the minimalist lamp identity.\",\n  \"summary\": \"Fragrance is a partial fit (score 3) due to cool fresh accords against a warm, smooth, high-energy lamp; music is a poor fit (score 2) because its aggressive industrial harshness contradicts the warm, smooth, minimalist, energetic lamp identity.\"\n}",
+      "parsed_payload": {
+        "fragrance_score": 3,
+        "music_score": 2,
+        "fragrance_aligns_descriptor": false,
+        "music_aligns_descriptor": false,
+        "fragrance_issues": [
+          "BAD.energy=high vs intensity_profile=bold: bold is acceptable but not clearly high-energy; fresh/clean accords read more moderate than high-energy",
+          "BAD.color_temperature=warm vs dominant_accords=fresh/clean: fresh/clean typically reads cool, not warm",
+          "BAD.texture=smooth vs fresh/clean: smooth is plausible but the scent lacks a warm smooth base to match the warm minimalist lamp",
+          "BAD.mood=energetic vs emotional_descriptors=energetic: matches, but the overall fresh/clean profile is more serene than energetic"
+        ],
+        "music_issues": [
+          "BAD.energy=high vs tempo=very fast/bpm=180: tempo is excessively fast, overshooting high energy into frantic",
+          "BAD.mood=energetic vs mood=aggressive: aggressive is a different emotional register than energetic; BAD narrative is a minimalist lamp, not aggressive",
+          "BAD.color_temperature=warm vs timbre=harsh/distorted: harsh/distorted is cold and abrasive, clashing with warm",
+          "BAD.texture=smooth vs timbre=harsh/distorted: smooth texture is contradicted by harsh, distorted timbre",
+          "BAD.visual_style=minimalist vs style=industrial: industrial is not minimalist; it is dense and abrasive",
+          "music_signature='An aggressive industrial track' does not belong to a minimalist lamp object; no justification for heavy synth/distorted bass"
+        ],
+        "details": "Fragrance: The fresh/clean citrus-floral-musk profile partially matches the minimalist lamp's clean aesthetic and energetic mood, but the fresh/clean accords read cool rather than warm (BAD.color_temperature=warm), and the bold intensity is only a moderate fit for BAD.energy=high. The scent lacks warmth and smoothness to fully align with the warm, smooth minimalist lamp. Music: The very fast 180 BPM, harsh/distorted timbre, aggressive industrial style, and heavy synth/distorted bass strongly clash with BAD.energy=high (overshoots to frantic), BAD.mood=energetic (aggressive is not energetic), BAD.color_temperature=warm (harsh/distorted is cold), BAD.texture=smooth (harsh/distorted is rough), and BAD.visual_style=minimalist (industrial is not minimalist). The music direction does not credibly translate the minimalist lamp identity.",
+        "summary": "Fragrance is a partial fit (score 3) due to cool fresh accords against a warm, smooth, high-energy lamp; music is a poor fit (score 2) because its aggressive industrial harshness contradicts the warm, smooth, minimalist, energetic lamp identity."
+      },
+      "result": {
+        "case_id": "X03",
+        "bad_id": "X03",
+        "fragrance_id": "X03",
+        "music_id": "X03",
+        "condition": "mismatched",
+        "mismatch_type": "music",
+        "expected_result": "fail",
+        "judge_run_ok": 1,
+        "judge_parse_ok": 1,
+        "judge_schema_ok": 1,
+        "deepseek_fragrance_score": 3,
+        "deepseek_music_score": 2,
+        "deepseek_fragrance_aligns": 0,
+        "deepseek_music_aligns": 0,
+        "deepseek_only_pass": 0,
+        "judge_pass_before_rules": 0,
+        "critical_rule_violation": 0,
+        "critical_rule_names": "",
+        "final_fragrance_score": 3,
+        "final_music_score": 2,
+        "final_system_pass": 0,
+        "correct_decision": 1,
+        "judge_latency_ms": 3189,
+        "deepseek_reason": "Fragrance: The fresh/clean citrus-floral-musk profile partially matches the minimalist lamp's clean aesthetic and energetic mood, but the fresh/clean accords read cool rather than warm (BAD.color_temperature=warm), and the bold intensity is only a moderate fit for BAD.energy=high. The scent lacks warmth and smoothness to fully align with the warm, smooth minimalist lamp. Music: The very fast 180 BPM, harsh/distorted timbre, aggressive industrial style, and heavy synth/distorted bass strongly clash with BAD.energy=high (overshoots to frantic), BAD.mood=energetic (aggressive is not energetic), BAD.color_temperature=warm (harsh/distorted is cold), BAD.texture=smooth (harsh/distorted is rough), and BAD.visual_style=minimalist (industrial is not minimalist). The music direction does not credibly translate the minimalist lamp identity.",
+        "error": ""
+      }
+    },
+    "X04": {
+      "bad": {
+        "brand_item": "bracelet",
+        "mood": [
+          "subtle"
+        ],
+        "energy": "moderate",
+        "color_temperature": "neutral",
+        "colours": [
+          "white",
+          "silver"
+        ],
+        "texture": [
+          "smooth"
+        ],
+        "visual_style": [
+          "minimalist"
+        ],
+        "sensory_metaphors": [],
+        "narrative": "A minimalist bracelet."
+      },
+      "fragrance": {
+        "top_notes": [
+          "smoke"
+        ],
+        "heart_notes": [
+          "leather"
+        ],
+        "base_notes": [
+          "oud"
+        ],
+        "dominant_accords": [
+          "dark",
+          "heavy"
+        ],
+        "intensity_profile": "bold",
+        "emotional_descriptors": [
+          "mysterious",
+          "intense"
+        ],
+        "smell_signature": "An intensely dark and heavy scent.",
+        "note_guide": [],
+        "grounded_notes": [],
+        "pyrfume_sources": []
+      },
+      "music": {
+        "tempo": "slow",
+        "bpm": 70,
+        "timbre": [
+          "clear"
+        ],
+        "instrumentation": [
+          "piano",
+          "strings"
+        ],
+        "mood": "subtle",
+        "style": "ambient",
+        "music_signature": "A clear ambient tune for a bracelet.",
+        "audio_sample_ref": null
+      },
+      "rule_flags": {
+        "fragrance_issues": [],
+        "music_issues": [],
+        "critical_fragrance_fail": false,
+        "critical_music_fail": false
+      },
+      "raw_response": "{\n  \"fragrance_score\": 1,\n  \"music_score\": 4,\n  \"fragrance_aligns_descriptor\": false,\n  \"music_aligns_descriptor\": false,\n  \"fragrance_issues\": [\n    \"BAD.energy=moderate vs intensity_profile=bold (clear mismatch)\",\n    \"BAD.mood=subtle vs emotional_descriptors=mysterious, intense (opposite mood)\",\n    \"BAD.color_temperature=neutral vs dark/heavy accords (smoke, leather, oud) imply warm/dark, not neutral\",\n    \"BAD.texture=smooth vs smoke/leather/oud texture is rough, animalic, resinous\",\n    \"BAD.brand_item=bracelet (minimalist, white/silver) vs dark heavy scent is implausible\"\n  ],\n  \"music_issues\": [\n    \"BAD.energy=moderate vs tempo=slow, bpm=70 (slightly low for moderate energy)\",\n    \"music_signature 'clear ambient tune for a bracelet' is generic and does not justify piano/strings for a minimalist silver bracelet\"\n  ],\n  \"details\": \"Fragrance: The concept is a dark, heavy, bold oud/leather/smoke scent, which directly contradicts BAD.mood=subtle, BAD.energy=moderate, BAD.color_temperature=neutral, BAD.texture=smooth, and the minimalist white/silver bracelet narrative. This is a clear mismatch. Music: The ambient style, clear timbre, and piano/strings fit the minimalist, subtle, smooth aesthetic reasonably well, but the slow tempo (70 bpm) is a bit low for BAD.energy=moderate, and the music_signature is generic rather than specifically tied to the bracelet object. Score 4 with a minor tempo/signature caveat; aligns_descriptor set false because the tempo mismatch is a rubric violation.\",\n  \"summary\": \"Fragrance is a clear mismatch (dark/bold vs subtle/moderate/neutral). Music is a good but not perfect fit, with a slightly slow tempo and generic signature.\"\n}",
+      "parsed_payload": {
+        "fragrance_score": 1,
+        "music_score": 4,
+        "fragrance_aligns_descriptor": false,
+        "music_aligns_descriptor": false,
+        "fragrance_issues": [
+          "BAD.energy=moderate vs intensity_profile=bold (clear mismatch)",
+          "BAD.mood=subtle vs emotional_descriptors=mysterious, intense (opposite mood)",
+          "BAD.color_temperature=neutral vs dark/heavy accords (smoke, leather, oud) imply warm/dark, not neutral",
+          "BAD.texture=smooth vs smoke/leather/oud texture is rough, animalic, resinous",
+          "BAD.brand_item=bracelet (minimalist, white/silver) vs dark heavy scent is implausible"
+        ],
+        "music_issues": [
+          "BAD.energy=moderate vs tempo=slow, bpm=70 (slightly low for moderate energy)",
+          "music_signature 'clear ambient tune for a bracelet' is generic and does not justify piano/strings for a minimalist silver bracelet"
+        ],
+        "details": "Fragrance: The concept is a dark, heavy, bold oud/leather/smoke scent, which directly contradicts BAD.mood=subtle, BAD.energy=moderate, BAD.color_temperature=neutral, BAD.texture=smooth, and the minimalist white/silver bracelet narrative. This is a clear mismatch. Music: The ambient style, clear timbre, and piano/strings fit the minimalist, subtle, smooth aesthetic reasonably well, but the slow tempo (70 bpm) is a bit low for BAD.energy=moderate, and the music_signature is generic rather than specifically tied to the bracelet object. Score 4 with a minor tempo/signature caveat; aligns_descriptor set false because the tempo mismatch is a rubric violation.",
+        "summary": "Fragrance is a clear mismatch (dark/bold vs subtle/moderate/neutral). Music is a good but not perfect fit, with a slightly slow tempo and generic signature."
+      },
+      "result": {
+        "case_id": "X04",
+        "bad_id": "X04",
+        "fragrance_id": "X04",
+        "music_id": "X04",
+        "condition": "mismatched",
+        "mismatch_type": "fragrance",
+        "expected_result": "fail",
+        "judge_run_ok": 1,
+        "judge_parse_ok": 1,
+        "judge_schema_ok": 1,
+        "deepseek_fragrance_score": 1,
+        "deepseek_music_score": 4,
+        "deepseek_fragrance_aligns": 0,
+        "deepseek_music_aligns": 0,
+        "deepseek_only_pass": 0,
+        "judge_pass_before_rules": 0,
+        "critical_rule_violation": 0,
+        "critical_rule_names": "",
+        "final_fragrance_score": 1,
+        "final_music_score": 4,
+        "final_system_pass": 0,
+        "correct_decision": 1,
+        "judge_latency_ms": 2627,
+        "deepseek_reason": "Fragrance: The concept is a dark, heavy, bold oud/leather/smoke scent, which directly contradicts BAD.mood=subtle, BAD.energy=moderate, BAD.color_temperature=neutral, BAD.texture=smooth, and the minimalist white/silver bracelet narrative. This is a clear mismatch. Music: The ambient style, clear timbre, and piano/strings fit the minimalist, subtle, smooth aesthetic reasonably well, but the slow tempo (70 bpm) is a bit low for BAD.energy=moderate, and the music_signature is generic rather than specifically tied to the bracelet object. Score 4 with a minor tempo/signature caveat; aligns_descriptor set false because the tempo mismatch is a rubric violation.",
+        "error": ""
+      }
+    },
+    "X05": {
+      "bad": {
+        "brand_item": "wallet",
+        "mood": [
+          "grounded"
+        ],
+        "energy": "low",
+        "color_temperature": "warm",
+        "colours": [
+          "white",
+          "silver"
+        ],
+        "texture": [
+          "smooth"
+        ],
+        "visual_style": [
+          "minimalist"
+        ],
+        "sensory_metaphors": [],
+        "narrative": "A minimalist wallet."
+      },
+      "fragrance": {
+        "top_notes": [
+          "smoke"
+        ],
+        "heart_notes": [
+          "leather"
+        ],
+        "base_notes": [
+          "oud"
+        ],
+        "dominant_accords": [
+          "dark",
+          "heavy"
+        ],
+        "intensity_profile": "bold",
+        "emotional_descriptors": [
+          "mysterious",
+          "intense"
+        ],
+        "smell_signature": "An intensely dark and heavy scent.",
+        "note_guide": [],
+        "grounded_notes": [],
+        "pyrfume_sources": []
+      },
+      "music": {
+        "tempo": "slow",
+        "bpm": 70,
+        "timbre": [
+          "clear"
+        ],
+        "instrumentation": [
+          "piano",
+          "strings"
+        ],
+        "mood": "grounded",
+        "style": "ambient",
+        "music_signature": "A clear ambient tune for a wallet.",
+        "audio_sample_ref": null
+      },
+      "rule_flags": {
+        "fragrance_issues": [
+          "BAD energy is low but fragrance intensity is bold."
+        ],
+        "music_issues": [],
+        "critical_fragrance_fail": true,
+        "critical_music_fail": false
+      },
+      "raw_response": "{\n  \"fragrance_score\": 2,\n  \"music_score\": 4,\n  \"fragrance_aligns_descriptor\": false,\n  \"music_aligns_descriptor\": true,\n  \"fragrance_issues\": [\n    \"BAD.energy=low vs intensity_profile=bold — clear energy mismatch\",\n    \"BAD.mood=grounded vs emotional_descriptors=mysterious, intense — mood mismatch\",\n    \"BAD.color_temperature=warm and colours=white/silver vs dark/heavy accords and smoke/oud notes — temperature and texture mismatch\",\n    \"BAD.texture=smooth vs smoke/oud/leather notes — texture mismatch\"\n  ],\n  \"music_issues\": [],\n  \"details\": \"Fragrance: The concept is a dark, heavy, bold scent (smoke, leather, oud) that clashes with the BAD's low energy, grounded mood, warm/white/silver palette, and smooth minimalist texture. The pre-screening flag is correct. Music: Slow tempo (70 bpm) and ambient style fit BAD.energy=low; mood 'grounded' matches BAD.mood; clear timbre and piano/strings suit the smooth, minimalist, warm character; the sound-world is plausible for a minimalist wallet.\",\n  \"summary\": \"Fragrance fails on energy, mood, and temperature; music aligns well with the BAD's low-energy, grounded, smooth minimalist identity.\"\n}",
+      "parsed_payload": {
+        "fragrance_score": 2,
+        "music_score": 4,
+        "fragrance_aligns_descriptor": false,
+        "music_aligns_descriptor": true,
+        "fragrance_issues": [
+          "BAD.energy=low vs intensity_profile=bold — clear energy mismatch",
+          "BAD.mood=grounded vs emotional_descriptors=mysterious, intense — mood mismatch",
+          "BAD.color_temperature=warm and colours=white/silver vs dark/heavy accords and smoke/oud notes — temperature and texture mismatch",
+          "BAD.texture=smooth vs smoke/oud/leather notes — texture mismatch"
+        ],
+        "music_issues": [],
+        "details": "Fragrance: The concept is a dark, heavy, bold scent (smoke, leather, oud) that clashes with the BAD's low energy, grounded mood, warm/white/silver palette, and smooth minimalist texture. The pre-screening flag is correct. Music: Slow tempo (70 bpm) and ambient style fit BAD.energy=low; mood 'grounded' matches BAD.mood; clear timbre and piano/strings suit the smooth, minimalist, warm character; the sound-world is plausible for a minimalist wallet.",
+        "summary": "Fragrance fails on energy, mood, and temperature; music aligns well with the BAD's low-energy, grounded, smooth minimalist identity."
+      },
+      "result": {
+        "case_id": "X05",
+        "bad_id": "X05",
+        "fragrance_id": "X05",
+        "music_id": "X05",
+        "condition": "mismatched",
+        "mismatch_type": "fragrance",
+        "expected_result": "fail",
+        "judge_run_ok": 1,
+        "judge_parse_ok": 1,
+        "judge_schema_ok": 1,
+        "deepseek_fragrance_score": 2,
+        "deepseek_music_score": 4,
+        "deepseek_fragrance_aligns": 0,
+        "deepseek_music_aligns": 1,
+        "deepseek_only_pass": 0,
+        "judge_pass_before_rules": 0,
+        "critical_rule_violation": 1,
+        "critical_rule_names": "BAD energy is low but fragrance intensity is bold.",
+        "final_fragrance_score": 2,
+        "final_music_score": 4,
+        "final_system_pass": 0,
+        "correct_decision": 1,
+        "judge_latency_ms": 2104,
+        "deepseek_reason": "Fragrance: The concept is a dark, heavy, bold scent (smoke, leather, oud) that clashes with the BAD's low energy, grounded mood, warm/white/silver palette, and smooth minimalist texture. The pre-screening flag is correct. Music: Slow tempo (70 bpm) and ambient style fit BAD.energy=low; mood 'grounded' matches BAD.mood; clear timbre and piano/strings suit the smooth, minimalist, warm character; the sound-world is plausible for a minimalist wallet.",
+        "error": ""
+      }
+    },
+    "X06": {
+      "bad": {
+        "brand_item": "earrings",
+        "mood": [
+          "vibrant"
+        ],
+        "energy": "high",
+        "color_temperature": "cool",
+        "colours": [
+          "white",
+          "silver"
+        ],
+        "texture": [
+          "smooth"
+        ],
+        "visual_style": [
+          "minimalist"
+        ],
+        "sensory_metaphors": [],
+        "narrative": "A minimalist earrings."
+      },
+      "fragrance": {
+        "top_notes": [
+          "smoke"
+        ],
+        "heart_notes": [
+          "leather"
+        ],
+        "base_notes": [
+          "oud"
+        ],
+        "dominant_accords": [
+          "dark",
+          "heavy"
+        ],
+        "intensity_profile": "bold",
+        "emotional_descriptors": [
+          "mysterious",
+          "intense"
+        ],
+        "smell_signature": "An intensely dark and heavy scent.",
+        "note_guide": [],
+        "grounded_notes": [],
+        "pyrfume_sources": []
+      },
+      "music": {
+        "tempo": "brisk",
+        "bpm": 120,
+        "timbre": [
+          "clear"
+        ],
+        "instrumentation": [
+          "piano",
+          "strings"
+        ],
+        "mood": "vibrant",
+        "style": "ambient",
+        "music_signature": "A clear ambient tune for a earrings.",
+        "audio_sample_ref": null
+      },
+      "rule_flags": {
+        "fragrance_issues": [],
+        "music_issues": [],
+        "critical_fragrance_fail": false,
+        "critical_music_fail": false
+      },
+      "raw_response": "{\n  \"fragrance_score\": 2,\n  \"music_score\": 3,\n  \"fragrance_aligns_descriptor\": false,\n  \"music_aligns_descriptor\": false,\n  \"fragrance_issues\": [\n    \"BAD.mood=vibrant vs emotional_descriptors=mysterious, intense (dark/heavy accords contradict vibrant)\",\n    \"BAD.color_temperature=cool vs dominant_accords=dark, heavy (warm, dense, smoky profile)\",\n    \"BAD.texture=smooth vs smoke/leather/oud notes (rough, animalic, resinous texture)\",\n    \"BAD.energy=high vs intensity_profile=bold (bold is high, but the dark heavy character reads more brooding than vibrant high energy)\"\n  ],\n  \"music_issues\": [\n    \"BAD.energy=high vs tempo=brisk/bpm=120 (brisk is moderate, not high-energy; high energy would suggest faster, more driving tempo)\",\n    \"BAD.mood=vibrant vs style=ambient (ambient is typically calm, atmospheric, not vibrant)\",\n    \"BAD.texture=smooth vs timbre=clear (clear is acceptable but lacks the smooth, polished quality; piano/strings can be smooth but ambient style often uses pads/textures)\",\n    \"music_signature='clear ambient tune for a earrings' is generic and does not strongly tie to minimalist earrings object or craft\"\n  ],\n  \"details\": \"Fragrance: The BAD describes a minimalist, vibrant, high-energy, cool-toned (white/silver), smooth earring. The fragrance concept is dark, heavy, smoky, leathery, oud-based, mysterious and intense. This directly contradicts the vibrant mood, cool temperature, and smooth texture. While bold intensity matches high energy, the overall character is a major mismatch. Music: The BAD's high energy and vibrant mood are only partially met. Brisk tempo (120 bpm) is moderate, not high-energy; ambient style is typically calm and atmospheric, conflicting with vibrant. Clear timbre and piano/strings can fit smooth/cool, but the sound-world is generic and not specifically tied to minimalist earrings. Both outputs fail to fully capture the brand identity.\",\n  \"summary\": \"Fragrance is a clear mismatch (dark/heavy vs vibrant/cool/smooth). Music is a partial fit but tempo and style underdeliver on high energy and vibrant mood, and the sound-world is generic.\"\n}",
+      "parsed_payload": {
+        "fragrance_score": 2,
+        "music_score": 3,
+        "fragrance_aligns_descriptor": false,
+        "music_aligns_descriptor": false,
+        "fragrance_issues": [
+          "BAD.mood=vibrant vs emotional_descriptors=mysterious, intense (dark/heavy accords contradict vibrant)",
+          "BAD.color_temperature=cool vs dominant_accords=dark, heavy (warm, dense, smoky profile)",
+          "BAD.texture=smooth vs smoke/leather/oud notes (rough, animalic, resinous texture)",
+          "BAD.energy=high vs intensity_profile=bold (bold is high, but the dark heavy character reads more brooding than vibrant high energy)"
+        ],
+        "music_issues": [
+          "BAD.energy=high vs tempo=brisk/bpm=120 (brisk is moderate, not high-energy; high energy would suggest faster, more driving tempo)",
+          "BAD.mood=vibrant vs style=ambient (ambient is typically calm, atmospheric, not vibrant)",
+          "BAD.texture=smooth vs timbre=clear (clear is acceptable but lacks the smooth, polished quality; piano/strings can be smooth but ambient style often uses pads/textures)",
+          "music_signature='clear ambient tune for a earrings' is generic and does not strongly tie to minimalist earrings object or craft"
+        ],
+        "details": "Fragrance: The BAD describes a minimalist, vibrant, high-energy, cool-toned (white/silver), smooth earring. The fragrance concept is dark, heavy, smoky, leathery, oud-based, mysterious and intense. This directly contradicts the vibrant mood, cool temperature, and smooth texture. While bold intensity matches high energy, the overall character is a major mismatch. Music: The BAD's high energy and vibrant mood are only partially met. Brisk tempo (120 bpm) is moderate, not high-energy; ambient style is typically calm and atmospheric, conflicting with vibrant. Clear timbre and piano/strings can fit smooth/cool, but the sound-world is generic and not specifically tied to minimalist earrings. Both outputs fail to fully capture the brand identity.",
+        "summary": "Fragrance is a clear mismatch (dark/heavy vs vibrant/cool/smooth). Music is a partial fit but tempo and style underdeliver on high energy and vibrant mood, and the sound-world is generic."
+      },
+      "result": {
+        "case_id": "X06",
+        "bad_id": "X06",
+        "fragrance_id": "X06",
+        "music_id": "X06",
+        "condition": "mismatched",
+        "mismatch_type": "fragrance",
+        "expected_result": "fail",
+        "judge_run_ok": 1,
+        "judge_parse_ok": 1,
+        "judge_schema_ok": 1,
+        "deepseek_fragrance_score": 2,
+        "deepseek_music_score": 3,
+        "deepseek_fragrance_aligns": 0,
+        "deepseek_music_aligns": 0,
+        "deepseek_only_pass": 0,
+        "judge_pass_before_rules": 0,
+        "critical_rule_violation": 0,
+        "critical_rule_names": "",
+        "final_fragrance_score": 2,
+        "final_music_score": 3,
+        "final_system_pass": 0,
+        "correct_decision": 1,
+        "judge_latency_ms": 3530,
+        "deepseek_reason": "Fragrance: The BAD describes a minimalist, vibrant, high-energy, cool-toned (white/silver), smooth earring. The fragrance concept is dark, heavy, smoky, leathery, oud-based, mysterious and intense. This directly contradicts the vibrant mood, cool temperature, and smooth texture. While bold intensity matches high energy, the overall character is a major mismatch. Music: The BAD's high energy and vibrant mood are only partially met. Brisk tempo (120 bpm) is moderate, not high-energy; ambient style is typically calm and atmospheric, conflicting with vibrant. Clear timbre and piano/strings can fit smooth/cool, but the sound-world is generic and not specifically tied to minimalist earrings. Both outputs fail to fully capture the brand identity.",
+        "error": ""
+      }
+    }
+  },
+  "summary": {
+    "n_cases": 12,
+    "n_completed": 12,
+    "n_failed": 0,
+    "matched_acceptance_rate": 0.3333333333333333,
+    "mismatch_rejection_rate": 1.0,
+    "overall_correct_decision_rate": 0.6666666666666666,
+    "music_mismatch_rejection_rate": 1.0,
+    "fragrance_mismatch_rejection_rate": 1.0,
+    "judge_run_success_rate": 1.0,
+    "judge_parse_success_rate": 1.0,
+    "judge_schema_success_rate": 1.0,
+    "median_judge_latency_ms": 2651.5,
+    "deterministic_override_count": 0
+  }
+}

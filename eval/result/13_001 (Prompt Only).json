@@ -1,0 +1,192 @@
+{
+  "execution_id": "13_001 (Prompt Only)",
+  "timestamp": "2026-09-13T14:42:41.992361Z",
+  "input_image_ref": "D:\\ibrand_superprototype\\eval\\outputs\\images\\13_001 (Prompt Only).jpg",
+  "brand_aesthetic_descriptor": {
+    "brand_item": "wristwatch",
+    "mood": [
+      "sophisticated",
+      "timeless",
+      "luxurious",
+      "durable",
+      "classic"
+    ],
+    "energy": "moderate",
+    "color_temperature": "neutral",
+    "colours": [
+      "deep forest green",
+      "brushed silver metal",
+      "warm gold metal",
+      "luminous green",
+      "black bezel"
+    ],
+    "texture": [
+      "metallic",
+      "smooth",
+      "luminous",
+      "sleek",
+      "polished"
+    ],
+    "visual_style": [
+      "centered product shot with clean white background",
+      "watch face",
+      "hour markers",
+      "hands",
+      "date window"
+    ],
+    "sensory_metaphors": [],
+    "narrative": "Direct image parse of wristwatch. Colours: deep forest green, brushed silver metal, warm gold metal, luminous green, black bezel. Composition: centered product shot with clean white background. Atmosphere: sophisticated, timeless, luxurious, durable, classic. Surface cues: metallic, smooth, luminous, sleek, polished."
+  },
+  "fragrance_concept": {
+    "top_notes": [
+      "1,1-diethoxynonane",
+      "3-nonyne",
+      "(+)-pinocarvone"
+    ],
+    "heart_notes": [
+      "1-methyl-4-phenoxybenzene",
+      "labienoxime",
+      "2-butoxyethylbenzene"
+    ],
+    "base_notes": [
+      "octyl 2-furoate",
+      "2-butylpyridine",
+      "1,1,3-trimethylcyclohexane"
+    ],
+    "dominant_accords": [
+      "polished green florals",
+      "cool metallic elegance",
+      "warm skin-like depth",
+      "timeless herbal freshness",
+      "luminous aldehydic sparkle"
+    ],
+    "intensity_profile": "moderate",
+    "emotional_descriptors": [
+      "refined",
+      "confident",
+      "understated",
+      "lasting",
+      "poised"
+    ],
+    "smell_signature": "Combined together, these ingredients will smell like a freshly pressed white shirt in a sunlit atelier—crisp green herbs and cool cucumber water give way to soft rose petals brushed against clean silver, settling into warm, creamy skin with a whisper of sweet hay. Think of a heritage watchmaker's private studio where metal tools, aged wood, and jasmine tea share the same quiet air.",
+    "note_guide": [
+      {
+        "smells_like": "aldehydic, rose",
+        "chemical_name": "1,1-diethoxynonane",
+        "ingredient": "1,1-diethoxynonane"
+      },
+      {
+        "smells_like": "cucumber, marine",
+        "chemical_name": "3-nonyne",
+        "ingredient": "3-nonyne"
+      },
+      {
+        "smells_like": "herbal",
+        "chemical_name": "(+)-pinocarvone",
+        "ingredient": "(+)-pinocarvone"
+      },
+      {
+        "smells_like": "narcissus, rose",
+        "chemical_name": "1-methyl-4-phenoxybenzene",
+        "ingredient": "1-methyl-4-phenoxybenzene"
+      },
+      {
+        "smells_like": "currant bud black currant bud, herbal",
+        "chemical_name": "labienoxime",
+        "ingredient": "labienoxime"
+      },
+      {
+        "smells_like": "metallic, mushroom",
+        "chemical_name": "2-butoxyethylbenzene",
+        "ingredient": "2-butoxyethylbenzene"
+      },
+      {
+        "smells_like": "mushroom, oily",
+        "chemical_name": "octyl 2-furoate",
+        "ingredient": "octyl 2-furoate"
+      },
+      {
+        "smells_like": "sweet green notes, somewhat tallowy",
+        "chemical_name": "2-butylpyridine",
+        "ingredient": "2-butylpyridine"
+      },
+      {
+        "smells_like": "sweet, green",
+        "chemical_name": "1,1,3-trimethylcyclohexane",
+        "ingredient": "1,1,3-trimethylcyclohexane"
+      }
+    ],
+    "grounded_notes": [
+      "1,1-diethoxynonane",
+      "3-nonyne",
+      "(+)-pinocarvone",
+      "1-methyl-4-phenoxybenzene",
+      "labienoxime",
+      "2-butoxyethylbenzene",
+      "octyl 2-furoate",
+      "2-butylpyridine",
+      "1,1,3-trimethylcyclohexane"
+    ],
+    "pyrfume_sources": [
+      "goodscents",
+      "ifra_2019",
+      "leffingwell"
+    ]
+  },
+  "music_direction": {
+    "tempo": "moderate",
+    "bpm": 88,
+    "timbre": [
+      "brushed silver harmonics",
+      "warm gold resonance",
+      "smooth metallic sustain",
+      "luminous high-end sheen",
+      "polished low-mid warmth"
+    ],
+    "instrumentation": [
+      "vibraphone with motor off",
+      "upright bass",
+      "muted trumpet",
+      "rhodes electric piano",
+      " brushed cymbal and wire brush snare"
+    ],
+    "mood": "sophisticated",
+    "style": "modern-jazz-lounge",
+    "music_signature": "This is the sound of a precision timepiece at golden hour in a quiet atelier: the vibraphone's silver-bright bars struck with soft mallets create luminous, decaying tones that evoke brushed metal catching light, each note ringing clean and measured like seconds on a well-crafted movement. At 88 BPM, a upright bass walks with warm, rounded gold-toned notes—never hurried, always purposeful—while muted trumpet enters with restrained melodic phrases, breathy and human against the mechanical perfection. Rhodes electric piano fills the midrange with smooth, polished warmth, its tines softened through tube amplification. Percussion stays minimal: wire brushes on snare for sustained whisper, occasional brushed cymbal swells for luminous accents. The arrangement progresses like examining a watch face—opening with solo vibraphone motif, bass entering to establish steady pulse, trumpet and Rhodes layering in for fuller sophistication, then stripping back to essentials. Harmonic character is cool jazz voicings with unexpected major seventh colorations, never busy, always spacious. Production should feel intimate and analog: close-miked, subtle room ambience, controlled dynamics with peaks at the attack of each vibraphone bar, warm tape saturation on bass and Rhodes, high-end air on trumpet and vibraphone overtones. No electronic beats, no synthetic pads, no corporate uplift—just the patient, durable elegance of mechanical craft translated into acoustic sound.",
+    "audio_sample_ref": "/api/audio/13_001%20%28Prompt%20Only%29"
+  },
+  "audio_sample_ref": "/api/audio/13_001%20%28Prompt%20Only%29",
+  "rationale": "## Visual to Descriptor\n\nThe centered product shot with clean white background establishes an immediate atmosphere of restraint and precision, which directly shaped the mood field values of sophisticated, timeless, and classic. The interplay of deep forest green against brushed silver metal and warm gold metal created a color_temperature reading of neutral rather than warm or cool, as neither metallic family dominates the visual balance. The surface qualities visible in the watch face and bezel—metallic, smooth, luminous, sleek, polished—were extracted as texture field values that signal luxury through controlled reflection rather than ostentation.\n\n## Descriptor to Fragrance\n\nThe texture field values of metallic, smooth, and luminous translated directly into the cool metallic elegance accord, with 2-butoxyethylbenzene chosen specifically for its metallic, mushroom character to echo the brushed silver metal surfaces. The mood field values of sophisticated and timeless guided the selection of 1-methyl-4-phenoxybenzene and labienoxime to create polished green florals that avoid fleeting fruitiness in favor of enduring herbal-rose complexity. The energy value of moderate determined the intensity_profile, ensuring the fragrance presents confident sillage without aggressive projection, matching the durable yet understated character of a precision instrument worn daily.\n\n## Descriptor to Music\n\nThe color_temperature value of neutral became the foundational principle for timbre, requiring the equal presence of brushed silver harmonics and warm gold resonance so that neither frequency range tips the sonic palette toward cold or hot. The mood field value of sophisticated directed the style toward modern-jazz-lounge rather than ambient or classical, while the specific texture value of luminous translated into luminous high-end sheen achieved through vibraphone overtones and trumpet air. The energy value of moderate precisely determined both the tempo at 88 BPM and the measured arrangement philosophy, where instruments enter and exit with the same purposeful restraint as hands moving across a watch face.",
+  "congruence_report": {
+    "automated_proxies": {
+      "clip_score_image_fragrance_text": 0.3576,
+      "clip_score_image_music_text": 0.2441,
+      "imagebind_score_image_audio": null
+    },
+    "descriptor_consistency": {
+      "fragrance_aligns_descriptor": true,
+      "music_aligns_descriptor": true,
+      "details": "The fragrance concept aligns well with the BAD's mood of sophistication and timelessness, with its polished green florals and cool metallic elegance matching the brand's neutral color temperature and sleek textures. The music direction excellently captures the brand's moderate energy and sophisticated mood, with its modern-jazz-lounge style and instrumentation that reflects the brand's metallic and luminous qualities.",
+      "fragrance_score": 4,
+      "music_score": 5,
+      "fragrance_issues": [],
+      "music_issues": []
+    },
+    "human_ratings": null,
+    "summary": "Both the fragrance and music directions are credible translations of the brand identity, with the music direction being an excellent fit and the fragrance concept being a strong fit.",
+    "attempts": [
+      {
+        "attempt": 1,
+        "fragrance_aligns_descriptor": true,
+        "music_aligns_descriptor": true,
+        "details": "The fragrance concept aligns well with the BAD's mood of sophistication and timelessness, with its polished green florals and cool metallic elegance matching the brand's neutral color temperature and sleek textures. The music direction excellently captures the brand's moderate energy and sophisticated mood, with its modern-jazz-lounge style and instrumentation that reflects the brand's metallic and luminous qualities.",
+        "summary": "Both the fragrance and music directions are credible translations of the brand identity, with the music direction being an excellent fit and the fragrance concept being a strong fit.",
+        "regenerated": []
+      }
+    ],
+    "regen_count": 0,
+    "accepted": true
+  },
+  "mode": "prompt_only",
+  "refinement_history": []
+}

@@ -1,0 +1,87 @@
+{
+  "case_id": "R05",
+  "bad_id": "10",
+  "feedback": "make the energy higher",
+  "expected_behavior": "energy_up",
+  "notes": "Moderate cozy coffee BAD should increase energy.",
+  "interpret_run_ok": true,
+  "interpret_parse_ok": true,
+  "interpret_schema_ok": true,
+  "success": true,
+  "clarification_request": "",
+  "changed_fields": [
+    "energy"
+  ],
+  "n_fields_changed": 1,
+  "target_modality": "descriptor",
+  "change_reason": "User requested to increase the energy level of the brand aesthetic.",
+  "previous_energy": "moderate",
+  "updated_energy": "high",
+  "previous_color_temperature": "warm",
+  "updated_color_temperature": "warm",
+  "previous_mood": [
+    "cozy",
+    "nostalgic",
+    "inviting",
+    "warm"
+  ],
+  "updated_mood": [
+    "cozy",
+    "nostalgic",
+    "inviting",
+    "warm"
+  ],
+  "no_leak": true,
+  "correct_decision": 1,
+  "check_reason": "energy moderate → high",
+  "interpret_latency_ms": 1838,
+  "error": "",
+  "previous_bad": {
+    "brand_item": "iced coffee drink",
+    "mood": [
+      "cozy",
+      "nostalgic",
+      "inviting",
+      "warm"
+    ],
+    "energy": "moderate",
+    "color_temperature": "warm",
+    "texture": [
+      "smooth",
+      "grainy"
+    ],
+    "visual_style": [
+      "centered composition",
+      "shallow depth of field"
+    ],
+    "sensory_metaphors": [
+      "amber glow",
+      "creamy comfort"
+    ],
+    "narrative": "The iced coffee drink exudes a cozy and inviting warmth, reminiscent of nostalgic moments. Its smooth and grainy textures, combined with a warm color palette, create an inviting atmosphere that feels both comforting and refreshing."
+  },
+  "updated_bad": {
+    "brand_item": "iced coffee drink",
+    "mood": [
+      "cozy",
+      "nostalgic",
+      "inviting",
+      "warm"
+    ],
+    "energy": "high",
+    "color_temperature": "warm",
+    "texture": [
+      "smooth",
+      "grainy"
+    ],
+    "visual_style": [
+      "centered composition",
+      "shallow depth of field"
+    ],
+    "sensory_metaphors": [
+      "amber glow",
+      "creamy comfort"
+    ],
+    "narrative": "The iced coffee drink exudes a cozy and inviting warmth, reminiscent of nostalgic moments. Its smooth and grainy textures, combined with a warm color palette, create an inviting atmosphere that feels both comforting and refreshing."
+  }
+}

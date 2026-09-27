@@ -1,0 +1,22 @@
+{
+  "tempo": "moderate",
+  "bpm": 88,
+  "timbre": [
+    "brushed metallic resonance",
+    "warm analog saturation",
+    "luminous harmonic overtones",
+    "compressed wood warmth",
+    "smooth glassy sustain"
+  ],
+  "instrumentation": [
+    "prepared piano with felt damping",
+    "hammered dulcimer",
+    "upright bass",
+    "vibraphone with motor off",
+    "modular synthesizer with slow attack"
+  ],
+  "mood": "refined-adventurous",
+  "style": "prepared-piano-ambient",
+  "music_signature": "This is the sound of a precision timepiece workshop at forest twilight: a prepared piano with felt-damped hammers creates brushed, metallic attacks that evoke the watch's textured bezel and brushed silver case, each note landing with deliberate weight at 88 BPM like a second hand advancing with purpose. Hammered dulcimer provides interlocking rhythmic patterns suggesting mechanical precision and adventure, its bronze strings catching harmonic overtones like warm gold accents catching last light. Upright bass grounds the texture in smooth, rounded low end without urban aggression, while vibraphone bars struck without motor rotation sustain into luminous mint-green resonances. A modular synthesizer with intentionally slow envelopes generates harmonic clouds that breathe between piano phrases, evoking the transition from deep forest canopy to open twilight sky. The arrangement progresses from sparse, isolated piano gestures through dulcimer's emerging mechanical pattern into full harmonic bloom, then dissolves back to single resonant tones—mirroring how a luxury watch reveals its complexity gradually. Production maintains intimate close-mic presence with controlled reverb tails, avoiding both sterile digital perfection and lo-fi degradation; compression should feel like hand-polished metal, smooth with subtle texture beneath the surface.",
+  "audio_sample_ref": "/api/audio/Singa_Watch_001%20%28BAD%29"
+}

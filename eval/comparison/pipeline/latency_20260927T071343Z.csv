@@ -1,0 +1,3 @@
+batch,image,mode,repeat,status,execution_id,total_ms,congruence_accepted,regen_count,stage_ms_json,error
+20260927T071343Z,1.png,bad,1,completed,1_001 (BAD),91262,True,0,"{""audio"": [39144], ""clip"": [6783], ""congruence"": [2912], ""descriptor"": [2272], ""fragrance"": [13725], ""music"": [8514], ""rationale"": [8496], ""save"": [5], ""specialists"": [72634], ""visual"": [7848]}",
+20260927T071343Z,1.png,bad,2,completed,1_001 (BAD),84662,True,0,"{""audio"": [38473], ""clip"": [7386], ""congruence"": [3363], ""descriptor"": [4806], ""fragrance"": [9398], ""music"": [7157], ""rationale"": [6761], ""save"": [5], ""specialists"": [65780], ""visual"": [7304]}",

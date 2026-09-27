@@ -1,0 +1,146 @@
+{
+  "provider": "kimi",
+  "modality": "fragrance",
+  "source_descriptor": "eval\\comparison\\descriptor\\gpt-4o\\10.json",
+  "image": "10.jpg",
+  "brand_item": "iced coffee drink",
+  "pyrfume_retrieval_names": [
+    "crotonaldehyde",
+    "lavandulol",
+    "4-tert-butylbenzaldehyde",
+    "cinnamaldehyde",
+    "carvyl propionate",
+    "2-thenylmercaptan",
+    "hexyl levulinate",
+    "ethyl 2-ethoxybenzoate",
+    "hexyl cinnamate",
+    "benzyl eugenol",
+    "2-methylquinoxaline",
+    "ethyleugenol",
+    "2-thiophenemethanol",
+    "methyl formate",
+    "2-(methoxymethyl)furan",
+    "2-butoxyethyl acetate",
+    "(+)-isodihydrocarvone",
+    "(+)-isothujone",
+    "thiophene-2-thiol",
+    "1,1-bis(phenethyloxy)ethane",
+    "2-methyl-5-(furfurylthio)pyrazine",
+    "(r)-4-methylhexanal",
+    "2-methoxy-4-(4-methyl-1,3-dioxolan-2-yl)phenol",
+    "vanillyl butyl ether",
+    "citronellyl isovalerate",
+    "7,9-cyclohexadecadien-1-one",
+    "md8u7j2a25",
+    "methylcyclopentadecenone",
+    "(5-methylfuran-2-yl)methanethiol",
+    "dehydrozingerone"
+  ],
+  "pyrfume_sources": [
+    "goodscents",
+    "ifra_2019",
+    "leffingwell"
+  ],
+  "raw_text": "{\n  \"top_notes\": [\n    \"2-(methoxymethyl)furan\",\n    \"methyl formate\",\n    \"2-butoxyethyl acetate\"\n  ],\n  \"heart_notes\": [\n    \"lavandulol\",\n    \"hexyl levulinate\",\n    \"benzyl eugenol\"\n  ],\n  \"base_notes\": [\n    \"2-methylquinoxaline\",\n    \"2-methoxy-4-(4-methyl-1,3-dioxolan-2-yl)phenol\",\n    \"dehydrozingerone\"\n  ],\n  \"dominant_accords\": [\n    \"coffee\",\n    \"warm\",\n    \"creamy comfort\",\n    \"spicy\",\n    \"vanilla\"\n  ],\n  \"intensity_profile\": \"moderate\",\n  \"emotional_descriptors\": [\n    \"cozy\",\n    \"nostalgic\",\n    \"inviting\",\n    \"warm\"\n  ],\n  \"smell_signature\": \"This fragrance opens with a fresh coffee aroma reminiscent of an iced coffee drink, followed by a heart of sweet caramel and warm spices. As it dries down, it settles into a creamy, vanilla-infused base, evoking the feeling of a cozy, nostalgic moment. It's like walking into a warm cafe on a cool day, where the aroma of freshly brewed coffee and sweet pastries fills the air.\",\n  \"note_guide\": [\n    {\n      \"smells_like\": \"fresh coffee\",\n      \"chemical_name\": \"2-(methoxymethyl)furan\"\n    },\n    {\n      \"smells_like\": \"fruity fresh\",\n      \"chemical_name\": \"methyl formate\"\n    },\n    {\n      \"smells_like\": \"sweet radish\",\n      \"chemical_name\": \"2-butoxyethyl acetate\"\n    },\n    {\n      \"smells_like\": \"warm rose\",\n      \"chemical_name\": \"lavandulol\"\n    },\n    {\n      \"smells_like\": \"caramellic\",\n      \"chemical_name\": \"hexyl levulinate\"\n    },\n    {\n      \"smells_like\": \"spicy floral\",\n      \"chemical_name\": \"benzyl eugenol\"\n    },\n    {\n      \"smells_like\": \"nutty coffee\",\n      \"chemical_name\": \"2-methylquinoxaline\"\n    },\n    {\n      \"smells_like\": \"creamy cocoa\",\n      \"chemical_name\": \"2-methoxy-4-(4-methyl-1,3-dioxolan-2-yl)phenol\"\n    },\n    {\n      \"smells_like\": \"sweet vanilla\",\n      \"chemical_name\": \"dehydrozingerone\"\n    }\n  ],\n  \"grounded_notes\": [\n    \"2-(methoxymethyl)furan\",\n    \"methyl formate\",\n    \"2-butoxyethyl acetate\",\n    \"lavandulol\",\n    \"hexyl levulinate\",\n    \"benzyl eugenol\",\n    \"2-methylquinoxaline\",\n    \"2-methoxy-4-(4-methyl-1,3-dioxolan-2-yl)phenol\",\n    \"dehydrozingerone\"\n  ]\n}",
+  "error": null,
+  "fragrance_concept": {
+    "top_notes": [
+      "2-(methoxymethyl)furan",
+      "methyl formate",
+      "2-butoxyethyl acetate"
+    ],
+    "heart_notes": [
+      "lavandulol",
+      "hexyl levulinate",
+      "benzyl eugenol"
+    ],
+    "base_notes": [
+      "2-methylquinoxaline",
+      "2-methoxy-4-(4-methyl-1,3-dioxolan-2-yl)phenol",
+      "dehydrozingerone"
+    ],
+    "dominant_accords": [
+      "coffee",
+      "warm",
+      "creamy comfort",
+      "spicy",
+      "vanilla"
+    ],
+    "intensity_profile": "moderate",
+    "emotional_descriptors": [
+      "cozy",
+      "nostalgic",
+      "inviting",
+      "warm"
+    ],
+    "smell_signature": "This fragrance opens with a fresh coffee aroma reminiscent of an iced coffee drink, followed by a heart of sweet caramel and warm spices. As it dries down, it settles into a creamy, vanilla-infused base, evoking the feeling of a cozy, nostalgic moment. It's like walking into a warm cafe on a cool day, where the aroma of freshly brewed coffee and sweet pastries fills the air.",
+    "note_guide": [
+      {
+        "smells_like": "coffee, coffee roasted coffee",
+        "chemical_name": "2-(methoxymethyl)furan",
+        "ingredient": "2-(methoxymethyl)furan"
+      },
+      {
+        "smells_like": "estery, plum",
+        "chemical_name": "methyl formate",
+        "ingredient": "methyl formate"
+      },
+      {
+        "smells_like": "ethereal, radish",
+        "chemical_name": "2-butoxyethyl acetate",
+        "ingredient": "2-butoxyethyl acetate"
+      },
+      {
+        "smells_like": "rose, citrus",
+        "chemical_name": "lavandulol",
+        "ingredient": "lavandulol"
+      },
+      {
+        "smells_like": "winey, caramellic",
+        "chemical_name": "hexyl levulinate",
+        "ingredient": "hexyl levulinate"
+      },
+      {
+        "smells_like": "hay, mild",
+        "chemical_name": "benzyl eugenol",
+        "ingredient": "benzyl eugenol"
+      },
+      {
+        "smells_like": "coffee roasted coffee, nutty",
+        "chemical_name": "2-methylquinoxaline",
+        "ingredient": "2-methylquinoxaline"
+      },
+      {
+        "smells_like": "vanilla, cocoa",
+        "chemical_name": "2-methoxy-4-(4-methyl-1,3-dioxolan-2-yl)phenol",
+        "ingredient": "2-methoxy-4-(4-methyl-1,3-dioxolan-2-yl)phenol"
+      },
+      {
+        "smells_like": "vanilla, powdery",
+        "chemical_name": "dehydrozingerone",
+        "ingredient": "dehydrozingerone"
+      }
+    ],
+    "grounded_notes": [
+      "2-(methoxymethyl)furan",
+      "methyl formate",
+      "2-butoxyethyl acetate",
+      "lavandulol",
+      "hexyl levulinate",
+      "benzyl eugenol",
+      "2-methylquinoxaline",
+      "2-methoxy-4-(4-methyl-1,3-dioxolan-2-yl)phenol",
+      "dehydrozingerone"
+    ],
+    "pyrfume_sources": []
+  },
+  "ungrounded_notes": [],
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "grounded_ok": true,
+    "error": null
+  },
+  "latency_seconds": 15.069
+}

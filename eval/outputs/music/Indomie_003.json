@@ -1,0 +1,22 @@
+{
+  "tempo": "uptempo",
+  "bpm": 126,
+  "timbre": [
+    "crisp nylon-string attack",
+    "bright brass stabs",
+    "sizzling high-frequency percussion",
+    "warm saturated midrange",
+    "bouncy rubber bass"
+  ],
+  "instrumentation": [
+    "taiko",
+    "shamisen",
+    "synthesized brass stabs",
+    "wooden clappers",
+    "sub-bass"
+  ],
+  "mood": "satisfying",
+  "style": "japanese-street-bounce",
+  "music_signature": "This is the sound of a bustling Tokyo yatai at golden hour: the sizzle of a hot grill, the percussive chop of noodles, the satisfying thud of a bowl set before you. At 126 BPM, a driving taiko pulse locks into wooden clapper triplets, while shamisen plucks mimic the snap of fresh noodles pulled from boiling water. Synthesized brass stabs punctuate the downbeats like the bright red and yellow packaging catching streetlight, and a rubbery sub-bass bounces underneath with the comfort of a full stomach. The arrangement builds from a single clapper rhythm into layered taiko rolls and shamisen melodies, never dropping the pulse—quick as tearing open a packet, satisfying as the first slurp. Production stays glossy and saturated, with crisp transients on every hit and a compressed, forward midrange that feels immediate and appetizing, never distant or ambient.",
+  "audio_sample_ref": "/api/audio/Indomie_003"
+}

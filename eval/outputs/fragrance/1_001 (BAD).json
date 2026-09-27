@@ -1,0 +1,74 @@
+{
+  "top_notes": [
+    "undec-9-enal",
+    "1-methoxydecane"
+  ],
+  "heart_notes": [
+    "dihydrofarnesol",
+    "5-methyl-3-hexen-2-one"
+  ],
+  "base_notes": [
+    "diisodecyl adipate",
+    "isopentyl formate"
+  ],
+  "dominant_accords": [
+    "clean metallic",
+    "minimalist floral",
+    "dry synthetic",
+    "cool blue freshness"
+  ],
+  "intensity_profile": "moderate",
+  "emotional_descriptors": [
+    "composed",
+    "precise",
+    "streamlined",
+    "confident",
+    "contemporary"
+  ],
+  "smell_signature": "This opens like the first breath of air in a climate-controlled server room—crisp, filtered, and quietly charged with potential. The metallic floral heart feels like brushed aluminum under fingertips, cool and impossibly smooth. It dries down into something clean and barely-there, like the faint plastic-newness of unboxing premium electronics. Think of a high-end Japanese stationery store crossed with an Apple flagship: minimal, expensive, and deliberately empty in all the right places.",
+  "note_guide": [
+    {
+      "smells_like": "rose, aldehydic",
+      "chemical_name": "undec-9-enal",
+      "ingredient": "undec-9-enal"
+    },
+    {
+      "smells_like": "marine, cloth laundered cloth",
+      "chemical_name": "1-methoxydecane",
+      "ingredient": "1-methoxydecane"
+    },
+    {
+      "smells_like": "metallic, cyclamen",
+      "chemical_name": "dihydrofarnesol",
+      "ingredient": "dihydrofarnesol"
+    },
+    {
+      "smells_like": "metallic, berry",
+      "chemical_name": "5-methyl-3-hexen-2-one",
+      "ingredient": "5-methyl-3-hexen-2-one"
+    },
+    {
+      "smells_like": "plastic",
+      "chemical_name": "diisodecyl adipate",
+      "ingredient": "diisodecyl adipate"
+    },
+    {
+      "smells_like": "estery, cortex",
+      "chemical_name": "isopentyl formate",
+      "ingredient": "isopentyl formate"
+    }
+  ],
+  "grounded_notes": [
+    "undec-9-enal",
+    "1-methoxydecane",
+    "dihydrofarnesol",
+    "5-methyl-3-hexen-2-one",
+    "diisodecyl adipate",
+    "isopentyl formate"
+  ],
+  "pyrfume_sources": [
+    "goodscents",
+    "ifra_2019",
+    "leffingwell"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "provider": "gemma",
+  "image": "12.png",
+  "visual_analysis": {
+    "primary_subject": "body cream bottle",
+    "dominant_colours": [
+      "pale lilac",
+      "white",
+      "silver",
+      "soft pink",
+      "light grey"
+    ],
+    "objects": [
+      "label",
+      "pump dispenser",
+      "logo mark",
+      "UV protection seal",
+      "ingredients list",
+      "plastic texture"
+    ],
+    "mood_indicators": [
+      "clean",
+      "fresh",
+      "gentle",
+      "modern"
+    ],
+    "composition_style": "centered product shot",
+    "textures": [
+      "smooth",
+      "plastic",
+      "matte"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 9.814
+}

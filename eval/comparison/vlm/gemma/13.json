@@ -1,0 +1,43 @@
+{
+  "provider": "gemma",
+  "image": "13.jpg",
+  "visual_analysis": {
+    "primary_subject": "Tekka diving watch",
+    "dominant_colours": [
+      "deep forest green",
+      "brushed silver",
+      "polished gold",
+      "jet black",
+      "ivory"
+    ],
+    "objects": [
+      "watch face",
+      "watch hands",
+      "bezel",
+      "strap",
+      "date window",
+      "logo mark"
+    ],
+    "mood_indicators": [
+      "technical",
+      "robust",
+      "classic",
+      "precise"
+    ],
+    "composition_style": "centered product shot",
+    "textures": [
+      "brushed metal",
+      "polished metal",
+      "smooth dial",
+      "matte black"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 9.522
+}

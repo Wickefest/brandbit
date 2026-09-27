@@ -1,0 +1,34 @@
+{
+  "provider": "kimi",
+  "image": "3.jpg",
+  "visual_analysis": {
+    "primary_subject": "gaming laptop",
+    "dominant_colours": [
+      "black",
+      "red"
+    ],
+    "objects": [
+      "keyboard",
+      "screen",
+      "lid",
+      "logo"
+    ],
+    "mood_indicators": [
+      "energetic",
+      "aggressive"
+    ],
+    "composition_style": "open laptop showcasing screen and keyboard",
+    "textures": [
+      "smooth",
+      "glossy"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 1.825
+}

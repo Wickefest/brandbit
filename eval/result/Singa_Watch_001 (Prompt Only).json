@@ -1,0 +1,186 @@
+{
+  "execution_id": "Singa_Watch_001 (Prompt Only)",
+  "timestamp": "2026-09-13T14:45:14.197035Z",
+  "input_image_ref": "D:\\ibrand_superprototype\\eval\\outputs\\images\\Singa_Watch_001 (Prompt Only).jpg",
+  "brand_aesthetic_descriptor": {
+    "brand_item": "wristwatch",
+    "mood": [
+      "sophisticated",
+      "timeless",
+      "luxurious",
+      "adventurous",
+      "refined"
+    ],
+    "energy": "moderate",
+    "color_temperature": "neutral",
+    "colours": [
+      "deep forest green",
+      "brushed silver metal",
+      "warm gold",
+      "luminous mint green",
+      "black bezel"
+    ],
+    "texture": [
+      "metallic",
+      "luminous",
+      "sleek",
+      "smooth",
+      "textured bezel"
+    ],
+    "visual_style": [
+      "centered product shot with clean white background",
+      "watch face",
+      "hour markers",
+      "hands",
+      "date window"
+    ],
+    "sensory_metaphors": [],
+    "narrative": "Direct image parse of wristwatch. Colours: deep forest green, brushed silver metal, warm gold, luminous mint green, black bezel. Composition: centered product shot with clean white background. Atmosphere: sophisticated, timeless, luxurious, adventurous, refined. Surface cues: metallic, luminous, sleek, smooth, textured bezel."
+  },
+  "fragrance_concept": {
+    "top_notes": [
+      "2-cyclopentylcyclopentanone",
+      "1,1-diethoxynonane",
+      "theaspirane"
+    ],
+    "heart_notes": [
+      "1-methyl-4-phenoxybenzene",
+      "2-butoxyethylbenzene",
+      "labienoxime"
+    ],
+    "base_notes": [
+      "alpha-damascone",
+      "theaspirane",
+      "etaspirene"
+    ],
+    "dominant_accords": [
+      "metallic green",
+      "refined floral",
+      "luminous aldehydic",
+      "warm fruity",
+      "sleek herbal"
+    ],
+    "intensity_profile": "moderate",
+    "emotional_descriptors": [
+      "sophisticated",
+      "timeless",
+      "adventurous",
+      "refined",
+      "luxurious"
+    ],
+    "smell_signature": "Combined together, these ingredients will smell like a freshly polished luxury timepiece resting on crushed mint leaves and pale roses in a sunlit atelier. The opening sparkles with cool metallic brightness and crisp green freshness, like the first glance at a brushed silver dial catching morning light. As it settles, a warm, subtle fruitiness emerges—think aged leather watch straps and the faint sweetness of worn gold—lingering with quiet confidence that feels both heritage-crafted and ready for wherever the day leads.",
+    "note_guide": [
+      {
+        "smells_like": "aldehydic, minty",
+        "chemical_name": "2-cyclopentylcyclopentanone",
+        "ingredient": "2-cyclopentylcyclopentanone"
+      },
+      {
+        "smells_like": "aldehydic, rose",
+        "chemical_name": "1,1-diethoxynonane",
+        "ingredient": "1,1-diethoxynonane"
+      },
+      {
+        "smells_like": "metallic, tea",
+        "chemical_name": "theaspirane",
+        "ingredient": "theaspirane"
+      },
+      {
+        "smells_like": "narcissus, rose",
+        "chemical_name": "1-methyl-4-phenoxybenzene",
+        "ingredient": "1-methyl-4-phenoxybenzene"
+      },
+      {
+        "smells_like": "metallic, mushroom",
+        "chemical_name": "2-butoxyethylbenzene",
+        "ingredient": "2-butoxyethylbenzene"
+      },
+      {
+        "smells_like": "currant bud black currant bud, herbal",
+        "chemical_name": "labienoxime",
+        "ingredient": "labienoxime"
+      },
+      {
+        "smells_like": "berry, rose",
+        "chemical_name": "alpha-damascone",
+        "ingredient": "alpha-damascone"
+      },
+      {
+        "smells_like": "currant black currant, berry",
+        "chemical_name": "etaspirene",
+        "ingredient": "etaspirene"
+      }
+    ],
+    "grounded_notes": [
+      "2-cyclopentylcyclopentanone",
+      "1,1-diethoxynonane",
+      "theaspirane",
+      "1-methyl-4-phenoxybenzene",
+      "2-butoxyethylbenzene",
+      "labienoxime",
+      "alpha-damascone",
+      "etaspirene"
+    ],
+    "pyrfume_sources": [
+      "goodscents",
+      "ifra_2019",
+      "leffingwell"
+    ]
+  },
+  "music_direction": {
+    "tempo": "moderate",
+    "bpm": 96,
+    "timbre": [
+      "brushed metallic resonance",
+      "warm gold-toned sustain",
+      "deep forest low-end",
+      "luminous high-frequency sheen",
+      "textured mechanical rhythm"
+    ],
+    "instrumentation": [
+      "hammered dulcimer",
+      "upright bass",
+      "brush kit drums",
+      "Wurlitzer electric piano",
+      "vibraphone"
+    ],
+    "mood": "adventurous-refinement",
+    "style": "mechanical-jazz-lounge",
+    "music_signature": "This is the sound of a precision timepiece workshop where mechanical craft meets wilderness exploration: a brushed metallic pulse at 96 BPM, the interlocking rhythm of hammered dulcimer suggesting gear trains and mint-green luminescence, upright bass providing deep forest warmth beneath warm gold chord voicings on Wurlitzer. Brush kit drums move with the smooth sweep of watch hands, never four-on-the-floor, always circling forward with jazz-influenced unpredictability that speaks to adventure. Vibraphone adds luminous high accents like light catching a bezel at changing angles. The arrangement should unfold like examining a watch face in detail—opening with isolated mechanical rhythm, gradually revealing harmonic layers, building to a confident full ensemble that never loses its sleek restraint. Production should emphasize metallic clarity without harshness, controlled sub-bass warmth, and spatial depth that suggests both the intimacy of craft and the expansiveness of open terrain. No generic corporate piano, no spa ambience, no European salon strings—this is American mid-century precision reimagined for contemporary exploration.",
+    "audio_sample_ref": "/api/audio/Singa_Watch_001%20%28Prompt%20Only%29"
+  },
+  "audio_sample_ref": "/api/audio/Singa_Watch_001%20%28Prompt%20Only%29",
+  "rationale": "## Visual to Descriptor\n\nThe centered product shot with clean white background establishes an immediate sense of refined restraint, while the interplay of deep forest green, brushed silver metal, warm gold, luminous mint green, and black bezel creates a palette that reads simultaneously as heritage luxury and contemporary adventure. The texture array of metallic, luminous, sleek, smooth, and textured bezel directly informed the BAD field values, particularly energy which is moderate, reflecting the controlled dynamism of a precision instrument that suggests capability without aggression. The visual style elements of watch face, hour markers, hands, and date window reinforce the timeless sophistication that permeates the mood descriptors, grounding the aesthetic in functional elegance rather than decorative excess.\n\n## Descriptor to Fragrance\n\nThe BAD field value of colour_temperature set to neutral guided the fragrance toward balanced accords that avoid overt warmth or coldness, resulting in dominant_accords including metallic green and luminous aldehydic that mirror the visual tension between brushed silver metal and luminous mint green. The energy field at moderate directly shaped the intensity_profile, ensuring the fragrance unfolds with deliberate pacing rather than explosive projection, much like the smooth sweep of watch hands. The mood array with its blend of sophisticated, timeless, luxurious, adventurous, and refined translated into emotional_descriptors that match exactly, while the specific colour values drove note selection: theaspirane provides metallic, tea-like qualities for the brushed silver and mint green facets, and alpha-damascone contributes berry-rose warmth to echo the warm gold elements.\n\n## Descriptor to Music\n\nThe BAD field value of energy at moderate established the foundational tempo of 96 BPM, a pace that propels forward without urgency, matching the mechanical precision of a luxury timepiece. The colour_temperature field set to neutral shaped the timbre palette toward brushed metallic resonance and warm gold-toned sustain, avoiding extremes of brightness or darkness in favor of balanced spectral complexity. The specific colours array directly mapped to sonic elements: deep forest green became deep forest low-end through upright bass, luminous mint green translated to luminous high-frequency sheen via vibraphone, and the textured bezel informed the textured mechanical rhythm that pervades the brush kit drum patterns. The mood array guided the adventurous-refinement mood tag and mechanical-jazz-lounge style, ensuring the music signature captures both the heritage craft and exploratory spirit embedded in the visual system.",
+  "congruence_report": {
+    "automated_proxies": {
+      "clip_score_image_fragrance_text": 0.3083,
+      "clip_score_image_music_text": 0.3453,
+      "imagebind_score_image_audio": null
+    },
+    "descriptor_consistency": {
+      "fragrance_aligns_descriptor": true,
+      "music_aligns_descriptor": true,
+      "details": "The fragrance concept aligns perfectly with the BAD, matching the mood (sophisticated, timeless, luxurious, adventurous, refined), energy (moderate), and texture (metallic, luminous, sleek). The music direction also fits well, with its moderate tempo, adventurous-refinement mood, and instrumentation that reflects the brand_item's characteristics (metallic, luminous, sleek). Both outputs independently translate the brand identity without copying the prompt.",
+      "fragrance_score": 5,
+      "music_score": 5,
+      "fragrance_issues": [],
+      "music_issues": []
+    },
+    "human_ratings": null,
+    "summary": "Both fragrance and music outputs are excellent, independent translations of the brand identity, with no major violations and high alignment with the BAD.",
+    "attempts": [
+      {
+        "attempt": 1,
+        "fragrance_aligns_descriptor": true,
+        "music_aligns_descriptor": true,
+        "details": "The fragrance concept aligns perfectly with the BAD, matching the mood (sophisticated, timeless, luxurious, adventurous, refined), energy (moderate), and texture (metallic, luminous, sleek). The music direction also fits well, with its moderate tempo, adventurous-refinement mood, and instrumentation that reflects the brand_item's characteristics (metallic, luminous, sleek). Both outputs independently translate the brand identity without copying the prompt.",
+        "summary": "Both fragrance and music outputs are excellent, independent translations of the brand identity, with no major violations and high alignment with the BAD.",
+        "regenerated": []
+      }
+    ],
+    "regen_count": 0,
+    "accepted": true
+  },
+  "mode": "prompt_only",
+  "refinement_history": []
+}

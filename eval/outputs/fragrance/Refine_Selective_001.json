@@ -1,0 +1,46 @@
+{
+  "top_notes": [
+    "bergamot"
+  ],
+  "heart_notes": [
+    "jasmine"
+  ],
+  "base_notes": [
+    "sandalwood"
+  ],
+  "dominant_accords": [
+    "floral",
+    "woody"
+  ],
+  "intensity_profile": "moderate",
+  "emotional_descriptors": [
+    "intimate",
+    "elegant"
+  ],
+  "smell_signature": "Combined together, these ingredients will smell like a bright citrus-floral blend with a creamy woody dry-down. Think of a quiet luxury perfume that opens fresh and settles into soft sandalwood warmth.",
+  "note_guide": [
+    {
+      "smells_like": "bright citrus peel",
+      "chemical_name": "bergamot",
+      "ingredient": "bergamot"
+    },
+    {
+      "smells_like": "sweet white floral",
+      "chemical_name": "jasmine",
+      "ingredient": "jasmine"
+    },
+    {
+      "smells_like": "creamy warm wood",
+      "chemical_name": "sandalwood",
+      "ingredient": "sandalwood"
+    }
+  ],
+  "grounded_notes": [
+    "bergamot",
+    "jasmine",
+    "sandalwood"
+  ],
+  "pyrfume_sources": [
+    "goodscents"
+  ]
+}

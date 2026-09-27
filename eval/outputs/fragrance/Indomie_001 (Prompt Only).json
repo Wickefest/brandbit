@@ -1,0 +1,96 @@
+{
+  "top_notes": [
+    "valencene",
+    "myrac aldehyde 1",
+    "athylglykolsaurementhylester"
+  ],
+  "heart_notes": [
+    "isopropylphenylbutanal",
+    "3,3-dimethoxyprop-1-enylbenzene",
+    "vertosine"
+  ],
+  "base_notes": [
+    "2,5-dimethylthiophene",
+    "2-benzylideneoctanal",
+    "4-(1-methylethyl)cyclohexanemethanol"
+  ],
+  "dominant_accords": [
+    "spicy green",
+    "bright citrus",
+    "warm savory",
+    "fresh floral",
+    "glossy aldehydic"
+  ],
+  "intensity_profile": "bold",
+  "emotional_descriptors": [
+    "energetic",
+    "appetizing",
+    "vibrant",
+    "fast-paced",
+    "warmly inviting"
+  ],
+  "smell_signature": "Combined together, these ingredients will smell like a zesty, spicy-fresh kitchen burst with a glossy, mouthwatering sheen. Think of a bustling Southeast Asian street food stall at golden hour—bright citrus and cooling freshness hit first like cracking open a saucy noodle packet, then warm florals and a hint of savory depth unfold like steam rising off a just-mixed mi goreng plate. It dries down clean and inviting with a subtle nutty warmth, like the satisfying afterglow of a quick, delicious meal.",
+  "note_guide": [
+    {
+      "smells_like": "citrus",
+      "chemical_name": "valencene",
+      "ingredient": "valencene"
+    },
+    {
+      "smells_like": "aldehydic, ozone",
+      "chemical_name": "myrac aldehyde 1",
+      "ingredient": "myrac aldehyde 1"
+    },
+    {
+      "smells_like": "cooling agent, refreshing",
+      "chemical_name": "athylglykolsaurementhylester",
+      "ingredient": "athylglykolsaurementhylester"
+    },
+    {
+      "smells_like": "lily of the valley, muguet",
+      "chemical_name": "isopropylphenylbutanal",
+      "ingredient": "isopropylphenylbutanal"
+    },
+    {
+      "smells_like": "cinnamon, herbal",
+      "chemical_name": "3,3-dimethoxyprop-1-enylbenzene",
+      "ingredient": "3,3-dimethoxyprop-1-enylbenzene"
+    },
+    {
+      "smells_like": "leafy, orangeflower",
+      "chemical_name": "vertosine",
+      "ingredient": "vertosine"
+    },
+    {
+      "smells_like": "nutty, sulfurous",
+      "chemical_name": "2,5-dimethylthiophene",
+      "ingredient": "2,5-dimethylthiophene"
+    },
+    {
+      "smells_like": "herbal, jasmin",
+      "chemical_name": "2-benzylideneoctanal",
+      "ingredient": "2-benzylideneoctanal"
+    },
+    {
+      "smells_like": "magnolia, grassy",
+      "chemical_name": "4-(1-methylethyl)cyclohexanemethanol",
+      "ingredient": "4-(1-methylethyl)cyclohexanemethanol"
+    }
+  ],
+  "grounded_notes": [
+    "valencene",
+    "myrac aldehyde 1",
+    "athylglykolsaurementhylester",
+    "isopropylphenylbutanal",
+    "3,3-dimethoxyprop-1-enylbenzene",
+    "vertosine",
+    "2,5-dimethylthiophene",
+    "2-benzylideneoctanal",
+    "4-(1-methylethyl)cyclohexanemethanol"
+  ],
+  "pyrfume_sources": [
+    "goodscents",
+    "ifra_2019",
+    "leffingwell"
+  ]
+}

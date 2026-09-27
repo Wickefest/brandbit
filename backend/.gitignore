@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+#env
+.env
+.env.*
+!.env.example
+
+# Leftover local writes; canonical dirs are <repo>/eval/
+outputs/
+eval/

@@ -1,0 +1,22 @@
+{
+  "tempo": "uptempo",
+  "bpm": 140,
+  "timbre": [
+    "saw-wave distortion",
+    "glitch artifacts",
+    "analog warmth",
+    "metallic sheen",
+    "sub-bass pressure"
+  ],
+  "instrumentation": [
+    "modular synth",
+    "distorted electric guitar",
+    "industrial drum machine",
+    "sub-bass synthesizer",
+    "granular sampler"
+  ],
+  "mood": "relentless",
+  "style": "industrial-dnb",
+  "music_signature": "This is the sound of a gaming laptop at thermal peak, fans screaming, silicon pushed to its limit: a relentless 140 BPM industrial-dnb engine built from modular synth sequences that stutter and slice like data packets colliding. The rhythm is driven by a distorted drum machine—tight, mechanical, with snares that crack like voltage arcs and kick drums that hit with sub-bass pressure you feel in your sternum, not just hear. Bass is not melodic decoration but pure physical force, a saw-wave distortion that rumbles and bites, evoking the matte black chassis and glowing red backlight bleeding through vents. Melodic elements arrive as fragmented guitar stabs and granular-sampled metallic textures, never resolving into comfort, always pushing forward like overclocked processors. Harmonic character stays cold and tense, minor-key clusters with no release, the cool color temperature made audible. Arrangement builds through layers of intensity: clean rhythmic opening, then glitch artifacts multiplying, distortion accumulating, until the full assault locks in—dual perspective as sonic collision, diagonal energy as forward momentum. Production should feel precision-engineered and dangerous, glossy surfaces with raw edges, every frequency occupied like thermal load distributed across heat pipes. Not a nightclub banger but a machine's own heartbeat, digital adrenaline made visceral.",
+  "audio_sample_ref": "/api/audio/Axioo_Pongo_001%20%28BAD%29"
+}

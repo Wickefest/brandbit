@@ -1,0 +1,40 @@
+{
+  "provider": "qwen",
+  "image": "7.jpg",
+  "visual_analysis": {
+    "primary_subject": "black jacket",
+    "dominant_colours": [
+      "black",
+      "dark grey"
+    ],
+    "objects": [
+      "man",
+      "logo",
+      "zipper",
+      "hood",
+      "pockets",
+      "pants"
+    ],
+    "mood_indicators": [
+      "functional",
+      "serious",
+      "minimalist",
+      "outdoor-ready"
+    ],
+    "composition_style": "centered full-body studio shot",
+    "textures": [
+      "smooth",
+      "water-resistant",
+      "structured",
+      "soft"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 5.739
+}

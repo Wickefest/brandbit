@@ -1,0 +1,123 @@
+{
+  "provider": "kimi",
+  "modality": "fragrance",
+  "source_descriptor": "eval\\comparison\\descriptor\\gpt-4o\\15.json",
+  "image": "15.jpg",
+  "brand_item": "iced tea bottle",
+  "pyrfume_retrieval_names": [
+    "heptyl butyrate",
+    "ethyleugenol",
+    "theaspirone a",
+    "menthyl acetate",
+    "(-)-cubenol",
+    "synthetic amber",
+    "dihydrobovolide",
+    "athylglykolsaurementhylester",
+    "heptyl 2-methylpropanoate",
+    "o-(ethoxymethyl)anisole",
+    "methyl eugenol",
+    "isoprenyl benzoate",
+    "3,5-diisobutyl-1,2,4-trithiolane",
+    "methylisoeugenol",
+    "propyl hexanoate",
+    "tea tree oil",
+    "-642230313989",
+    "2,6,6-trimethyl-2-hydroxycyclohexanone",
+    "(-)-ambroxide",
+    "prenyl benzoate",
+    "ethyl sorbate",
+    "gamma-terpinene",
+    "amyl isoeugenol",
+    "pseudoionone",
+    "geranyl caproate",
+    "octyl octanoate",
+    "alpha-cedrene",
+    "guaiol acetate",
+    "trans-alpha-bergamotene",
+    "3-hexanone, 5-mercapto-5-methyl-"
+  ],
+  "pyrfume_sources": [
+    "goodscents",
+    "ifra_2019",
+    "leffingwell"
+  ],
+  "raw_text": "{\n  \"top_notes\": [\n    \"menthyl acetate\",\n    \"gamma-terpinene\"\n  ],\n  \"heart_notes\": [\n    \"ethyl sorbate\",\n    \"geranyl caproate\"\n  ],\n  \"base_notes\": [\n    \"synthetic amber\",\n    \"3-hexanone, 5-mercapto-5-methyl-\"\n  ],\n  \"dominant_accords\": [\n    \"refreshing\",\n    \"tropical\",\n    \"warm\",\n    \"crisp\"\n  ],\n  \"intensity_profile\": \"bold\",\n  \"emotional_descriptors\": [\n    \"invigorating\",\n    \"vibrant\",\n    \"energetic\"\n  ],\n  \"smell_signature\": \"This fragrance opens with a burst of cooling mint and zesty citrus, reminiscent of a refreshing iced tea on a hot day. As it dries, it transitions into a warm, tropical fruity blend, evoking the scent of a beachside spa's signature tea-infused massage oil.\",\n  \"note_guide\": [\n    {\n      \"smells_like\": \"cooling mint\",\n      \"chemical_name\": \"menthyl acetate\"\n    },\n    {\n      \"smells_like\": \"zesty citrus\",\n      \"chemical_name\": \"gamma-terpinene\"\n    },\n    {\n      \"smells_like\": \"pineapple licorice\",\n      \"chemical_name\": \"ethyl sorbate\"\n    },\n    {\n      \"smells_like\": \"tropical fruity\",\n      \"chemical_name\": \"geranyl caproate\"\n    },\n    {\n      \"smells_like\": \"ambergris\",\n      \"chemical_name\": \"synthetic amber\"\n    },\n    {\n      \"smells_like\": \"tropical fruit\",\n      \"chemical_name\": \"3-hexanone, 5-mercapto-5-methyl-\"\n    }\n  ],\n  \"grounded_notes\": [\n    \"menthyl acetate\",\n    \"gamma-terpinene\",\n    \"ethyl sorbate\",\n    \"geranyl caproate\",\n    \"synthetic amber\",\n    \"3-hexanone, 5-mercapto-5-methyl-\"\n  ]\n}",
+  "error": null,
+  "fragrance_concept": {
+    "top_notes": [
+      "menthyl acetate",
+      "gamma-terpinene"
+    ],
+    "heart_notes": [
+      "ethyl sorbate",
+      "geranyl caproate"
+    ],
+    "base_notes": [
+      "synthetic amber",
+      "3-hexanone, 5-mercapto-5-methyl-"
+    ],
+    "dominant_accords": [
+      "refreshing",
+      "tropical",
+      "warm",
+      "crisp"
+    ],
+    "intensity_profile": "bold",
+    "emotional_descriptors": [
+      "invigorating",
+      "vibrant",
+      "energetic"
+    ],
+    "smell_signature": "This fragrance opens with a burst of cooling mint and zesty citrus, reminiscent of a refreshing iced tea on a hot day. As it dries, it transitions into a warm, tropical fruity blend, evoking the scent of a beachside spa's signature tea-infused massage oil.",
+    "note_guide": [
+      {
+        "smells_like": "tea, berry",
+        "chemical_name": "menthyl acetate",
+        "ingredient": "menthyl acetate"
+      },
+      {
+        "smells_like": "lime, herbal",
+        "chemical_name": "gamma-terpinene",
+        "ingredient": "gamma-terpinene"
+      },
+      {
+        "smells_like": "anise, pineapple",
+        "chemical_name": "ethyl sorbate",
+        "ingredient": "ethyl sorbate"
+      },
+      {
+        "smells_like": "pineapple, rose",
+        "chemical_name": "geranyl caproate",
+        "ingredient": "geranyl caproate"
+      },
+      {
+        "smells_like": "metallic, ambergris",
+        "chemical_name": "synthetic amber",
+        "ingredient": "synthetic amber"
+      },
+      {
+        "smells_like": "currant bud black currant bud, sulfurous",
+        "chemical_name": "3-hexanone, 5-mercapto-5-methyl-",
+        "ingredient": "3-hexanone, 5-mercapto-5-methyl-"
+      }
+    ],
+    "grounded_notes": [
+      "menthyl acetate",
+      "gamma-terpinene",
+      "ethyl sorbate",
+      "geranyl caproate",
+      "synthetic amber",
+      "3-hexanone, 5-mercapto-5-methyl-"
+    ],
+    "pyrfume_sources": []
+  },
+  "ungrounded_notes": [],
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "grounded_ok": true,
+    "error": null
+  },
+  "latency_seconds": 10.722
+}

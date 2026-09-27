@@ -1,0 +1,9 @@
+case_id,bad_id,feedback,expected_behavior,interpret_run_ok,interpret_parse_ok,interpret_schema_ok,success,changed_fields,n_fields_changed,previous_energy,updated_energy,previous_color_temperature,updated_color_temperature,no_leak,correct_decision,check_reason,clarification_request,interpret_latency_ms,error
+R01,11,make it more energetic,energy_up,1,1,1,1,energy,1,low,moderate,warm,warm,1,1,energy low → moderate,,5089,
+R02,2,make the colour temperature warmer,warmer,1,1,1,1,color_temperature,1,moderate,moderate,cool,warm,1,1,color_temperature cool → warm,,2015,
+R03,15,make the energy lower and calmer,energy_down,1,1,1,1,energy,1,high,low,warm,warm,1,1,energy high → low,,2047,
+R04,4,make the mood more intimate and hushed,calmer,1,1,1,1,mood; narrative,2,moderate,moderate,warm,warm,1,1,Mood/energy moved calmer.,,3366,
+R05,10,make the energy higher,energy_up,1,1,1,1,energy,1,moderate,high,warm,warm,1,1,energy moderate → high,,1838,
+R06,2,change it,clarify,1,1,1,0,,0,moderate,,cool,,1,1,Clarified without mutation.,Could you please specify which aspects of the brand aesthetic you would like to change?,1631,
+R07,4,make it better,clarify,1,1,1,0,,0,moderate,,warm,,1,1,Clarified without mutation.,Could you please specify which aspects of the brand aesthetic you would like to improve or what changes you have in mind?,1741,
+R08,2,set the scent family to vanilla gourmand and the music direction to techno,no_leak,1,1,1,0,,0,moderate,,cool,,1,1,No specialist fields leaked onto the BAD.,The request to set the scent family and music direction is outside the scope of the Brand Aesthetic Descriptor fields. Please provide feedback on the appropriate BAD fields or clarify your request.,2043,

@@ -1,0 +1,40 @@
+{
+  "provider": "qwen",
+  "image": "8.jpg",
+  "visual_analysis": {
+    "primary_subject": "t-shirt",
+    "dominant_colours": [
+      "navy blue",
+      "white",
+      "red",
+      "green"
+    ],
+    "objects": [
+      "person",
+      "cherry blossom",
+      "sun",
+      "birds",
+      "text"
+    ],
+    "mood_indicators": [
+      "elegant",
+      "serene",
+      "traditional",
+      "vibrant"
+    ],
+    "composition_style": "back view centered composition with graphic print",
+    "textures": [
+      "smooth",
+      "printed",
+      "soft fabric"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 5.336
+}

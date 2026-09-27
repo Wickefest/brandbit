@@ -1,0 +1,44 @@
+{
+  "provider": "qwen",
+  "image": "13.jpg",
+  "visual_analysis": {
+    "primary_subject": "wristwatch",
+    "dominant_colours": [
+      "dark green",
+      "silver",
+      "gold",
+      "light green"
+    ],
+    "objects": [
+      "watch face",
+      "bezel",
+      "bracelet",
+      "hour hand",
+      "minute hand",
+      "second hand",
+      "date window",
+      "brand logo"
+    ],
+    "mood_indicators": [
+      "sophisticated",
+      "sporty",
+      "luxurious",
+      "timeless"
+    ],
+    "composition_style": "centered product shot with clean white background",
+    "textures": [
+      "metallic",
+      "matte",
+      "luminous",
+      "sleek"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 6.058
+}

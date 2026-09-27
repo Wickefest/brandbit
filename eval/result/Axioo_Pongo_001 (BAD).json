@@ -1,0 +1,188 @@
+{
+  "execution_id": "Axioo_Pongo_001 (BAD)",
+  "timestamp": "2026-09-13T14:37:42.897090Z",
+  "input_image_ref": "D:\\ibrand_superprototype\\eval\\outputs\\images\\Axioo_Pongo_001 (BAD).jpg",
+  "brand_aesthetic_descriptor": {
+    "brand_item": "gaming laptop",
+    "mood": [
+      "aggressive",
+      "high-performance",
+      "tech-forward",
+      "intense"
+    ],
+    "energy": "very_high",
+    "color_temperature": "cool",
+    "colours": [
+      "Matte Black",
+      "Vibrant Red",
+      "Dark Charcoal",
+      "Glowing Red Backlight"
+    ],
+    "texture": [
+      "matte",
+      "glossy",
+      "sleek metallic"
+    ],
+    "visual_style": [
+      "diagonal product showcase",
+      "dual perspective"
+    ],
+    "sensory_metaphors": [
+      "electric pulse",
+      "digital adrenaline"
+    ],
+    "narrative": "The gaming laptop exudes an aggressive and high-performance aura, with its matte black and vibrant red accents. Its cool color temperature and sleek metallic textures suggest a tech-forward and intense experience, capturing the essence of digital adrenaline."
+  },
+  "fragrance_concept": {
+    "top_notes": [
+      "1-hexen-3-one",
+      "p-mentha-8-thiol-3-one",
+      "diosphenol"
+    ],
+    "heart_notes": [
+      "biphenyl",
+      "rosyrane",
+      "dihydrofarnesol"
+    ],
+    "base_notes": [
+      "diphenylmethane",
+      "nerylacetone",
+      "delta-damascone"
+    ],
+    "dominant_accords": [
+      "metallic green",
+      "sulfurous fruit",
+      "electric rose",
+      "dark plastic",
+      "cool steel"
+    ],
+    "intensity_profile": "bold",
+    "emotional_descriptors": [
+      "aggressive",
+      "charged",
+      "futuristic",
+      "uncompromising",
+      "adrenaline-fueled"
+    ],
+    "smell_signature": "Combined together, these ingredients will smell like a metallic green, sulfurous fruit, electric rose blend that opens with vegetable, cooked with sulfurous, berry and dries down into currant bud black currant bud, cornmint. Think of a bold-intensity scent concept a creative team could brief to a perfumer — evocative, wearable, and brand-led.",
+    "note_guide": [
+      {
+        "smells_like": "vegetable, cooked",
+        "chemical_name": "1-hexen-3-one",
+        "ingredient": "1-hexen-3-one"
+      },
+      {
+        "smells_like": "sulfurous, berry",
+        "chemical_name": "p-mentha-8-thiol-3-one",
+        "ingredient": "p-mentha-8-thiol-3-one"
+      },
+      {
+        "smells_like": "currant bud black currant bud, cornmint",
+        "chemical_name": "diosphenol",
+        "ingredient": "diosphenol"
+      },
+      {
+        "smells_like": "rose, geranium",
+        "chemical_name": "biphenyl",
+        "ingredient": "biphenyl"
+      },
+      {
+        "smells_like": "metallic, rose",
+        "chemical_name": "rosyrane",
+        "ingredient": "rosyrane"
+      },
+      {
+        "smells_like": "metallic, cyclamen",
+        "chemical_name": "dihydrofarnesol",
+        "ingredient": "dihydrofarnesol"
+      },
+      {
+        "smells_like": "plastic, wet",
+        "chemical_name": "diphenylmethane",
+        "ingredient": "diphenylmethane"
+      },
+      {
+        "smells_like": "metallic, fatty",
+        "chemical_name": "nerylacetone",
+        "ingredient": "nerylacetone"
+      },
+      {
+        "smells_like": "currant bud black currant bud, natural",
+        "chemical_name": "delta-damascone",
+        "ingredient": "delta-damascone"
+      }
+    ],
+    "grounded_notes": [
+      "1-hexen-3-one",
+      "p-mentha-8-thiol-3-one",
+      "diosphenol",
+      "biphenyl",
+      "rosyrane",
+      "dihydrofarnesol",
+      "diphenylmethane",
+      "nerylacetone",
+      "delta-damascone"
+    ],
+    "pyrfume_sources": [
+      "goodscents",
+      "ifra_2019",
+      "leffingwell"
+    ]
+  },
+  "music_direction": {
+    "tempo": "uptempo",
+    "bpm": 140,
+    "timbre": [
+      "saw-wave distortion",
+      "glitch artifacts",
+      "analog warmth",
+      "metallic sheen",
+      "sub-bass pressure"
+    ],
+    "instrumentation": [
+      "modular synth",
+      "distorted electric guitar",
+      "industrial drum machine",
+      "sub-bass synthesizer",
+      "granular sampler"
+    ],
+    "mood": "relentless",
+    "style": "industrial-dnb",
+    "music_signature": "This is the sound of a gaming laptop at thermal peak, fans screaming, silicon pushed to its limit: a relentless 140 BPM industrial-dnb engine built from modular synth sequences that stutter and slice like data packets colliding. The rhythm is driven by a distorted drum machine—tight, mechanical, with snares that crack like voltage arcs and kick drums that hit with sub-bass pressure you feel in your sternum, not just hear. Bass is not melodic decoration but pure physical force, a saw-wave distortion that rumbles and bites, evoking the matte black chassis and glowing red backlight bleeding through vents. Melodic elements arrive as fragmented guitar stabs and granular-sampled metallic textures, never resolving into comfort, always pushing forward like overclocked processors. Harmonic character stays cold and tense, minor-key clusters with no release, the cool color temperature made audible. Arrangement builds through layers of intensity: clean rhythmic opening, then glitch artifacts multiplying, distortion accumulating, until the full assault locks in—dual perspective as sonic collision, diagonal energy as forward momentum. Production should feel precision-engineered and dangerous, glossy surfaces with raw edges, every frequency occupied like thermal load distributed across heat pipes. Not a nightclub banger but a machine's own heartbeat, digital adrenaline made visceral.",
+    "audio_sample_ref": "/api/audio/Axioo_Pongo_001%20%28BAD%29"
+  },
+  "audio_sample_ref": "/api/audio/Axioo_Pongo_001%20%28BAD%29",
+  "rationale": "## Visual to Descriptor\n\nThe aggressive and high-performance mood of this gaming laptop is immediately established through its dominant Matte Black chassis accented by Vibrant Red and Glowing Red Backlight, which directly shapes the energy field value of very high. The cool color temperature reinforces the tech-forward positioning by avoiding warmth in favor of clinical precision, while the diagonal product showcase and dual perspective visual style create dynamic tension that mirrors the intense narrative of digital adrenaline. These visual choices collectively establish a brand aesthetic where every surface and angle communicates uncompromising performance.\n\n## Descriptor to Fragrance\n\nThe very high energy field value demanded fragrance ingredients capable of matching that visceral intensity, which led to the selection of 1-hexen-3-one and p-mentha-8-thiol-3-one as top notes delivering immediate sulfurous, berry impact rather than soft citrus openings. The cool color temperature translated into metallic accords through rosyrane and dihydrofarnesol, creating the electric rose and cool steel dominant accords that prevent any warmth from entering the composition. This alignment ensures the bold intensity profile feels native to the brand rather than arbitrarily aggressive, with the dark plastic base accord from diphenylmethane grounding the fragrance in the same sleek metallic texture vocabulary found on the laptop chassis itself.\n\n## Descriptor to Music\n\nThe very high energy field value directly determined the 140 BPM tempo and relentless mood specification, as anything slower would betray the aggressive positioning established visually. The cool color temperature became audible through the exclusion of analog warmth from harmonic content while retaining it only as a textural counterpoint in timbre, creating tension between glossy surfaces and raw edges that mirrors the matte and glossy texture interplay on the physical product. The diagonal product showcase translated into forward-driving rhythmic momentum where glitch artifacts and saw-wave distortion accumulate like thermal load, ensuring the industrial-dnb style functions as digital adrenaline made visceral rather than mere background entertainment.",
+  "congruence_report": {
+    "automated_proxies": {
+      "clip_score_image_fragrance_text": 0.3507,
+      "clip_score_image_music_text": 0.2168,
+      "imagebind_score_image_audio": null
+    },
+    "descriptor_consistency": {
+      "fragrance_aligns_descriptor": true,
+      "music_aligns_descriptor": true,
+      "details": "The FragranceConcept aligns perfectly with the BAD, matching the aggressive, high-performance mood with its bold intensity, cool metallic and electric rose accords, and futuristic emotional descriptors. The MusicDirection also fits exceptionally well, with its uptempo, relentless industrial-dnb style, cool and metallic timbre, and instrumentation that evokes the gaming laptop's tech-forward, intense narrative.",
+      "fragrance_score": 5,
+      "music_score": 5,
+      "fragrance_issues": [],
+      "music_issues": []
+    },
+    "human_ratings": null,
+    "summary": "Both the fragrance and music outputs are excellent, independent translations of the gaming laptop's brand identity, with no major violations and strong alignment across all rubric categories.",
+    "attempts": [
+      {
+        "attempt": 1,
+        "fragrance_aligns_descriptor": true,
+        "music_aligns_descriptor": true,
+        "details": "The FragranceConcept aligns perfectly with the BAD, matching the aggressive, high-performance mood with its bold intensity, cool metallic and electric rose accords, and futuristic emotional descriptors. The MusicDirection also fits exceptionally well, with its uptempo, relentless industrial-dnb style, cool and metallic timbre, and instrumentation that evokes the gaming laptop's tech-forward, intense narrative.",
+        "summary": "Both the fragrance and music outputs are excellent, independent translations of the gaming laptop's brand identity, with no major violations and strong alignment across all rubric categories.",
+        "regenerated": []
+      }
+    ],
+    "regen_count": 0,
+    "accepted": true
+  },
+  "mode": "sensory_profile",
+  "refinement_history": []
+}

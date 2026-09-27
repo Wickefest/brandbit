@@ -1,0 +1,144 @@
+{
+  "provider": "kimi",
+  "modality": "fragrance",
+  "source_descriptor": "eval\\comparison\\descriptor\\gpt-4o\\4.json",
+  "image": "4.jpg",
+  "brand_item": "batik shirt",
+  "pyrfume_retrieval_names": [
+    "crotonaldehyde",
+    "lavandulol",
+    "4-tert-butylbenzaldehyde",
+    "cinnamaldehyde",
+    "carvyl propionate",
+    "hexyl levulinate",
+    "ethyl 2-ethoxybenzoate",
+    "hexyl cinnamate",
+    "benzyl eugenol",
+    "ethyleugenol",
+    "methyl formate",
+    "2-butoxyethyl acetate",
+    "(+)-isodihydrocarvone",
+    "(+)-isothujone",
+    "1,1-bis(phenethyloxy)ethane",
+    "(r)-4-methylhexanal",
+    "vanillyl butyl ether",
+    "citronellyl isovalerate",
+    "7,9-cyclohexadecadien-1-one",
+    "methylcyclopentadecenone",
+    "myristicin",
+    "2-methoxy-4-(4-methyl-1,3-dioxolan-2-yl)phenol",
+    "apigenin",
+    "2-methoxycinnamaldehyde",
+    "2-oxononyl acetate",
+    "(z)-beta-ocimene",
+    "acetylisoeugenol",
+    "alpha-methylcinnamaldehyde",
+    "coumarin",
+    "md8u7j2a25"
+  ],
+  "pyrfume_sources": [
+    "goodscents",
+    "ifra_2019",
+    "leffingwell"
+  ],
+  "raw_text": "{\n  \"top_notes\": [\n    \"lavandulol\",\n    \"ethyl 2-ethoxybenzoate\",\n    \"vanillyl butyl ether\"\n  ],\n  \"heart_notes\": [\n    \"benzyl eugenol\",\n    \"1,1-bis(phenethyloxy)ethane\",\n    \"citronellyl isovalerate\"\n  ],\n  \"base_notes\": [\n    \"methylcyclopentadecenone\",\n    \"myristicin\",\n    \"2-methoxy-4-(4-methyl-1,3-dioxolan-2-yl)phenol\"\n  ],\n  \"dominant_accords\": [\n    \"spicy\",\n    \"warm\",\n    \"floral\",\n    \"herbal\"\n  ],\n  \"intensity_profile\": \"moderate\",\n  \"emotional_descriptors\": [\n    \"elegant\",\n    \"confident\",\n    \"timeless\"\n  ],\n  \"smell_signature\": \"This blend begins with a warm, floral opening, reminiscent of a delicate rose garden on a sunny day. As it settles, the scent transforms into a rich, herbal embrace, with undertones of sweet vanilla and warm spices. It's like stepping into a luxurious boutique tea room, where the air is filled with the aroma of freshly baked pastries and fine teas.\",\n  \"note_guide\": [\n    {\n      \"smells_like\": \"rose-like warmth\",\n      \"chemical_name\": \"lavandulol\"\n    },\n    {\n      \"smells_like\": \"sweet floral\",\n      \"chemical_name\": \"ethyl 2-ethoxybenzoate\"\n    },\n    {\n      \"smells_like\": \"warm vanilla\",\n      \"chemical_name\": \"vanillyl butyl ether\"\n    },\n    {\n      \"smells_like\": \"spicy floral\",\n      \"chemical_name\": \"benzyl eugenol\"\n    },\n    {\n      \"smells_like\": \"leafy floral\",\n      \"chemical_name\": \"1,1-bis(phenethyloxy)ethane\"\n    },\n    {\n      \"smells_like\": \"herbal honey\",\n      \"chemical_name\": \"citronellyl isovalerate\"\n    },\n    {\n      \"smells_like\": \"powdery musk\",\n      \"chemical_name\": \"methylcyclopentadecenone\"\n    },\n    {\n      \"smells_like\": \"nutmeg warmth\",\n      \"chemical_name\": \"myristicin\"\n    },\n    {\n      \"smells_like\": \"creamy cocoa\",\n      \"chemical_name\": \"2-methoxy-4-(4-methyl-1,3-dioxolan-2-yl)phenol\"\n    }\n  ],\n  \"grounded_notes\": [\n    \"lavandulol\",\n    \"ethyl 2-ethoxybenzoate\",\n    \"vanillyl butyl ether\",\n    \"benzyl eugenol\",\n    \"1,1-bis(phenethyloxy)ethane\",\n    \"citronellyl isovalerate\",\n    \"methylcyclopentadecenone\",\n    \"myristicin\",\n    \"2-methoxy-4-(4-methyl-1,3-dioxolan-2-yl)phenol\"\n  ]\n}",
+  "error": null,
+  "fragrance_concept": {
+    "top_notes": [
+      "lavandulol",
+      "ethyl 2-ethoxybenzoate",
+      "vanillyl butyl ether"
+    ],
+    "heart_notes": [
+      "benzyl eugenol",
+      "1,1-bis(phenethyloxy)ethane",
+      "citronellyl isovalerate"
+    ],
+    "base_notes": [
+      "methylcyclopentadecenone",
+      "myristicin",
+      "2-methoxy-4-(4-methyl-1,3-dioxolan-2-yl)phenol"
+    ],
+    "dominant_accords": [
+      "spicy",
+      "warm",
+      "floral",
+      "herbal"
+    ],
+    "intensity_profile": "moderate",
+    "emotional_descriptors": [
+      "elegant",
+      "confident",
+      "timeless"
+    ],
+    "smell_signature": "This blend begins with a warm, floral opening, reminiscent of a delicate rose garden on a sunny day. As it settles, the scent transforms into a rich, herbal embrace, with undertones of sweet vanilla and warm spices. It's like stepping into a luxurious boutique tea room, where the air is filled with the aroma of freshly baked pastries and fine teas.",
+    "note_guide": [
+      {
+        "smells_like": "rose, citrus",
+        "chemical_name": "lavandulol",
+        "ingredient": "lavandulol"
+      },
+      {
+        "smells_like": "warm-floral",
+        "chemical_name": "ethyl 2-ethoxybenzoate",
+        "ingredient": "ethyl 2-ethoxybenzoate"
+      },
+      {
+        "smells_like": "vanilla, pungent",
+        "chemical_name": "vanillyl butyl ether",
+        "ingredient": "vanillyl butyl ether"
+      },
+      {
+        "smells_like": "hay, mild",
+        "chemical_name": "benzyl eugenol",
+        "ingredient": "benzyl eugenol"
+      },
+      {
+        "smells_like": "rose, leafy",
+        "chemical_name": "1,1-bis(phenethyloxy)ethane",
+        "ingredient": "1,1-bis(phenethyloxy)ethane"
+      },
+      {
+        "smells_like": "honey, herbal",
+        "chemical_name": "citronellyl isovalerate",
+        "ingredient": "citronellyl isovalerate"
+      },
+      {
+        "smells_like": "powdery, musk like",
+        "chemical_name": "methylcyclopentadecenone",
+        "ingredient": "methylcyclopentadecenone"
+      },
+      {
+        "smells_like": "nutmeg",
+        "chemical_name": "myristicin",
+        "ingredient": "myristicin"
+      },
+      {
+        "smells_like": "vanilla, cocoa",
+        "chemical_name": "2-methoxy-4-(4-methyl-1,3-dioxolan-2-yl)phenol",
+        "ingredient": "2-methoxy-4-(4-methyl-1,3-dioxolan-2-yl)phenol"
+      }
+    ],
+    "grounded_notes": [
+      "lavandulol",
+      "ethyl 2-ethoxybenzoate",
+      "vanillyl butyl ether",
+      "benzyl eugenol",
+      "1,1-bis(phenethyloxy)ethane",
+      "citronellyl isovalerate",
+      "methylcyclopentadecenone",
+      "myristicin",
+      "2-methoxy-4-(4-methyl-1,3-dioxolan-2-yl)phenol"
+    ],
+    "pyrfume_sources": []
+  },
+  "ungrounded_notes": [],
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "grounded_ok": true,
+    "error": null
+  },
+  "latency_seconds": 10.6
+}

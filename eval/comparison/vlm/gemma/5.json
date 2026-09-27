@@ -1,0 +1,49 @@
+{
+  "provider": "gemma",
+  "image": "5.jpg",
+  "visual_analysis": {
+    "primary_subject": "fried chicken dish",
+    "dominant_colours": [
+      "burnt orange",
+      "golden brown",
+      "creamy white",
+      "charcoal black",
+      "dark red",
+      "olive green"
+    ],
+    "objects": [
+      "rice",
+      "bowl",
+      "fork",
+      "spoon",
+      "cracker",
+      "sauce",
+      "plate",
+      "vegetable leaves",
+      "other dishes"
+    ],
+    "mood_indicators": [
+      "comforting",
+      "savory",
+      "warm",
+      "authentic",
+      "rustic"
+    ],
+    "composition_style": "close-up, centered",
+    "textures": [
+      "crispy",
+      "rough",
+      "smooth",
+      "grainy",
+      "tender"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 9.724
+}

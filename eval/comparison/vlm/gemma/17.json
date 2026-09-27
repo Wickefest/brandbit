@@ -1,0 +1,41 @@
+{
+  "provider": "gemma",
+  "image": "17.png",
+  "visual_analysis": {
+    "primary_subject": "compact powder",
+    "dominant_colours": [
+      "seafoam green",
+      "pale beige",
+      "warm brown",
+      "light blue"
+    ],
+    "objects": [
+      "puff",
+      "lid",
+      "brand name",
+      "powder",
+      "circular form"
+    ],
+    "mood_indicators": [
+      "clean",
+      "fresh",
+      "serene",
+      "minimalist"
+    ],
+    "composition_style": "isolated product shot",
+    "textures": [
+      "smooth",
+      "matte",
+      "soft",
+      "powdery"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 8.389
+}

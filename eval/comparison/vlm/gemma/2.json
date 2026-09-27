@@ -1,0 +1,42 @@
+{
+  "provider": "gemma",
+  "image": "2.jpg",
+  "visual_analysis": {
+    "primary_subject": "Aqua water bottle",
+    "dominant_colours": [
+      "clear",
+      "light blue",
+      "dark blue",
+      "white",
+      "forest green"
+    ],
+    "objects": [
+      "bottle cap",
+      "label",
+      "water",
+      "mountain silhouette",
+      "text"
+    ],
+    "mood_indicators": [
+      "refreshing",
+      "clean",
+      "pure",
+      "natural"
+    ],
+    "composition_style": "centered product shot",
+    "textures": [
+      "smooth",
+      "translucent",
+      "glossy",
+      "plastic"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 8.626
+}

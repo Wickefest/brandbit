@@ -1,0 +1,16 @@
+{
+  "tempo": "slow",
+  "bpm": 72,
+  "timbre": [
+    "warm pads",
+    "soft strings"
+  ],
+  "instrumentation": [
+    "piano",
+    "synth pads"
+  ],
+  "mood": "contemplative",
+  "style": "new-music",
+  "music_signature": "This is the hush of a linen-lined room at dusk: slow piano over warm pads, no crowd, no lobby sparkle. It should feel intimate and textile, like cloth settling in warm light.",
+  "audio_sample_ref": "/api/audio/Refine_Selective_001__r001"
+}

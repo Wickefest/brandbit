@@ -1,0 +1,192 @@
+{
+  "execution_id": "Singa_Watch_001 (BAD)",
+  "timestamp": "2026-09-13T14:47:41.992178Z",
+  "input_image_ref": "D:\\ibrand_superprototype\\eval\\outputs\\images\\Singa_Watch_001 (BAD).jpg",
+  "brand_aesthetic_descriptor": {
+    "brand_item": "wristwatch",
+    "mood": [
+      "sophisticated",
+      "timeless",
+      "luxurious",
+      "adventurous",
+      "refined"
+    ],
+    "energy": "moderate",
+    "color_temperature": "neutral",
+    "colours": [
+      "Deep Forest Green",
+      "Brushed Silver Metal",
+      "Warm Gold",
+      "Luminous Mint Green",
+      "Black Bezel"
+    ],
+    "texture": [
+      "metallic",
+      "luminous",
+      "smooth",
+      "sleek",
+      "textured bezel"
+    ],
+    "visual_style": [
+      "centered product shot",
+      "clean white background"
+    ],
+    "sensory_metaphors": [
+      "forest twilight",
+      "metallic elegance"
+    ],
+    "narrative": "This wristwatch embodies a sophisticated blend of deep forest green and brushed silver metal, exuding a timeless and luxurious aura. Its sleek and smooth textures, paired with warm gold accents, create a refined yet adventurous aesthetic that captures the essence of modern elegance."
+  },
+  "fragrance_concept": {
+    "top_notes": [
+      "1,1-diethoxynonane",
+      "3,5,5-trimethylhexanal",
+      "isoneral"
+    ],
+    "heart_notes": [
+      "rosyrane",
+      "1-methyl-4-phenoxybenzene",
+      "dihydrobovolide"
+    ],
+    "base_notes": [
+      "diphenyl ether",
+      "biphenyl",
+      "octyl 2-furoate"
+    ],
+    "dominant_accords": [
+      "metallic elegance",
+      "forest twilight",
+      "refined florals",
+      "sleek greenery",
+      "warm mineral depth"
+    ],
+    "intensity_profile": "moderate",
+    "emotional_descriptors": [
+      "sophisticated",
+      "timeless",
+      "adventurous",
+      "luminous",
+      "grounded"
+    ],
+    "smell_signature": "Combined together, these ingredients will smell like stepping into a forest at dusk where silver moonlight catches on wet leaves and polished metal. The opening is bright and crisp like a fresh-pressed linen shirt in a luxury hotel, then softens into a refined floral warmth with hints of green tea and rose. As it settles, the scent becomes smooth and skin-close, like the worn leather interior of a vintage sports car parked under pine trees. Think of an exclusive Swiss boutique where nature and engineering meet in quiet confidence.",
+    "note_guide": [
+      {
+        "smells_like": "aldehydic, rose",
+        "chemical_name": "1,1-diethoxynonane",
+        "ingredient": "1,1-diethoxynonane"
+      },
+      {
+        "smells_like": "aldehydic, natural",
+        "chemical_name": "3,5,5-trimethylhexanal",
+        "ingredient": "3,5,5-trimethylhexanal"
+      },
+      {
+        "smells_like": "green",
+        "chemical_name": "isoneral",
+        "ingredient": "isoneral"
+      },
+      {
+        "smells_like": "metallic, rose",
+        "chemical_name": "rosyrane",
+        "ingredient": "rosyrane"
+      },
+      {
+        "smells_like": "narcissus, rose",
+        "chemical_name": "1-methyl-4-phenoxybenzene",
+        "ingredient": "1-methyl-4-phenoxybenzene"
+      },
+      {
+        "smells_like": "tea, celery-like",
+        "chemical_name": "dihydrobovolide",
+        "ingredient": "dihydrobovolide"
+      },
+      {
+        "smells_like": "geranium, phenolic",
+        "chemical_name": "diphenyl ether",
+        "ingredient": "diphenyl ether"
+      },
+      {
+        "smells_like": "rose, geranium",
+        "chemical_name": "biphenyl",
+        "ingredient": "biphenyl"
+      },
+      {
+        "smells_like": "mushroom, oily",
+        "chemical_name": "octyl 2-furoate",
+        "ingredient": "octyl 2-furoate"
+      }
+    ],
+    "grounded_notes": [
+      "1,1-diethoxynonane",
+      "3,5,5-trimethylhexanal",
+      "isoneral",
+      "rosyrane",
+      "1-methyl-4-phenoxybenzene",
+      "dihydrobovolide",
+      "diphenyl ether",
+      "biphenyl",
+      "octyl 2-furoate"
+    ],
+    "pyrfume_sources": [
+      "goodscents",
+      "ifra_2019",
+      "leffingwell"
+    ]
+  },
+  "music_direction": {
+    "tempo": "moderate",
+    "bpm": 88,
+    "timbre": [
+      "brushed metallic resonance",
+      "warm analog saturation",
+      "luminous harmonic overtones",
+      "compressed wood warmth",
+      "smooth glassy sustain"
+    ],
+    "instrumentation": [
+      "prepared piano with felt damping",
+      "hammered dulcimer",
+      "upright bass",
+      "vibraphone with motor off",
+      "modular synthesizer with slow attack"
+    ],
+    "mood": "refined-adventurous",
+    "style": "prepared-piano-ambient",
+    "music_signature": "This is the sound of a precision timepiece workshop at forest twilight: a prepared piano with felt-damped hammers creates brushed, metallic attacks that evoke the watch's textured bezel and brushed silver case, each note landing with deliberate weight at 88 BPM like a second hand advancing with purpose. Hammered dulcimer provides interlocking rhythmic patterns suggesting mechanical precision and adventure, its bronze strings catching harmonic overtones like warm gold accents catching last light. Upright bass grounds the texture in smooth, rounded low end without urban aggression, while vibraphone bars struck without motor rotation sustain into luminous mint-green resonances. A modular synthesizer with intentionally slow envelopes generates harmonic clouds that breathe between piano phrases, evoking the transition from deep forest canopy to open twilight sky. The arrangement progresses from sparse, isolated piano gestures through dulcimer's emerging mechanical pattern into full harmonic bloom, then dissolves back to single resonant tones—mirroring how a luxury watch reveals its complexity gradually. Production maintains intimate close-mic presence with controlled reverb tails, avoiding both sterile digital perfection and lo-fi degradation; compression should feel like hand-polished metal, smooth with subtle texture beneath the surface.",
+    "audio_sample_ref": "/api/audio/Singa_Watch_001%20%28BAD%29"
+  },
+  "audio_sample_ref": "/api/audio/Singa_Watch_001%20%28BAD%29",
+  "rationale": "## Visual to Descriptor\n\nThe centered product shot against a clean white background immediately established the brand's demand for clarity and restraint, pushing the color_temperature value toward neutral rather than warm or cool extremes. Deep Forest Green and Brushed Silver Metal dominate the palette with equal visual weight, reinforcing that neutral temperature while the Luminous Mint Green accent provides the luminous quality captured in texture. The presence of both smooth case surfaces and textured bezel details directly generated the metallic, sleek, and textured bezel entries in the texture field, creating tactile contrast without visual chaos. These choices collectively shaped the sensory_metaphors of forest twilight and metallic elegance, as the green family evokes dusk woodland while the silver and gold elements assert engineered precision.\n\n## Descriptor to Fragrance\n\nThe sensory_metaphors value of forest twilight became the primary translation brief for the fragrance development, demanding notes that could simultaneously suggest organic canopy and fading light. This directed the selection of isoneral for its green character in the top notes, establishing immediate forest presence, while rosyrrane's metallic rose quality in the heart notes bridges directly into the metallic elegance metaphor. The moderate energy value prevented any sharp or aggressive volatility, resulting in a moderate intensity_profile where dihydrobovolide contributes tea-like smoothness rather than jarring brightness. Warm Gold in the colours palette translated into the warm mineral depth accord, achieved through octyl 2-furoate's mushroom and oily base notes that suggest aged, precious materials rather than fresh sweetness.\n\n## Descriptor to Music\n\nThe neutral color_temperature value demanded timbres that avoid both icy digital sterility and overt acoustic warmth, leading to the brushed metallic resonance and warm analog saturation pairing that occupies deliberate middle ground. The refined mood from the brand profile required the prepared piano with felt damping, its softened attacks preventing percussive harshness while maintaining precision, and the vibraphone with motor off was chosen specifically to render the luminous quality from the texture field as sustained harmonic glow rather than shimmering motion. Moderate energy translated to 88 BPM, a tempo that advances with purpose without urgency, while the adventurous dimension of mood necessitated the hammered dulcimer and its interlocking patterns suggesting mechanical exploration. The smooth texture value guided production choices toward intimate close-mic presence with controlled reverb, ensuring the final sound remains sleek and hand-polished like the watch surface itself.",
+  "congruence_report": {
+    "automated_proxies": {
+      "clip_score_image_fragrance_text": 0.313,
+      "clip_score_image_music_text": 0.0893,
+      "imagebind_score_image_audio": null
+    },
+    "descriptor_consistency": {
+      "fragrance_aligns_descriptor": true,
+      "music_aligns_descriptor": true,
+      "details": "The fragrance concept excellently matches the BAD with its 'metallic elegance' and 'forest twilight' accords, aligning with the 'sophisticated', 'timeless', and 'adventurous' mood. The 'moderate' intensity profile fits the BAD's 'moderate' energy. The music direction also aligns perfectly, with its 'moderate' tempo matching the BAD's 'moderate' energy, and its 'refined-adventurous' mood and 'brushed metallic resonance' timbre fitting the BAD's 'sophisticated' and 'metallic' descriptors. Both outputs credibly translate the brand identity independently.",
+      "fragrance_score": 5,
+      "music_score": 5,
+      "fragrance_issues": [],
+      "music_issues": []
+    },
+    "human_ratings": null,
+    "summary": "Both fragrance and music outputs are excellent, independent translations of the brand identity, with no mismatches.",
+    "attempts": [
+      {
+        "attempt": 1,
+        "fragrance_aligns_descriptor": true,
+        "music_aligns_descriptor": true,
+        "details": "The fragrance concept excellently matches the BAD with its 'metallic elegance' and 'forest twilight' accords, aligning with the 'sophisticated', 'timeless', and 'adventurous' mood. The 'moderate' intensity profile fits the BAD's 'moderate' energy. The music direction also aligns perfectly, with its 'moderate' tempo matching the BAD's 'moderate' energy, and its 'refined-adventurous' mood and 'brushed metallic resonance' timbre fitting the BAD's 'sophisticated' and 'metallic' descriptors. Both outputs credibly translate the brand identity independently.",
+        "summary": "Both fragrance and music outputs are excellent, independent translations of the brand identity, with no mismatches.",
+        "regenerated": []
+      }
+    ],
+    "regen_count": 0,
+    "accepted": true
+  },
+  "mode": "sensory_profile",
+  "refinement_history": []
+}

@@ -1,0 +1,194 @@
+{
+  "provider": "kimi",
+  "modality": "fragrance",
+  "source_descriptor": "eval\\comparison\\descriptor\\gpt-4o\\18.json",
+  "image": "18.jpg",
+  "brand_item": "Herbal Peppermint Candy",
+  "pyrfume_retrieval_names": [
+    "peppermint oil",
+    "d-piperitone",
+    "l-piperitone",
+    "isopulegone",
+    "2-methylcyclohexanone",
+    "1-menthyl methyl ether",
+    "menthyl formate",
+    "(-)-menthone",
+    "2-sec-butylcyclohexanone",
+    "l-menthol",
+    "cinnamaldehyde",
+    "menthol",
+    "ethyl 2,5-dimethyl-3-oxo-4(2h)-furyl carbonate",
+    "(+)-pulegone",
+    "athylglykolsaurementhylester",
+    "d-(-)-pantolactone",
+    "ethyl maltol",
+    "lavandulol",
+    "isopulegyl acetate",
+    "5-ethenyl-5-methyloxolan-2-one",
+    "menthyl acetate",
+    "furaneol",
+    "4-tert-butylbenzaldehyde",
+    "cuminyl acetate",
+    "ethyleugenol",
+    "2-oxononyl acetate",
+    "2,4,4,6-tetramethylcyclohexa-2,5-dien-1-one",
+    "gamma-terpinene",
+    "hexyl cinnamate",
+    "maltol isobutyrate"
+  ],
+  "pyrfume_sources": [
+    "goodscents",
+    "ifra_2019",
+    "leffingwell"
+  ],
+  "raw_text": "{\n  \"top_notes\": [\n    \"peppermint oil\",\n    \"d-piperitone\",\n    \"l-piperitone\",\n    \"isopulegone\",\n    \"2-methylcyclohexanone\",\n    \"1-menthyl methyl ether\"\n  ],\n  \"heart_notes\": [\n    \"menthyl formate\",\n    \"(-)-menthone\",\n    \"cinnamaldehyde\",\n    \"l-menthol\",\n    \"lavandulol\"\n  ],\n  \"base_notes\": [\n    \"ethyl 2,5-dimethyl-3-oxo-4(2h)-furyl carbonate\",\n    \"(+)-pulegone\",\n    \"ethyl maltol\",\n    \"2,4,4,6-tetramethylcyclohexa-2,5-dien-1-one\",\n    \"maltol isobutyrate\"\n  ],\n  \"dominant_accords\": [\n    \"peppermint\",\n    \"herbal\",\n    \"warm\",\n    \"candy\",\n    \"refreshing\"\n  ],\n  \"intensity_profile\": \"bold\",\n  \"emotional_descriptors\": [\n    \"refreshing\",\n    \"natural\",\n    \"energetic\"\n  ],\n  \"smell_signature\": \"This fragrance begins with an invigorating blast of peppermint, followed by a heart of warm spices and herbal notes. As it dries down, it transforms into a sweet, sugary base reminiscent of caramel and cotton candy. It's like walking into a lively herbal candy shop filled with the scent of fresh peppermint and warm chocolate.\",\n  \"note_guide\": [\n    {\n      \"smells_like\": \"minty herbal\",\n      \"chemical_name\": \"peppermint oil\"\n    },\n    {\n      \"smells_like\": \"peppermint fresh\",\n      \"chemical_name\": \"d-piperitone\"\n    },\n    {\n      \"smells_like\": \"pungent peppermint\",\n      \"chemical_name\": \"l-piperitone\"\n    },\n    {\n      \"smells_like\": \"fresh herbal\",\n      \"chemical_name\": \"isopulegone\"\n    },\n    {\n      \"smells_like\": \"cooling peppermint\",\n      \"chemical_name\": \"2-methylcyclohexanone\"\n    },\n    {\n      \"smells_like\": \"refreshing mint\",\n      \"chemical_name\": \"1-menthyl methyl ether\"\n    },\n    {\n      \"smells_like\": \"green herbal\",\n      \"chemical_name\": \"menthyl formate\"\n    },\n    {\n      \"smells_like\": \"cooling spearmint\",\n      \"chemical_name\": \"(-)-menthone\"\n    },\n    {\n      \"smells_like\": \"spicy cinnamon\",\n      \"chemical_name\": \"cinnamaldehyde\"\n    },\n    {\n      \"smells_like\": \"menthol cooling\",\n      \"chemical_name\": \"l-menthol\"\n    },\n    {\n      \"smells_like\": \"warm rose\",\n      \"chemical_name\": \"lavandulol\"\n    },\n    {\n      \"smells_like\": \"caramellic sugar\",\n      \"chemical_name\": \"ethyl 2,5-dimethyl-3-oxo-4(2h)-furyl carbonate\"\n    },\n    {\n      \"smells_like\": \"sweet metallic\",\n      \"chemical_name\": \"(+)-pulegone\"\n    },\n    {\n      \"smells_like\": \"sweet caramel\",\n      \"chemical_name\": \"ethyl maltol\"\n    },\n    {\n      \"smells_like\": \"natural warm\",\n      \"chemical_name\": \"2,4,4,6-tetramethylcyclohexa-2,5-dien-1-one\"\n    },\n    {\n      \"smells_like\": \"cotton candy sweet\",\n      \"chemical_name\": \"maltol isobutyrate\"\n    }\n  ],\n  \"grounded_notes\": [\n    \"peppermint oil\",\n    \"d-piperitone\",\n    \"l-piperitone\",\n    \"isopulegone\",\n    \"2-methylcyclohexanone\",\n    \"1-menthyl methyl ether\",\n    \"menthyl formate\",\n    \"(-)-menthone\",\n    \"cinnamaldehyde\",\n    \"l-menthol\",\n    \"lavandulol\",\n    \"ethyl 2,5-dimethyl-3-oxo-4(2h)-furyl carbonate\",\n    \"(+)-pulegone\",\n    \"ethyl maltol\",\n    \"2,4,4,6-tetramethylcyclohexa-2,5-dien-1-one\",\n    \"maltol isobutyrate\"\n  ]\n}",
+  "error": null,
+  "fragrance_concept": {
+    "top_notes": [
+      "peppermint oil",
+      "d-piperitone",
+      "l-piperitone",
+      "isopulegone",
+      "2-methylcyclohexanone",
+      "1-menthyl methyl ether"
+    ],
+    "heart_notes": [
+      "menthyl formate",
+      "(-)-menthone",
+      "cinnamaldehyde",
+      "l-menthol",
+      "lavandulol"
+    ],
+    "base_notes": [
+      "ethyl 2,5-dimethyl-3-oxo-4(2h)-furyl carbonate",
+      "(+)-pulegone",
+      "ethyl maltol",
+      "2,4,4,6-tetramethylcyclohexa-2,5-dien-1-one",
+      "maltol isobutyrate"
+    ],
+    "dominant_accords": [
+      "peppermint",
+      "herbal",
+      "warm",
+      "candy",
+      "refreshing"
+    ],
+    "intensity_profile": "bold",
+    "emotional_descriptors": [
+      "refreshing",
+      "natural",
+      "energetic"
+    ],
+    "smell_signature": "This fragrance begins with an invigorating blast of peppermint, followed by a heart of warm spices and herbal notes. As it dries down, it transforms into a sweet, sugary base reminiscent of caramel and cotton candy. It's like walking into a lively herbal candy shop filled with the scent of fresh peppermint and warm chocolate.",
+    "note_guide": [
+      {
+        "smells_like": "minty, herbal",
+        "chemical_name": "peppermint oil",
+        "ingredient": "peppermint oil"
+      },
+      {
+        "smells_like": "mentholic, peppermint",
+        "chemical_name": "d-piperitone",
+        "ingredient": "d-piperitone"
+      },
+      {
+        "smells_like": "peppermint, minty",
+        "chemical_name": "l-piperitone",
+        "ingredient": "l-piperitone"
+      },
+      {
+        "smells_like": "peppermint, minty",
+        "chemical_name": "isopulegone",
+        "ingredient": "isopulegone"
+      },
+      {
+        "smells_like": "cooling, peppermint",
+        "chemical_name": "2-methylcyclohexanone",
+        "ingredient": "2-methylcyclohexanone"
+      },
+      {
+        "smells_like": "minty, mint",
+        "chemical_name": "1-menthyl methyl ether",
+        "ingredient": "1-menthyl methyl ether"
+      },
+      {
+        "smells_like": "herbal, mint",
+        "chemical_name": "menthyl formate",
+        "ingredient": "menthyl formate"
+      },
+      {
+        "smells_like": "anise, mentholic",
+        "chemical_name": "(-)-menthone",
+        "ingredient": "(-)-menthone"
+      },
+      {
+        "smells_like": "cinnamon, candy",
+        "chemical_name": "cinnamaldehyde",
+        "ingredient": "cinnamaldehyde"
+      },
+      {
+        "smells_like": "mentholic, peppermint",
+        "chemical_name": "l-menthol",
+        "ingredient": "l-menthol"
+      },
+      {
+        "smells_like": "rose, citrus",
+        "chemical_name": "lavandulol",
+        "ingredient": "lavandulol"
+      },
+      {
+        "smells_like": "caramellic, sugar brown sugar",
+        "chemical_name": "ethyl 2,5-dimethyl-3-oxo-4(2h)-furyl carbonate",
+        "ingredient": "ethyl 2,5-dimethyl-3-oxo-4(2h)-furyl carbonate"
+      },
+      {
+        "smells_like": "metallic, sulfurous",
+        "chemical_name": "(+)-pulegone",
+        "ingredient": "(+)-pulegone"
+      },
+      {
+        "smells_like": "caramel, jam",
+        "chemical_name": "ethyl maltol",
+        "ingredient": "ethyl maltol"
+      },
+      {
+        "smells_like": "natural, minty",
+        "chemical_name": "2,4,4,6-tetramethylcyclohexa-2,5-dien-1-one",
+        "ingredient": "2,4,4,6-tetramethylcyclohexa-2,5-dien-1-one"
+      },
+      {
+        "smells_like": "cotton candy, berry",
+        "chemical_name": "maltol isobutyrate",
+        "ingredient": "maltol isobutyrate"
+      }
+    ],
+    "grounded_notes": [
+      "peppermint oil",
+      "d-piperitone",
+      "l-piperitone",
+      "isopulegone",
+      "2-methylcyclohexanone",
+      "1-menthyl methyl ether",
+      "menthyl formate",
+      "(-)-menthone",
+      "cinnamaldehyde",
+      "l-menthol",
+      "lavandulol",
+      "ethyl 2,5-dimethyl-3-oxo-4(2h)-furyl carbonate",
+      "(+)-pulegone",
+      "ethyl maltol",
+      "2,4,4,6-tetramethylcyclohexa-2,5-dien-1-one",
+      "maltol isobutyrate"
+    ],
+    "pyrfume_sources": []
+  },
+  "ungrounded_notes": [],
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "grounded_ok": true,
+    "error": null
+  },
+  "latency_seconds": 21.673
+}

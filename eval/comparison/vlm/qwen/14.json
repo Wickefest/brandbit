@@ -1,0 +1,39 @@
+{
+  "provider": "qwen",
+  "image": "14.jpg",
+  "visual_analysis": {
+    "primary_subject": "skincare bottle",
+    "dominant_colours": [
+      "orange",
+      "white",
+      "silver",
+      "purple"
+    ],
+    "objects": [
+      "spray pump",
+      "label",
+      "cap",
+      "bottle body"
+    ],
+    "mood_indicators": [
+      "clean",
+      "modern",
+      "calm",
+      "clinical"
+    ],
+    "composition_style": "centered product shot against plain background",
+    "textures": [
+      "smooth",
+      "matte",
+      "glossy"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 5.55
+}

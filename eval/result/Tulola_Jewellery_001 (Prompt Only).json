@@ -1,0 +1,172 @@
+{
+  "execution_id": "Tulola_Jewellery_001 (Prompt Only)",
+  "timestamp": "2026-09-13T14:23:08.389444Z",
+  "input_image_ref": "D:\\ibrand_superprototype\\eval\\outputs\\images\\Tulola_Jewellery_001 (Prompt Only).jpg",
+  "brand_aesthetic_descriptor": {
+    "brand_item": "gold floral brooch",
+    "mood": [
+      "elegant",
+      "artisanal",
+      "timeless luxury"
+    ],
+    "energy": "low",
+    "color_temperature": "warm",
+    "colours": [
+      "brushed gold",
+      "pearl white",
+      "warm metallic sheen"
+    ],
+    "texture": [
+      "metallic",
+      "smooth",
+      "organic grain",
+      "polished"
+    ],
+    "visual_style": [
+      "close-up still life with shallow depth of field",
+      "pearl",
+      "metal mold",
+      "wooden surface"
+    ],
+    "sensory_metaphors": [],
+    "narrative": "Direct image parse of gold floral brooch. Colours: brushed gold, pearl white, warm metallic sheen. Composition: close-up still life with shallow depth of field. Atmosphere: elegant, artisanal, timeless luxury. Surface cues: metallic, smooth, organic grain, polished."
+  },
+  "fragrance_concept": {
+    "top_notes": [
+      "citronitrile",
+      "3,7-dimethylnona-2,6-dienenitrile"
+    ],
+    "heart_notes": [
+      "1-methyl-4-phenoxybenzene",
+      "rosyrane",
+      "dihydrofarnesol"
+    ],
+    "base_notes": [
+      "benzyl eugenol",
+      "1,1-bis(phenethyloxy)ethane"
+    ],
+    "dominant_accords": [
+      "warm metallic floral",
+      "polished rose",
+      "timeless elegance",
+      "soft spice",
+      "pearlescent skin"
+    ],
+    "intensity_profile": "moderate",
+    "emotional_descriptors": [
+      "refined",
+      "intimate",
+      "graceful",
+      "understated",
+      "enduring"
+    ],
+    "smell_signature": "Combined together, these ingredients will smell like a luminous, warm floral with a brushed-metal brightness that feels both antique and impeccably crafted. The opening carries a soft citrus glow like morning light on gilded mirrors, then settles into velvety roses and creamy white petals with a whisper of heirloom spice. Think of a jeweler's atelier where polished gold tools rest beside fresh flowers, the air holding a quiet, expensive warmth that lingers on a silk scarf.",
+    "note_guide": [
+      {
+        "smells_like": "metallic, aldehydic",
+        "chemical_name": "citronitrile",
+        "ingredient": "citronitrile"
+      },
+      {
+        "smells_like": "lemon, metallic",
+        "chemical_name": "3,7-dimethylnona-2,6-dienenitrile",
+        "ingredient": "3,7-dimethylnona-2,6-dienenitrile"
+      },
+      {
+        "smells_like": "narcissus, rose",
+        "chemical_name": "1-methyl-4-phenoxybenzene",
+        "ingredient": "1-methyl-4-phenoxybenzene"
+      },
+      {
+        "smells_like": "metallic, rose",
+        "chemical_name": "rosyrane",
+        "ingredient": "rosyrane"
+      },
+      {
+        "smells_like": "metallic, cyclamen",
+        "chemical_name": "dihydrofarnesol",
+        "ingredient": "dihydrofarnesol"
+      },
+      {
+        "smells_like": "hay, mild",
+        "chemical_name": "benzyl eugenol",
+        "ingredient": "benzyl eugenol"
+      },
+      {
+        "smells_like": "rose, leafy",
+        "chemical_name": "1,1-bis(phenethyloxy)ethane",
+        "ingredient": "1,1-bis(phenethyloxy)ethane"
+      }
+    ],
+    "grounded_notes": [
+      "citronitrile",
+      "3,7-dimethylnona-2,6-dienenitrile",
+      "1-methyl-4-phenoxybenzene",
+      "rosyrane",
+      "dihydrofarnesol",
+      "benzyl eugenol",
+      "1,1-bis(phenethyloxy)ethane"
+    ],
+    "pyrfume_sources": [
+      "goodscents",
+      "ifra_2019",
+      "leffingwell"
+    ]
+  },
+  "music_direction": {
+    "tempo": "slow",
+    "bpm": 66,
+    "timbre": [
+      "warm muted brass",
+      "resonant hammered metal",
+      "smooth pearl-like pads",
+      "dry aged wood",
+      "soft golden overtones"
+    ],
+    "instrumentation": [
+      "hammered dulcimer",
+      "glass harmonica",
+      "viola da gamba",
+      "brushed cymbal",
+      "warm analog synth pad"
+    ],
+    "mood": "artisanal-contemplative",
+    "style": "metallic-chamber-ambient",
+    "music_signature": "This is the sound of a goldsmith's atelier at late afternoon, where metal still holds the heat of the torch: a slow 66 BPM pulse felt through brushed cymbal swells and the residual ring of hammered dulcimer, each strike decaying like memory into warm air. The viola da gamba provides a smooth, gut-stringed bass voice—organic and aged, not electronic—while glass harmonica traces melodic lines with a pearl-like, almost voiceless purity that catches light the way a brooch catches lamplight. Analog synth pads hold a golden harmonic bed, tuned to resonant intervals that suggest metal rather than chord progressions. There is no drum kit, no quantized grid; rhythm breathes like hand-work, irregular and intentional. The arrangement moves from sparse metallic gestures into fuller harmonic warmth, then dissolves back to single resonant tones. Production should feel close-mic'd and intimate, with natural room ambience suggesting wooden work surfaces and small enclosed space, not vast reverb halls. The overall effect is hushed, labor-intensive, precious—luxury understood as slowness and care rather than spectacle.",
+    "audio_sample_ref": "/api/audio/Tulola_Jewellery_001%20%28Prompt%20Only%29"
+  },
+  "audio_sample_ref": "/api/audio/Tulola_Jewellery_001%20%28Prompt%20Only%29",
+  "rationale": "## Visual to Descriptor\n\nThe close-up still life with shallow depth of field creates an intimate viewing experience that directly shaped the energy field value of low, as the compressed perspective and soft bokeh isolate the brooch into a contemplative, hushed space rather than a dynamic one. The brushed gold and warm metallic sheen established the color_temperature as warm, while the combination of metallic, smooth, organic grain, and polished textures across both the pearl and gold surfaces generated the mood cluster of elegant, artisanal, timeless luxury. These visual cues collectively signal hand-craftsmanship and enduring value rather than fleeting trend.\n\n## Descriptor to Fragrance\n\nThe mood value elegant guided the selection of heart notes like rosyrane and 1-methyl-4-phenoxybenzene to create a polished rose accord that feels refined rather than exuberant, while the texture value metallic directly inspired the inclusion of citronitrile and dihydrofarnesol to achieve the dominant accord warm metallic floral. The energy value low translated into a moderate intensity profile and base notes such as benzyl eugenol that provide quiet longevity rather than bold projection, ensuring the fragrance stays intimate and understated. The color_temperature value warm further supported the soft spice and pearlescent skin accords, creating a smell signature that evokes morning light on gilded mirrors and the expensive warmth of a jeweler's atelier.\n\n## Descriptor to Music\n\nThe energy value low established the slow tempo of 66 BPM and the overall artisanal-contemplative mood, rejecting any driving rhythm in favor of breathing, hand-worked time. The texture value metallic directly inspired the timbre choices of resonant hammered metal and warm muted brass, realized through hammered dulcimer and brushed cymbal that decay like memory into warm air. The mood value timeless luxury guided the inclusion of viola da gamba and glass harmonica, instruments with historical depth and pearl-like purity, while the visual style of close-up still life with shallow depth of field translated into close-mic'd production with natural room ambience suggesting wooden work surfaces and small enclosed space rather than vast reverb halls.",
+  "congruence_report": {
+    "automated_proxies": {
+      "clip_score_image_fragrance_text": 0.5945,
+      "clip_score_image_music_text": 0.4363,
+      "imagebind_score_image_audio": null
+    },
+    "descriptor_consistency": {
+      "fragrance_aligns_descriptor": true,
+      "music_aligns_descriptor": true,
+      "details": "The fragrance concept excellently matches the BAD with its warm metallic floral accords, polished rose, and timeless elegance, aligning with the brand_item's elegant, artisanal, and timeless luxury mood. The music direction also perfectly fits the BAD with its slow tempo, warm muted brass, and resonant hammered metal, capturing the artisanal-contemplative mood and the brand_item's warm color temperature and texture.",
+      "fragrance_score": 5,
+      "music_score": 5,
+      "fragrance_issues": [],
+      "music_issues": []
+    },
+    "human_ratings": null,
+    "summary": "Both fragrance and music directions are excellent, independent translations of the brand identity, with no major violations and high alignment with the BAD.",
+    "attempts": [
+      {
+        "attempt": 1,
+        "fragrance_aligns_descriptor": true,
+        "music_aligns_descriptor": true,
+        "details": "The fragrance concept excellently matches the BAD with its warm metallic floral accords, polished rose, and timeless elegance, aligning with the brand_item's elegant, artisanal, and timeless luxury mood. The music direction also perfectly fits the BAD with its slow tempo, warm muted brass, and resonant hammered metal, capturing the artisanal-contemplative mood and the brand_item's warm color temperature and texture.",
+        "summary": "Both fragrance and music directions are excellent, independent translations of the brand identity, with no major violations and high alignment with the BAD.",
+        "regenerated": []
+      }
+    ],
+    "regen_count": 0,
+    "accepted": true
+  },
+  "mode": "prompt_only",
+  "refinement_history": []
+}

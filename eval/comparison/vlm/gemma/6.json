@@ -1,0 +1,39 @@
+{
+  "provider": "gemma",
+  "image": "6.jpg",
+  "visual_analysis": {
+    "primary_subject": "black leather handbag",
+    "dominant_colours": [
+      "black",
+      "gold",
+      "charcoal grey"
+    ],
+    "objects": [
+      "chain strap",
+      "clothing",
+      "denim",
+      "logo text",
+      "metal clasp",
+      "tile floor"
+    ],
+    "mood_indicators": [
+      "stylish",
+      "modern",
+      "sophisticated"
+    ],
+    "composition_style": "close-up product shot",
+    "textures": [
+      "leather",
+      "metallic",
+      "knit"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 8.265
+}

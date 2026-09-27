@@ -1,0 +1,22 @@
+{
+  "tempo": "slow",
+  "bpm": 66,
+  "timbre": [
+    "warm muted brass",
+    "resonant hammered metal",
+    "smooth pearl-like pads",
+    "dry aged wood",
+    "soft golden overtones"
+  ],
+  "instrumentation": [
+    "hammered dulcimer",
+    "glass harmonica",
+    "viola da gamba",
+    "brushed cymbal",
+    "warm analog synth pad"
+  ],
+  "mood": "artisanal-contemplative",
+  "style": "metallic-chamber-ambient",
+  "music_signature": "This is the sound of a goldsmith's atelier at late afternoon, where metal still holds the heat of the torch: a slow 66 BPM pulse felt through brushed cymbal swells and the residual ring of hammered dulcimer, each strike decaying like memory into warm air. The viola da gamba provides a smooth, gut-stringed bass voice—organic and aged, not electronic—while glass harmonica traces melodic lines with a pearl-like, almost voiceless purity that catches light the way a brooch catches lamplight. Analog synth pads hold a golden harmonic bed, tuned to resonant intervals that suggest metal rather than chord progressions. There is no drum kit, no quantized grid; rhythm breathes like hand-work, irregular and intentional. The arrangement moves from sparse metallic gestures into fuller harmonic warmth, then dissolves back to single resonant tones. Production should feel close-mic'd and intimate, with natural room ambience suggesting wooden work surfaces and small enclosed space, not vast reverb halls. The overall effect is hushed, labor-intensive, precious—luxury understood as slowness and care rather than spectacle.",
+  "audio_sample_ref": "/api/audio/Tulola_Jewellery_001%20%28Prompt%20Only%29"
+}

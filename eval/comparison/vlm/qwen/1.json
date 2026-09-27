@@ -1,0 +1,37 @@
+{
+  "provider": "qwen",
+  "image": "1.png",
+  "visual_analysis": {
+    "primary_subject": "laptop",
+    "dominant_colours": [
+      "silver",
+      "black",
+      "blue"
+    ],
+    "objects": [
+      "keyboard",
+      "touchpad",
+      "screen",
+      "brand logo"
+    ],
+    "mood_indicators": [
+      "modern",
+      "professional",
+      "clean"
+    ],
+    "composition_style": "three-quarter angled product shot against white background",
+    "textures": [
+      "metallic",
+      "matte",
+      "smooth"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 83.685
+}

@@ -1,0 +1,20 @@
+{
+  "tempo": "moderate",
+  "timbre": [
+    "warm pads",
+    "smooth silk strings",
+    "resonant woodwinds",
+    "delicate bells"
+  ],
+  "instrumentation": [
+    "gamelan metallophones",
+    "suling",
+    "sitar",
+    "oud",
+    "erhu"
+  ],
+  "mood": "refined-sophistication",
+  "style": "contemporary-traditional",
+  "music_signature": "This is the sound of a batik shirt, a blend of traditional elegance and modern confidence. The intricate textures and warm color palette evoke a sense of refined sophistication. The blend of gamelan metallophones, suling, sitar, oud, and erhu creates a contemporary-traditional style that reflects the structured weave and embroidered patterns of the batik shirt. It should feel elegant and confident, enveloping the listener in the golden heritage of woven elegance.",
+  "audio_sample_ref": "/api/audio/4_001"
+}

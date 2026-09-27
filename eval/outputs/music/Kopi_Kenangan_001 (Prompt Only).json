@@ -1,0 +1,22 @@
+{
+  "tempo": "moderate",
+  "bpm": 92,
+  "timbre": [
+    "warm nylon-string resonance",
+    "dry palm-muted warmth",
+    "soft felt mallet tones",
+    "breathy low-register flute",
+    "analog tape saturation"
+  ],
+  "instrumentation": [
+    "classical guitar",
+    "upright bass",
+    "vibraphone",
+    "wooden cajón",
+    "bansuri flute"
+  ],
+  "mood": "cozy-nostalgic",
+  "style": "latin-folk-ambient",
+  "music_signature": "This is the sound of a slow morning in a neighborhood café where beans are still roasted on-site: a gentle nylon-string classical guitar picking warm arpeggios at 92 BPM, the strings' natural wood resonance evoking the grain of the wooden coaster and countertop. An upright bass walks with soft, round warmth—never punchy, always supportive—while a vibraphone played with felt mallets adds creamy, sustained chords that pool like amber coffee catching light. A wooden cajón provides a dry, intimate pulse, fingertips on raw wood rather than drumsticks, with subtle shaker accents suggesting the rustle of burlap coffee sacks. A breathy bansuri flute enters for melodic moments, its earthy tone connecting to the rough, unroasted beans scattered in frame. The arrangement breathes openly: guitar and bass establish a looping, unhurried figure, vibraphone swells in and out like condensation on the frosted plastic cup, and flute melodies appear briefly as if remembering a familiar song. Production should feel analog-warmed, with gentle tape saturation softening transients, moderate dynamic range preserving natural instrument bloom, and space that suggests morning light through a window rather than constructed reverb chambers. No electronic drums, no synthetic pads, no polished pop sheen—this is handcrafted, inviting, and quietly alive.",
+  "audio_sample_ref": "/api/audio/Kopi_Kenangan_001%20%28Prompt%20Only%29"
+}

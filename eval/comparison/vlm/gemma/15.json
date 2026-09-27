@@ -1,0 +1,42 @@
+{
+  "provider": "gemma",
+  "image": "15.jpg",
+  "visual_analysis": {
+    "primary_subject": "ice tea bottle",
+    "dominant_colours": [
+      "amber",
+      "clear",
+      "red",
+      "white",
+      "silver"
+    ],
+    "objects": [
+      "bottle cap",
+      "label",
+      "jasmine flower",
+      "water droplets",
+      "brand logo"
+    ],
+    "mood_indicators": [
+      "refreshing",
+      "clean",
+      "vibrant",
+      "natural"
+    ],
+    "composition_style": "central focus",
+    "textures": [
+      "smooth",
+      "glassy",
+      "wet",
+      "glossy"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 7.949
+}

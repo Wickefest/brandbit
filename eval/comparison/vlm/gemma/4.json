@@ -1,0 +1,43 @@
+{
+  "provider": "gemma",
+  "image": "4.jpg",
+  "visual_analysis": {
+    "primary_subject": "embroidered shirt",
+    "dominant_colours": [
+      "navy blue",
+      "ivory",
+      "golden yellow",
+      "cream",
+      "beige"
+    ],
+    "objects": [
+      "man",
+      "pants",
+      "chair",
+      "wooden frame",
+      "button",
+      "collar"
+    ],
+    "mood_indicators": [
+      "confident",
+      "stylish",
+      "refined",
+      "traditional"
+    ],
+    "composition_style": "medium shot, angled perspective",
+    "textures": [
+      "woven",
+      "smooth",
+      "embroidered",
+      "soft"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 8.415
+}

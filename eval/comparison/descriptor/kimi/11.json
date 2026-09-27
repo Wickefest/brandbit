@@ -1,0 +1,40 @@
+{
+  "provider": "kimi",
+  "source_visual": "eval\\comparison\\vlm\\qwen\\11.json",
+  "image": "11.png",
+  "raw_text": "{\n  \"brand_item\": \"wooden wristwatch\",\n  \"mood\": [\"rustic warmth\", \"artisanal charm\", \"minimalist elegance\"],\n  \"energy\": \"moderate\",\n  \"color_temperature\": \"warm\",\n  \"texture\": [\"wood grain\", \"leather\", \"smooth\", \"etched\"],\n  \"visual_style\": [\"centered product shot\", \"shallow depth of field\", \"warm tones\"],\n  \"sensory_metaphors\": [\"aged wood\", \"soft leather\", \"sunlit minimalism\"],\n  \"narrative\": \"The wooden wristwatch exudes a rustic warmth and artisanal charm, blending seamlessly with its minimalist elegance. Its warm tones and textures invite a sense of timelessness, as the watch sits centered on a wooden pedestal, capturing the essence of understated luxury.\"\n}",
+  "error": null,
+  "brand_aesthetic_descriptor": {
+    "brand_item": "wooden wristwatch",
+    "mood": [
+      "rustic warmth",
+      "artisanal charm",
+      "minimalist elegance"
+    ],
+    "energy": "moderate",
+    "color_temperature": "warm",
+    "texture": [
+      "wood grain",
+      "leather",
+      "smooth",
+      "etched"
+    ],
+    "visual_style": [
+      "centered product shot",
+      "shallow depth of field",
+      "warm tones"
+    ],
+    "sensory_metaphors": [
+      "aged wood",
+      "soft leather",
+      "sunlit minimalism"
+    ],
+    "narrative": "The wooden wristwatch exudes a rustic warmth and artisanal charm, blending seamlessly with its minimalist elegance. Its warm tones and textures invite a sense of timelessness, as the watch sits centered on a wooden pedestal, capturing the essence of understated luxury."
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null
+  }
+}

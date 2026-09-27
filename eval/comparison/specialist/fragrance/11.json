@@ -1,0 +1,123 @@
+{
+  "provider": "kimi",
+  "modality": "fragrance",
+  "source_descriptor": "eval\\comparison\\descriptor\\gpt-4o\\11.json",
+  "image": "11.png",
+  "brand_item": "wooden wristwatch",
+  "pyrfume_retrieval_names": [
+    "2-acetyl-3-methylpyrazine",
+    "1-hydroxybutan-2-one",
+    "2-acetyl-2-thiazoline",
+    "2-acetyl-3,(5 or 6)-dimethylpyrazine",
+    "2-propenal, 3-(4-hydroxy-3-methoxyphenyl)-",
+    "1,2,3-trimethoxybenzene",
+    "cedrenol",
+    "kephalis",
+    "tetradecahydrocyclododeca[c]furan",
+    "2-isobutylquinoline",
+    "2-(diethoxymethyl)furan",
+    "2-butylquinoline",
+    "2-vinylanisole",
+    "muscogene",
+    "4-isopropyl-2,2,5,5-tetramethyl-1,3-dioxane",
+    "1-(5,6-dimethylpyrazin-2-yl)ethanone",
+    "3-tert-butylphenol",
+    "1-methoxy-1-methylcyclododecane",
+    "6-methyl-1,2,3,4-tetrahydroquinoline",
+    "terpinyl propionate",
+    "androstenol",
+    "citronellol",
+    "2,4,4,6-tetramethylcyclohexa-2,5-dien-1-one",
+    "2-phenoxyacetaldehyde",
+    "1-(1-ethoxyethoxy)hexane",
+    "4-methylanisole",
+    "2-cyclohexylpropanal",
+    "2-ethoxy-4-(methoxymethyl)phenol",
+    "(-)-linalool",
+    "6-tert-butyl-m-cresol"
+  ],
+  "pyrfume_sources": [
+    "goodscents",
+    "ifra_2019",
+    "leffingwell"
+  ],
+  "raw_text": "{\n  \"top_notes\": [\n    \"2-acetyl-3-methylpyrazine\",\n    \"2-phenoxyacetaldehyde\"\n  ],\n  \"heart_notes\": [\n    \"cedrenol\",\n    \"terpinyl propionate\"\n  ],\n  \"base_notes\": [\n    \"muscogene\",\n    \"6-tert-butyl-m-cresol\"\n  ],\n  \"dominant_accords\": [\n    \"rustic warmth\",\n    \"artisanal elegance\",\n    \"earthy embrace\",\n    \"timeless simplicity\"\n  ],\n  \"intensity_profile\": \"moderate\",\n  \"emotional_descriptors\": [\n    \"organic\",\n    \"natural\",\n    \"warm\"\n  ],\n  \"smell_signature\": \"This fragrance opens with a warm, roasted hazelnut and fresh green leafy scent, transitioning into a heart of cedar wood and geranium. It dries down to a deep, earthy musk with a hint of smoky leather. Overall, it evokes the feeling of a rustic, artisanal workshop filled with the scent of aged woods and oiled leather.\",\n  \"note_guide\": [\n    {\n      \"smells_like\": \"roasted hazelnut\",\n      \"chemical_name\": \"2-acetyl-3-methylpyrazine\"\n    },\n    {\n      \"smells_like\": \"fresh green leaves\",\n      \"chemical_name\": \"2-phenoxyacetaldehyde\"\n    },\n    {\n      \"smells_like\": \"cedar wood\",\n      \"chemical_name\": \"cedrenol\"\n    },\n    {\n      \"smells_like\": \"geranium\",\n      \"chemical_name\": \"terpinyl propionate\"\n    },\n    {\n      \"smells_like\": \"earthy musk\",\n      \"chemical_name\": \"muscogene\"\n    },\n    {\n      \"smells_like\": \"smoky leather\",\n      \"chemical_name\": \"6-tert-butyl-m-cresol\"\n    }\n  ],\n  \"grounded_notes\": [\n    \"roasted hazelnut\",\n    \"fresh green leaves\",\n    \"cedar wood\",\n    \"geranium\",\n    \"earthy musk\",\n    \"smoky leather\"\n  ]\n}",
+  "error": null,
+  "fragrance_concept": {
+    "top_notes": [
+      "2-acetyl-3-methylpyrazine",
+      "2-phenoxyacetaldehyde"
+    ],
+    "heart_notes": [
+      "cedrenol",
+      "terpinyl propionate"
+    ],
+    "base_notes": [
+      "muscogene",
+      "6-tert-butyl-m-cresol"
+    ],
+    "dominant_accords": [
+      "rustic warmth",
+      "artisanal elegance",
+      "earthy embrace",
+      "timeless simplicity"
+    ],
+    "intensity_profile": "moderate",
+    "emotional_descriptors": [
+      "organic",
+      "natural",
+      "warm"
+    ],
+    "smell_signature": "This fragrance opens with a warm, roasted hazelnut and fresh green leafy scent, transitioning into a heart of cedar wood and geranium. It dries down to a deep, earthy musk with a hint of smoky leather. Overall, it evokes the feeling of a rustic, artisanal workshop filled with the scent of aged woods and oiled leather.",
+    "note_guide": [
+      {
+        "smells_like": "hazelnut roasted hazelnut, vegetable",
+        "chemical_name": "2-acetyl-3-methylpyrazine",
+        "ingredient": "2-acetyl-3-methylpyrazine"
+      },
+      {
+        "smells_like": "leafy, cortex",
+        "chemical_name": "2-phenoxyacetaldehyde",
+        "ingredient": "2-phenoxyacetaldehyde"
+      },
+      {
+        "smells_like": "characteristic cedar wood odor",
+        "chemical_name": "cedrenol",
+        "ingredient": "cedrenol"
+      },
+      {
+        "smells_like": "herbal, old",
+        "chemical_name": "terpinyl propionate",
+        "ingredient": "terpinyl propionate"
+      },
+      {
+        "smells_like": "animal, natural",
+        "chemical_name": "muscogene",
+        "ingredient": "muscogene"
+      },
+      {
+        "smells_like": "animal, leathery",
+        "chemical_name": "6-tert-butyl-m-cresol",
+        "ingredient": "6-tert-butyl-m-cresol"
+      }
+    ],
+    "grounded_notes": [
+      "2-acetyl-3-methylpyrazine",
+      "2-phenoxyacetaldehyde",
+      "cedrenol",
+      "terpinyl propionate",
+      "muscogene",
+      "6-tert-butyl-m-cresol"
+    ],
+    "pyrfume_sources": []
+  },
+  "ungrounded_notes": [],
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "grounded_ok": true,
+    "error": null
+  },
+  "latency_seconds": 11.216
+}

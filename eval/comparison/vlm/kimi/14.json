@@ -1,0 +1,35 @@
+{
+  "provider": "kimi",
+  "image": "14.jpg",
+  "visual_analysis": {
+    "primary_subject": "skincare serum bottle",
+    "dominant_colours": [
+      "orange",
+      "white",
+      "silver"
+    ],
+    "objects": [
+      "pump dispenser",
+      "label",
+      "bottle cap"
+    ],
+    "mood_indicators": [
+      "clean",
+      "fresh",
+      "gentle"
+    ],
+    "composition_style": "product-centric, minimalist",
+    "textures": [
+      "matte",
+      "smooth"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 2.257
+}

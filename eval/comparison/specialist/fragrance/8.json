@@ -1,0 +1,122 @@
+{
+  "provider": "kimi",
+  "modality": "fragrance",
+  "source_descriptor": "eval\\comparison\\descriptor\\gpt-4o\\8.json",
+  "image": "8.jpg",
+  "brand_item": "t-shirt",
+  "pyrfume_retrieval_names": [
+    "2-isopropoxyethyl salicylate",
+    "piperonal",
+    "benzaldehyde",
+    "methyl 2-[(phenylmethylene)amino]benzoate",
+    "cyclohexyl cinnamate",
+    "2-acetylpyrrole",
+    "ethyl benzoylacetate",
+    "m-methylbenzyl acetate",
+    "2-methylbenzaldehyde",
+    "o-methylbenzyl acetate",
+    "p-tolualdehyde",
+    "2-phenyl-3-carbethoxyfuran",
+    "4-ethoxybenzaldehyde",
+    "allyl benzoate",
+    "methyl cinnamate",
+    "p-(diethoxymethyl)toluene",
+    "2,4-dimethylbenzaldehyde",
+    "(dibutoxymethyl)benzene",
+    "4-methoxybenzoic acid",
+    "aurantiol",
+    "propiophenone",
+    "4-methylbenzyl acetate",
+    "acetophenone",
+    "allyl isovalerate",
+    "4'-methylacetophenone",
+    "3-methylbenzaldehyde",
+    "4-(4-methoxyphenyl)-2-butanone",
+    "4'-methoxyacetophenone",
+    "ethyl methyl-p-tolylglycidate",
+    "4-methyl-2-phenyl-1,3-dioxolane"
+  ],
+  "pyrfume_sources": [
+    "goodscents",
+    "ifra_2019",
+    "leffingwell"
+  ],
+  "raw_text": "{\n  \"top_notes\": [\n    \"2-isopropoxyethyl salicylate\",\n    \"benzaldehyde\"\n  ],\n  \"heart_notes\": [\n    \"m-methylbenzyl acetate\",\n    \"o-methylbenzyl acetate\"\n  ],\n  \"base_notes\": [\n    \"4-(4-methoxyphenyl)-2-butanone\",\n    \"4'-methoxyacetophenone\"\n  ],\n  \"dominant_accords\": [\n    \"cherry blossom\",\n    \"vanilla\",\n    \"powdery floral\"\n  ],\n  \"intensity_profile\": \"moderate\",\n  \"emotional_descriptors\": [\n    \"elegant\",\n    \"serene\",\n    \"vibrant\"\n  ],\n  \"smell_signature\": \"This fragrance opens with a fresh, cherry blossom breeze that is both elegant and serene, transitioning into a heart of sweet cherry and floral notes, rounded out by a powdery, vanilla base. It evokes the feeling of a tranquil, sunlit garden, reminiscent of a high-end spa's cherry blossom body lotion.\",\n  \"note_guide\": [\n    {\n      \"smells_like\": \"sweet cherry blossom\",\n      \"chemical_name\": \"2-isopropoxyethyl salicylate\"\n    },\n    {\n      \"smells_like\": \"cherry maraschino cherry\",\n      \"chemical_name\": \"benzaldehyde\"\n    },\n    {\n      \"smells_like\": \"fruity cherry\",\n      \"chemical_name\": \"m-methylbenzyl acetate\"\n    },\n    {\n      \"smells_like\": \"fruity cherry slightly floral\",\n      \"chemical_name\": \"o-methylbenzyl acetate\"\n    },\n    {\n      \"smells_like\": \"sweet rose fruity\",\n      \"chemical_name\": \"4-(4-methoxyphenyl)-2-butanone\"\n    },\n    {\n      \"smells_like\": \"vanilla cherry maraschino cherry\",\n      \"chemical_name\": \"4'-methoxyacetophenone\"\n    }\n  ],\n  \"grounded_notes\": [\n    \"cherry blossom\",\n    \"cherry\",\n    \"floral\",\n    \"vanilla\",\n    \"fruity\",\n    \"powdery\"\n  ]\n}",
+  "error": null,
+  "fragrance_concept": {
+    "top_notes": [
+      "2-isopropoxyethyl salicylate",
+      "benzaldehyde"
+    ],
+    "heart_notes": [
+      "m-methylbenzyl acetate",
+      "o-methylbenzyl acetate"
+    ],
+    "base_notes": [
+      "4-(4-methoxyphenyl)-2-butanone",
+      "4'-methoxyacetophenone"
+    ],
+    "dominant_accords": [
+      "cherry blossom",
+      "vanilla",
+      "powdery floral"
+    ],
+    "intensity_profile": "moderate",
+    "emotional_descriptors": [
+      "elegant",
+      "serene",
+      "vibrant"
+    ],
+    "smell_signature": "This fragrance opens with a fresh, cherry blossom breeze that is both elegant and serene, transitioning into a heart of sweet cherry and floral notes, rounded out by a powdery, vanilla base. It evokes the feeling of a tranquil, sunlit garden, reminiscent of a high-end spa's cherry blossom body lotion.",
+    "note_guide": [
+      {
+        "smells_like": "herbal, cherry",
+        "chemical_name": "2-isopropoxyethyl salicylate",
+        "ingredient": "2-isopropoxyethyl salicylate"
+      },
+      {
+        "smells_like": "cherry, cherry maraschino cherry",
+        "chemical_name": "benzaldehyde",
+        "ingredient": "benzaldehyde"
+      },
+      {
+        "smells_like": "cherry, reminiscent of cherry",
+        "chemical_name": "m-methylbenzyl acetate",
+        "ingredient": "m-methylbenzyl acetate"
+      },
+      {
+        "smells_like": "cherry, fruity cherry",
+        "chemical_name": "o-methylbenzyl acetate",
+        "ingredient": "o-methylbenzyl acetate"
+      },
+      {
+        "smells_like": "absolute, rose",
+        "chemical_name": "4-(4-methoxyphenyl)-2-butanone",
+        "ingredient": "4-(4-methoxyphenyl)-2-butanone"
+      },
+      {
+        "smells_like": "vanilla, cherry maraschino cherry",
+        "chemical_name": "4'-methoxyacetophenone",
+        "ingredient": "4'-methoxyacetophenone"
+      }
+    ],
+    "grounded_notes": [
+      "2-isopropoxyethyl salicylate",
+      "benzaldehyde",
+      "m-methylbenzyl acetate",
+      "o-methylbenzyl acetate",
+      "4-(4-methoxyphenyl)-2-butanone",
+      "4'-methoxyacetophenone"
+    ],
+    "pyrfume_sources": []
+  },
+  "ungrounded_notes": [],
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "grounded_ok": true,
+    "error": null
+  },
+  "latency_seconds": 10.708
+}

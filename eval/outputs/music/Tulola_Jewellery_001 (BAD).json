@@ -1,0 +1,22 @@
+{
+  "tempo": "slow",
+  "bpm": 66,
+  "timbre": [
+    "warm brushed metal resonance",
+    "smooth pearl-like sustain",
+    "dry aged wood decay",
+    "soft stone harmonics",
+    "sunlit harmonic sheen"
+  ],
+  "instrumentation": [
+    "hammered dulcimer",
+    "glass armonica",
+    "solo viola da gamba",
+    "tuned bronze singing bowls",
+    "prepared piano with felt"
+  ],
+  "mood": "contemplative",
+  "style": "artisanal-minimal",
+  "music_signature": "This is the sound of a jeweler's atelier in late afternoon sun: the gold floral brooch rendered as slow, deliberate resonance at 66 BPM. The hammered dulcimer provides the core voice—each strike evoking the tool-work of metal, with brushed attacks and long, warm decays that suggest molten gold cooling into form. Glass armonica sustains float above like pearl surfaces catching light, smooth and edgeless. A solo viola da gamba, played without vibrato, offers intimate melodic lines that feel hand-carved rather than performed. Tuned bronze singing bowls enter sparingly, their harmonic overtones creating the 'warm metallic sheen' of the visual palette. A prepared piano with heavy felt between hammers and strings provides muted low-end punctuation, the wood and stone textures of the descriptor felt in its deadened, earthy thuds. Rhythm is nearly absent—only the natural decay patterns of struck metal and bowed gut create temporal movement. The arrangement breathes in long phrases, building from single dulcimer notes to layered harmonics, then dissolving back to silence. Production should feel close-mic'd and intimate, as if the listener is leaning over the workbench: shallow depth of field made sonic, with no reverb tails longer than the natural room, no electronic sheen, no pulse or groove. The emotional arc is one of held attention, of witnessing craft rather than consuming product—whispered elegance made audible.",
+  "audio_sample_ref": "/api/audio/Tulola_Jewellery_001%20%28BAD%29"
+}

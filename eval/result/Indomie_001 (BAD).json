@@ -1,0 +1,189 @@
+{
+  "execution_id": "Indomie_001 (BAD)",
+  "timestamp": "2026-09-11T15:14:05.822087Z",
+  "input_image_ref": "Indomie.jpg",
+  "brand_aesthetic_descriptor": {
+    "brand_item": "Indomie Mi Goreng instant noodles package",
+    "mood": [
+      "appetizing",
+      "energetic",
+      "authentic"
+    ],
+    "energy": "high",
+    "color_temperature": "warm",
+    "colours": [
+      "Vibrant Red (#FF0000)",
+      "Bright Yellow (#FFFF00)",
+      "Fresh Green (#00FF00)",
+      "Rich Orange (#FFA500)",
+      "Crisp White (#FFFFFF)",
+      "Golden Brown (#D2691E)"
+    ],
+    "texture": [
+      "smooth",
+      "glossy",
+      "crispy"
+    ],
+    "visual_style": [
+      "bold branding",
+      "centered product shot",
+      "appetizing arrangement"
+    ],
+    "sensory_metaphors": [
+      "culinary warmth",
+      "vibrant zest"
+    ],
+    "narrative": "The Indomie Mi Goreng instant noodles package bursts with vibrant red and bright yellow, capturing an energetic and appetizing mood. The warm color palette and bold branding evoke a sense of authentic culinary delight, inviting consumers to indulge in a quick yet flavorful meal experience."
+  },
+  "fragrance_concept": {
+    "top_notes": [
+      "orange oil",
+      "valencene",
+      "octanal"
+    ],
+    "heart_notes": [
+      "perillaldehyde",
+      "nonyl anthranilate",
+      "vertosine"
+    ],
+    "base_notes": [
+      "decadienal",
+      "(z)-8-tetradecenal",
+      "4-epi-eremophilene"
+    ],
+    "dominant_accords": [
+      "citrus burst",
+      "spiced warmth",
+      "savory sweetness",
+      "golden radiance"
+    ],
+    "intensity_profile": "bold",
+    "emotional_descriptors": [
+      "exhilarating",
+      "comforting",
+      "unapologetic",
+      "playful",
+      "inviting"
+    ],
+    "smell_signature": "Combined together, these ingredients will smell like a blazing citrus explosion that quickly deepens into spiced mandarin and aromatic herbs, finally settling into a mouthwatering, golden-brown warmth. Think of stepping into a bustling Southeast Asian night market stall where fresh-squeezed orange meets sizzling wok aromatics and sweet-savory glaze. It opens with electric brightness and dries down into the cozy, craveable comfort of your favorite instant indulgence made luxurious.",
+    "note_guide": [
+      {
+        "smells_like": "citrus, sharp",
+        "chemical_name": "orange oil",
+        "ingredient": "orange oil"
+      },
+      {
+        "smells_like": "citrus",
+        "chemical_name": "valencene",
+        "ingredient": "valencene"
+      },
+      {
+        "smells_like": "aldehydic, fatty",
+        "chemical_name": "octanal",
+        "ingredient": "octanal"
+      },
+      {
+        "smells_like": "lime, cinnamon",
+        "chemical_name": "perillaldehyde",
+        "ingredient": "perillaldehyde"
+      },
+      {
+        "smells_like": "mandarin, orange",
+        "chemical_name": "nonyl anthranilate",
+        "ingredient": "nonyl anthranilate"
+      },
+      {
+        "smells_like": "leafy, orangeflower",
+        "chemical_name": "vertosine",
+        "ingredient": "vertosine"
+      },
+      {
+        "smells_like": "fatty, chicken",
+        "chemical_name": "decadienal",
+        "ingredient": "decadienal"
+      },
+      {
+        "smells_like": "beeswax, fatty",
+        "chemical_name": "(z)-8-tetradecenal",
+        "ingredient": "(z)-8-tetradecenal"
+      },
+      {
+        "smells_like": "oily, orange",
+        "chemical_name": "4-epi-eremophilene",
+        "ingredient": "4-epi-eremophilene"
+      }
+    ],
+    "grounded_notes": [
+      "orange oil",
+      "valencene",
+      "octanal",
+      "perillaldehyde",
+      "nonyl anthranilate",
+      "vertosine",
+      "decadienal",
+      "(z)-8-tetradecenal",
+      "4-epi-eremophilene"
+    ],
+    "pyrfume_sources": [
+      "goodscents",
+      "ifra_2019",
+      "leffingwell"
+    ]
+  },
+  "music_direction": {
+    "tempo": "uptempo",
+    "bpm": 126,
+    "timbre": [
+      "crackling wok heat",
+      "bright metallic frying",
+      "sizzling oil resonance",
+      "warm noodle steam",
+      "crispy shallot crunch"
+    ],
+    "instrumentation": [
+      "kendang",
+      "suling",
+      "gamelan metallophones",
+      "electric bass",
+      "wok percussion"
+    ],
+    "mood": "appetizing-energetic",
+    "style": "indo-street-kitchen",
+    "music_signature": "This is the sound of a bustling Jakarta street cart at golden hour: kendang drums driving a propulsive 126 BPM groove that mimics the rhythmic clatter of wok-tossing, with interlocking gamelan metallophones providing the bright, metallic ping of hot oil and sizzling noodles. A breathy suling flute carries the melody in quick, appetizing phrases that rise and fall like steam from a fresh plate. The electric bass locks in with a warm, rounded thump that grounds the high-frequency energy without heaviness. Wok percussion—actual metal and wood hits processed with controlled sizzle—creates textural moments that evoke the crispy shallots and fried shallot oil central to Mi Goreng's identity. The arrangement builds from a single kendang pulse into layered polyrhythms, drops to reveal the suling melody over bass and metallophones, then returns to full intensity. Production should feel hot, immediate, and street-level: close-miked percussion with natural room, saturated midrange warmth, and a glossy sheen on the upper frequencies that catches light like the packaging's bold red and yellow. No chill spa pads, no European salon elegance—this is the kinetic energy of quick, authentic, deeply satisfying food made for busy hands and hungry moments.",
+    "audio_sample_ref": "/api/audio/Indomie_001%20%28BAD%29"
+  },
+  "audio_sample_ref": "/api/audio/Indomie_001%20%28BAD%29",
+  "rationale": "## Visual to Descriptor\n\nThe Indomie Mi Goreng package translates its visual identity into the Brand Aesthetic Descriptor through deliberate color and compositional choices. The Vibrant Red and Bright Yellow that dominate the packaging directly establish the color_temperature as warm and the energy as high, signaling appetite and urgency before any text is read. The glossy texture of the printed film and the centered product shot with appetizing arrangement reinforce the mood values of appetizing and energetic, while the Golden Brown of the cooked noodles grounds the palette in authentic culinary warmth. These visual decisions collectively shape the sensory_metaphors of culinary warmth and vibrant zest, ensuring every glance at the package promises immediate sensory gratification.\n\n## Descriptor to Fragrance\n\nThe Brand Aesthetic Descriptor fields of mood and color_temperature guided the fragrance development toward a bold intensity_profile that mirrors the package's visual punch. The energetic mood demanded top notes of orange oil and valencene that deliver an electric citrus burst matching the Vibrant Red and Bright Yellow of the wrapper, while the appetizing mood required heart notes like perillaldehyde with its lime-cinnamon duality to evoke the spiced warmth of a sizzling wok. The authentic mood and warm color_temperature found resolution in base notes of decadienal with its fatty, chicken-like character and (z)-8-tetradecenal with beeswax depth, creating the golden-brown warmth that settles into craveable comfort. The dominant_accords of citrus burst, spiced warmth, savory sweetness, and golden radiance thus become olfactory translations of the package's visual promise.\n\n## Descriptor to Music\n\nThe Brand Aesthetic Descriptor values of energy and mood directly shaped the uptempo 126 BPM and appetizing-energetic mood of the music direction. The high energy field demanded propulsive kendang drums and interlocking gamelan metallophones that clatter with the same urgency as the package's bold branding, while the appetizing and energetic mood values required the breathy suling flute to carry quick melodic phrases that rise and fall like steam from a fresh plate. The warm color_temperature translated into production choices of saturated midrange warmth and glossy upper frequencies that catch light sonically as the Vibrant Red and Bright Yellow do visually. The timbre selections of crackling wok heat, bright metallic frying, and crispy shallot crunch complete the cross-modal bridge, making the indo-street-kitchen style an audible manifestation of the package's visual and narrative promise of authentic culinary delight.",
+  "congruence_report": {
+    "automated_proxies": {
+      "clip_score_image_fragrance_text": 0.4036,
+      "clip_score_image_music_text": 0.5875,
+      "imagebind_score_image_audio": null
+    },
+    "descriptor_consistency": {
+      "fragrance_aligns_descriptor": true,
+      "music_aligns_descriptor": true,
+      "details": "The fragrance concept excellently matches the BAD with its bold intensity, warm and vibrant citrus notes, and emotional descriptors like 'exhilarating' and 'comforting' aligning with the BAD's 'energetic' and 'appetizing' mood. The music direction also perfectly fits the BAD with its uptempo energy, warm and bright timbre, and instrumentation that evokes a bustling street kitchen, aligning with the BAD's 'authentic' and 'energetic' narrative.",
+      "fragrance_score": 5,
+      "music_score": 5,
+      "fragrance_issues": [],
+      "music_issues": []
+    },
+    "human_ratings": null,
+    "summary": "Both the fragrance and music directions are excellent, independent translations of the Indomie Mi Goreng brand identity, with no major mismatches.",
+    "attempts": [
+      {
+        "attempt": 1,
+        "fragrance_aligns_descriptor": true,
+        "music_aligns_descriptor": true,
+        "details": "The fragrance concept excellently matches the BAD with its bold intensity, warm and vibrant citrus notes, and emotional descriptors like 'exhilarating' and 'comforting' aligning with the BAD's 'energetic' and 'appetizing' mood. The music direction also perfectly fits the BAD with its uptempo energy, warm and bright timbre, and instrumentation that evokes a bustling street kitchen, aligning with the BAD's 'authentic' and 'energetic' narrative.",
+        "summary": "Both the fragrance and music directions are excellent, independent translations of the Indomie Mi Goreng brand identity, with no major mismatches.",
+        "regenerated": []
+      }
+    ],
+    "regen_count": 0,
+    "accepted": true
+  },
+  "mode": "sensory_profile",
+  "refinement_history": []
+}

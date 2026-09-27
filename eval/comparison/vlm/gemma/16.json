@@ -1,0 +1,42 @@
+{
+  "provider": "gemma",
+  "image": "16.jpg",
+  "visual_analysis": {
+    "primary_subject": "floral brooch",
+    "dominant_colours": [
+      "antique gold",
+      "burnished gold",
+      "ivory white",
+      "pearlescent"
+    ],
+    "objects": [
+      "pearl",
+      "metal mold",
+      "wooden base",
+      "leaves",
+      "flowers"
+    ],
+    "mood_indicators": [
+      "luxurious",
+      "elegant",
+      "classic",
+      "ornate"
+    ],
+    "composition_style": "close-up, centered",
+    "textures": [
+      "metallic",
+      "smooth",
+      "organic",
+      "polished",
+      "rough"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 8.434
+}

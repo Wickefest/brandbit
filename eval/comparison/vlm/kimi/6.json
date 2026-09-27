@@ -1,0 +1,33 @@
+{
+  "provider": "kimi",
+  "image": "6.jpg",
+  "visual_analysis": {
+    "primary_subject": "shoulder bag",
+    "dominant_colours": [
+      "black",
+      "gold"
+    ],
+    "objects": [
+      "chain strap",
+      "leather flap",
+      "metal clasp"
+    ],
+    "mood_indicators": [
+      "elegant",
+      "sophisticated"
+    ],
+    "composition_style": "centered product display",
+    "textures": [
+      "grainy leather",
+      "metallic sheen"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 2.674
+}

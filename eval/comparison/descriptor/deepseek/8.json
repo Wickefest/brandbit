@@ -1,0 +1,39 @@
+{
+  "provider": "deepseek",
+  "source_visual": "eval\\comparison\\vlm\\qwen\\8.json",
+  "image": "8.jpg",
+  "raw_text": "{\n  \"brand_item\": \"t-shirt\",\n  \"mood\": [\"serene elegance\", \"vibrant tradition\", \"harmonious nature\"],\n  \"energy\": \"moderate\",\n  \"color_temperature\": \"neutral\",\n  \"texture\": [\"smooth\", \"printed\", \"soft fabric\"],\n  \"visual_style\": [\"graphic print\", \"centered composition\", \"nature-inspired\"],\n  \"sensory_metaphors\": [\"morning dew on petals\", \"sunlit branches\", \"crisp linen breeze\"],\n  \"narrative\": \"This t-shirt blends serene elegance with vibrant tradition, featuring nature-inspired motifs that evoke harmony and timeless beauty. The balanced composition and soft textures create a sense of effortless sophistication, while the graphic print adds a lively yet refined touch.\"\n}",
+  "error": null,
+  "brand_aesthetic_descriptor": {
+    "brand_item": "t-shirt",
+    "mood": [
+      "serene elegance",
+      "vibrant tradition",
+      "harmonious nature"
+    ],
+    "energy": "moderate",
+    "color_temperature": "neutral",
+    "texture": [
+      "smooth",
+      "printed",
+      "soft fabric"
+    ],
+    "visual_style": [
+      "graphic print",
+      "centered composition",
+      "nature-inspired"
+    ],
+    "sensory_metaphors": [
+      "morning dew on petals",
+      "sunlit branches",
+      "crisp linen breeze"
+    ],
+    "narrative": "This t-shirt blends serene elegance with vibrant tradition, featuring nature-inspired motifs that evoke harmony and timeless beauty. The balanced composition and soft textures create a sense of effortless sophistication, while the graphic print adds a lively yet refined touch."
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "provider": "kimi",
+  "source_visual": "eval\\comparison\\vlm\\qwen\\2.json",
+  "image": "2.jpg",
+  "raw_text": "{\n  \"brand_item\": \"water bottle\",\n  \"mood\": [\"refreshing\", \"pure\", \"clean\"],\n  \"energy\": \"high\",\n  \"color_temperature\": \"cool\",\n  \"texture\": [\"smooth\", \"plastic\", \"printed\", \"transparent\"],\n  \"visual_style\": [\"centered product shot\", \"minimal background\"],\n  \"sensory_metaphors\": [\"mountain mist\", \"glassine clarity\"],\n  \"narrative\": \"This water bottle embodies the essence of purity and refreshment. Its clear and blue hues, along with the mountain graphic, evoke a sense of crisp, clean water from a natural source. The smooth plastic surface and transparent design invite you to quench your thirst with every sip, capturing the vitality of nature in a modern, minimalist container.\"\n}",
+  "error": null,
+  "brand_aesthetic_descriptor": {
+    "brand_item": "water bottle",
+    "mood": [
+      "refreshing",
+      "pure",
+      "clean"
+    ],
+    "energy": "high",
+    "color_temperature": "cool",
+    "texture": [
+      "smooth",
+      "plastic",
+      "printed",
+      "transparent"
+    ],
+    "visual_style": [
+      "centered product shot",
+      "minimal background"
+    ],
+    "sensory_metaphors": [
+      "mountain mist",
+      "glassine clarity"
+    ],
+    "narrative": "This water bottle embodies the essence of purity and refreshment. Its clear and blue hues, along with the mountain graphic, evoke a sense of crisp, clean water from a natural source. The smooth plastic surface and transparent design invite you to quench your thirst with every sip, capturing the vitality of nature in a modern, minimalist container."
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null
+  }
+}

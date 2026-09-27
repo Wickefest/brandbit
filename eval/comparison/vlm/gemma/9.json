@@ -1,0 +1,46 @@
+{
+  "provider": "gemma",
+  "image": "9.jpg",
+  "visual_analysis": {
+    "primary_subject": "Indomie instant noodles packet",
+    "dominant_colours": [
+      "bright red",
+      "lime green",
+      "golden yellow",
+      "ivory",
+      "dark brown",
+      "black"
+    ],
+    "objects": [
+      "noodles",
+      "egg",
+      "spring onion",
+      "chili pepper",
+      "sauce sachets",
+      "plastic wrapper",
+      "Halal logo"
+    ],
+    "mood_indicators": [
+      "comforting",
+      "appetizing",
+      "vibrant",
+      "authentic"
+    ],
+    "composition_style": "product-focused with food styling",
+    "textures": [
+      "crispy",
+      "smooth",
+      "matte",
+      "rough",
+      "glossy"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 9.505
+}

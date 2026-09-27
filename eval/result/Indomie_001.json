@@ -1,0 +1,193 @@
+{
+  "execution_id": "Indomie_001",
+  "timestamp": "2026-09-11T09:33:02.284335Z",
+  "input_image_ref": "Indomie.jpg",
+  "brand_aesthetic_descriptor": {
+    "brand_item": "instant noodle package",
+    "mood": [
+      "appetizing",
+      "energetic",
+      "tasty",
+      "quick",
+      "comforting"
+    ],
+    "energy": "high",
+    "color_temperature": "warm",
+    "colours": [
+      "vibrant red",
+      "bright yellow",
+      "fresh green",
+      "crisp white",
+      "rich brown"
+    ],
+    "texture": [
+      "smooth",
+      "glossy",
+      "crispy",
+      "soft",
+      "shiny"
+    ],
+    "visual_style": [
+      "centered product shot with bold branding and appetizing food imagery",
+      "fork",
+      "fried egg",
+      "shrimp",
+      "tomato"
+    ],
+    "sensory_metaphors": [],
+    "narrative": "Direct image parse of instant noodle package. Colours: vibrant red, bright yellow, fresh green, crisp white, rich brown. Composition: centered product shot with bold branding and appetizing food imagery. Atmosphere: appetizing, energetic, tasty, quick, comforting. Surface cues: smooth, glossy, crispy, soft, shiny."
+  },
+  "fragrance_concept": {
+    "top_notes": [
+      "valencene",
+      "myrac aldehyde 1",
+      "cis-3-hexenal"
+    ],
+    "heart_notes": [
+      "vertosine",
+      "2-benzylideneoctanal",
+      "3,3-dimethoxyprop-1-enylbenzene"
+    ],
+    "base_notes": [
+      "2,5-dimethylthiophene",
+      "2-octanone, oxime",
+      "4-(1-methylethyl)cyclohexanemethanol"
+    ],
+    "dominant_accords": [
+      "fresh green herbs",
+      "spicy warmth",
+      "juicy citrus",
+      "savory umami",
+      "clean florals"
+    ],
+    "intensity_profile": "bold",
+    "emotional_descriptors": [
+      "playful",
+      "invigorating",
+      "comforting",
+      "vibrant",
+      "satisfying"
+    ],
+    "smell_signature": "Combined together, these ingredients will smell like tearing open a bright, glossy instant noodle packet on a hungry afternoon—zesty orange peel and crushed green herbs burst first, then a warm, spicy floral heart kicks in like the steam rising off your bowl, drying down into a clean, nutty savoriness that clings to your sweater like the memory of a perfect comfort meal. Think of a high-end Japanese convenience store at midnight, where neon warmth meets the promise of something delicious in three minutes flat.",
+    "note_guide": [
+      {
+        "smells_like": "citrus",
+        "chemical_name": "valencene",
+        "ingredient": "valencene"
+      },
+      {
+        "smells_like": "aldehydic, ozone",
+        "chemical_name": "myrac aldehyde 1",
+        "ingredient": "myrac aldehyde 1"
+      },
+      {
+        "smells_like": "fatty, weedy",
+        "chemical_name": "cis-3-hexenal",
+        "ingredient": "cis-3-hexenal"
+      },
+      {
+        "smells_like": "leafy, orangeflower",
+        "chemical_name": "vertosine",
+        "ingredient": "vertosine"
+      },
+      {
+        "smells_like": "herbal, jasmin",
+        "chemical_name": "2-benzylideneoctanal",
+        "ingredient": "2-benzylideneoctanal"
+      },
+      {
+        "smells_like": "cinnamon, herbal",
+        "chemical_name": "3,3-dimethoxyprop-1-enylbenzene",
+        "ingredient": "3,3-dimethoxyprop-1-enylbenzene"
+      },
+      {
+        "smells_like": "nutty, sulfurous",
+        "chemical_name": "2,5-dimethylthiophene",
+        "ingredient": "2,5-dimethylthiophene"
+      },
+      {
+        "smells_like": "clean, floral",
+        "chemical_name": "2-octanone, oxime",
+        "ingredient": "2-octanone, oxime"
+      },
+      {
+        "smells_like": "magnolia, grassy",
+        "chemical_name": "4-(1-methylethyl)cyclohexanemethanol",
+        "ingredient": "4-(1-methylethyl)cyclohexanemethanol"
+      }
+    ],
+    "grounded_notes": [
+      "valencene",
+      "myrac aldehyde 1",
+      "cis-3-hexenal",
+      "vertosine",
+      "2-benzylideneoctanal",
+      "3,3-dimethoxyprop-1-enylbenzene",
+      "2,5-dimethylthiophene",
+      "2-octanone, oxime",
+      "4-(1-methylethyl)cyclohexanemethanol"
+    ],
+    "pyrfume_sources": [
+      "goodscents",
+      "ifra_2019",
+      "leffingwell"
+    ]
+  },
+  "music_direction": {
+    "tempo": "uptempo",
+    "bpm": 128,
+    "timbre": [
+      "crisp metallic percussion",
+      "rubbery synth bass",
+      "glassy FM bells",
+      "steamy filtered noise",
+      "glossy sawtooth leads"
+    ],
+    "instrumentation": [
+      "taiko drum",
+      "wooden claves",
+      "synthesized shamisen",
+      "sub-bass synth",
+      "marimba",
+      "steam-like white noise generator"
+    ],
+    "mood": "satisfyingly-hyper",
+    "style": "future-shibuya-kitchen",
+    "music_signature": "This is the sound of a Tokyo convenience store at midnight, fluorescent and alive: the instant noodle package craves a tempo that matches its promise of speed and satisfaction, so the beat locks to 128 BPM with the precision of a boiling timer. The rhythm should hit like a perfectly timed pour—taiko drum providing a deep, resonant thwack on downbeats, wooden claves clicking like chopsticks against ceramic, marimba patterns bubbling upward like noodles surfacing in broth. Bass is rubbery and immediate, a sub-synth that bends and snaps like pulling apart a fresh noodle block. Melodic elements come from a synthesized shamisen plucking bright, appetizing phrases, layered with glassy FM bells that ring like a microwave's completion chime. Harmonic motion is simple and urgent, cycling through warm major tonalities that suggest comfort without lingering too long. Steam-like filtered noise rises and falls across the arrangement, evoking the moment of peeling back a lid. The production should feel glossy and compressed, every element shiny and forward, with crisp transients that cut through small speakers. Build from a single clave-and-steam opening into a full satisfying drop at 0:15, maintaining high energy throughout without aggression—never harsh, always hungry, never satiated.",
+    "audio_sample_ref": "/api/audio/Indomie_001"
+  },
+  "audio_sample_ref": "/api/audio/Indomie_001",
+  "rationale": "## Visual to Descriptor\nThe instant noodle package's visual identity directly shaped the Brand Aesthetic Descriptor through its dominant use of vibrant red and bright yellow against crisp white backgrounds, establishing a color_temperature of warm that signals appetite and urgency. The centered product shot with bold branding and appetizing food imagery creates an immediate, unmissable focal point that translates into high energy and a mood that is appetizing, energetic, and quick. Surface cues including smooth, glossy, and shiny textures reinforce the premium convenience positioning, while the inclusion of comforting alongside energetic in the mood field captures the dual promise of instant gratification and emotional satisfaction.\n\n## Descriptor to Fragrance\nThe mood value of energetic combined with the high energy rating drove the fragrance toward an intensity_profile of bold, ensuring the scent matches the visual punch of the packaging rather than retreating into subtlety. The color_temperature of warm and the presence of vibrant red in the colours field directly inspired the spicy warmth accord and the selection of 3,3-dimethoxyprop-1-enylbenzene, which smells like cinnamon and herbal notes, creating an olfactory experience that radiates heat and immediacy. The fresh green colour in the palette translated into top notes of cis-3-hexenal with its fatty, weedy character and the fresh green herbs dominant accord, while the comforting mood value anchored the base with 2,5-dimethylthiophene's nutty, sulfurous quality to evoke the satisfying depth of a finished bowl.\n\n## Descriptor to Music\nThe high energy value demanded an uptempo at 128 BPM, a pace that mirrors the quick preparation promise of the product while maintaining dance-floor propulsion. The glossy and shiny texture values directly inspired the timbre selections of glassy FM bells and glossy sawtooth leads, ensuring every sonic element feels lacquered and forward-facing just like the packaging surface. The mood array's combination of appetizing and comforting shaped the satisfyingly-hyper mood and future-shibuya-kitchen style, with the warm color_temperature supporting the use of synthesized shamisen and warm major tonalities that suggest comfort without sacrificing urgency, while the steam-like white noise generator translates the visual promise of a hot, ready meal into audible vapor.",
+  "congruence_report": {
+    "automated_proxies": {
+      "clip_score_image_fragrance_text": null,
+      "clip_score_image_music_text": null,
+      "imagebind_score_image_audio": null
+    },
+    "descriptor_consistency": {
+      "fragrance_aligns_descriptor": true,
+      "music_aligns_descriptor": true,
+      "details": "The fragrance concept excellently matches the BAD with its bold intensity, warm and spicy accords, and emotional descriptors like 'playful' and 'invigorating' aligning with the BAD's 'energetic' and 'appetizing' mood. The music direction also fits perfectly with its uptempo energy, crisp and glossy timbre, and the style 'future-shibuya-kitchen' resonating with the BAD's 'high' energy and 'warm' color temperature. Both outputs credibly translate the brand identity of an instant noodle package.",
+      "fragrance_score": 5,
+      "music_score": 5,
+      "fragrance_issues": [],
+      "music_issues": []
+    },
+    "human_ratings": null,
+    "summary": "Both fragrance and music outputs are excellent, independent translations of the instant noodle package brand identity, with no mismatches.",
+    "attempts": [
+      {
+        "attempt": 1,
+        "fragrance_aligns_descriptor": true,
+        "music_aligns_descriptor": true,
+        "details": "The fragrance concept excellently matches the BAD with its bold intensity, warm and spicy accords, and emotional descriptors like 'playful' and 'invigorating' aligning with the BAD's 'energetic' and 'appetizing' mood. The music direction also fits perfectly with its uptempo energy, crisp and glossy timbre, and the style 'future-shibuya-kitchen' resonating with the BAD's 'high' energy and 'warm' color temperature. Both outputs credibly translate the brand identity of an instant noodle package.",
+        "summary": "Both fragrance and music outputs are excellent, independent translations of the instant noodle package brand identity, with no mismatches.",
+        "regenerated": []
+      }
+    ],
+    "regen_count": 0,
+    "accepted": true
+  },
+  "mode": "prompt_only",
+  "refinement_history": []
+}

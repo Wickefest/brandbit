@@ -1,0 +1,18 @@
+{
+  "tempo": "moderate",
+  "timbre": [
+    "clear bells",
+    "shimmering synths",
+    "smooth glass"
+  ],
+  "instrumentation": [
+    "crystal glasses",
+    "synth pads",
+    "marimba",
+    "steel drums"
+  ],
+  "mood": "refreshing",
+  "style": "minimal-clean",
+  "music_signature": "This is the sound of a crystal-clear mountain spring: shimmering synths and the gentle ringing of crystal glasses over a soft bed. The marimba and steel drums add a cool, reflective quality. It should feel like a crisp, pure sip from a minimalist, natural water bottle, evoking a refreshing purity and a sense of invigoration.",
+  "audio_sample_ref": "/api/audio/2_001"
+}

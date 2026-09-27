@@ -1,0 +1,46 @@
+{
+  "provider": "gemma",
+  "image": "11.png",
+  "visual_analysis": {
+    "primary_subject": "leather wristwatch",
+    "dominant_colours": [
+      "caramel brown",
+      "tan leather",
+      "cream dial",
+      "antique gold",
+      "dark brown stitching",
+      "burnt umber"
+    ],
+    "objects": [
+      "wooden block",
+      "printed paper",
+      "fur texture",
+      "metal clasp",
+      "watch hands",
+      "watch face"
+    ],
+    "mood_indicators": [
+      "vintage",
+      "rustic",
+      "warm",
+      "refined",
+      "classic"
+    ],
+    "composition_style": "diagonal arrangement",
+    "textures": [
+      "leather",
+      "wood grain",
+      "soft fur",
+      "matte metal",
+      "rough paper"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 9.583
+}

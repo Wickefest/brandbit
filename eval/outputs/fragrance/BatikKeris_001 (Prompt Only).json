@@ -1,0 +1,75 @@
+{
+  "top_notes": [
+    "3-methylhexanal",
+    "(+)-isodihydrocarvone"
+  ],
+  "heart_notes": [
+    "jasmolactone",
+    "delta-nonalactone"
+  ],
+  "base_notes": [
+    "isoambrettolide",
+    "methylcyclopentadecenone"
+  ],
+  "dominant_accords": [
+    "smooth cream",
+    "refined warmth",
+    "subtle spice",
+    "polished wood",
+    "clean musk"
+  ],
+  "intensity_profile": "moderate",
+  "emotional_descriptors": [
+    "dignified",
+    "assured",
+    "timeless",
+    "composed",
+    "understated luxury"
+  ],
+  "smell_signature": "Combined together, these ingredients will smell like a smooth, creamy blend that opens with a whisper of fresh green leaves and soft herbal warmth, then unfolds into a refined, milky floral heart reminiscent of jasmine-infused cream. The dry-down settles into a clean, skin-like warmth with a subtle musky depth that lingers close to the body. Think of a bespoke tailoring studio in Jakarta where starched linen meets polished teak, or the quiet luxury of a hand-blocked batik shirt worn to an evening gallery opening.",
+  "note_guide": [
+    {
+      "smells_like": "fatty, aldehydic",
+      "chemical_name": "3-methylhexanal",
+      "ingredient": "3-methylhexanal"
+    },
+    {
+      "smells_like": "herbal",
+      "chemical_name": "(+)-isodihydrocarvone",
+      "ingredient": "(+)-isodihydrocarvone"
+    },
+    {
+      "smells_like": "buttery, plum",
+      "chemical_name": "jasmolactone",
+      "ingredient": "jasmolactone"
+    },
+    {
+      "smells_like": "fatty, coconut",
+      "chemical_name": "delta-nonalactone",
+      "ingredient": "delta-nonalactone"
+    },
+    {
+      "smells_like": "fatty, ambrette",
+      "chemical_name": "isoambrettolide",
+      "ingredient": "isoambrettolide"
+    },
+    {
+      "smells_like": "powdery, musk like",
+      "chemical_name": "methylcyclopentadecenone",
+      "ingredient": "methylcyclopentadecenone"
+    }
+  ],
+  "grounded_notes": [
+    "3-methylhexanal",
+    "(+)-isodihydrocarvone",
+    "jasmolactone",
+    "delta-nonalactone",
+    "isoambrettolide",
+    "methylcyclopentadecenone"
+  ],
+  "pyrfume_sources": [
+    "goodscents",
+    "ifra_2019",
+    "leffingwell"
+  ]
+}

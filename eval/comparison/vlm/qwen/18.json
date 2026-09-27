@@ -1,0 +1,40 @@
+{
+  "provider": "qwen",
+  "image": "18.jpg",
+  "visual_analysis": {
+    "primary_subject": "Herbal Peppermint Candy",
+    "dominant_colours": [
+      "bright yellow",
+      "green",
+      "brown",
+      "white"
+    ],
+    "objects": [
+      "candy packaging",
+      "mint leaves",
+      "honeycomb",
+      "chocolate pieces",
+      "logo mark"
+    ],
+    "mood_indicators": [
+      "refreshing",
+      "natural",
+      "energetic"
+    ],
+    "composition_style": "centered product with surrounding decorative elements",
+    "textures": [
+      "smooth",
+      "crisp",
+      "organic",
+      "sugar-like"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 5.544
+}

@@ -1,0 +1,41 @@
+{
+  "provider": "kimi",
+  "source_visual": "eval\\comparison\\vlm\\qwen\\15.json",
+  "image": "15.jpg",
+  "raw_text": "{\n  \"brand_item\": \"iced tea bottle\",\n  \"mood\": [\"refreshing\", \"invigorating\", \"tropical\", \"crisp\"],\n  \"energy\": \"high\",\n  \"color_temperature\": \"warm\",\n  \"texture\": [\"glassy\", \"condensed\", \"smooth\", \"printed\"],\n  \"visual_style\": [\"centered product shot\", \"plain background\", \"vibrant\"],\n  \"sensory_metaphors\": [\"tropical oasis\", \"sunlit clarity\", \"cooling breeze\"],\n  \"narrative\": \"This iced tea bottle promises a refreshing escape with its vibrant, tropical colors and crisp, clear label. The glassy and smooth textures evoke a sense of invigoration and freshness, while the centered composition against a plain background highlights the product's prominence and clarity.\"\n}",
+  "error": null,
+  "brand_aesthetic_descriptor": {
+    "brand_item": "iced tea bottle",
+    "mood": [
+      "refreshing",
+      "invigorating",
+      "tropical",
+      "crisp"
+    ],
+    "energy": "high",
+    "color_temperature": "warm",
+    "texture": [
+      "glassy",
+      "condensed",
+      "smooth",
+      "printed"
+    ],
+    "visual_style": [
+      "centered product shot",
+      "plain background",
+      "vibrant"
+    ],
+    "sensory_metaphors": [
+      "tropical oasis",
+      "sunlit clarity",
+      "cooling breeze"
+    ],
+    "narrative": "This iced tea bottle promises a refreshing escape with its vibrant, tropical colors and crisp, clear label. The glassy and smooth textures evoke a sense of invigoration and freshness, while the centered composition against a plain background highlights the product's prominence and clarity."
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null
+  }
+}

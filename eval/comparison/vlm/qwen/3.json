@@ -1,0 +1,38 @@
+{
+  "provider": "qwen",
+  "image": "3.jpg",
+  "visual_analysis": {
+    "primary_subject": "gaming laptop",
+    "dominant_colours": [
+      "black",
+      "red",
+      "dark grey"
+    ],
+    "objects": [
+      "keyboard",
+      "screen",
+      "laptop lid",
+      "logo emblem",
+      "brand name"
+    ],
+    "mood_indicators": [
+      "aggressive",
+      "high-tech",
+      "energetic"
+    ],
+    "composition_style": "diagonal product showcase with dual perspective",
+    "textures": [
+      "matte",
+      "glossy",
+      "textured plastic"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 5.412
+}

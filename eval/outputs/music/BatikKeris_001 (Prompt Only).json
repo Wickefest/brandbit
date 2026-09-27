@@ -1,0 +1,22 @@
+{
+  "tempo": "moderate",
+  "bpm": 88,
+  "timbre": [
+    "warm bronze metallophones",
+    "dry gamelan wood",
+    "breathy bamboo flute",
+    "muted kendang skin",
+    "soft cotton-warm pads"
+  ],
+  "instrumentation": [
+    "gender wayang",
+    "suling",
+    "kendang",
+    "soft synth pad",
+    "subtle electric bass"
+  ],
+  "mood": "cultured-confidence",
+  "style": "contemporary-gamelan-lounge",
+  "music_signature": "This is the sound of a Javanese batik atelier reimagined for a modern man in a structured navy shirt: interlocking bronze gender wayang metallophones at 88 BPM create a cyclic, breathing pulse that mirrors the repeated wax-resist patterns of the fabric itself, neither rushed nor static. A dry kendang speaks in restrained, conversational rhythms rather than driving dance beats, while a suling bamboo flute traces melodic lines that feel hand-drawn, like the golden motifs emerging from deep indigo dye. Warm synth pads soften the edges, suggesting the smooth drape of cotton against skin, with a subtle electric bass anchoring the low end in contemporary proportion. The arrangement unfolds like a shirt being examined: opening with sparse metallophone patterns, the flute entering at the second cycle, building to a confident but never loud fullness. Production should feel intimate and crafted, with clear separation between dry acoustic instruments and the soft electronic bed, controlled dynamics that suit a minimalist retail space, and timbres that honor the object's cultural craft without museum-piece stiffness. It should feel like the man in the portrait has just stood from his wooden chair, the fabric moving with quiet authority.",
+  "audio_sample_ref": "/api/audio/BatikKeris_001%20%28Prompt%20Only%29"
+}

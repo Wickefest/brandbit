@@ -1,0 +1,92 @@
+{
+  "case_id": "R04",
+  "bad_id": "4",
+  "feedback": "make the mood more intimate and hushed",
+  "expected_behavior": "calmer",
+  "notes": "Elegant batik BAD mood should soften without raising energy.",
+  "interpret_run_ok": true,
+  "interpret_parse_ok": true,
+  "interpret_schema_ok": true,
+  "success": true,
+  "clarification_request": "",
+  "changed_fields": [
+    "mood",
+    "narrative"
+  ],
+  "n_fields_changed": 2,
+  "target_modality": "descriptor",
+  "change_reason": "User requested a mood that is more intimate and hushed, which requires changes to the mood descriptors and the narrative to reflect a quieter, more personal tone.",
+  "previous_energy": "moderate",
+  "updated_energy": "moderate",
+  "previous_color_temperature": "warm",
+  "updated_color_temperature": "warm",
+  "previous_mood": [
+    "elegant",
+    "confident",
+    "traditional",
+    "refined"
+  ],
+  "updated_mood": [
+    "intimate",
+    "hushed",
+    "warm",
+    "comforting"
+  ],
+  "no_leak": true,
+  "correct_decision": 1,
+  "check_reason": "Mood/energy moved calmer.",
+  "interpret_latency_ms": 3366,
+  "error": "",
+  "previous_bad": {
+    "brand_item": "batik shirt",
+    "mood": [
+      "elegant",
+      "confident",
+      "traditional",
+      "refined"
+    ],
+    "energy": "moderate",
+    "color_temperature": "warm",
+    "texture": [
+      "woven",
+      "embroidered",
+      "smooth fabric",
+      "structured weave"
+    ],
+    "visual_style": [
+      "three-quarter portrait",
+      "angled pose"
+    ],
+    "sensory_metaphors": [
+      "woven elegance",
+      "golden tradition"
+    ],
+    "narrative": "The batik shirt exudes an aura of elegance and confidence, blending traditional motifs with refined craftsmanship. Its warm color palette and intricate textures create a sense of timeless sophistication, inviting admiration and respect."
+  },
+  "updated_bad": {
+    "brand_item": "batik shirt",
+    "mood": [
+      "intimate",
+      "hushed",
+      "warm",
+      "comforting"
+    ],
+    "energy": "moderate",
+    "color_temperature": "warm",
+    "texture": [
+      "woven",
+      "embroidered",
+      "smooth fabric",
+      "structured weave"
+    ],
+    "visual_style": [
+      "three-quarter portrait",
+      "angled pose"
+    ],
+    "sensory_metaphors": [
+      "woven elegance",
+      "golden tradition"
+    ],
+    "narrative": "The batik shirt whispers an aura of intimacy and warmth, blending traditional motifs with a quiet confidence. Its warm color palette and intricate textures create a sense of timeless comfort, inviting admiration and respect in a more personal, hushed manner."
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "execution_id": "2_001",
+  "timestamp": "2026-08-17T16:23:18.087316Z",
+  "input_image_ref": "D:\\ibrand_superprototype\\backend\\data\\Picture\\2.jpg",
+  "brand_aesthetic_descriptor": {
+    "brand_item": "water bottle",
+    "mood": [
+      "refreshing",
+      "pure",
+      "clean"
+    ],
+    "energy": "moderate",
+    "color_temperature": "cool",
+    "texture": [
+      "smooth",
+      "reflective"
+    ],
+    "visual_style": [
+      "minimalist",
+      "natural"
+    ],
+    "sensory_metaphors": [
+      "crystal clarity",
+      "mountain breeze"
+    ],
+    "narrative": "The water bottle embodies a sense of refreshing purity, with its clear and cool appearance evoking the essence of natural mountain springs. Its minimalist design and smooth, reflective surface suggest a clean and invigorating experience."
+  },
+  "fragrance_concept": {
+    "top_notes": [
+      "(+)-menthone",
+      "l-menthyl acetoacetate",
+      "gamma-terpinene"
+    ],
+    "heart_notes": [
+      "(-)-linalool",
+      "tetradecanenitrile",
+      "nerone"
+    ],
+    "base_notes": [
+      "bornylcyclohexanol",
+      "4-hydroxy-3-isopropoxybenzaldehyde",
+      "cashmeran"
+    ],
+    "dominant_accords": [
+      "fresh",
+      "clean",
+      "cool",
+      "natural",
+      "refreshing"
+    ],
+    "intensity_profile": "moderate",
+    "emotional_descriptors": [
+      "invigorating",
+      "purity",
+      "refreshing",
+      "smooth",
+      "clean"
+    ],
+    "smell_signature": "This fragrance opens with a cool, minty freshness akin to a mountain breeze, followed by a clean, herbal heart, and dries down into a warm, woody base. It's reminiscent of a crisp, clean linen scent with a hint of citrus freshness, perfect for a minimalist, natural lifestyle.",
+    "note_guide": [
+      {
+        "smells_like": "mentholic, minty",
+        "chemical_name": "(+)-menthone",
+        "ingredient": "(+)-menthone"
+      },
+      {
+        "smells_like": "mint, cool",
+        "chemical_name": "l-menthyl acetoacetate",
+        "ingredient": "l-menthyl acetoacetate"
+      },
+      {
+        "smells_like": "lime, herbal",
+        "chemical_name": "gamma-terpinene",
+        "ingredient": "gamma-terpinene"
+      },
+      {
+        "smells_like": "natural, deep",
+        "chemical_name": "(-)-linalool",
+        "ingredient": "(-)-linalool"
+      },
+      {
+        "smells_like": "wet, orangeflower",
+        "chemical_name": "tetradecanenitrile",
+        "ingredient": "tetradecanenitrile"
+      },
+      {
+        "smells_like": "leafy, cortex",
+        "chemical_name": "nerone",
+        "ingredient": "nerone"
+      },
+      {
+        "smells_like": "sandalwood",
+        "chemical_name": "bornylcyclohexanol",
+        "ingredient": "bornylcyclohexanol"
+      },
+      {
+        "smells_like": "vanilla, natural",
+        "chemical_name": "4-hydroxy-3-isopropoxybenzaldehyde",
+        "ingredient": "4-hydroxy-3-isopropoxybenzaldehyde"
+      },
+      {
+        "smells_like": "rich, musk",
+        "chemical_name": "cashmeran",
+        "ingredient": "cashmeran"
+      }
+    ],
+    "grounded_notes": [
+      "(+)-menthone",
+      "l-menthyl acetoacetate",
+      "gamma-terpinene",
+      "(-)-linalool",
+      "tetradecanenitrile",
+      "nerone",
+      "bornylcyclohexanol",
+      "4-hydroxy-3-isopropoxybenzaldehyde",
+      "cashmeran"
+    ],
+    "pyrfume_sources": [
+      "goodscents",
+      "ifra_2019",
+      "leffingwell"
+    ]
+  },
+  "music_direction": {
+    "tempo": "moderate",
+    "bpm": 96,
+    "timbre": [
+      "clear bells",
+      "shimmering synths",
+      "smooth glass"
+    ],
+    "instrumentation": [
+      "crystal glasses",
+      "synth pads",
+      "marimba",
+      "steel drums"
+    ],
+    "mood": "refreshing",
+    "style": "minimal-clean",
+    "music_signature": "This is the sound of a crystal-clear mountain spring: shimmering synths and the gentle ringing of crystal glasses over a soft bed. The marimba and steel drums add a cool, reflective quality. It should feel like a crisp, pure sip from a minimalist, natural water bottle, evoking a refreshing purity and a sense of invigoration.",
+    "audio_sample_ref": "/api/audio/2_001"
+  },
+  "audio_sample_ref": "/api/audio/2_001",
+  "rationale": "## Visual to Descriptor\nThe water bottle’s visual features, such as its \"cool\" color temperature and \"smooth, reflective\" texture, directly influenced the selection of the \"refreshing,\" \"pure,\" and \"clean\" mood descriptors. These visual elements evoke a sense of purity and clarity, aligning with the brand’s minimalist and natural visual style.\n\n## Descriptor to Fragrance\nThe \"refreshing,\" \"pure,\" and \"clean\" mood descriptors guided the choice of fragrance notes. The fragrance opens with top notes like (+)-menthone, which has a mentholic, minty scent, reminiscent of a \"mountain breeze.\" The heart notes, such as (-)-linalool, contribute to a clean, herbal scent, while the base notes like cashmeran provide a warm, woody base, all aligning with the brand’s \"natural,\" \"refreshing\" scent profile.\n\n## Descriptor to Music\nThe mood descriptors \"refreshing,\" \"pure,\" and \"clean\" also influenced the music direction. The \"moderate\" tempo and \"clear bells,\" \"shimmering synths,\" and \"smooth glass\" timbres in the music emulate the cool, crisp, and minimalist feel of the water bottle. The instrumentation, including crystal glasses and marimba, further enhances the refreshing purity and invigorating experience that the brand aims to convey.",
+  "congruence_report": {
+    "automated_proxies": {
+      "clip_score_image_fragrance_text": 0.4319,
+      "clip_score_image_music_text": 0.3618,
+      "imagebind_score_image_audio": null
+    },
+    "descriptor_consistency": {
+      "fragrance_aligns_descriptor": true,
+      "music_aligns_descriptor": true,
+      "details": "The fragrance concept aligns perfectly with the BAD, matching the mood (refreshing, pure, clean), energy (moderate), color_temperature (cool), and texture (smooth, reflective). The music direction also fits well, with a moderate tempo, refreshing mood, and instrumentation that reflects the cool, smooth, and reflective qualities of the BAD. Both outputs independently translate the brand identity effectively.",
+      "fragrance_score": 5,
+      "music_score": 5,
+      "fragrance_issues": [],
+      "music_issues": []
+    },
+    "human_ratings": null,
+    "summary": "Both the fragrance and music directions are excellent fits for the brand aesthetic descriptor, independently capturing its essence.",
+    "attempts": [
+      {
+        "attempt": 1,
+        "fragrance_aligns_descriptor": true,
+        "music_aligns_descriptor": true,
+        "details": "The fragrance concept aligns perfectly with the BAD, matching the mood (refreshing, pure, clean), energy (moderate), color_temperature (cool), and texture (smooth, reflective). The music direction also fits well, with a moderate tempo, refreshing mood, and instrumentation that reflects the cool, smooth, and reflective qualities of the BAD. Both outputs independently translate the brand identity effectively.",
+        "summary": "Both the fragrance and music directions are excellent fits for the brand aesthetic descriptor, independently capturing its essence.",
+        "regenerated": []
+      }
+    ],
+    "regen_count": 0,
+    "accepted": true
+  },
+  "mode": "sensory_profile",
+  "refinement_history": []
+}

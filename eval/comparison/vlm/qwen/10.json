@@ -1,0 +1,42 @@
+{
+  "provider": "qwen",
+  "image": "10.jpg",
+  "visual_analysis": {
+    "primary_subject": "iced coffee drink",
+    "dominant_colours": [
+      "amber",
+      "cream",
+      "brown",
+      "translucent"
+    ],
+    "objects": [
+      "coffee beans",
+      "wooden coaster",
+      "white ceramic pitcher",
+      "plastic cup",
+      "ice cubes"
+    ],
+    "mood_indicators": [
+      "cozy",
+      "nostalgic",
+      "inviting",
+      "warm"
+    ],
+    "composition_style": "centered product shot with shallow depth of field",
+    "textures": [
+      "smooth",
+      "grainy",
+      "glossy",
+      "rough",
+      "crisp"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 6.19
+}

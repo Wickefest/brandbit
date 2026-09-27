@@ -1,0 +1,39 @@
+{
+  "provider": "kimi",
+  "image": "1.png",
+  "visual_analysis": {
+    "primary_subject": "silver laptop",
+    "dominant_colours": [
+      "silver",
+      "black",
+      "blue"
+    ],
+    "objects": [
+      "keyboard",
+      "touchpad",
+      "screen",
+      "USB port",
+      "HDMI port",
+      "SD card slot"
+    ],
+    "mood_indicators": [
+      "modern",
+      "sleek",
+      "high-tech"
+    ],
+    "composition_style": "product centered with a slight angle",
+    "textures": [
+      "smooth",
+      "matte",
+      "glossy screen"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 3.754
+}

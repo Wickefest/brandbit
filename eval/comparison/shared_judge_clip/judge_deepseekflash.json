@@ -1,0 +1,585 @@
+{
+  "created_at_utc": "2026-09-27T06:12:10.087562+00:00",
+  "judge_model": "deepseek-flash",
+  "judge_provider": "DeepSeek official API",
+  "judge_thinking": "disabled",
+  "clip_model": "openai/clip",
+  "clip_backend": "replicate",
+  "scope": "Five saved human-study brands, BAD and Prompt Only; judge and CLIP rerun only",
+  "cases": [
+    {
+      "execution_id": "Axioo_Pongo_001 (BAD)",
+      "brand": "Axioo_Pongo_001",
+      "mode": "BAD",
+      "source_path": "eval\\result\\Axioo_Pongo_001 (BAD).json",
+      "source_sha256": "b6c90d152c3aea9bb4f2536dccf8eb8ca6386f2a0ea6800609df67d4fd5e5f1f",
+      "source_timestamp": "2026-09-13T14:37:42.897090Z",
+      "image_path": "eval\\outputs\\images\\Axioo_Pongo_001 (BAD).jpg",
+      "image_sha256": "6a7c9b01d67b59b61bab0b54aee309b13568914ca9eae7396cf2f7c27e9a5598",
+      "image_note": "saved execution image",
+      "rule_flags": {
+        "fragrance_issues": [],
+        "music_issues": [],
+        "critical_fragrance_fail": false,
+        "critical_music_fail": false
+      },
+      "judge": {
+        "raw_response": "{\n  \"fragrance_score\": 4,\n  \"music_score\": 5,\n  \"fragrance_aligns_descriptor\": true,\n  \"music_aligns_descriptor\": true,\n  \"fragrance_issues\": [\n    \"Some notes (diosphenol, delta-damascone) lean toward natural currant/mint territory, slightly softening the aggressive tech-forward edge, but the metallic and plastic accords keep it on-brand.\"\n  ],\n  \"music_issues\": [],\n  \"details\": \"Fragrance: The metallic green, sulfurous fruit, electric rose, and dark plastic accords directly mirror BAD.texture (matte, glossy, sleek metallic) and BAD.sensory_metaphors (electric pulse, digital adrenaline). The bold intensity profile matches BAD.energy=very_high, and the emotional descriptors (aggressive, charged, futuristic, uncompromising, adrenaline-fueled) align with BAD.mood. The cool steel and metallic notes reflect BAD.color_temperature=cool. The scent direction is plausible for a gaming laptop, evoking a high-tech, aggressive, and intense experience. Minor issue: some natural currant/mint notes could slightly dilute the synthetic aggression, but overall it's a strong fit. Music: The 140 BPM uptempo industrial-dnb style perfectly matches BAD.energy=very_high. The relentless mood and cold, tense harmonic character align with BAD.mood (aggressive, high-performance, tech-forward, intense) and BAD.color_temperature=cool. Instrumentation (modular synth, distorted guitar, industrial drum machine, sub-bass) and timbres (saw-wave distortion, glitch artifacts, metallic sheen) evoke the gaming laptop's tech-forward, intense, and sleek metallic qualities. The music_signature explicitly references the laptop's thermal peak, fans, silicon, matte black chassis, and glowing red backlight, tying directly to BAD.brand_item and BAD.colours. The sound-world is specific to the object, not a generic luxury setting. No major violations.\",\n  \"summary\": \"Both fragrance and music are credible, independent translations of the gaming laptop's aggressive, high-performance, tech-forward identity. The fragrance captures the metallic, electric, and intense mood, while the music embodies the relentless, cold, and machine-like energy with precise instrumentation and tempo.\"\n}",
+        "parsed_payload": {
+          "fragrance_score": 4,
+          "music_score": 5,
+          "fragrance_aligns_descriptor": true,
+          "music_aligns_descriptor": true,
+          "fragrance_issues": [
+            "Some notes (diosphenol, delta-damascone) lean toward natural currant/mint territory, slightly softening the aggressive tech-forward edge, but the metallic and plastic accords keep it on-brand."
+          ],
+          "music_issues": [],
+          "details": "Fragrance: The metallic green, sulfurous fruit, electric rose, and dark plastic accords directly mirror BAD.texture (matte, glossy, sleek metallic) and BAD.sensory_metaphors (electric pulse, digital adrenaline). The bold intensity profile matches BAD.energy=very_high, and the emotional descriptors (aggressive, charged, futuristic, uncompromising, adrenaline-fueled) align with BAD.mood. The cool steel and metallic notes reflect BAD.color_temperature=cool. The scent direction is plausible for a gaming laptop, evoking a high-tech, aggressive, and intense experience. Minor issue: some natural currant/mint notes could slightly dilute the synthetic aggression, but overall it's a strong fit. Music: The 140 BPM uptempo industrial-dnb style perfectly matches BAD.energy=very_high. The relentless mood and cold, tense harmonic character align with BAD.mood (aggressive, high-performance, tech-forward, intense) and BAD.color_temperature=cool. Instrumentation (modular synth, distorted guitar, industrial drum machine, sub-bass) and timbres (saw-wave distortion, glitch artifacts, metallic sheen) evoke the gaming laptop's tech-forward, intense, and sleek metallic qualities. The music_signature explicitly references the laptop's thermal peak, fans, silicon, matte black chassis, and glowing red backlight, tying directly to BAD.brand_item and BAD.colours. The sound-world is specific to the object, not a generic luxury setting. No major violations.",
+          "summary": "Both fragrance and music are credible, independent translations of the gaming laptop's aggressive, high-performance, tech-forward identity. The fragrance captures the metallic, electric, and intense mood, while the music embodies the relentless, cold, and machine-like energy with precise instrumentation and tempo."
+        },
+        "consistency": {
+          "fragrance_aligns_descriptor": true,
+          "music_aligns_descriptor": true,
+          "details": "Fragrance: The metallic green, sulfurous fruit, electric rose, and dark plastic accords directly mirror BAD.texture (matte, glossy, sleek metallic) and BAD.sensory_metaphors (electric pulse, digital adrenaline). The bold intensity profile matches BAD.energy=very_high, and the emotional descriptors (aggressive, charged, futuristic, uncompromising, adrenaline-fueled) align with BAD.mood. The cool steel and metallic notes reflect BAD.color_temperature=cool. The scent direction is plausible for a gaming laptop, evoking a high-tech, aggressive, and intense experience. Minor issue: some natural currant/mint notes could slightly dilute the synthetic aggression, but overall it's a strong fit. Music: The 140 BPM uptempo industrial-dnb style perfectly matches BAD.energy=very_high. The relentless mood and cold, tense harmonic character align with BAD.mood (aggressive, high-performance, tech-forward, intense) and BAD.color_temperature=cool. Instrumentation (modular synth, distorted guitar, industrial drum machine, sub-bass) and timbres (saw-wave distortion, glitch artifacts, metallic sheen) evoke the gaming laptop's tech-forward, intense, and sleek metallic qualities. The music_signature explicitly references the laptop's thermal peak, fans, silicon, matte black chassis, and glowing red backlight, tying directly to BAD.brand_item and BAD.colours. The sound-world is specific to the object, not a generic luxury setting. No major violations.",
+          "fragrance_score": 4,
+          "music_score": 5,
+          "fragrance_issues": [
+            "Some notes (diosphenol, delta-damascone) lean toward natural currant/mint territory, slightly softening the aggressive tech-forward edge, but the metallic and plastic accords keep it on-brand."
+          ],
+          "music_issues": []
+        },
+        "summary": "Both fragrance and music are credible, independent translations of the gaming laptop's aggressive, high-performance, tech-forward identity. The fragrance captures the metallic, electric, and intense mood, while the music embodies the relentless, cold, and machine-like energy with precise instrumentation and tempo.",
+        "accepted": true
+      },
+      "clip": {
+        "clip_score_image_fragrance_text": 0.3507,
+        "clip_score_image_music_text": 0.2168,
+        "imagebind_score_image_audio": null
+      },
+      "judge_error": null,
+      "clip_error": null,
+      "judge_latency_ms": 5103,
+      "clip_latency_ms": 8305
+    },
+    {
+      "execution_id": "Axioo_Pongo_001 (Prompt Only)",
+      "brand": "Axioo_Pongo_001",
+      "mode": "Prompt Only",
+      "source_path": "eval\\result\\Axioo_Pongo_001 (Prompt Only).json",
+      "source_sha256": "1970d8e3036fa9bc965b922fe867fc37711d0512ba7afdd3ac8fe2e4fcc6512a",
+      "source_timestamp": "2026-09-12T18:29:02.300974Z",
+      "image_path": "eval\\outputs\\images\\Axioo_Pongo_001 (Prompt Only).jpg",
+      "image_sha256": "6a7c9b01d67b59b61bab0b54aee309b13568914ca9eae7396cf2f7c27e9a5598",
+      "image_note": "saved execution image",
+      "rule_flags": {
+        "fragrance_issues": [],
+        "music_issues": [],
+        "critical_fragrance_fail": false,
+        "critical_music_fail": false
+      },
+      "judge": {
+        "raw_response": "{\n  \"fragrance_score\": 4,\n  \"music_score\": 5,\n  \"fragrance_aligns_descriptor\": true,\n  \"music_aligns_descriptor\": true,\n  \"fragrance_issues\": [\n    \"Sulfurous/onion facets (2,4,6-trimethyl-1,3,5-trithiane) risk reading as burnt rubber or skunk rather than the clean, cool 'tech-forward' precision implied by BAD.texture=sleek/glossy and BAD.color_temperature=cool; could skew too animalic/grimy for a polished gaming laptop.\",\n    \"The 'tropical skunk heat' and 'burnt rubber sweetness' in the dry-down lean warm/animalic, slightly at odds with the predominantly cool, matte-black-and-red aesthetic; a cooler metallic-musk base would align more tightly.\"\n  ],\n  \"music_issues\": [],\n  \"details\": \"Fragrance: The concept strongly matches BAD.mood (aggressive, high-performance, tech-forward, intense, modern) via emotional_descriptors like relentless, piercing, hyper-focused, uncompromising, future-forged. intensity_profile=bold fits BAD.energy=very_high. The cool, icy, sulfurous-metallic and frozen-mint exhaust accords align with BAD.color_temperature=cool and BAD.texture=matte/glossy/sleek/angular, and the 'matte black musk' base directly echoes BAD.colours=matte black/dark charcoal. The smell_signature's server-room/thermal-limit imagery is a credible translation of a gaming laptop. Minor risk: the sulfurous/onion and animalic 'skunk heat' facets could read as grimy rather than sleek, slightly compromising the polished tech-forward feel, but the overall direction is congruent. Music: tempo=uptempo, bpm=128 matches BAD.energy=very_high. mood=relentless and style=industrial-techno align with BAD.mood (aggressive, intense, modern). Timbre (glitch-distorted saw waves, metallic impact transients, subharmonic bass pressure, crystalline digital highs, granular texture noise) and instrumentation (modular synth bass, distorted kick, industrial snare, glitch percussion, PWM lead) fit BAD.color_temperature=cool and BAD.texture=matte/glossy/sleek/angular/textured. The sound-world—fans screaming, silicon at thermal limits, chassis vibration—is specific to a gaming laptop under load, not a generic luxury lobby, and the music_signature justifies every instrument choice. No major violations.\",\n  \"summary\": \"Both fragrance and music are credible, independent translations of the aggressive, high-performance gaming-laptop identity; fragrance has minor sulfurous/animalic risks but still aligns, while music is an excellent fit.\"\n}",
+        "parsed_payload": {
+          "fragrance_score": 4,
+          "music_score": 5,
+          "fragrance_aligns_descriptor": true,
+          "music_aligns_descriptor": true,
+          "fragrance_issues": [
+            "Sulfurous/onion facets (2,4,6-trimethyl-1,3,5-trithiane) risk reading as burnt rubber or skunk rather than the clean, cool 'tech-forward' precision implied by BAD.texture=sleek/glossy and BAD.color_temperature=cool; could skew too animalic/grimy for a polished gaming laptop.",
+            "The 'tropical skunk heat' and 'burnt rubber sweetness' in the dry-down lean warm/animalic, slightly at odds with the predominantly cool, matte-black-and-red aesthetic; a cooler metallic-musk base would align more tightly."
+          ],
+          "music_issues": [],
+          "details": "Fragrance: The concept strongly matches BAD.mood (aggressive, high-performance, tech-forward, intense, modern) via emotional_descriptors like relentless, piercing, hyper-focused, uncompromising, future-forged. intensity_profile=bold fits BAD.energy=very_high. The cool, icy, sulfurous-metallic and frozen-mint exhaust accords align with BAD.color_temperature=cool and BAD.texture=matte/glossy/sleek/angular, and the 'matte black musk' base directly echoes BAD.colours=matte black/dark charcoal. The smell_signature's server-room/thermal-limit imagery is a credible translation of a gaming laptop. Minor risk: the sulfurous/onion and animalic 'skunk heat' facets could read as grimy rather than sleek, slightly compromising the polished tech-forward feel, but the overall direction is congruent. Music: tempo=uptempo, bpm=128 matches BAD.energy=very_high. mood=relentless and style=industrial-techno align with BAD.mood (aggressive, intense, modern). Timbre (glitch-distorted saw waves, metallic impact transients, subharmonic bass pressure, crystalline digital highs, granular texture noise) and instrumentation (modular synth bass, distorted kick, industrial snare, glitch percussion, PWM lead) fit BAD.color_temperature=cool and BAD.texture=matte/glossy/sleek/angular/textured. The sound-world—fans screaming, silicon at thermal limits, chassis vibration—is specific to a gaming laptop under load, not a generic luxury lobby, and the music_signature justifies every instrument choice. No major violations.",
+          "summary": "Both fragrance and music are credible, independent translations of the aggressive, high-performance gaming-laptop identity; fragrance has minor sulfurous/animalic risks but still aligns, while music is an excellent fit."
+        },
+        "consistency": {
+          "fragrance_aligns_descriptor": true,
+          "music_aligns_descriptor": true,
+          "details": "Fragrance: The concept strongly matches BAD.mood (aggressive, high-performance, tech-forward, intense, modern) via emotional_descriptors like relentless, piercing, hyper-focused, uncompromising, future-forged. intensity_profile=bold fits BAD.energy=very_high. The cool, icy, sulfurous-metallic and frozen-mint exhaust accords align with BAD.color_temperature=cool and BAD.texture=matte/glossy/sleek/angular, and the 'matte black musk' base directly echoes BAD.colours=matte black/dark charcoal. The smell_signature's server-room/thermal-limit imagery is a credible translation of a gaming laptop. Minor risk: the sulfurous/onion and animalic 'skunk heat' facets could read as grimy rather than sleek, slightly compromising the polished tech-forward feel, but the overall direction is congruent. Music: tempo=uptempo, bpm=128 matches BAD.energy=very_high. mood=relentless and style=industrial-techno align with BAD.mood (aggressive, intense, modern). Timbre (glitch-distorted saw waves, metallic impact transients, subharmonic bass pressure, crystalline digital highs, granular texture noise) and instrumentation (modular synth bass, distorted kick, industrial snare, glitch percussion, PWM lead) fit BAD.color_temperature=cool and BAD.texture=matte/glossy/sleek/angular/textured. The sound-world—fans screaming, silicon at thermal limits, chassis vibration—is specific to a gaming laptop under load, not a generic luxury lobby, and the music_signature justifies every instrument choice. No major violations.",
+          "fragrance_score": 4,
+          "music_score": 5,
+          "fragrance_issues": [
+            "Sulfurous/onion facets (2,4,6-trimethyl-1,3,5-trithiane) risk reading as burnt rubber or skunk rather than the clean, cool 'tech-forward' precision implied by BAD.texture=sleek/glossy and BAD.color_temperature=cool; could skew too animalic/grimy for a polished gaming laptop.",
+            "The 'tropical skunk heat' and 'burnt rubber sweetness' in the dry-down lean warm/animalic, slightly at odds with the predominantly cool, matte-black-and-red aesthetic; a cooler metallic-musk base would align more tightly."
+          ],
+          "music_issues": []
+        },
+        "summary": "Both fragrance and music are credible, independent translations of the aggressive, high-performance gaming-laptop identity; fragrance has minor sulfurous/animalic risks but still aligns, while music is an excellent fit.",
+        "accepted": true
+      },
+      "clip": {
+        "clip_score_image_fragrance_text": 0.3659,
+        "clip_score_image_music_text": 0.2529,
+        "imagebind_score_image_audio": null
+      },
+      "judge_error": null,
+      "clip_error": null,
+      "judge_latency_ms": 3575,
+      "clip_latency_ms": 7034
+    },
+    {
+      "execution_id": "BatikKeris_001 (BAD)",
+      "brand": "BatikKeris_001",
+      "mode": "BAD",
+      "source_path": "eval\\result\\BatikKeris_001 (BAD).json",
+      "source_sha256": "270eae5f54534feab569dde3dabaf2b8969662768d657e64a4a58394292a2a2c",
+      "source_timestamp": "2026-09-13T14:56:03.139328Z",
+      "image_path": "eval\\outputs\\images\\BatikKeris_001 (BAD).jpg",
+      "image_sha256": "710f316fee003cb30a10dfb4626d8cc9eef9d9873a34ebcb2d38fdeae66936c7",
+      "image_note": "saved execution image",
+      "rule_flags": {
+        "fragrance_issues": [],
+        "music_issues": [],
+        "critical_fragrance_fail": false,
+        "critical_music_fail": false
+      },
+      "judge": {
+        "raw_response": "{\n  \"fragrance_score\": 4,\n  \"music_score\": 5,\n  \"fragrance_aligns_descriptor\": true,\n  \"music_aligns_descriptor\": true,\n  \"fragrance_issues\": [\n    \"Some base notes (diphenyl ether 'geranium, phenolic'; 2,2'-(1,2-ethylenediyl)bis(furan) 'burnt, roasted') lean slightly harsh/smoky, which could read as less 'smooth fabric' than BAD.texture implies, but the overall dry-down is described as warm resin-wood and remains within refined bounds.\"\n  ],\n  \"music_issues\": [],\n  \"details\": \"Fragrance: intensity_profile=moderate matches BAD.energy=moderate; emotional_descriptors (poised, distinguished, composed, luminous, enduring) align with BAD.mood (elegant, confident, cultured, refined); dominant_accords (golden citrus sparkle, refined floral elegance, warm metallic sophistication, structured woody warmth, timeless cultured depth) map directly to BAD.colours (Gold Metallic, Deep Navy Blue), BAD.texture (embroidered pattern, smooth fabric, structured weave), and BAD.sensory_metaphors (woven elegance, golden dusk). The smell_signature references 'sunlight catching on gold thread' and 'fine batik against your shoulders', grounding it in the brand_item. Minor risk: a few synthetic base notes are described as phenolic/burnt, slightly at odds with the smooth, refined texture, but not enough to break congruence. Music: bpm=88 and tempo=moderate match BAD.energy=moderate; mood=cultured-confidence aligns with BAD.mood; instrumentation (gamelan metallophones, kendang, suling, warm synth pad, subtle gong) is directly tied to the Javanese batik craft and the brand_item, not a generic luxury lobby; timbre (warm bronze metallophones, silk-smooth pads, subtle metallic shimmer) mirrors BAD.colours (Gold Metallic, Deep Navy Blue) and BAD.texture (smooth fabric, structured weave); music_signature explicitly references 'Javanese batik workshop', 'wax-resist patterns on indigo cloth', and 'gold metallic thread', fully justifying the sound-world for this brand_item.\",\n  \"summary\": \"Both fragrance and music are credible, independent translations of the batik shirt's refined, cultured, moderate-energy identity; the fragrance has a minor textural risk from a few harsh base notes, while the music is an excellent, object-specific fit.\"\n}",
+        "parsed_payload": {
+          "fragrance_score": 4,
+          "music_score": 5,
+          "fragrance_aligns_descriptor": true,
+          "music_aligns_descriptor": true,
+          "fragrance_issues": [
+            "Some base notes (diphenyl ether 'geranium, phenolic'; 2,2'-(1,2-ethylenediyl)bis(furan) 'burnt, roasted') lean slightly harsh/smoky, which could read as less 'smooth fabric' than BAD.texture implies, but the overall dry-down is described as warm resin-wood and remains within refined bounds."
+          ],
+          "music_issues": [],
+          "details": "Fragrance: intensity_profile=moderate matches BAD.energy=moderate; emotional_descriptors (poised, distinguished, composed, luminous, enduring) align with BAD.mood (elegant, confident, cultured, refined); dominant_accords (golden citrus sparkle, refined floral elegance, warm metallic sophistication, structured woody warmth, timeless cultured depth) map directly to BAD.colours (Gold Metallic, Deep Navy Blue), BAD.texture (embroidered pattern, smooth fabric, structured weave), and BAD.sensory_metaphors (woven elegance, golden dusk). The smell_signature references 'sunlight catching on gold thread' and 'fine batik against your shoulders', grounding it in the brand_item. Minor risk: a few synthetic base notes are described as phenolic/burnt, slightly at odds with the smooth, refined texture, but not enough to break congruence. Music: bpm=88 and tempo=moderate match BAD.energy=moderate; mood=cultured-confidence aligns with BAD.mood; instrumentation (gamelan metallophones, kendang, suling, warm synth pad, subtle gong) is directly tied to the Javanese batik craft and the brand_item, not a generic luxury lobby; timbre (warm bronze metallophones, silk-smooth pads, subtle metallic shimmer) mirrors BAD.colours (Gold Metallic, Deep Navy Blue) and BAD.texture (smooth fabric, structured weave); music_signature explicitly references 'Javanese batik workshop', 'wax-resist patterns on indigo cloth', and 'gold metallic thread', fully justifying the sound-world for this brand_item.",
+          "summary": "Both fragrance and music are credible, independent translations of the batik shirt's refined, cultured, moderate-energy identity; the fragrance has a minor textural risk from a few harsh base notes, while the music is an excellent, object-specific fit."
+        },
+        "consistency": {
+          "fragrance_aligns_descriptor": true,
+          "music_aligns_descriptor": true,
+          "details": "Fragrance: intensity_profile=moderate matches BAD.energy=moderate; emotional_descriptors (poised, distinguished, composed, luminous, enduring) align with BAD.mood (elegant, confident, cultured, refined); dominant_accords (golden citrus sparkle, refined floral elegance, warm metallic sophistication, structured woody warmth, timeless cultured depth) map directly to BAD.colours (Gold Metallic, Deep Navy Blue), BAD.texture (embroidered pattern, smooth fabric, structured weave), and BAD.sensory_metaphors (woven elegance, golden dusk). The smell_signature references 'sunlight catching on gold thread' and 'fine batik against your shoulders', grounding it in the brand_item. Minor risk: a few synthetic base notes are described as phenolic/burnt, slightly at odds with the smooth, refined texture, but not enough to break congruence. Music: bpm=88 and tempo=moderate match BAD.energy=moderate; mood=cultured-confidence aligns with BAD.mood; instrumentation (gamelan metallophones, kendang, suling, warm synth pad, subtle gong) is directly tied to the Javanese batik craft and the brand_item, not a generic luxury lobby; timbre (warm bronze metallophones, silk-smooth pads, subtle metallic shimmer) mirrors BAD.colours (Gold Metallic, Deep Navy Blue) and BAD.texture (smooth fabric, structured weave); music_signature explicitly references 'Javanese batik workshop', 'wax-resist patterns on indigo cloth', and 'gold metallic thread', fully justifying the sound-world for this brand_item.",
+          "fragrance_score": 4,
+          "music_score": 5,
+          "fragrance_issues": [
+            "Some base notes (diphenyl ether 'geranium, phenolic'; 2,2'-(1,2-ethylenediyl)bis(furan) 'burnt, roasted') lean slightly harsh/smoky, which could read as less 'smooth fabric' than BAD.texture implies, but the overall dry-down is described as warm resin-wood and remains within refined bounds."
+          ],
+          "music_issues": []
+        },
+        "summary": "Both fragrance and music are credible, independent translations of the batik shirt's refined, cultured, moderate-energy identity; the fragrance has a minor textural risk from a few harsh base notes, while the music is an excellent, object-specific fit.",
+        "accepted": true
+      },
+      "clip": {
+        "clip_score_image_fragrance_text": 0.4141,
+        "clip_score_image_music_text": 0.4561,
+        "imagebind_score_image_audio": null
+      },
+      "judge_error": null,
+      "clip_error": null,
+      "judge_latency_ms": 3104,
+      "clip_latency_ms": 7400
+    },
+    {
+      "execution_id": "BatikKeris_001 (Prompt Only)",
+      "brand": "BatikKeris_001",
+      "mode": "Prompt Only",
+      "source_path": "eval\\result\\BatikKeris_001 (Prompt Only).json",
+      "source_sha256": "ca527e8bd8ddda7a312eaa2bc8cb6b62190f34554d248ade57e7ece2559901fb",
+      "source_timestamp": "2026-09-13T14:51:39.873379Z",
+      "image_path": "eval\\outputs\\images\\BatikKeris_001 (Prompt Only).jpg",
+      "image_sha256": "710f316fee003cb30a10dfb4626d8cc9eef9d9873a34ebcb2d38fdeae66936c7",
+      "image_note": "saved execution image",
+      "rule_flags": {
+        "fragrance_issues": [],
+        "music_issues": [],
+        "critical_fragrance_fail": false,
+        "critical_music_fail": false
+      },
+      "judge": {
+        "raw_response": "{\n  \"fragrance_score\": 4,\n  \"music_score\": 5,\n  \"fragrance_aligns_descriptor\": true,\n  \"music_aligns_descriptor\": true,\n  \"fragrance_issues\": [\n    \"Top notes 3-methylhexanal (fatty, aldehydic) and (+)-isodihydrocarvone (herbal) lean slightly fresh/green, which is a minor departure from BAD.texture 'smooth fabric' and 'structured weave' that suggest a more polished, less leafy opening\",\n    \"The creamy/lactonic heart (jasmolactone, delta-nonalactone) is well-aligned but risks reading as gourmand-adjacent rather than purely 'refined' and 'cultured' as per BAD.mood\"\n  ],\n  \"music_issues\": [\n    \"The gamelan instrumentation is culturally specific to Indonesia, which fits the batik shirt's origin, but the BAD does not explicitly state Indonesian heritage; however, batik is strongly associated with Java, so this is a plausible and non-generic choice\",\n    \"The 'contemporary-gamelan-lounge' style could risk feeling like a themed pastiche, but the restrained tempo (88 BPM) and warm timbres keep it aligned with BAD.energy=moderate and BAD.mood=elegant/refined\"\n  ],\n  \"details\": \"Fragrance: The concept's moderate intensity matches BAD.energy=moderate. Emotional descriptors (dignified, assured, timeless, composed, understated luxury) align well with BAD.mood (elegant, confident, cultured, refined). The note character—smooth cream, refined warmth, subtle spice, polished wood, clean musk—fits BAD.color_temperature=neutral and BAD.texture (smooth fabric, structured weave, embroidered pattern). The smell signature references a 'bespoke tailoring studio in Jakarta' and 'hand-blocked batik shirt', directly tying to BAD.brand_item. Minor issue: the green/herbal top notes are slightly less 'smooth' than the BAD texture implies, but overall the fragrance is a credible translation. Music: Tempo 88 BPM and moderate energy match BAD.energy=moderate. Mood 'cultured-confidence' aligns with BAD.mood (elegant, confident, cultured, refined). Timbre (warm bronze metallophones, dry gamelan wood, breathy bamboo flute, muted kendang skin, soft cotton-warm pads) fits BAD.color_temperature=neutral and BAD.texture (smooth fabric, structured weave). Instrumentation (gender wayang, suling, kendang) is specific to Indonesian gamelan, which is appropriate for a batik shirt, and the music_signature explicitly references 'Javanese batik atelier', 'repeated wax-resist patterns', and 'golden motifs emerging from deep indigo dye', directly connecting to BAD.colours (deep navy blue, golden beige) and BAD.visual_style (wooden chair, man, buttoned collar). The sound-world is not a generic luxury lobby but rooted in the object's craft. Both modalities are strong, independent translations of the same brand identity.\",\n  \"summary\": \"Both fragrance and music are credible, independent translations of the batik shirt's elegant, cultured, and refined identity. The fragrance captures the smooth, structured, and understated luxury with minor fresh-green top notes, while the music uses culturally specific gamelan instrumentation that directly evokes the batik craft and aligns with the moderate energy and neutral temperature.\"\n}",
+        "parsed_payload": {
+          "fragrance_score": 4,
+          "music_score": 5,
+          "fragrance_aligns_descriptor": true,
+          "music_aligns_descriptor": true,
+          "fragrance_issues": [
+            "Top notes 3-methylhexanal (fatty, aldehydic) and (+)-isodihydrocarvone (herbal) lean slightly fresh/green, which is a minor departure from BAD.texture 'smooth fabric' and 'structured weave' that suggest a more polished, less leafy opening",
+            "The creamy/lactonic heart (jasmolactone, delta-nonalactone) is well-aligned but risks reading as gourmand-adjacent rather than purely 'refined' and 'cultured' as per BAD.mood"
+          ],
+          "music_issues": [
+            "The gamelan instrumentation is culturally specific to Indonesia, which fits the batik shirt's origin, but the BAD does not explicitly state Indonesian heritage; however, batik is strongly associated with Java, so this is a plausible and non-generic choice",
+            "The 'contemporary-gamelan-lounge' style could risk feeling like a themed pastiche, but the restrained tempo (88 BPM) and warm timbres keep it aligned with BAD.energy=moderate and BAD.mood=elegant/refined"
+          ],
+          "details": "Fragrance: The concept's moderate intensity matches BAD.energy=moderate. Emotional descriptors (dignified, assured, timeless, composed, understated luxury) align well with BAD.mood (elegant, confident, cultured, refined). The note character—smooth cream, refined warmth, subtle spice, polished wood, clean musk—fits BAD.color_temperature=neutral and BAD.texture (smooth fabric, structured weave, embroidered pattern). The smell signature references a 'bespoke tailoring studio in Jakarta' and 'hand-blocked batik shirt', directly tying to BAD.brand_item. Minor issue: the green/herbal top notes are slightly less 'smooth' than the BAD texture implies, but overall the fragrance is a credible translation. Music: Tempo 88 BPM and moderate energy match BAD.energy=moderate. Mood 'cultured-confidence' aligns with BAD.mood (elegant, confident, cultured, refined). Timbre (warm bronze metallophones, dry gamelan wood, breathy bamboo flute, muted kendang skin, soft cotton-warm pads) fits BAD.color_temperature=neutral and BAD.texture (smooth fabric, structured weave). Instrumentation (gender wayang, suling, kendang) is specific to Indonesian gamelan, which is appropriate for a batik shirt, and the music_signature explicitly references 'Javanese batik atelier', 'repeated wax-resist patterns', and 'golden motifs emerging from deep indigo dye', directly connecting to BAD.colours (deep navy blue, golden beige) and BAD.visual_style (wooden chair, man, buttoned collar). The sound-world is not a generic luxury lobby but rooted in the object's craft. Both modalities are strong, independent translations of the same brand identity.",
+          "summary": "Both fragrance and music are credible, independent translations of the batik shirt's elegant, cultured, and refined identity. The fragrance captures the smooth, structured, and understated luxury with minor fresh-green top notes, while the music uses culturally specific gamelan instrumentation that directly evokes the batik craft and aligns with the moderate energy and neutral temperature."
+        },
+        "consistency": {
+          "fragrance_aligns_descriptor": true,
+          "music_aligns_descriptor": true,
+          "details": "Fragrance: The concept's moderate intensity matches BAD.energy=moderate. Emotional descriptors (dignified, assured, timeless, composed, understated luxury) align well with BAD.mood (elegant, confident, cultured, refined). The note character—smooth cream, refined warmth, subtle spice, polished wood, clean musk—fits BAD.color_temperature=neutral and BAD.texture (smooth fabric, structured weave, embroidered pattern). The smell signature references a 'bespoke tailoring studio in Jakarta' and 'hand-blocked batik shirt', directly tying to BAD.brand_item. Minor issue: the green/herbal top notes are slightly less 'smooth' than the BAD texture implies, but overall the fragrance is a credible translation. Music: Tempo 88 BPM and moderate energy match BAD.energy=moderate. Mood 'cultured-confidence' aligns with BAD.mood (elegant, confident, cultured, refined). Timbre (warm bronze metallophones, dry gamelan wood, breathy bamboo flute, muted kendang skin, soft cotton-warm pads) fits BAD.color_temperature=neutral and BAD.texture (smooth fabric, structured weave). Instrumentation (gender wayang, suling, kendang) is specific to Indonesian gamelan, which is appropriate for a batik shirt, and the music_signature explicitly references 'Javanese batik atelier', 'repeated wax-resist patterns', and 'golden motifs emerging from deep indigo dye', directly connecting to BAD.colours (deep navy blue, golden beige) and BAD.visual_style (wooden chair, man, buttoned collar). The sound-world is not a generic luxury lobby but rooted in the object's craft. Both modalities are strong, independent translations of the same brand identity.",
+          "fragrance_score": 4,
+          "music_score": 5,
+          "fragrance_issues": [
+            "Top notes 3-methylhexanal (fatty, aldehydic) and (+)-isodihydrocarvone (herbal) lean slightly fresh/green, which is a minor departure from BAD.texture 'smooth fabric' and 'structured weave' that suggest a more polished, less leafy opening",
+            "The creamy/lactonic heart (jasmolactone, delta-nonalactone) is well-aligned but risks reading as gourmand-adjacent rather than purely 'refined' and 'cultured' as per BAD.mood"
+          ],
+          "music_issues": [
+            "The gamelan instrumentation is culturally specific to Indonesia, which fits the batik shirt's origin, but the BAD does not explicitly state Indonesian heritage; however, batik is strongly associated with Java, so this is a plausible and non-generic choice",
+            "The 'contemporary-gamelan-lounge' style could risk feeling like a themed pastiche, but the restrained tempo (88 BPM) and warm timbres keep it aligned with BAD.energy=moderate and BAD.mood=elegant/refined"
+          ]
+        },
+        "summary": "Both fragrance and music are credible, independent translations of the batik shirt's elegant, cultured, and refined identity. The fragrance captures the smooth, structured, and understated luxury with minor fresh-green top notes, while the music uses culturally specific gamelan instrumentation that directly evokes the batik craft and aligns with the moderate energy and neutral temperature.",
+        "accepted": true
+      },
+      "clip": {
+        "clip_score_image_fragrance_text": 0.3692,
+        "clip_score_image_music_text": 0.499,
+        "imagebind_score_image_audio": null
+      },
+      "judge_error": null,
+      "clip_error": null,
+      "judge_latency_ms": 4482,
+      "clip_latency_ms": 6144
+    },
+    {
+      "execution_id": "Indomie_001 (BAD)",
+      "brand": "Indomie_001",
+      "mode": "BAD",
+      "source_path": "eval\\result\\Indomie_001 (BAD).json",
+      "source_sha256": "d92b9e124a6dc2d75b47585b46547d87de5f9f785ec81e988bc1673bfd182c55",
+      "source_timestamp": "2026-09-11T15:14:05.822087Z",
+      "image_path": "backend\\data\\Picture\\9.jpg",
+      "image_sha256": "b0d5a5dda75b937ddd3a13653663cd8a70f3a3db70369d6cc9bc1373643e9411",
+      "image_note": "inferred Indomie product image fallback (original Indomie.jpg missing)",
+      "rule_flags": {
+        "fragrance_issues": [],
+        "music_issues": [],
+        "critical_fragrance_fail": false,
+        "critical_music_fail": false
+      },
+      "judge": {
+        "raw_response": "{\n  \"fragrance_score\": 4,\n  \"music_score\": 5,\n  \"fragrance_aligns_descriptor\": true,\n  \"music_aligns_descriptor\": true,\n  \"fragrance_issues\": [\n    \"Base notes decadienal and (z)-8-tetradecenal are explicitly fatty/chicken/beeswax, which risks reading as meaty rather than the clean, appetizing instant-noodle profile; could skew toward 'chicken flavor packet' rather than Mi Goreng's sweet-savory glaze.\",\n    \"The 'savory sweetness' accord is well-aligned, but the overall composition leans heavily citrus-forward; the golden-brown fried shallot/glossy noodle texture from BAD.texture is only partially represented.\"\n  ],\n  \"music_issues\": [\n    \"The 'crackling wok heat' and 'sizzling oil resonance' timbres are highly literal sound-design choices; while they fit the street-food narrative, they risk feeling like foley rather than musical timbre, slightly reducing abstraction.\",\n    \"Gamelan metallophones and kendang are strongly Indonesian, which fits the brand's origin, but the BAD itself does not specify Indonesian cultural cues—only the product does. This is a plausible but not strictly descriptor-derived choice.\"\n  ],\n  \"details\": \"Fragrance: The citrus burst (orange oil, valencene, perillaldehyde) and spiced warmth (nonyl anthranilate, vertosine) directly mirror BAD.colours (Vibrant Red, Bright Yellow, Rich Orange) and BAD.sensory_metaphors ('vibrant zest', 'culinary warmth'). Intensity 'bold' matches BAD.energy=high. Emotional descriptors 'exhilarating', 'playful', 'inviting' align with BAD.mood (appetizing, energetic, authentic). The 'golden radiance' accord and base notes evoke the Golden Brown (#D2691E) and crispy/glossy textures. The only concern is the fatty/meaty base (decadienal, (z)-8-tetradecenal) which could tip toward a chicken-flavor profile rather than the sweet-savory Mi Goreng glaze, but the overall composition remains credible for an instant noodle brand. Music: Tempo 126 BPM and 'uptempo' match BAD.energy=high. Mood 'appetizing-energetic' directly mirrors BAD.mood. Instrumentation (kendang, suling, gamelan, wok percussion) is deeply rooted in Indonesian street food culture, fitting the brand_item's origin and the narrative's 'bustling Southeast Asian night market' feel. Timbre choices (crackling wok, sizzling oil, crispy shallot crunch) are warm and textural, aligning with BAD.color_temperature=warm and BAD.texture (crispy, glossy). The music_signature explicitly references the packaging's bold red and yellow, and rejects generic luxury lobby sounds, showing strong independent translation. Both modalities are credible, independent interpretations of the same brand identity.\",\n  \"summary\": \"Both fragrance and music are strong, independent translations of the Indomie Mi Goreng brand identity. Fragrance captures the vibrant, appetizing, warm energy with a bold citrus-spice-savory profile, though the fatty base notes introduce a minor risk of meaty off-notes. Music is an excellent fit, using Indonesian street-kitchen instrumentation and uptempo energy that directly mirrors the brand's high energy, warm palette, and authentic culinary narrative.\"\n}",
+        "parsed_payload": {
+          "fragrance_score": 4,
+          "music_score": 5,
+          "fragrance_aligns_descriptor": true,
+          "music_aligns_descriptor": true,
+          "fragrance_issues": [
+            "Base notes decadienal and (z)-8-tetradecenal are explicitly fatty/chicken/beeswax, which risks reading as meaty rather than the clean, appetizing instant-noodle profile; could skew toward 'chicken flavor packet' rather than Mi Goreng's sweet-savory glaze.",
+            "The 'savory sweetness' accord is well-aligned, but the overall composition leans heavily citrus-forward; the golden-brown fried shallot/glossy noodle texture from BAD.texture is only partially represented."
+          ],
+          "music_issues": [
+            "The 'crackling wok heat' and 'sizzling oil resonance' timbres are highly literal sound-design choices; while they fit the street-food narrative, they risk feeling like foley rather than musical timbre, slightly reducing abstraction.",
+            "Gamelan metallophones and kendang are strongly Indonesian, which fits the brand's origin, but the BAD itself does not specify Indonesian cultural cues—only the product does. This is a plausible but not strictly descriptor-derived choice."
+          ],
+          "details": "Fragrance: The citrus burst (orange oil, valencene, perillaldehyde) and spiced warmth (nonyl anthranilate, vertosine) directly mirror BAD.colours (Vibrant Red, Bright Yellow, Rich Orange) and BAD.sensory_metaphors ('vibrant zest', 'culinary warmth'). Intensity 'bold' matches BAD.energy=high. Emotional descriptors 'exhilarating', 'playful', 'inviting' align with BAD.mood (appetizing, energetic, authentic). The 'golden radiance' accord and base notes evoke the Golden Brown (#D2691E) and crispy/glossy textures. The only concern is the fatty/meaty base (decadienal, (z)-8-tetradecenal) which could tip toward a chicken-flavor profile rather than the sweet-savory Mi Goreng glaze, but the overall composition remains credible for an instant noodle brand. Music: Tempo 126 BPM and 'uptempo' match BAD.energy=high. Mood 'appetizing-energetic' directly mirrors BAD.mood. Instrumentation (kendang, suling, gamelan, wok percussion) is deeply rooted in Indonesian street food culture, fitting the brand_item's origin and the narrative's 'bustling Southeast Asian night market' feel. Timbre choices (crackling wok, sizzling oil, crispy shallot crunch) are warm and textural, aligning with BAD.color_temperature=warm and BAD.texture (crispy, glossy). The music_signature explicitly references the packaging's bold red and yellow, and rejects generic luxury lobby sounds, showing strong independent translation. Both modalities are credible, independent interpretations of the same brand identity.",
+          "summary": "Both fragrance and music are strong, independent translations of the Indomie Mi Goreng brand identity. Fragrance captures the vibrant, appetizing, warm energy with a bold citrus-spice-savory profile, though the fatty base notes introduce a minor risk of meaty off-notes. Music is an excellent fit, using Indonesian street-kitchen instrumentation and uptempo energy that directly mirrors the brand's high energy, warm palette, and authentic culinary narrative."
+        },
+        "consistency": {
+          "fragrance_aligns_descriptor": true,
+          "music_aligns_descriptor": true,
+          "details": "Fragrance: The citrus burst (orange oil, valencene, perillaldehyde) and spiced warmth (nonyl anthranilate, vertosine) directly mirror BAD.colours (Vibrant Red, Bright Yellow, Rich Orange) and BAD.sensory_metaphors ('vibrant zest', 'culinary warmth'). Intensity 'bold' matches BAD.energy=high. Emotional descriptors 'exhilarating', 'playful', 'inviting' align with BAD.mood (appetizing, energetic, authentic). The 'golden radiance' accord and base notes evoke the Golden Brown (#D2691E) and crispy/glossy textures. The only concern is the fatty/meaty base (decadienal, (z)-8-tetradecenal) which could tip toward a chicken-flavor profile rather than the sweet-savory Mi Goreng glaze, but the overall composition remains credible for an instant noodle brand. Music: Tempo 126 BPM and 'uptempo' match BAD.energy=high. Mood 'appetizing-energetic' directly mirrors BAD.mood. Instrumentation (kendang, suling, gamelan, wok percussion) is deeply rooted in Indonesian street food culture, fitting the brand_item's origin and the narrative's 'bustling Southeast Asian night market' feel. Timbre choices (crackling wok, sizzling oil, crispy shallot crunch) are warm and textural, aligning with BAD.color_temperature=warm and BAD.texture (crispy, glossy). The music_signature explicitly references the packaging's bold red and yellow, and rejects generic luxury lobby sounds, showing strong independent translation. Both modalities are credible, independent interpretations of the same brand identity.",
+          "fragrance_score": 4,
+          "music_score": 5,
+          "fragrance_issues": [
+            "Base notes decadienal and (z)-8-tetradecenal are explicitly fatty/chicken/beeswax, which risks reading as meaty rather than the clean, appetizing instant-noodle profile; could skew toward 'chicken flavor packet' rather than Mi Goreng's sweet-savory glaze.",
+            "The 'savory sweetness' accord is well-aligned, but the overall composition leans heavily citrus-forward; the golden-brown fried shallot/glossy noodle texture from BAD.texture is only partially represented."
+          ],
+          "music_issues": [
+            "The 'crackling wok heat' and 'sizzling oil resonance' timbres are highly literal sound-design choices; while they fit the street-food narrative, they risk feeling like foley rather than musical timbre, slightly reducing abstraction.",
+            "Gamelan metallophones and kendang are strongly Indonesian, which fits the brand's origin, but the BAD itself does not specify Indonesian cultural cues—only the product does. This is a plausible but not strictly descriptor-derived choice."
+          ]
+        },
+        "summary": "Both fragrance and music are strong, independent translations of the Indomie Mi Goreng brand identity. Fragrance captures the vibrant, appetizing, warm energy with a bold citrus-spice-savory profile, though the fatty base notes introduce a minor risk of meaty off-notes. Music is an excellent fit, using Indonesian street-kitchen instrumentation and uptempo energy that directly mirrors the brand's high energy, warm palette, and authentic culinary narrative.",
+        "accepted": true
+      },
+      "clip": {
+        "clip_score_image_fragrance_text": 0.4036,
+        "clip_score_image_music_text": 0.5875,
+        "imagebind_score_image_audio": null
+      },
+      "judge_error": null,
+      "clip_error": null,
+      "judge_latency_ms": 4702,
+      "clip_latency_ms": 7075
+    },
+    {
+      "execution_id": "Indomie_001 (Prompt Only)",
+      "brand": "Indomie_001",
+      "mode": "Prompt Only",
+      "source_path": "eval\\result\\Indomie_001 (Prompt Only).json",
+      "source_sha256": "d7fbd31723425d97246b5196e83725e28a8a77e0560735a7d888ac1be6c4912f",
+      "source_timestamp": "2026-09-11T15:08:47.756738Z",
+      "image_path": "backend\\data\\Picture\\9.jpg",
+      "image_sha256": "b0d5a5dda75b937ddd3a13653663cd8a70f3a3db70369d6cc9bc1373643e9411",
+      "image_note": "inferred Indomie product image fallback (original Indomie.jpg missing)",
+      "rule_flags": {
+        "fragrance_issues": [],
+        "music_issues": [],
+        "critical_fragrance_fail": false,
+        "critical_music_fail": false
+      },
+      "judge": {
+        "raw_response": "{\n  \"fragrance_score\": 4,\n  \"music_score\": 5,\n  \"fragrance_aligns_descriptor\": true,\n  \"music_aligns_descriptor\": true,\n  \"fragrance_issues\": [\n    \"Some heart/base notes (muguet, magnolia, jasmine) lean floral-clean rather than the savory umami/sweet soy profile of mi goreng, slightly softening the 'authentic' instant-noodle specificity.\",\n    \"The 'glossy aldehydic' accord is a clever match for BAD.texture 'glossy/shiny' but risks reading as generic perfumery sheen rather than food-realistic.\"\n  ],\n  \"music_issues\": [\n    \"Suling flute and kendang are Indonesian-traditional, which fits 'authentic' but the overall 'jakarta-street-electronic' could drift toward generic tropical-house if not tightly produced; still, the wok percussion and sizzle noise ground it in the object.\",\n    \"126 BPM is energetic but not extreme; BAD.energy=high is satisfied, though a slightly faster tempo could push 'fast' further.\"\n  ],\n  \"details\": \"Fragrance: intensity_profile 'bold' matches BAD.energy=high; emotional_descriptors (energetic, appetizing, vibrant, fast-paced, warmly inviting) map directly onto BAD.mood (appetizing, energetic, tasty, authentic, fast). Warm savory and spicy green accords plus 2,5-dimethylthiophene (nutty, sulfurous) and cooling menthol ester credibly evoke the mi goreng packet's savory-sweet-fresh profile, while glossy aldehydic notes echo BAD.texture (smooth, glossy, shiny). The scent direction is plausible for an instant-noodle brand, though floral muguet/magnolia notes slightly dilute the food authenticity. Music: tempo 126 BPM and 'uptempo' match BAD.energy=high; mood 'hungry-excited' aligns with BAD.mood (appetizing, energetic, fast). Instrumentation (kendang, suling, processed wok percussion, sizzling white noise) is rooted in Indonesian street-food culture and the physical act of cooking, fitting BAD.brand_item and narrative. Timbre (bright metallic, crisp digital claps, warm saturated synths, glossy sheen) matches BAD.color_temperature=warm and texture (smooth, glossy, crispy, shiny). The music_signature explicitly justifies each instrument for this brand_item, avoiding generic luxury-lobby tropes.\",\n  \"summary\": \"Both outputs are credible, independent translations of the Indomie Mi Goreng brand identity: the fragrance captures the bold, appetizing, glossy warmth with minor floral dilution, while the music nails the high-energy, street-food, glossy-electronic sound world with strong object-specific grounding.\"\n}",
+        "parsed_payload": {
+          "fragrance_score": 4,
+          "music_score": 5,
+          "fragrance_aligns_descriptor": true,
+          "music_aligns_descriptor": true,
+          "fragrance_issues": [
+            "Some heart/base notes (muguet, magnolia, jasmine) lean floral-clean rather than the savory umami/sweet soy profile of mi goreng, slightly softening the 'authentic' instant-noodle specificity.",
+            "The 'glossy aldehydic' accord is a clever match for BAD.texture 'glossy/shiny' but risks reading as generic perfumery sheen rather than food-realistic."
+          ],
+          "music_issues": [
+            "Suling flute and kendang are Indonesian-traditional, which fits 'authentic' but the overall 'jakarta-street-electronic' could drift toward generic tropical-house if not tightly produced; still, the wok percussion and sizzle noise ground it in the object.",
+            "126 BPM is energetic but not extreme; BAD.energy=high is satisfied, though a slightly faster tempo could push 'fast' further."
+          ],
+          "details": "Fragrance: intensity_profile 'bold' matches BAD.energy=high; emotional_descriptors (energetic, appetizing, vibrant, fast-paced, warmly inviting) map directly onto BAD.mood (appetizing, energetic, tasty, authentic, fast). Warm savory and spicy green accords plus 2,5-dimethylthiophene (nutty, sulfurous) and cooling menthol ester credibly evoke the mi goreng packet's savory-sweet-fresh profile, while glossy aldehydic notes echo BAD.texture (smooth, glossy, shiny). The scent direction is plausible for an instant-noodle brand, though floral muguet/magnolia notes slightly dilute the food authenticity. Music: tempo 126 BPM and 'uptempo' match BAD.energy=high; mood 'hungry-excited' aligns with BAD.mood (appetizing, energetic, fast). Instrumentation (kendang, suling, processed wok percussion, sizzling white noise) is rooted in Indonesian street-food culture and the physical act of cooking, fitting BAD.brand_item and narrative. Timbre (bright metallic, crisp digital claps, warm saturated synths, glossy sheen) matches BAD.color_temperature=warm and texture (smooth, glossy, crispy, shiny). The music_signature explicitly justifies each instrument for this brand_item, avoiding generic luxury-lobby tropes.",
+          "summary": "Both outputs are credible, independent translations of the Indomie Mi Goreng brand identity: the fragrance captures the bold, appetizing, glossy warmth with minor floral dilution, while the music nails the high-energy, street-food, glossy-electronic sound world with strong object-specific grounding."
+        },
+        "consistency": {
+          "fragrance_aligns_descriptor": true,
+          "music_aligns_descriptor": true,
+          "details": "Fragrance: intensity_profile 'bold' matches BAD.energy=high; emotional_descriptors (energetic, appetizing, vibrant, fast-paced, warmly inviting) map directly onto BAD.mood (appetizing, energetic, tasty, authentic, fast). Warm savory and spicy green accords plus 2,5-dimethylthiophene (nutty, sulfurous) and cooling menthol ester credibly evoke the mi goreng packet's savory-sweet-fresh profile, while glossy aldehydic notes echo BAD.texture (smooth, glossy, shiny). The scent direction is plausible for an instant-noodle brand, though floral muguet/magnolia notes slightly dilute the food authenticity. Music: tempo 126 BPM and 'uptempo' match BAD.energy=high; mood 'hungry-excited' aligns with BAD.mood (appetizing, energetic, fast). Instrumentation (kendang, suling, processed wok percussion, sizzling white noise) is rooted in Indonesian street-food culture and the physical act of cooking, fitting BAD.brand_item and narrative. Timbre (bright metallic, crisp digital claps, warm saturated synths, glossy sheen) matches BAD.color_temperature=warm and texture (smooth, glossy, crispy, shiny). The music_signature explicitly justifies each instrument for this brand_item, avoiding generic luxury-lobby tropes.",
+          "fragrance_score": 4,
+          "music_score": 5,
+          "fragrance_issues": [
+            "Some heart/base notes (muguet, magnolia, jasmine) lean floral-clean rather than the savory umami/sweet soy profile of mi goreng, slightly softening the 'authentic' instant-noodle specificity.",
+            "The 'glossy aldehydic' accord is a clever match for BAD.texture 'glossy/shiny' but risks reading as generic perfumery sheen rather than food-realistic."
+          ],
+          "music_issues": [
+            "Suling flute and kendang are Indonesian-traditional, which fits 'authentic' but the overall 'jakarta-street-electronic' could drift toward generic tropical-house if not tightly produced; still, the wok percussion and sizzle noise ground it in the object.",
+            "126 BPM is energetic but not extreme; BAD.energy=high is satisfied, though a slightly faster tempo could push 'fast' further."
+          ]
+        },
+        "summary": "Both outputs are credible, independent translations of the Indomie Mi Goreng brand identity: the fragrance captures the bold, appetizing, glossy warmth with minor floral dilution, while the music nails the high-energy, street-food, glossy-electronic sound world with strong object-specific grounding.",
+        "accepted": true
+      },
+      "clip": {
+        "clip_score_image_fragrance_text": 0.4535,
+        "clip_score_image_music_text": 0.4146,
+        "imagebind_score_image_audio": null
+      },
+      "judge_error": null,
+      "clip_error": null,
+      "judge_latency_ms": 3578,
+      "clip_latency_ms": 8837
+    },
+    {
+      "execution_id": "Singa_Watch_001 (BAD)",
+      "brand": "Singa_Watch_001",
+      "mode": "BAD",
+      "source_path": "eval\\result\\Singa_Watch_001 (BAD).json",
+      "source_sha256": "9e46b5820070ca3a340fc87651d00ede52f80b51541bf8f042d0f3406544226a",
+      "source_timestamp": "2026-09-13T14:47:41.992178Z",
+      "image_path": "eval\\outputs\\images\\Singa_Watch_001 (BAD).jpg",
+      "image_sha256": "5a3f2be86a168b94f38744e209a64e6e0f53c90f40b61a2b1e554e26f2edb9dd",
+      "image_note": "saved execution image",
+      "rule_flags": {
+        "fragrance_issues": [],
+        "music_issues": [],
+        "critical_fragrance_fail": false,
+        "critical_music_fail": false
+      },
+      "judge": {
+        "raw_response": "{\n  \"fragrance_score\": 4,\n  \"music_score\": 5,\n  \"fragrance_aligns_descriptor\": true,\n  \"music_aligns_descriptor\": true,\n  \"fragrance_issues\": [\n    \"Base notes include 'mushroom, oily' (octyl 2-furoate) which introduces an earthy, fungal quality that slightly conflicts with BAD.texture 'sleek' and 'smooth' — a minor texture mismatch.\",\n    \"The overall scent leans more toward a forest/green floral than the metallic, gold-accented luxury of the watch; however, the metallic accord and warm mineral depth compensate.\"\n  ],\n  \"music_issues\": [],\n  \"details\": \"Fragrance: The concept strongly aligns with BAD.mood (sophisticated, timeless, adventurous) and BAD.energy (moderate intensity). The accords 'metallic elegance' and 'forest twilight' directly mirror BAD.sensory_metaphors, and the note character (green, metallic, rose, tea) fits the neutral color temperature and sleek/metallic textures. The intensity profile is moderate, matching BAD.energy. The only minor issue is the 'mushroom, oily' base note, which slightly deviates from the smooth, sleek texture, but it is not a major violation. Music: The tempo (88 BPM) and moderate energy perfectly match BAD.energy. The mood 'refined-adventurous' and style 'prepared-piano-ambient' align with BAD.mood (sophisticated, timeless, adventurous). The timbre (brushed metallic resonance, warm analog saturation, luminous overtones) and instrumentation (prepared piano, hammered dulcimer, vibraphone) evoke the watch's materials and craftsmanship, fitting the brand_item. The music_signature explicitly ties to the watch workshop and forest twilight, justifying the instrument choices. No major violations.\",\n  \"summary\": \"Both fragrance and music are credible, independent translations of the brand identity, with strong alignment to the BAD's mood, energy, and sensory metaphors. The fragrance has a minor texture mismatch, but overall both score high.\"\n}",
+        "parsed_payload": {
+          "fragrance_score": 4,
+          "music_score": 5,
+          "fragrance_aligns_descriptor": true,
+          "music_aligns_descriptor": true,
+          "fragrance_issues": [
+            "Base notes include 'mushroom, oily' (octyl 2-furoate) which introduces an earthy, fungal quality that slightly conflicts with BAD.texture 'sleek' and 'smooth' — a minor texture mismatch.",
+            "The overall scent leans more toward a forest/green floral than the metallic, gold-accented luxury of the watch; however, the metallic accord and warm mineral depth compensate."
+          ],
+          "music_issues": [],
+          "details": "Fragrance: The concept strongly aligns with BAD.mood (sophisticated, timeless, adventurous) and BAD.energy (moderate intensity). The accords 'metallic elegance' and 'forest twilight' directly mirror BAD.sensory_metaphors, and the note character (green, metallic, rose, tea) fits the neutral color temperature and sleek/metallic textures. The intensity profile is moderate, matching BAD.energy. The only minor issue is the 'mushroom, oily' base note, which slightly deviates from the smooth, sleek texture, but it is not a major violation. Music: The tempo (88 BPM) and moderate energy perfectly match BAD.energy. The mood 'refined-adventurous' and style 'prepared-piano-ambient' align with BAD.mood (sophisticated, timeless, adventurous). The timbre (brushed metallic resonance, warm analog saturation, luminous overtones) and instrumentation (prepared piano, hammered dulcimer, vibraphone) evoke the watch's materials and craftsmanship, fitting the brand_item. The music_signature explicitly ties to the watch workshop and forest twilight, justifying the instrument choices. No major violations.",
+          "summary": "Both fragrance and music are credible, independent translations of the brand identity, with strong alignment to the BAD's mood, energy, and sensory metaphors. The fragrance has a minor texture mismatch, but overall both score high."
+        },
+        "consistency": {
+          "fragrance_aligns_descriptor": true,
+          "music_aligns_descriptor": true,
+          "details": "Fragrance: The concept strongly aligns with BAD.mood (sophisticated, timeless, adventurous) and BAD.energy (moderate intensity). The accords 'metallic elegance' and 'forest twilight' directly mirror BAD.sensory_metaphors, and the note character (green, metallic, rose, tea) fits the neutral color temperature and sleek/metallic textures. The intensity profile is moderate, matching BAD.energy. The only minor issue is the 'mushroom, oily' base note, which slightly deviates from the smooth, sleek texture, but it is not a major violation. Music: The tempo (88 BPM) and moderate energy perfectly match BAD.energy. The mood 'refined-adventurous' and style 'prepared-piano-ambient' align with BAD.mood (sophisticated, timeless, adventurous). The timbre (brushed metallic resonance, warm analog saturation, luminous overtones) and instrumentation (prepared piano, hammered dulcimer, vibraphone) evoke the watch's materials and craftsmanship, fitting the brand_item. The music_signature explicitly ties to the watch workshop and forest twilight, justifying the instrument choices. No major violations.",
+          "fragrance_score": 4,
+          "music_score": 5,
+          "fragrance_issues": [
+            "Base notes include 'mushroom, oily' (octyl 2-furoate) which introduces an earthy, fungal quality that slightly conflicts with BAD.texture 'sleek' and 'smooth' — a minor texture mismatch.",
+            "The overall scent leans more toward a forest/green floral than the metallic, gold-accented luxury of the watch; however, the metallic accord and warm mineral depth compensate."
+          ],
+          "music_issues": []
+        },
+        "summary": "Both fragrance and music are credible, independent translations of the brand identity, with strong alignment to the BAD's mood, energy, and sensory metaphors. The fragrance has a minor texture mismatch, but overall both score high.",
+        "accepted": true
+      },
+      "clip": {
+        "clip_score_image_fragrance_text": 0.313,
+        "clip_score_image_music_text": 0.0893,
+        "imagebind_score_image_audio": null
+      },
+      "judge_error": null,
+      "clip_error": null,
+      "judge_latency_ms": 2701,
+      "clip_latency_ms": 6854
+    },
+    {
+      "execution_id": "Singa_Watch_001 (Prompt Only)",
+      "brand": "Singa_Watch_001",
+      "mode": "Prompt Only",
+      "source_path": "eval\\result\\Singa_Watch_001 (Prompt Only).json",
+      "source_sha256": "ba517fbf3c96d436c567ac28b81500fde23a8b40cc750d54cec7d2d81fa3b4dd",
+      "source_timestamp": "2026-09-13T14:45:14.197035Z",
+      "image_path": "eval\\outputs\\images\\Singa_Watch_001 (Prompt Only).jpg",
+      "image_sha256": "5a3f2be86a168b94f38744e209a64e6e0f53c90f40b61a2b1e554e26f2edb9dd",
+      "image_note": "saved execution image",
+      "rule_flags": {
+        "fragrance_issues": [],
+        "music_issues": [],
+        "critical_fragrance_fail": false,
+        "critical_music_fail": false
+      },
+      "judge": {
+        "raw_response": "{\n  \"fragrance_score\": 4,\n  \"music_score\": 4,\n  \"fragrance_aligns_descriptor\": true,\n  \"music_aligns_descriptor\": true,\n  \"fragrance_issues\": [\n    \"Some base notes like etaspirene and labienoxime lean fruity/herbal, which slightly dilutes the 'timeless luxurious' refinement, but overall accord structure supports the BAD mood.\"\n  ],\n  \"music_issues\": [\n    \"Style 'mechanical-jazz-lounge' risks drifting toward a generic lounge feel, but the specific instrumentation (hammered dulcimer, brush kit, vibraphone) and narrative tie it firmly to the watchmaking craft and adventurous mood.\"\n  ],\n  \"details\": \"Fragrance: The metallic green, luminous aldehydic, and refined floral accords directly mirror BAD.texture (metallic, luminous, sleek) and BAD.colours (deep forest green, brushed silver, warm gold, luminous mint). The emotional descriptors (sophisticated, timeless, adventurous, refined, luxurious) match BAD.mood exactly. Intensity is moderate, aligning with BAD.energy=moderate. The smell signature explicitly references a luxury timepiece, crushed mint leaves, and worn gold, grounding it in the brand_item. Minor issue: some fruity/herbal base notes could slightly soften the timeless luxury, but not enough to break congruence. Music: Tempo 96 BPM and moderate energy fit BAD.energy=moderate. Timbre (brushed metallic resonance, warm gold-toned sustain, deep forest low-end, luminous high-frequency sheen, textured mechanical rhythm) maps directly to BAD.texture and colours. Instrumentation (hammered dulcimer, upright bass, brush kit, Wurlitzer, vibraphone) evokes a precision workshop and adventure, fitting the wristwatch narrative. Mood 'adventurous-refinement' aligns with BAD.mood. The music_signature explicitly ties to watchmaking craft and avoids generic luxury tropes. Minor risk: 'mechanical-jazz-lounge' could be generic, but the specific story and instruments justify it.\",\n  \"summary\": \"Both fragrance and music are credible, independent translations of the wristwatch brand identity, with strong alignment to mood, energy, texture, and colour temperature. Minor stylistic risks are outweighed by specific, grounded references to the brand_item.\"\n}",
+        "parsed_payload": {
+          "fragrance_score": 4,
+          "music_score": 4,
+          "fragrance_aligns_descriptor": true,
+          "music_aligns_descriptor": true,
+          "fragrance_issues": [
+            "Some base notes like etaspirene and labienoxime lean fruity/herbal, which slightly dilutes the 'timeless luxurious' refinement, but overall accord structure supports the BAD mood."
+          ],
+          "music_issues": [
+            "Style 'mechanical-jazz-lounge' risks drifting toward a generic lounge feel, but the specific instrumentation (hammered dulcimer, brush kit, vibraphone) and narrative tie it firmly to the watchmaking craft and adventurous mood."
+          ],
+          "details": "Fragrance: The metallic green, luminous aldehydic, and refined floral accords directly mirror BAD.texture (metallic, luminous, sleek) and BAD.colours (deep forest green, brushed silver, warm gold, luminous mint). The emotional descriptors (sophisticated, timeless, adventurous, refined, luxurious) match BAD.mood exactly. Intensity is moderate, aligning with BAD.energy=moderate. The smell signature explicitly references a luxury timepiece, crushed mint leaves, and worn gold, grounding it in the brand_item. Minor issue: some fruity/herbal base notes could slightly soften the timeless luxury, but not enough to break congruence. Music: Tempo 96 BPM and moderate energy fit BAD.energy=moderate. Timbre (brushed metallic resonance, warm gold-toned sustain, deep forest low-end, luminous high-frequency sheen, textured mechanical rhythm) maps directly to BAD.texture and colours. Instrumentation (hammered dulcimer, upright bass, brush kit, Wurlitzer, vibraphone) evokes a precision workshop and adventure, fitting the wristwatch narrative. Mood 'adventurous-refinement' aligns with BAD.mood. The music_signature explicitly ties to watchmaking craft and avoids generic luxury tropes. Minor risk: 'mechanical-jazz-lounge' could be generic, but the specific story and instruments justify it.",
+          "summary": "Both fragrance and music are credible, independent translations of the wristwatch brand identity, with strong alignment to mood, energy, texture, and colour temperature. Minor stylistic risks are outweighed by specific, grounded references to the brand_item."
+        },
+        "consistency": {
+          "fragrance_aligns_descriptor": true,
+          "music_aligns_descriptor": true,
+          "details": "Fragrance: The metallic green, luminous aldehydic, and refined floral accords directly mirror BAD.texture (metallic, luminous, sleek) and BAD.colours (deep forest green, brushed silver, warm gold, luminous mint). The emotional descriptors (sophisticated, timeless, adventurous, refined, luxurious) match BAD.mood exactly. Intensity is moderate, aligning with BAD.energy=moderate. The smell signature explicitly references a luxury timepiece, crushed mint leaves, and worn gold, grounding it in the brand_item. Minor issue: some fruity/herbal base notes could slightly soften the timeless luxury, but not enough to break congruence. Music: Tempo 96 BPM and moderate energy fit BAD.energy=moderate. Timbre (brushed metallic resonance, warm gold-toned sustain, deep forest low-end, luminous high-frequency sheen, textured mechanical rhythm) maps directly to BAD.texture and colours. Instrumentation (hammered dulcimer, upright bass, brush kit, Wurlitzer, vibraphone) evokes a precision workshop and adventure, fitting the wristwatch narrative. Mood 'adventurous-refinement' aligns with BAD.mood. The music_signature explicitly ties to watchmaking craft and avoids generic luxury tropes. Minor risk: 'mechanical-jazz-lounge' could be generic, but the specific story and instruments justify it.",
+          "fragrance_score": 4,
+          "music_score": 4,
+          "fragrance_issues": [
+            "Some base notes like etaspirene and labienoxime lean fruity/herbal, which slightly dilutes the 'timeless luxurious' refinement, but overall accord structure supports the BAD mood."
+          ],
+          "music_issues": [
+            "Style 'mechanical-jazz-lounge' risks drifting toward a generic lounge feel, but the specific instrumentation (hammered dulcimer, brush kit, vibraphone) and narrative tie it firmly to the watchmaking craft and adventurous mood."
+          ]
+        },
+        "summary": "Both fragrance and music are credible, independent translations of the wristwatch brand identity, with strong alignment to mood, energy, texture, and colour temperature. Minor stylistic risks are outweighed by specific, grounded references to the brand_item.",
+        "accepted": true
+      },
+      "clip": {
+        "clip_score_image_fragrance_text": 0.3083,
+        "clip_score_image_music_text": 0.3453,
+        "imagebind_score_image_audio": null
+      },
+      "judge_error": null,
+      "clip_error": null,
+      "judge_latency_ms": 2894,
+      "clip_latency_ms": 7981
+    },
+    {
+      "execution_id": "Tulola_Jewellery_001 (BAD)",
+      "brand": "Tulola_Jewellery_001",
+      "mode": "BAD",
+      "source_path": "eval\\result\\Tulola_Jewellery_001 (BAD).json",
+      "source_sha256": "7e7334f13086502ec11135374a1c585640d7c97a083781aadad7b438596a9f28",
+      "source_timestamp": "2026-09-13T14:34:28.477878Z",
+      "image_path": "eval\\outputs\\images\\Tulola_Jewellery_001 (BAD).jpg",
+      "image_sha256": "e1f1cb4bad966a4475cf1c1b3ec7425bb409b91f3288c3cb633cc0c998f40efc",
+      "image_note": "saved execution image",
+      "rule_flags": {
+        "fragrance_issues": [],
+        "music_issues": [],
+        "critical_fragrance_fail": false,
+        "critical_music_fail": false
+      },
+      "judge": {
+        "raw_response": "{\n  \"fragrance_score\": 4,\n  \"music_score\": 5,\n  \"fragrance_aligns_descriptor\": true,\n  \"music_aligns_descriptor\": true,\n  \"fragrance_issues\": [\n    \"intensity_profile='moderate' slightly exceeds BAD.energy='low' — a 'whispered elegance' might suggest a softer, more intimate projection, though moderate is defensible for a lingering skin-scent.\"\n  ],\n  \"music_issues\": [],\n  \"details\": \"Fragrance: The accords ('warm golden floral', 'soft metallic radiance', 'antique pearl elegance', 'gilded wood spice') directly mirror BAD.colours (Brushed Gold, Pearl White, Warm Metallic Sheen) and BAD.texture (gilded metal, smooth pearl, wood grain). Emotional descriptors ('timeless', 'intimate', 'refined', 'sun-warmed', 'whispered') align with BAD.mood (elegant, artisanal, timeless luxury) and BAD.sensory_metaphors ('sunlit opulence', 'whispered elegance'). The smell_signature's 'vintage jewelry box lined with silk' and 'treasured heirloom' narrative perfectly suits BAD.brand_item (gold floral brooch). The only minor tension is intensity_profile='moderate' vs BAD.energy='low', but the scent is described as 'lingering close to the skin', which mitigates this. Music: Tempo (66 BPM, slow) matches BAD.energy='low'. Mood ('contemplative') and style ('artisanal-minimal') fit BAD.mood (elegant, artisanal, timeless luxury). Timbre ('warm brushed metal resonance', 'smooth pearl-like sustain', 'dry aged wood decay', 'soft stone harmonics', 'sunlit harmonic sheen') directly echoes BAD.colours and BAD.texture. Instrumentation (hammered dulcimer, glass armonica, viola da gamba, bronze singing bowls, prepared piano) evokes a jeweler's atelier, aligning with BAD.brand_item and BAD.visual_style ('close-up still life', 'shallow depth of field' — mirrored in 'close-mic'd and intimate' production). The music_signature explicitly references the brooch, gold, pearl, and the descriptor's textures, making it a credible independent translation.\",\n  \"summary\": \"Both fragrance and music are strong, independent translations of the gold floral brooch's warm, elegant, artisanal identity. The fragrance's moderate intensity is a minor deviation from the low energy, but overall congruence is high; the music is an excellent fit.\"\n}",
+        "parsed_payload": {
+          "fragrance_score": 4,
+          "music_score": 5,
+          "fragrance_aligns_descriptor": true,
+          "music_aligns_descriptor": true,
+          "fragrance_issues": [
+            "intensity_profile='moderate' slightly exceeds BAD.energy='low' — a 'whispered elegance' might suggest a softer, more intimate projection, though moderate is defensible for a lingering skin-scent."
+          ],
+          "music_issues": [],
+          "details": "Fragrance: The accords ('warm golden floral', 'soft metallic radiance', 'antique pearl elegance', 'gilded wood spice') directly mirror BAD.colours (Brushed Gold, Pearl White, Warm Metallic Sheen) and BAD.texture (gilded metal, smooth pearl, wood grain). Emotional descriptors ('timeless', 'intimate', 'refined', 'sun-warmed', 'whispered') align with BAD.mood (elegant, artisanal, timeless luxury) and BAD.sensory_metaphors ('sunlit opulence', 'whispered elegance'). The smell_signature's 'vintage jewelry box lined with silk' and 'treasured heirloom' narrative perfectly suits BAD.brand_item (gold floral brooch). The only minor tension is intensity_profile='moderate' vs BAD.energy='low', but the scent is described as 'lingering close to the skin', which mitigates this. Music: Tempo (66 BPM, slow) matches BAD.energy='low'. Mood ('contemplative') and style ('artisanal-minimal') fit BAD.mood (elegant, artisanal, timeless luxury). Timbre ('warm brushed metal resonance', 'smooth pearl-like sustain', 'dry aged wood decay', 'soft stone harmonics', 'sunlit harmonic sheen') directly echoes BAD.colours and BAD.texture. Instrumentation (hammered dulcimer, glass armonica, viola da gamba, bronze singing bowls, prepared piano) evokes a jeweler's atelier, aligning with BAD.brand_item and BAD.visual_style ('close-up still life', 'shallow depth of field' — mirrored in 'close-mic'd and intimate' production). The music_signature explicitly references the brooch, gold, pearl, and the descriptor's textures, making it a credible independent translation.",
+          "summary": "Both fragrance and music are strong, independent translations of the gold floral brooch's warm, elegant, artisanal identity. The fragrance's moderate intensity is a minor deviation from the low energy, but overall congruence is high; the music is an excellent fit."
+        },
+        "consistency": {
+          "fragrance_aligns_descriptor": true,
+          "music_aligns_descriptor": true,
+          "details": "Fragrance: The accords ('warm golden floral', 'soft metallic radiance', 'antique pearl elegance', 'gilded wood spice') directly mirror BAD.colours (Brushed Gold, Pearl White, Warm Metallic Sheen) and BAD.texture (gilded metal, smooth pearl, wood grain). Emotional descriptors ('timeless', 'intimate', 'refined', 'sun-warmed', 'whispered') align with BAD.mood (elegant, artisanal, timeless luxury) and BAD.sensory_metaphors ('sunlit opulence', 'whispered elegance'). The smell_signature's 'vintage jewelry box lined with silk' and 'treasured heirloom' narrative perfectly suits BAD.brand_item (gold floral brooch). The only minor tension is intensity_profile='moderate' vs BAD.energy='low', but the scent is described as 'lingering close to the skin', which mitigates this. Music: Tempo (66 BPM, slow) matches BAD.energy='low'. Mood ('contemplative') and style ('artisanal-minimal') fit BAD.mood (elegant, artisanal, timeless luxury). Timbre ('warm brushed metal resonance', 'smooth pearl-like sustain', 'dry aged wood decay', 'soft stone harmonics', 'sunlit harmonic sheen') directly echoes BAD.colours and BAD.texture. Instrumentation (hammered dulcimer, glass armonica, viola da gamba, bronze singing bowls, prepared piano) evokes a jeweler's atelier, aligning with BAD.brand_item and BAD.visual_style ('close-up still life', 'shallow depth of field' — mirrored in 'close-mic'd and intimate' production). The music_signature explicitly references the brooch, gold, pearl, and the descriptor's textures, making it a credible independent translation.",
+          "fragrance_score": 4,
+          "music_score": 5,
+          "fragrance_issues": [
+            "intensity_profile='moderate' slightly exceeds BAD.energy='low' — a 'whispered elegance' might suggest a softer, more intimate projection, though moderate is defensible for a lingering skin-scent."
+          ],
+          "music_issues": []
+        },
+        "summary": "Both fragrance and music are strong, independent translations of the gold floral brooch's warm, elegant, artisanal identity. The fragrance's moderate intensity is a minor deviation from the low energy, but overall congruence is high; the music is an excellent fit.",
+        "accepted": true
+      },
+      "clip": {
+        "clip_score_image_fragrance_text": 0.5605,
+        "clip_score_image_music_text": 0.3811,
+        "imagebind_score_image_audio": null
+      },
+      "judge_error": null,
+      "clip_error": null,
+      "judge_latency_ms": 3209,
+      "clip_latency_ms": 6087
+    },
+    {
+      "execution_id": "Tulola_Jewellery_001 (Prompt Only)",
+      "brand": "Tulola_Jewellery_001",
+      "mode": "Prompt Only",
+      "source_path": "eval\\result\\Tulola_Jewellery_001 (Prompt Only).json",
+      "source_sha256": "61892765b88e1692c8fd5f519f3d2a3910ae1794ef7603ed047bfd326ea1afff",
+      "source_timestamp": "2026-09-13T14:23:08.389444Z",
+      "image_path": "eval\\outputs\\images\\Tulola_Jewellery_001 (Prompt Only).jpg",
+      "image_sha256": "e1f1cb4bad966a4475cf1c1b3ec7425bb409b91f3288c3cb633cc0c998f40efc",
+      "image_note": "saved execution image",
+      "rule_flags": {
+        "fragrance_issues": [],
+        "music_issues": [],
+        "critical_fragrance_fail": false,
+        "critical_music_fail": false
+      },
+      "judge": {
+        "raw_response": "{\n  \"fragrance_score\": 4,\n  \"music_score\": 5,\n  \"fragrance_aligns_descriptor\": true,\n  \"music_aligns_descriptor\": true,\n  \"fragrance_issues\": [\n    \"Intensity profile 'moderate' slightly exceeds BAD.energy=low, though the emotional descriptors (intimate, understated) keep it within a low-energy register.\",\n    \"The opening citrus glow introduces a brightness not explicitly present in BAD.colours (brushed gold, pearl white, warm metallic sheen), but it remains consistent with the warm metallic sheen.\"\n  ],\n  \"music_issues\": [],\n  \"details\": \"Fragrance: The warm metallic floral accord, polished rose, and pearlescent skin directly mirror BAD.texture (metallic, smooth, polished) and BAD.colours (brushed gold, pearl white, warm metallic sheen). Emotional descriptors (refined, intimate, graceful, understated, enduring) align with BAD.mood (elegant, artisanal, timeless luxury) and BAD.energy=low. The moderate intensity is a minor deviation from low energy, but the overall character is restrained and intimate, not bold. The smell signature's jeweler's atelier narrative fits BAD.brand_item (gold floral brooch) and BAD.visual_style (close-up still life, metal mold, wooden surface). Music: Tempo 66 BPM and slow pace perfectly match BAD.energy=low. Timbre (warm muted brass, resonant hammered metal, smooth pearl-like pads, dry aged wood, soft golden overtones) and instrumentation (hammered dulcimer, glass harmonica, viola da gamba, brushed cymbal, warm analog synth pad) directly evoke BAD.texture (metallic, smooth, organic grain, polished) and BAD.colours (brushed gold, pearl white, warm metallic sheen). The mood 'artisanal-contemplative' and style 'metallic-chamber-ambient' align with BAD.mood (elegant, artisanal, timeless luxury). The music_signature's goldsmith's atelier setting, close-mic'd intimacy, and wooden work surfaces match BAD.visual_style (metal mold, wooden surface) and BAD.brand_item. No major rubric violations.\",\n  \"summary\": \"Both fragrance and music are credible, independent translations of the gold floral brooch's elegant, artisanal, warm metallic identity. The fragrance's moderate intensity is a slight stretch from low energy but remains within the intimate, understated register; the music is an excellent fit across all rubric dimensions.\"\n}",
+        "parsed_payload": {
+          "fragrance_score": 4,
+          "music_score": 5,
+          "fragrance_aligns_descriptor": true,
+          "music_aligns_descriptor": true,
+          "fragrance_issues": [
+            "Intensity profile 'moderate' slightly exceeds BAD.energy=low, though the emotional descriptors (intimate, understated) keep it within a low-energy register.",
+            "The opening citrus glow introduces a brightness not explicitly present in BAD.colours (brushed gold, pearl white, warm metallic sheen), but it remains consistent with the warm metallic sheen."
+          ],
+          "music_issues": [],
+          "details": "Fragrance: The warm metallic floral accord, polished rose, and pearlescent skin directly mirror BAD.texture (metallic, smooth, polished) and BAD.colours (brushed gold, pearl white, warm metallic sheen). Emotional descriptors (refined, intimate, graceful, understated, enduring) align with BAD.mood (elegant, artisanal, timeless luxury) and BAD.energy=low. The moderate intensity is a minor deviation from low energy, but the overall character is restrained and intimate, not bold. The smell signature's jeweler's atelier narrative fits BAD.brand_item (gold floral brooch) and BAD.visual_style (close-up still life, metal mold, wooden surface). Music: Tempo 66 BPM and slow pace perfectly match BAD.energy=low. Timbre (warm muted brass, resonant hammered metal, smooth pearl-like pads, dry aged wood, soft golden overtones) and instrumentation (hammered dulcimer, glass harmonica, viola da gamba, brushed cymbal, warm analog synth pad) directly evoke BAD.texture (metallic, smooth, organic grain, polished) and BAD.colours (brushed gold, pearl white, warm metallic sheen). The mood 'artisanal-contemplative' and style 'metallic-chamber-ambient' align with BAD.mood (elegant, artisanal, timeless luxury). The music_signature's goldsmith's atelier setting, close-mic'd intimacy, and wooden work surfaces match BAD.visual_style (metal mold, wooden surface) and BAD.brand_item. No major rubric violations.",
+          "summary": "Both fragrance and music are credible, independent translations of the gold floral brooch's elegant, artisanal, warm metallic identity. The fragrance's moderate intensity is a slight stretch from low energy but remains within the intimate, understated register; the music is an excellent fit across all rubric dimensions."
+        },
+        "consistency": {
+          "fragrance_aligns_descriptor": true,
+          "music_aligns_descriptor": true,
+          "details": "Fragrance: The warm metallic floral accord, polished rose, and pearlescent skin directly mirror BAD.texture (metallic, smooth, polished) and BAD.colours (brushed gold, pearl white, warm metallic sheen). Emotional descriptors (refined, intimate, graceful, understated, enduring) align with BAD.mood (elegant, artisanal, timeless luxury) and BAD.energy=low. The moderate intensity is a minor deviation from low energy, but the overall character is restrained and intimate, not bold. The smell signature's jeweler's atelier narrative fits BAD.brand_item (gold floral brooch) and BAD.visual_style (close-up still life, metal mold, wooden surface). Music: Tempo 66 BPM and slow pace perfectly match BAD.energy=low. Timbre (warm muted brass, resonant hammered metal, smooth pearl-like pads, dry aged wood, soft golden overtones) and instrumentation (hammered dulcimer, glass harmonica, viola da gamba, brushed cymbal, warm analog synth pad) directly evoke BAD.texture (metallic, smooth, organic grain, polished) and BAD.colours (brushed gold, pearl white, warm metallic sheen). The mood 'artisanal-contemplative' and style 'metallic-chamber-ambient' align with BAD.mood (elegant, artisanal, timeless luxury). The music_signature's goldsmith's atelier setting, close-mic'd intimacy, and wooden work surfaces match BAD.visual_style (metal mold, wooden surface) and BAD.brand_item. No major rubric violations.",
+          "fragrance_score": 4,
+          "music_score": 5,
+          "fragrance_issues": [
+            "Intensity profile 'moderate' slightly exceeds BAD.energy=low, though the emotional descriptors (intimate, understated) keep it within a low-energy register.",
+            "The opening citrus glow introduces a brightness not explicitly present in BAD.colours (brushed gold, pearl white, warm metallic sheen), but it remains consistent with the warm metallic sheen."
+          ],
+          "music_issues": []
+        },
+        "summary": "Both fragrance and music are credible, independent translations of the gold floral brooch's elegant, artisanal, warm metallic identity. The fragrance's moderate intensity is a slight stretch from low energy but remains within the intimate, understated register; the music is an excellent fit across all rubric dimensions.",
+        "accepted": true
+      },
+      "clip": {
+        "clip_score_image_fragrance_text": 0.5945,
+        "clip_score_image_music_text": 0.4363,
+        "imagebind_score_image_audio": null
+      },
+      "judge_error": null,
+      "clip_error": null,
+      "judge_latency_ms": 3133,
+      "clip_latency_ms": 7897
+    }
+  ]
+}

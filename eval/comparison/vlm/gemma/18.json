@@ -1,0 +1,43 @@
+{
+  "provider": "gemma",
+  "image": "18.jpg",
+  "visual_analysis": {
+    "primary_subject": "candy sachet",
+    "dominant_colours": [
+      "yellow",
+      "white",
+      "green",
+      "brown",
+      "red"
+    ],
+    "objects": [
+      "peppermint leaves",
+      "honeycomb",
+      "candy",
+      "text",
+      "bowl",
+      "logo"
+    ],
+    "mood_indicators": [
+      "refreshing",
+      "natural",
+      "healthy",
+      "vibrant"
+    ],
+    "composition_style": "central focus with surrounding elements",
+    "textures": [
+      "glossy",
+      "smooth",
+      "organic",
+      "matte"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 8.184
+}

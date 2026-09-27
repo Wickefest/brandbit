@@ -1,0 +1,35 @@
+{
+  "provider": "gpt-4o",
+  "source_visual": "eval\\comparison\\vlm\\qwen\\6.json",
+  "image": "6.jpg",
+  "raw_text": "{\n  \"brand_item\": \"black chain shoulder bag\",\n  \"mood\": [\"elegant\", \"urban chic\"],\n  \"energy\": \"moderate\",\n  \"color_temperature\": \"neutral\",\n  \"texture\": [\"pebbled leather\", \"metallic sheen\"],\n  \"visual_style\": [\"minimalist\", \"sophisticated\"],\n  \"sensory_metaphors\": [\"city twilight\", \"silken allure\"],\n  \"narrative\": \"The black chain shoulder bag embodies a blend of urban sophistication and timeless elegance. Its minimalist design, highlighted by a pebbled leather finish and metallic accents, creates a chic statement piece for the modern city dweller. This accessory seamlessly integrates into a stylish wardrobe, offering a touch of refined allure.\"\n}",
+  "error": null,
+  "brand_aesthetic_descriptor": {
+    "brand_item": "black chain shoulder bag",
+    "mood": [
+      "elegant",
+      "urban chic"
+    ],
+    "energy": "moderate",
+    "color_temperature": "neutral",
+    "texture": [
+      "pebbled leather",
+      "metallic sheen"
+    ],
+    "visual_style": [
+      "minimalist",
+      "sophisticated"
+    ],
+    "sensory_metaphors": [
+      "city twilight",
+      "silken allure"
+    ],
+    "narrative": "The black chain shoulder bag embodies a blend of urban sophistication and timeless elegance. Its minimalist design, highlighted by a pebbled leather finish and metallic accents, creates a chic statement piece for the modern city dweller. This accessory seamlessly integrates into a stylish wardrobe, offering a touch of refined allure."
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null
+  }
+}

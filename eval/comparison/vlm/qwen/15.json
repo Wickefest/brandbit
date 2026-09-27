@@ -1,0 +1,40 @@
+{
+  "provider": "qwen",
+  "image": "15.jpg",
+  "visual_analysis": {
+    "primary_subject": "iced tea bottle",
+    "dominant_colours": [
+      "amber",
+      "orange",
+      "white",
+      "red"
+    ],
+    "objects": [
+      "bottle cap",
+      "label",
+      "jasmine flower illustration",
+      "condensation droplets"
+    ],
+    "mood_indicators": [
+      "refreshing",
+      "invigorating",
+      "tropical",
+      "crisp"
+    ],
+    "composition_style": "centered product shot against plain background",
+    "textures": [
+      "glassy",
+      "condensed",
+      "smooth",
+      "printed"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 5.517
+}

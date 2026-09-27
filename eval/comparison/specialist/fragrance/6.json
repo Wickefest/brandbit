@@ -1,0 +1,123 @@
+{
+  "provider": "kimi",
+  "modality": "fragrance",
+  "source_descriptor": "eval\\comparison\\descriptor\\gpt-4o\\6.json",
+  "image": "6.jpg",
+  "brand_item": "black chain shoulder bag",
+  "pyrfume_retrieval_names": [
+    "1,2,3-trimethoxybenzene",
+    "delta-damascone",
+    "-616034955208",
+    "4-methoxy-2-methyl-2-butanethiol",
+    "2-butylquinoline",
+    "2,4,6-trimethyl-1,3,5-trithiane",
+    "2-isobutylquinoline",
+    "cyclohexyl hexanoate",
+    "1-hexen-3-one",
+    "1-methoxy-3-heptanethiol, (3s)-",
+    "2-vinylanisole",
+    "3-tert-butylphenol",
+    "1-hepten-3-one",
+    "6-methyl-1,2,3,4-tetrahydroquinoline",
+    "3-mercaptohexyl acetate",
+    "alpha-damascone",
+    "5-methyl-2-hepten-4-one",
+    "isopentyl formate",
+    "citronellol",
+    "citronellyl isovalerate",
+    "4-methylanisole",
+    "isospirene",
+    "trans-2-penten-1-ol",
+    "5-methyl-3-hexen-2-one",
+    "biphenyl",
+    "1-methyl-4-phenoxybenzene",
+    "diphenyl ether",
+    "6-tert-butyl-m-cresol",
+    "phenyl benzoate",
+    "4-hexen-3-one, (4z)-"
+  ],
+  "pyrfume_sources": [
+    "goodscents",
+    "ifra_2019",
+    "leffingwell"
+  ],
+  "raw_text": "{\n  \"top_notes\": [\n    \"citronellol\",\n    \"isopentyl formate\"\n  ],\n  \"heart_notes\": [\n    \"delta-damascone\",\n    \"alpha-damascone\"\n  ],\n  \"base_notes\": [\n    \"1,2,3-trimethoxybenzene\",\n    \"6-methyl-1,2,3,4-tetrahydroquinoline\"\n  ],\n  \"dominant_accords\": [\n    \"floral\",\n    \"leather\",\n    \"fruity\",\n    \"metallic\",\n    \"sophisticated\"\n  ],\n  \"intensity_profile\": \"moderate\",\n  \"emotional_descriptors\": [\n    \"elegant\",\n    \"urban chic\"\n  ],\n  \"smell_signature\": \"This fragrance begins with a zesty citrus top that transitions into a rich, fruity floral heart, settling into a warm, leathery base. It evokes the scent of a high-end boutique store in the heart of a bustling city, where the aroma of leather goods mingles with the fresh scent of seasonal flowers.\",\n  \"note_guide\": [\n    {\n      \"smells_like\": \"fresh citrus\",\n      \"chemical_name\": \"citronellol\"\n    },\n    {\n      \"smells_like\": \"sweet apple\",\n      \"chemical_name\": \"isopentyl formate\"\n    },\n    {\n      \"smells_like\": \"natural rose\",\n      \"chemical_name\": \"delta-damascone\"\n    },\n    {\n      \"smells_like\": \"sweet berry\",\n      \"chemical_name\": \"alpha-damascone\"\n    },\n    {\n      \"smells_like\": \"spicy leather\",\n      \"chemical_name\": \"1,2,3-trimethoxybenzene\"\n    },\n    {\n      \"smells_like\": \"ambergris leather\",\n      \"chemical_name\": \"6-methyl-1,2,3,4-tetrahydroquinoline\"\n    }\n  ],\n  \"grounded_notes\": [\n    \"citronellol\",\n    \"isopentyl formate\",\n    \"delta-damascone\",\n    \"alpha-damascone\",\n    \"1,2,3-trimethoxybenzene\",\n    \"6-methyl-1,2,3,4-tetrahydroquinoline\"\n  ]\n}",
+  "error": null,
+  "fragrance_concept": {
+    "top_notes": [
+      "citronellol",
+      "isopentyl formate"
+    ],
+    "heart_notes": [
+      "delta-damascone",
+      "alpha-damascone"
+    ],
+    "base_notes": [
+      "1,2,3-trimethoxybenzene",
+      "6-methyl-1,2,3,4-tetrahydroquinoline"
+    ],
+    "dominant_accords": [
+      "floral",
+      "leather",
+      "fruity",
+      "metallic",
+      "sophisticated"
+    ],
+    "intensity_profile": "moderate",
+    "emotional_descriptors": [
+      "elegant",
+      "urban chic"
+    ],
+    "smell_signature": "This fragrance begins with a zesty citrus top that transitions into a rich, fruity floral heart, settling into a warm, leathery base. It evokes the scent of a high-end boutique store in the heart of a bustling city, where the aroma of leather goods mingles with the fresh scent of seasonal flowers.",
+    "note_guide": [
+      {
+        "smells_like": "mandarin, lime",
+        "chemical_name": "citronellol",
+        "ingredient": "citronellol"
+      },
+      {
+        "smells_like": "estery, cortex",
+        "chemical_name": "isopentyl formate",
+        "ingredient": "isopentyl formate"
+      },
+      {
+        "smells_like": "currant bud black currant bud, natural",
+        "chemical_name": "delta-damascone",
+        "ingredient": "delta-damascone"
+      },
+      {
+        "smells_like": "berry, rose",
+        "chemical_name": "alpha-damascone",
+        "ingredient": "alpha-damascone"
+      },
+      {
+        "smells_like": "phenolic, leathery",
+        "chemical_name": "1,2,3-trimethoxybenzene",
+        "ingredient": "1,2,3-trimethoxybenzene"
+      },
+      {
+        "smells_like": "ambergris, animal",
+        "chemical_name": "6-methyl-1,2,3,4-tetrahydroquinoline",
+        "ingredient": "6-methyl-1,2,3,4-tetrahydroquinoline"
+      }
+    ],
+    "grounded_notes": [
+      "citronellol",
+      "isopentyl formate",
+      "delta-damascone",
+      "alpha-damascone",
+      "1,2,3-trimethoxybenzene",
+      "6-methyl-1,2,3,4-tetrahydroquinoline"
+    ],
+    "pyrfume_sources": []
+  },
+  "ungrounded_notes": [],
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "grounded_ok": true,
+    "error": null
+  },
+  "latency_seconds": 12.207
+}

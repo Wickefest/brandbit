@@ -1,0 +1,42 @@
+{
+  "provider": "kimi",
+  "source_visual": "eval\\comparison\\vlm\\qwen\\10.json",
+  "image": "10.jpg",
+  "raw_text": "{\n  \"brand_item\": \"iced coffee drink\",\n  \"mood\": [\"cozy\", \"nostalgic\", \"inviting\", \"warm\"],\n  \"energy\": \"moderate\",\n  \"color_temperature\": \"warm\",\n  \"texture\": [\"smooth\", \"grainy\", \"glossy\", \"rough\", \"crisp\"],\n  \"visual_style\": [\"centered product shot\", \"shallow depth of field\", \"warm tones\"],\n  \"sensory_metaphors\": [\"smooth autumn warmth\", \"glistening ice\", \"earthy aroma\"],\n  \"narrative\": \"The iced coffee drink is a cozy retreat, reminiscent of warm days and nostalgic comfort. Its inviting presence is accentuated by the warm color palette and the tactile textures of the objects surrounding it, creating a sensory experience that is both refreshing and familiar.\"\n}",
+  "error": null,
+  "brand_aesthetic_descriptor": {
+    "brand_item": "iced coffee drink",
+    "mood": [
+      "cozy",
+      "nostalgic",
+      "inviting",
+      "warm"
+    ],
+    "energy": "moderate",
+    "color_temperature": "warm",
+    "texture": [
+      "smooth",
+      "grainy",
+      "glossy",
+      "rough",
+      "crisp"
+    ],
+    "visual_style": [
+      "centered product shot",
+      "shallow depth of field",
+      "warm tones"
+    ],
+    "sensory_metaphors": [
+      "smooth autumn warmth",
+      "glistening ice",
+      "earthy aroma"
+    ],
+    "narrative": "The iced coffee drink is a cozy retreat, reminiscent of warm days and nostalgic comfort. Its inviting presence is accentuated by the warm color palette and the tactile textures of the objects surrounding it, creating a sensory experience that is both refreshing and familiar."
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null
+  }
+}

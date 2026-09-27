@@ -1,0 +1,38 @@
+{
+  "provider": "deepseek",
+  "source_visual": "eval\\comparison\\vlm\\qwen\\1.json",
+  "image": "1.png",
+  "raw_text": "```json\n{\n  \"brand_item\": \"laptop\",\n  \"mood\": [\"focused precision\", \"sleek professionalism\"],\n  \"energy\": \"moderate\",\n  \"color_temperature\": \"cool\",\n  \"texture\": [\"metallic\", \"matte\", \"smooth\"],\n  \"visual_style\": [\"modern\", \"minimalist\", \"high-tech\"],\n  \"sensory_metaphors\": [\"liquid mercury\", \"polished obsidian\", \"crisp twilight\"],\n  \"narrative\": \"This laptop embodies a fusion of precision engineering and understated elegance, designed for those who value both performance and refined aesthetics. Its clean lines and cool tones suggest a tool that is as much about effortless sophistication as it is about capability.\"\n}\n```",
+  "error": null,
+  "brand_aesthetic_descriptor": {
+    "brand_item": "laptop",
+    "mood": [
+      "focused precision",
+      "sleek professionalism"
+    ],
+    "energy": "moderate",
+    "color_temperature": "cool",
+    "texture": [
+      "metallic",
+      "matte",
+      "smooth"
+    ],
+    "visual_style": [
+      "modern",
+      "minimalist",
+      "high-tech"
+    ],
+    "sensory_metaphors": [
+      "liquid mercury",
+      "polished obsidian",
+      "crisp twilight"
+    ],
+    "narrative": "This laptop embodies a fusion of precision engineering and understated elegance, designed for those who value both performance and refined aesthetics. Its clean lines and cool tones suggest a tool that is as much about effortless sophistication as it is about capability."
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null
+  }
+}

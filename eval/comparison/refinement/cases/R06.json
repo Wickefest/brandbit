@@ -1,0 +1,55 @@
+{
+  "case_id": "R06",
+  "bad_id": "2",
+  "feedback": "change it",
+  "expected_behavior": "clarify",
+  "notes": "Ambiguous feedback should not mutate the BAD.",
+  "interpret_run_ok": true,
+  "interpret_parse_ok": true,
+  "interpret_schema_ok": true,
+  "success": false,
+  "clarification_request": "Could you please specify which aspects of the brand aesthetic you would like to change?",
+  "changed_fields": [],
+  "n_fields_changed": 0,
+  "target_modality": null,
+  "change_reason": "",
+  "previous_energy": "moderate",
+  "updated_energy": "",
+  "previous_color_temperature": "cool",
+  "updated_color_temperature": "",
+  "previous_mood": [
+    "refreshing",
+    "pure",
+    "clean"
+  ],
+  "updated_mood": [],
+  "no_leak": true,
+  "correct_decision": 1,
+  "check_reason": "Clarified without mutation.",
+  "interpret_latency_ms": 1631,
+  "error": "",
+  "previous_bad": {
+    "brand_item": "water bottle",
+    "mood": [
+      "refreshing",
+      "pure",
+      "clean"
+    ],
+    "energy": "moderate",
+    "color_temperature": "cool",
+    "texture": [
+      "smooth",
+      "transparent"
+    ],
+    "visual_style": [
+      "minimalist",
+      "natural"
+    ],
+    "sensory_metaphors": [
+      "crystal clarity",
+      "mountain breeze"
+    ],
+    "narrative": "The water bottle embodies a sense of refreshing purity, with its clear and cool aesthetic. It evokes the feeling of crisp mountain air and pristine waters, offering a clean and invigorating experience."
+  },
+  "updated_bad": null
+}

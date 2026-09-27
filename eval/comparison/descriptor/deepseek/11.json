@@ -1,0 +1,39 @@
+{
+  "provider": "deepseek",
+  "source_visual": "eval\\comparison\\vlm\\qwen\\11.json",
+  "image": "11.png",
+  "raw_text": "{\n  \"brand_item\": \"wooden wristwatch\",\n  \"mood\": [\"rustic elegance\", \"artisanal warmth\", \"quiet craftsmanship\"],\n  \"energy\": \"low\",\n  \"color_temperature\": \"warm\",\n  \"texture\": [\"wood grain\", \"smooth leather\", \"etched metal\"],\n  \"visual_style\": [\"minimalist\", \"organic\", \"handcrafted\"],\n  \"sensory_metaphors\": [\"morning sunlight on bark\", \"aged parchment\", \"hand-rubbed polish\"],\n  \"narrative\": \"This wooden wristwatch embodies a connection to nature and timeless craftsmanship. Its warm, organic materials and minimalist design evoke a sense of quiet luxury and deliberate simplicity. The piece feels like a cherished heirloom, blending rustic charm with refined precision.\"\n}",
+  "error": null,
+  "brand_aesthetic_descriptor": {
+    "brand_item": "wooden wristwatch",
+    "mood": [
+      "rustic elegance",
+      "artisanal warmth",
+      "quiet craftsmanship"
+    ],
+    "energy": "low",
+    "color_temperature": "warm",
+    "texture": [
+      "wood grain",
+      "smooth leather",
+      "etched metal"
+    ],
+    "visual_style": [
+      "minimalist",
+      "organic",
+      "handcrafted"
+    ],
+    "sensory_metaphors": [
+      "morning sunlight on bark",
+      "aged parchment",
+      "hand-rubbed polish"
+    ],
+    "narrative": "This wooden wristwatch embodies a connection to nature and timeless craftsmanship. Its warm, organic materials and minimalist design evoke a sense of quiet luxury and deliberate simplicity. The piece feels like a cherished heirloom, blending rustic charm with refined precision."
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null
+  }
+}

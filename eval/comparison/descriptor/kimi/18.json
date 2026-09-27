@@ -1,0 +1,40 @@
+{
+  "provider": "kimi",
+  "source_visual": "eval\\comparison\\vlm\\qwen\\18.json",
+  "image": "18.jpg",
+  "raw_text": "{\n  \"brand_item\": \"Herbal Peppermint Candy\",\n  \"mood\": [\"refreshing\", \"natural\", \"energetic\"],\n  \"energy\": \"high\",\n  \"color_temperature\": \"cool\",\n  \"texture\": [\"smooth\", \"crisp\", \"organic\", \"sugar-like\"],\n  \"visual_style\": [\"centered product\", \"decorative elements\", \"vibrant\"],\n  \"sensory_metaphors\": [\"mountain stream\", \"sunlit meadow\", \"fresh breeze\"],\n  \"narrative\": \"The Herbal Peppermint Candy stands out with its vibrant packaging and natural ingredients, promising a refreshing and energetic experience. Its crisp and organic textures evoke the essence of a sunlit meadow, where the candy's cool and refreshing taste is as invigorating as a fresh breeze.\"\n}",
+  "error": null,
+  "brand_aesthetic_descriptor": {
+    "brand_item": "Herbal Peppermint Candy",
+    "mood": [
+      "refreshing",
+      "natural",
+      "energetic"
+    ],
+    "energy": "high",
+    "color_temperature": "cool",
+    "texture": [
+      "smooth",
+      "crisp",
+      "organic",
+      "sugar-like"
+    ],
+    "visual_style": [
+      "centered product",
+      "decorative elements",
+      "vibrant"
+    ],
+    "sensory_metaphors": [
+      "mountain stream",
+      "sunlit meadow",
+      "fresh breeze"
+    ],
+    "narrative": "The Herbal Peppermint Candy stands out with its vibrant packaging and natural ingredients, promising a refreshing and energetic experience. Its crisp and organic textures evoke the essence of a sunlit meadow, where the candy's cool and refreshing taste is as invigorating as a fresh breeze."
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null
+  }
+}

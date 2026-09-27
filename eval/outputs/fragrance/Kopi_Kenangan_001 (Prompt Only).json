@@ -1,0 +1,89 @@
+{
+  "top_notes": [
+    "(r)-2-methylbutyraldehyde",
+    "2-(methoxymethyl)furan"
+  ],
+  "heart_notes": [
+    "2-methyl-5-vinylpyrazine",
+    "1-(6-methylpyrazin-2-yl)ethanone",
+    "furfuryl formate"
+  ],
+  "base_notes": [
+    "2-methylquinoxaline",
+    "2-furfurylthio-3-methylpyrazine",
+    "furfuryl mercaptan"
+  ],
+  "dominant_accords": [
+    "freshly brewed coffee",
+    "warm caramel",
+    "toasted nuts",
+    "creamy vanilla",
+    "artisanal roast"
+  ],
+  "intensity_profile": "moderate",
+  "emotional_descriptors": [
+    "cozy",
+    "nostalgic",
+    "inviting",
+    "comforting",
+    "artisanal"
+  ],
+  "smell_signature": "Combined together, these ingredients will smell like walking into a neighborhood coffee roastery on a slow Sunday morning. The opening hits you with that first crack of fresh beans and a whisper of sweet caramel steam, then settles into a warm, nutty brew that clings to your sweater like your favorite cafe booth. Think of an artisanal iced coffee in a hand-stamped cup, condensation beading on plastic, resting on a scratched wooden counter while the grinder hums in the background.",
+  "note_guide": [
+    {
+      "smells_like": "cocoa, burnt",
+      "chemical_name": "(r)-2-methylbutyraldehyde",
+      "ingredient": "(r)-2-methylbutyraldehyde"
+    },
+    {
+      "smells_like": "coffee, coffee roasted coffee",
+      "chemical_name": "2-(methoxymethyl)furan",
+      "ingredient": "2-(methoxymethyl)furan"
+    },
+    {
+      "smells_like": "coffee, coffee like @ 10 ppm in sugar syrup",
+      "chemical_name": "2-methyl-5-vinylpyrazine",
+      "ingredient": "2-methyl-5-vinylpyrazine"
+    },
+    {
+      "smells_like": "coffee roasted coffee, cocoa",
+      "chemical_name": "1-(6-methylpyrazin-2-yl)ethanone",
+      "ingredient": "1-(6-methylpyrazin-2-yl)ethanone"
+    },
+    {
+      "smells_like": "ethereal, nutty",
+      "chemical_name": "furfuryl formate",
+      "ingredient": "furfuryl formate"
+    },
+    {
+      "smells_like": "coffee roasted coffee, nutty",
+      "chemical_name": "2-methylquinoxaline",
+      "ingredient": "2-methylquinoxaline"
+    },
+    {
+      "smells_like": "caramellic, meaty",
+      "chemical_name": "2-furfurylthio-3-methylpyrazine",
+      "ingredient": "2-furfurylthio-3-methylpyrazine"
+    },
+    {
+      "smells_like": "coffee roasted coffee, meaty",
+      "chemical_name": "furfuryl mercaptan",
+      "ingredient": "furfuryl mercaptan"
+    }
+  ],
+  "grounded_notes": [
+    "(r)-2-methylbutyraldehyde",
+    "2-(methoxymethyl)furan",
+    "2-methyl-5-vinylpyrazine",
+    "1-(6-methylpyrazin-2-yl)ethanone",
+    "furfuryl formate",
+    "2-methylquinoxaline",
+    "2-furfurylthio-3-methylpyrazine",
+    "furfuryl mercaptan"
+  ],
+  "pyrfume_sources": [
+    "goodscents",
+    "ifra_2019",
+    "leffingwell"
+  ]
+}

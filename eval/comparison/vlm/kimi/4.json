@@ -1,0 +1,34 @@
+{
+  "provider": "kimi",
+  "image": "4.jpg",
+  "visual_analysis": {
+    "primary_subject": "patterned shirt",
+    "dominant_colours": [
+      "navy blue",
+      "beige",
+      "gold",
+      "white"
+    ],
+    "objects": [
+      "chair",
+      "pants"
+    ],
+    "mood_indicators": [
+      "sophisticated",
+      "elegant"
+    ],
+    "composition_style": "semi-formal fashion portrait",
+    "textures": [
+      "smooth",
+      "patterned"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 1.916
+}

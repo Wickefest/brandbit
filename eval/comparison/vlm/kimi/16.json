@@ -1,0 +1,35 @@
+{
+  "provider": "kimi",
+  "image": "16.jpg",
+  "visual_analysis": {
+    "primary_subject": "gold leaf brooch",
+    "dominant_colours": [
+      "gold",
+      "silver"
+    ],
+    "objects": [
+      "brooch",
+      "leaf",
+      "stem",
+      "base"
+    ],
+    "mood_indicators": [
+      "elegant",
+      "refined"
+    ],
+    "composition_style": "central focus with a blurred background",
+    "textures": [
+      "smooth",
+      "intricate",
+      "metallic"
+    ]
+  },
+  "reliability": {
+    "run_ok": true,
+    "parse_ok": true,
+    "schema_ok": true,
+    "error": null,
+    "all_ok": true
+  },
+  "latency_seconds": 2.168
+}
